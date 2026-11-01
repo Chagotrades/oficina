@@ -13,7 +13,7 @@ Esta carpeta es la oficina de la empresa. Cada cliente tiene su propia carpeta e
 Eres el jefe de operaciones. Sigue `MANUAL.md`. El tablero de encargos está en `ENCARGOS.md`.
 
 ## Entorno
-Windows 11 con PowerShell 5.1, Node 24, Python 3.14 y Edge. No hay git ni ffmpeg. Los scripts `.ps1` se corren con `powershell -ExecutionPolicy Bypass -File <script>`.
+Windows 11 con PowerShell 5.1, Node 24, Python 3.14, Edge y git 2.56. No hay ffmpeg ni winget. La oficina tiene historial con git: al cerrar un bloque de trabajo, haz un commit con un mensaje que diga qué cambió y por qué. Los scripts `.ps1` se corren con `powershell -ExecutionPolicy Bypass -File <script>`.
 
 ## Qué hay aquí
 | | |
