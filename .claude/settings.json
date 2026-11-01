@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(netlify deploy *)",
+      "Bash(npx netlify deploy *)",
+      "Bash(npx netlify-cli deploy *)",
+      "Bash(vercel *)",
+      "Bash(npx vercel *)",
+      "Bash(wrangler deploy *)",
+      "Bash(wrangler pages deploy *)",
+      "Bash(npx wrangler deploy *)",
+      "Bash(npx wrangler pages deploy *)",
+      "Bash(git push *)",
+      "Bash(npm publish *)",
+      "PowerShell(netlify deploy *)",
+      "PowerShell(npx netlify deploy *)",
+      "PowerShell(npx netlify-cli deploy *)",
+      "PowerShell(vercel *)",
+      "PowerShell(npx vercel *)",
+      "PowerShell(wrangler deploy *)",
+      "PowerShell(wrangler pages deploy *)",
+      "PowerShell(npx wrangler deploy *)",
+      "PowerShell(npx wrangler pages deploy *)",
+      "PowerShell(git push *)",
+      "PowerShell(npm publish *)",
+      "Read(**/.env)",
+      "Read(**/.env.*)"
+    ]
+  }
+}

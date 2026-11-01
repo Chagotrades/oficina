@@ -1,0 +1,21 @@
+# Claves y configuración personal: nunca al historial
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Lo que se regenera solo
+node_modules/
+.next/
+dist/
+build/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Registros y basura del sistema
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store

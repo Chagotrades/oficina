@@ -1,0 +1,22 @@
+# Aprendizajes de la oficina
+
+Lo que aprendimos con un cliente y sirve para todos. Una línea por aprendizaje, con el cliente de origen. Lo que es solo de un cliente va en su ESTADO.md.
+
+## Web
+- Publicar como carpeta con las imágenes aparte, no como un solo HTML: en celular con 4G pasó de 5,8 MB y 27 s a 800 KB y 4,3 s. (Campo Verde)
+- Hacer versiones de ~900 px de las fotos para celular (`srcset`/`<picture>`): la portada bajó de 327 KB a 110 KB. (Campo Verde)
+- Un titular que se escribe solo reserva el alto de su frase más larga: si una frase ocupa 2 líneas, queda un hueco con todas. Medir todas las frases en varios anchos. (Campo Verde)
+- Si una foto se desplaza al hacer scroll, tiene que estar agrandada lo suficiente para cubrir ese desplazamiento, o quedan huecos en el borde. (Campo Verde)
+- Algunas vistas previas (por ejemplo, abrir el archivo dentro de la app de Claude) bloquean el envío de formularios: los botones de enviar no deben depender de eso. (Campo Verde)
+
+## Asistentes y chatbots
+- Leer los números a la chilena: "1.000" es mil. (Campo Verde)
+- Un teléfono de 8 o más dígitos no es una superficie, y "sábado 15" no son 15 m². (Campo Verde)
+- La gente escribe abreviado ("wsp", "cto", "ppto", "q"): normalizar antes de interpretar. (Campo Verde)
+- Respuestas sueltas como "no", "ok" o "nada" necesitan su propia respuesta; si no, el bot se queda pegado. (Campo Verde)
+
+## Alojamiento
+- Netlify gratis funciona por créditos: si se agotan, pausa todos los sitios de la cuenta. Vercel Hobby no permite uso comercial. Para sitios estáticos de clientes, Cloudflare Pages con una cuenta a nombre del dueño. (Campo Verde)
+
+## Herramientas
+- Videos sin ffmpeg: Edge sin ventana + MediaRecorder graba MP4 directo desde un canvas. (Campo Verde)
