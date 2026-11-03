@@ -3,16 +3,18 @@
 Actualizado: 2026-11-03.
 
 ## Dónde estamos
-- **Etapa 1 (tienda y stock por talla): construida.** Inicio con mochila 3D, catálogo por categoría, ficha de producto con tallas, página de lanzamientos con cuenta regresiva, "Avísame cuando llegue", carrito en panel lateral, botones flotantes y animaciones. Seed con fotos reales desde `demo/fotos/`.
-- **Publicada** en https://basketline.vercel.app (Santiago la subió el 2026-11-03).
+- **Etapa 1 (tienda y stock por talla): en curso, no terminada.** Ya hecho: inicio con mochila 3D (versión de respaldo), catálogo por categoría, ficha de producto con tallas, página de lanzamientos con cuenta regresiva, "Avísame cuando llegue", carrito en panel lateral, botones flotantes y animaciones. Seed con fotos reales desde `demo/fotos/`.
+  - **Falta (según Santiago, 2026-11-03):** modelar las mochilas en 3D (hoy falta `/modelos/mochila-elite.glb` y se usa el respaldo) y mejorar el diseño junto con Gustavo, el diseñador de Basketline.
+- **Publicada** en https://basketline.vercel.app (Santiago la subió el 2026-11-03) como versión de avance.
 - **Etapa 2 (checkout y pago por transferencia): por hacer.** Checkout, seguimiento de pedido, monto único, "Listo, ya transferí", comprobante, correos del banco, conciliación, cartola, expiración y correos.
 - **Etapa 3 (panel de administración): por hacer.** Login y roles, dashboard, productos con fotos desde el celular, inventario, pedidos, etiqueta 10x15, pagos, clientes, correos, contenido y configuración.
 - La etapa 1 no ha pasado por la revisión de seguridad ni por `CALIDAD.md`.
 
 ## Próximo paso
-1. Revisión de la etapa 1 con `revisor-seguridad` (es también la primera prueba del especialista).
-2. Etapa 2. Es la más delicada: maneja plata y datos personales. Ojo con dos puntos del diseño: el endpoint de correo entrante del banco tiene que exigir autenticación (si no, cualquiera marca su pedido como pagado), y Alexis vende muchos pares únicos (una talla por modelo): la tienda ya los muestra, pero la reserva y la confirmación de stock tienen que resistir dos compras simultáneas del mismo par.
-3. Antes de etapa 2, resolver con Alexis las preguntas 1 a 4 de PREGUNTAS_CLIENTE.md.
+1. Terminar la etapa 1: modelos 3D de las mochilas y mejoras de diseño con Gustavo.
+2. Con la etapa 1 completa, revisarla con `revisor-seguridad` (es también la primera prueba del especialista).
+3. Etapa 2. Es la más delicada: maneja plata y datos personales. Ojo con dos puntos del diseño: el endpoint de correo entrante del banco tiene que exigir autenticación (si no, cualquiera marca su pedido como pagado), y Alexis vende muchos pares únicos (una talla por modelo): la tienda ya los muestra, pero la reserva y la confirmación de stock tienen que resistir dos compras simultáneas del mismo par.
+4. Antes de etapa 2, resolver con Alexis las preguntas 1 a 4 de PREGUNTAS_CLIENTE.md.
 
 ## Historial
 Lo más nuevo arriba. Por cada bloque: fecha, qué cambió, cómo se comprobó y si está publicado o no.
