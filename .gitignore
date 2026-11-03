@@ -4,6 +4,12 @@
 !.env.example
 .claude/settings.local.json
 
+# Código de clientes con su propio git (se versiona en su repositorio, no aquí)
+clientes/basketline/demo/
+
+# Fotos pesadas del material de clientes
+clientes/*/docs/instagram/
+
 # Lo que se regenera solo
 node_modules/
 .next/
