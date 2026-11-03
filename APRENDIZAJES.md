@@ -8,6 +8,7 @@ Lo que aprendimos con un cliente y sirve para todos. Una línea por aprendizaje,
 - Un titular que se escribe solo reserva el alto de su frase más larga: si una frase ocupa 2 líneas, queda un hueco con todas. Medir todas las frases en varios anchos. (Campo Verde)
 - Si una foto se desplaza al hacer scroll, tiene que estar agrandada lo suficiente para cubrir ese desplazamiento, o quedan huecos en el borde. (Campo Verde)
 - Algunas vistas previas (por ejemplo, abrir el archivo dentro de la app de Claude) bloquean el envío de formularios: los botones de enviar no deben depender de eso. (Campo Verde)
+- En un diagnóstico, abrir de verdad los botones de reserva o compra: pueden traer fechas fijas ya vencidas y mostrar un error (laritoquena.com llevaba a julio 2024). (La Ritoqueña)
 
 ## Asistentes y chatbots
 - Leer los números a la chilena: "1.000" es mil. (Campo Verde)
