@@ -1,0 +1,67 @@
+{
+  "url": "https://laritoquena.com/nosotros-v3/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 5414,
+  "cargaMs": 13255,
+  "pedidos": 25,
+  "totalKB": 2059,
+  "porTipoKB": {
+    "Document": 24,
+    "Stylesheet": 12,
+    "Image": 1733,
+    "Script": 110,
+    "Font": 178,
+    "Other": 3
+  },
+  "pesados": [
+    "734 KB https://laritoquena.com/wp-content/uploads/2024/08/La-Ritoquena-II-22.jpg",
+    "486 KB https://laritoquena.com/wp-content/uploads/2024/08/IMG_03573.jpg",
+    "440 KB https://laritoquena.com/wp-content/uploads/2024/08/La-Ritoquena-II-40.jpeg"
+  ],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1895,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "A 2 horas de Santiago y 40 minutos de Co 13.65px",
+    "Un verdadero refugio natural rodeado de  13.65px",
+    "Somos La Ritoqueña, un hermoso y tranqui 13.65px",
+    "Mientras la playa Ritoque refresca tus s 13.65px",
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 1,
+  "totalImg": 2,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 11984,
+  "cls": 0.004,
+  "fcp": 2972
+}

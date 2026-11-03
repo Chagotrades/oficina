@@ -1,0 +1,417 @@
+{
+  "url": "https://laritoquena.com/ubicacion-hotel-de-playa/",
+  "modo": "movil",
+  "freno": "sin freno",
+  "domMs": 4189,
+  "cargaMs": 4231,
+  "pedidos": 91,
+  "totalKB": 1007,
+  "porTipoKB": {
+    "Document": 23,
+    "Stylesheet": 17,
+    "Image": 297,
+    "Script": 413,
+    "Font": 251,
+    "XHR": 4,
+    "Other": 3
+  },
+  "pesados": [
+    "102 KB https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png",
+    "101 KB https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&ver=4.27.5"
+  ],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "maps.googleapis.com",
+    "fonts.gstatic.com",
+    "",
+    "maps.gstatic.com"
+  ],
+  "consola": [
+    "[warning] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading",
+    "[warning] google.maps.event.addDomListener() is deprecated, use the standard\naddEventListener() method instead:\nhttps://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener\nThe feature will continue to work and there is no plan to decommission\nit.",
+    "[warning] As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommende",
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.gstatic.com/mapfiles/openhand_8_8.cur. https://laritoquena.com/ubicacion-hotel-de-playa/",
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.gstatic.com/mapfiles/transparent.png. https://laritoquena.com/ubicacion-hotel-de-playa/",
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.gstatic.com/mapfiles/api-3/images/drag-cross_hdpi.png. https://laritoquena.com/ubicacion-hotel-de-playa/",
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png. https://laritoquena.com/ubicacion-hotel-de-playa/"
+  ],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1485,
+  "desb": [
+    "DIV. der=507",
+    "DIV. der=507",
+    "DIV. der=562",
+    "DIV. der=562",
+    "DIV. der=562",
+    "DIV. der=562",
+    "DIV. der=507",
+    "DIV. der=507",
+    "DIV. der=507",
+    "DIV. der=562",
+    "DIV. der=562",
+    "DIV. der=562",
+    "IMG. der=562",
+    "DIV. der=562",
+    "IMG. der=562"
+  ],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "Map 82x40",
+    "Satellite 110x40",
+    "Toggle fullscreen view 40x40",
+    "Map camera controls 40x40",
+    "Drag Pegman onto the map to open Street  40x40",
+    "Open this area in Google Maps (opens a n 66x26",
+    "Keyboard shortcuts 14x14",
+    "Terms 28x13",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "Map data ©2026 Google 10px",
+    "Terms 10px",
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 50,
+  "totalImg": 55,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "marker.png",
+      "nat": "46x43",
+      "vis": "46x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "vt?pb=!1m5!1m4!1i7!2i37!3i75!4i256!2m3!1e0!2sm!3i802567380!3m13!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&token=81233",
+      "nat": "512x512",
+      "vis": "256x256",
+      "lazy": "auto"
+    },
+    {
+      "src": "vt?pb=!1m5!1m4!1i7!2i37!3i76!4i256!2m3!1e0!2sm!3i802568124!3m13!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&token=124992",
+      "nat": "512x512",
+      "vis": "256x256",
+      "lazy": "auto"
+    },
+    {
+      "src": "vt?pb=!1m5!1m4!1i7!2i38!3i75!4i256!2m3!1e0!2sm!3i802568070!3m13!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&token=52211",
+      "nat": "512x512",
+      "vis": "256x256",
+      "lazy": "auto"
+    },
+    {
+      "src": "vt?pb=!1m5!1m4!1i7!2i38!3i76!4i256!2m3!1e0!2sm!3i802568124!3m13!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&token=69968",
+      "nat": "512x512",
+      "vis": "256x256",
+      "lazy": "auto"
+    },
+    {
+      "src": "vt?pb=!1m5!1m4!1i7!2i39!3i75!4i256!2m3!1e0!2sm!3i802568070!3m13!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&token=128258",
+      "nat": "512x512",
+      "vis": "256x256",
+      "lazy": "auto"
+    },
+    {
+      "src": "vt?pb=!1m5!1m4!1i7!2i39!3i76!4i256!2m3!1e0!2sm!3i802568124!3m13!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyB7IOWZMbMyTwZPajg0ZzMHYCwVMMQJOWI&token=14944",
+      "nat": "512x512",
+      "vis": "256x256",
+      "lazy": "auto"
+    },
+    {
+      "src": "transparent.png",
+      "nat": "1x1",
+      "vis": "62x59",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "18x18",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "169x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "169x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "169x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "28x28",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "150x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "91x150",
+      "vis": "30x30",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "95x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "120x150",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "300x126",
+      "vis": "66x26",
+      "lazy": "auto"
+    },
+    {
+      "src": "svg%3E",
+      "nat": "240x150",
+      "vis": "14x9",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 5564,
+  "cls": 0.005,
+  "fcp": 2524
+}

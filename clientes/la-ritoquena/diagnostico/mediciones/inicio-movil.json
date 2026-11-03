@@ -1,0 +1,122 @@
+{
+  "url": "https://laritoquena.com/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 7188,
+  "cargaMs": 30029,
+  "pedidos": 41,
+  "totalKB": 5298,
+  "porTipoKB": {
+    "Document": 25,
+    "Stylesheet": 17,
+    "Image": 4943,
+    "Script": 134,
+    "Font": 178,
+    "Other": 3
+  },
+  "pesados": [
+    "1551 KB https://laritoquena.com/wp-content/uploads/2024/08/IMG_0772.jpg",
+    "622 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1010.jpg",
+    "597 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1273.jpg",
+    "500 KB https://laritoquena.com/wp-content/uploads/2024/08/La-Ritoquena-II-2.jpeg",
+    "440 KB https://laritoquena.com/wp-content/uploads/2024/08/La-Ritoquena-II-40.jpeg",
+    "423 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1274.jpg",
+    "369 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1369-rotated.jpg",
+    "309 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_9239-rotated.jpg"
+  ],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 2279,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "RESERVA 82x31",
+    "1 7x7",
+    "2 7x7",
+    "3 7x7",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "RESERVA 13.65px",
+    "Somos La Ritoqueña, hotel de playa y que 13.65px",
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 9,
+  "totalImg": 10,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-03.png",
+      "nat": "480x181",
+      "vis": "343x130",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-03.png",
+      "nat": "480x181",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-03.png",
+      "nat": "480x181",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "IMG_1274.jpg",
+      "nat": "480x640",
+      "vis": "149x198",
+      "lazy": "auto"
+    },
+    {
+      "src": "IMG_1369-rotated.jpg",
+      "nat": "480x640",
+      "vis": "149x198",
+      "lazy": "auto"
+    },
+    {
+      "src": "IMG_1273.jpg",
+      "nat": "480x640",
+      "vis": "149x198",
+      "lazy": "auto"
+    },
+    {
+      "src": "IMG_9239-rotated.jpg",
+      "nat": "480x640",
+      "vis": "149x198",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_1010.jpg",
+      "nat": "480x640",
+      "vis": "149x198",
+      "lazy": "lazy"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 22512,
+  "cls": 0.009,
+  "fcp": 3152
+}

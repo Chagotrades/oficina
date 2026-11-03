@@ -1,0 +1,69 @@
+{
+  "url": "https://laritoquena.com/blog/",
+  "modo": "movil",
+  "freno": "sin freno",
+  "domMs": 3300,
+  "cargaMs": 3335,
+  "pedidos": 48,
+  "totalKB": 677,
+  "porTipoKB": {
+    "Document": 23,
+    "Stylesheet": 49,
+    "Image": 136,
+    "Script": 235,
+    "Font": 230,
+    "XHR": 2,
+    "Other": 3
+  },
+  "pesados": [],
+  "malos": [
+    " net::ERR_ABORTED https://cdn.embedly.com/libs/fonts/oxygen/oxygen-bold-webfont.woff",
+    " net::ERR_ABORTED https://cdn.embedly.com/libs/fonts/oxygen/oxygen-regular-webfont.woff",
+    " net::ERR_ABORTED https://cdn.embedly.com/libs/fonts/oxygen/oxygen-bold-webfont.ttf",
+    " net::ERR_ABORTED https://cdn.embedly.com/libs/fonts/oxygen/oxygen-regular-webfont.ttf"
+  ],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "cdn.embedly.com",
+    "fonts.gstatic.com",
+    "api-cdn.embed.ly",
+    "",
+    "i-cdn.embed.ly"
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1671,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "HOSTAL RITOQUE - www.gabrielrudolphy.cl 197x41",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 1,
+  "totalImg": 2,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 2684,
+  "cls": 0.161,
+  "fcp": 2684
+}

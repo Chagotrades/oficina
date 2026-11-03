@@ -1,0 +1,59 @@
+{
+  "url": "https://laritoquena.com/eventos/",
+  "modo": "movil",
+  "freno": "sin freno",
+  "domMs": 4501,
+  "cargaMs": 4523,
+  "pedidos": 23,
+  "totalKB": 399,
+  "porTipoKB": {
+    "Document": 22,
+    "Stylesheet": 14,
+    "Image": 73,
+    "Script": 110,
+    "Font": 178,
+    "Other": 3
+  },
+  "pesados": [],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 903,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 1,
+  "totalImg": 2,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 2664,
+  "cls": 0.035,
+  "fcp": 2664
+}

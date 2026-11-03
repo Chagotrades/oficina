@@ -1,0 +1,65 @@
+{
+  "url": "https://laritoquena.com/contacto-hotel-la-ritoquena-ritoque-quintero-valparaiso/",
+  "modo": "movil",
+  "freno": "sin freno",
+  "domMs": 3295,
+  "cargaMs": 4426,
+  "pedidos": 25,
+  "totalKB": 415,
+  "porTipoKB": {
+    "Document": 27,
+    "Stylesheet": 12,
+    "Image": 74,
+    "Script": 111,
+    "Font": 188,
+    "Other": 3
+  },
+  "pesados": [],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1679,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 1,
+  "totalImg": 3,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "whatsapp_logo.svg",
+      "nat": "512x512",
+      "vis": "41x69",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 2656,
+  "cls": 0.005,
+  "fcp": 2656
+}

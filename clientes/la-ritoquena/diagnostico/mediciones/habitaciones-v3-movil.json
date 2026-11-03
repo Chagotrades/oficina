@@ -1,0 +1,130 @@
+{
+  "url": "https://laritoquena.com/habitaciones-v3/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 7193,
+  "cargaMs": 29499,
+  "pedidos": 39,
+  "totalKB": 5232,
+  "porTipoKB": {
+    "Document": 24,
+    "Stylesheet": 15,
+    "Image": 4874,
+    "Script": 129,
+    "Font": 188,
+    "Other": 3
+  },
+  "pesados": [
+    "1551 KB https://laritoquena.com/wp-content/uploads/2024/08/IMG_0772.jpg",
+    "459 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1599.jpg",
+    "448 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1587.jpg",
+    "429 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1258.jpg",
+    "389 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1651.jpg",
+    "381 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1263.jpg",
+    "331 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1235.jpg",
+    "309 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_9239-1-rotated.jpg",
+    "269 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_1245-rotated.jpg",
+    "234 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_9252.jpg"
+  ],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1794,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "La Ritoqueña cuenta con 4 habitaciones m 13.65px",
+    "También contamos con un módulo con dos h 13.65px",
+    "En todas nuestras tarifas. 13.65px",
+    "Sala de estar con bosca, restaurant. 13.65px",
+    "Para disfrutar en todo momento. 13.65px",
+    "El turismo outdoor comienza en tu puerta 13.65px",
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 10,
+  "totalImg": 11,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "IMG_1245-rotated.jpg",
+      "nat": "480x640",
+      "vis": "94x125",
+      "lazy": "auto"
+    },
+    {
+      "src": "IMG_1263.jpg",
+      "nat": "480x360",
+      "vis": "94x70",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_1258.jpg",
+      "nat": "479x342",
+      "vis": "94x67",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_9239-1-rotated.jpg",
+      "nat": "480x640",
+      "vis": "94x125",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_1587.jpg",
+      "nat": "480x346",
+      "vis": "94x68",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_1599.jpg",
+      "nat": "480x340",
+      "vis": "94x67",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_1651.jpg",
+      "nat": "480x640",
+      "vis": "94x125",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_9252.jpg",
+      "nat": "480x640",
+      "vis": "94x125",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_1235.jpg",
+      "nat": "480x774",
+      "vis": "94x152",
+      "lazy": "lazy"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 21152,
+  "cls": 0.198,
+  "fcp": 2728
+}

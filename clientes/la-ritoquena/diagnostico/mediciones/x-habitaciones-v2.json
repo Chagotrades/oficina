@@ -1,0 +1,159 @@
+{
+  "url": "https://laritoquena.com/habitaciones-v2/",
+  "modo": "movil",
+  "freno": "sin freno",
+  "domMs": 3688,
+  "cargaMs": 6048,
+  "pedidos": 53,
+  "totalKB": 2383,
+  "porTipoKB": {
+    "Document": 25,
+    "Stylesheet": 26,
+    "Image": 1878,
+    "Script": 195,
+    "Font": 256,
+    "Other": 3
+  },
+  "pesados": [
+    "189 KB https://laritoquena.com/wp-content/uploads/2019/03/image1-5-1.jpg",
+    "186 KB https://laritoquena.com/wp-content/uploads/2019/03/P1090259.jpg",
+    "182 KB https://laritoquena.com/wp-content/uploads/2019/03/DSC_0500.jpg",
+    "175 KB https://laritoquena.com/wp-content/uploads/2019/03/IMG_4222.jpg",
+    "175 KB https://laritoquena.com/wp-content/uploads/2019/03/IMG_1539.jpg",
+    "171 KB https://laritoquena.com/wp-content/uploads/2019/03/IMG_4872.jpg",
+    "162 KB https://laritoquena.com/wp-content/uploads/2019/03/P1090237.jpg",
+    "160 KB https://laritoquena.com/wp-content/uploads/2019/03/IMG_3867.jpg",
+    "159 KB https://laritoquena.com/wp-content/uploads/2019/03/IMG_4224.jpg",
+    "149 KB https://laritoquena.com/wp-content/uploads/2019/03/P1090248.jpg"
+  ],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "hotels.cloudbeds.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 2713,
+  "desb": [
+    "DIV.et_pb_module dipl_image_card_carousel_it der=516",
+    "DIV.et_pb_module_inner der=516",
+    "DIV.dipl_image_card_wrapper der=516",
+    "DIV.dipl_image_card_content_wrapper der=516",
+    "DIV.dipl_image_card_icon_wrapper der=457",
+    "SPAN.dipl_image_card_icon et-pb-icon  der=457",
+    "DIV.dipl_image_card_inner_content_wrapper der=496",
+    "H4.dipl_image_card_title der=496",
+    "DIV.dipl_image_card_content der=496",
+    "P. der=496",
+    "DIV.et_pb_module dipl_image_card_carousel_it der=682",
+    "DIV.et_pb_module_inner der=682",
+    "DIV.dipl_image_card_wrapper der=682",
+    "DIV.dipl_image_card_content_wrapper der=682",
+    "DIV.dipl_image_card_icon_wrapper der=629"
+  ],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    " 100x30",
+    " 100x30",
+    "GO 100x30",
+    "https://laritoquena.com/wp-content/uploa 312x20",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "Check In: 13px",
+    "Check Out: 13px",
+    "100% Seguridad 11.31px",
+    "Toalla, quitasol y juegos. 11.31px",
+    "Todas las estadías incluyen Desayuno Cas 11.31px",
+    "Menú del día variado con productos local 11.31px",
+    "Televisión Satelital DirectTv en Sector  11.31px",
+    "Conexion WI-FI Disponible en Sector comú 11.31px",
+    "Contamos con estacionamiento privado. 11.31px",
+    "Servicio de Lavandería 11.31px",
+    "Acceso directo y privado 11.31px",
+    "Información Turística 11.31px",
+    "100% Seguridad 11.31px",
+    "Toalla, quitasol y juegos. 11.31px",
+    "Todas las estadías incluyen Desayuno Cas 11.31px"
+  ],
+  "rotas": [],
+  "sinAlt": 10,
+  "totalImg": 11,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "PLAN.jpg",
+      "nat": "390x219",
+      "vis": "312x176",
+      "lazy": "auto"
+    },
+    {
+      "src": "image1-5-1.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "P1090259.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_4222.jpg",
+      "nat": "390x234",
+      "vis": "154x92",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_4224.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "P1090237.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "P1090248.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_3867.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "IMG_4872.jpg",
+      "nat": "389x219",
+      "vis": "154x86",
+      "lazy": "lazy"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 3692,
+  "cls": 0.005,
+  "fcp": 2804
+}

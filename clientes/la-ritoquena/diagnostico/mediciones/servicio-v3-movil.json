@@ -1,0 +1,68 @@
+{
+  "url": "https://laritoquena.com/servicio-v3/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 5007,
+  "cargaMs": 17138,
+  "pedidos": 26,
+  "totalKB": 2805,
+  "porTipoKB": {
+    "Document": 23,
+    "Stylesheet": 12,
+    "Image": 2480,
+    "Script": 110,
+    "Font": 178,
+    "Other": 3
+  },
+  "pesados": [
+    "1750 KB https://laritoquena.com/wp-content/uploads/2025/12/4a864b35-ccd5-473e-b129-2ed7d74218dc.jpg",
+    "324 KB https://laritoquena.com/wp-content/uploads/2024/10/IMG_0081.jpg",
+    "180 KB https://laritoquena.com/wp-content/uploads/2019/03/dunas-2.jpg",
+    "153 KB https://laritoquena.com/wp-content/uploads/2019/03/surf.jpg"
+  ],
+  "malos": [],
+  "dominios": [
+    "laritoquena.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 2077,
+  "desb": [],
+  "chicos": [
+    "https://laritoquena.com/ 139x20",
+    "+569 6121 2436 150x28",
+    "https://web.facebook.com/laritoquena 32x32",
+    "https://www.instagram.com/explore/locati 32x32"
+  ],
+  "textoChico": [
+    "Costo adicional. Previa reserva. 13.65px",
+    "Alta velocidad de WIFI para trabajar des 13.65px",
+    "Senderos de trekking Turismo outdoor de  13.65px",
+    "Actividades de mar todo el año. 13.65px",
+    "Hola 12px"
+  ],
+  "rotas": [],
+  "sinAlt": 1,
+  "totalImg": 2,
+  "imgs": [
+    {
+      "src": "la-ritoquena-hotela-playa-05.png",
+      "nat": "1378x429",
+      "vis": "139x43",
+      "lazy": "auto"
+    },
+    {
+      "src": "la-ritoquena-hotela-playa-02.png",
+      "nat": "480x181",
+      "vis": "156x59",
+      "lazy": "lazy"
+    }
+  ],
+  "lcp": 9748,
+  "cls": 0.006,
+  "fcp": 2868
+}
