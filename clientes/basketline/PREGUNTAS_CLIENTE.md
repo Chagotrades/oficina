@@ -17,7 +17,7 @@ Antes de la etapa 2:
 2. **¿En qué banco recibe las transferencias?** El lector de correos del banco depende del formato de cada banco.
 3. **¿Cómo nos llegan esos correos del banco?** Reenviarlos a una casilla nueva solo para la tienda es más seguro que darnos acceso a su correo personal.
 4. **Envíos:** hoy despacha por Starken "por pagar". ¿El checkout cobra envío o solo informa que se paga al recibir? ¿Hay retiro en Osorno o Temuco?
-5. ¿Cuánto tiempo se reserva el stock mientras el cliente transfiere (por ejemplo 24 horas)?
+5. ¿Cuánto tiempo se reserva el stock mientras el cliente transfiere? La demo usa 24 horas. Y si el cliente dice "ya transferí" sin mandar comprobante, ¿se le guarda más tiempo o vence igual? (La demo: vence igual; con comprobante, 48 h más.)
 6. Muchas zapatillas son pares únicos (una sola talla). ¿También llegan modelos con varias tallas, o casi siempre es par único?
 7. En 2025 su Instagram decía "transferencia y crédito". ¿Sigue aceptando crédito por algún medio?
 8. Para la producción: el dominio, la cuenta de Supabase y la de Vercel, ¿a nombre de quién quedan? ¿Quién paga si se pasa del plan gratis?

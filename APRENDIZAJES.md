@@ -21,3 +21,5 @@ Lo que aprendimos con un cliente y sirve para todos. Una línea por aprendizaje,
 
 ## Herramientas
 - Videos sin ffmpeg: Edge sin ventana + MediaRecorder graba MP4 directo desde un canvas. (Campo Verde)
+- Leer un aviso de transferencia del banco no basta: hay que aceptar solo el banco de la tienda, exigir la cuenta de destino completa y desconfiar si el comentario del que paga trae etiquetas ("Cuenta", "Monto"); lo dudoso, a revisión. (Basketline)
+- Si la demo usa la misma base que la versión publicada, cada prueba deja datos y mueve stock reales: marcarlos PRUEBA, tener un script que devuelva el stock y borrarlos al terminar. (Basketline)
