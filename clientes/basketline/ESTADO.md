@@ -11,13 +11,14 @@ Actualizado: 2026-11-03.
 
 ## Próximo paso
 1. Revisión de la etapa 1 con `revisor-seguridad` (es también la primera prueba del especialista).
-2. Etapa 2. Es la más delicada: maneja plata y datos personales. Ojo con dos puntos del diseño: el endpoint de correo entrante del banco tiene que exigir autenticación (si no, cualquiera marca su pedido como pagado), y Alexis vende muchos pares únicos (una talla por modelo), así que el stock por variante debe funcionar bien con cantidad 1.
+2. Etapa 2. Es la más delicada: maneja plata y datos personales. Ojo con dos puntos del diseño: el endpoint de correo entrante del banco tiene que exigir autenticación (si no, cualquiera marca su pedido como pagado), y Alexis vende muchos pares únicos (una talla por modelo): la tienda ya los muestra, pero la reserva y la confirmación de stock tienen que resistir dos compras simultáneas del mismo par.
 3. Antes de etapa 2, resolver con Alexis las preguntas 1 a 4 de PREGUNTAS_CLIENTE.md.
 
 ## Historial
 Lo más nuevo arriba. Por cada bloque: fecha, qué cambió, cómo se comprobó y si está publicado o no.
 
-- 2026-11-03: proyecto movido desde el Escritorio a la oficina (`clientes/basketline/`). Código en `demo/`, documentos en `docs/`.
+- 2026-11-03: proyecto trasladado desde el Escritorio a la oficina (`clientes/basketline/`). Documentos movidos a `docs/`. El código se copió (la carpeta original estaba en uso) y se verificó idéntico: 25.432 archivos y 882.556.750 bytes, mismo commit (8c5a786), mismas huellas de `.env`, `schema.prisma`, `package.json` y `db.ts`. Levantado desde la nueva ubicación: la tienda carga los 38 productos desde Supabase. `C:\Users\cristobal\Desktop\basketline\demo` queda como respaldo hasta que Santiago lo borre.
+- Visto al probar (no es del traslado): el 3D de la portada pide `/modelos/mochila-elite.glb`, que no existe (404) y usa su versión de respaldo; la tarjeta dice "¡Quedan 1!" en vez de "¡Queda 1!". Los pares únicos ya se muestran como "Par único · EUR 37.5".
 - 2026-11-03: código subido a GitHub (`Chagotrades/basketline`) y publicado en Vercel.
 - 2026-10-30: etapa 1 construida.
 - 2026-10-29: especificación (`docs/SPEC.md`) armada desde los audios de Alexis y su diseñador, su Instagram y referentes de tiendas.
