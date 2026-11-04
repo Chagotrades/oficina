@@ -1,0 +1,210 @@
+{
+  "url": "https://bzeta.cl/pagina_servicios/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 4063,
+  "cargaMs": 5876,
+  "pedidos": 41,
+  "totalKB": 993,
+  "porTipoKB": {
+    "Document": 118,
+    "Image": 552,
+    "Stylesheet": 79,
+    "Script": 192,
+    "Font": 51,
+    "XHR": 0,
+    "Other": 1
+  },
+  "pesados": [
+    "175 KB https://bzeta.cl/wp-content/uploads/2021/11/about-us-min.jpg",
+    "118 KB https://bzeta.cl/pagina_servicios/",
+    "106 KB https://bzeta.cl/wp-content/uploads/2021/11/image-1-min.jpg"
+  ],
+  "malos": [],
+  "dominios": [
+    "bzeta.cl",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 7563,
+  "desb": [
+    "DIV.swiper-slide swiper-slide-active der=620",
+    "FIGURE.swiper-slide-inner der=620",
+    "IMG.swiper-slide-image der=451",
+    "DIV.swiper-slide swiper-slide-next der=960",
+    "FIGURE.swiper-slide-inner der=960",
+    "IMG.swiper-slide-image der=791",
+    "DIV.swiper-slide der=1300",
+    "FIGURE.swiper-slide-inner der=1300",
+    "IMG.swiper-slide-image der=1131",
+    "DIV.swiper-slide der=1640",
+    "FIGURE.swiper-slide-inner der=1640",
+    "IMG.swiper-slide-image der=1471",
+    "DIV.swiper-slide der=1980",
+    "FIGURE.swiper-slide-inner der=1980",
+    "IMG.swiper-slide-image der=1811"
+  ],
+  "chicos": [
+    "Ir al contenido 1x1",
+    "https://bzeta.cl/ 269x18",
+    "Alternar menú principal 42x42",
+    "Ingeniería 83x24",
+    "Estudios Sistémicos 169x24",
+    "Pruebas y Ensayos 154x24",
+    "Fibra Óptica y Comunicaciones 257x24",
+    "Integración de Tableros Eléctricos 282x24",
+    "Montaje de Sistemas Eléctricos 261x24",
+    "CONTACTO 124x35",
+    "CONTACTO 124x35",
+    "CONTACTO 124x35",
+    "CONTACTO 124x35",
+    "CONTACTO 124x35",
+    "CONTACTO 124x35",
+    "Ir a la diapositiva 1 6x6",
+    "Ir a la diapositiva 2 6x6",
+    "Ir a la diapositiva 3 6x6",
+    "Ir a la diapositiva 4 6x6",
+    "Ir a la diapositiva 5 6x6",
+    "Ir a la diapositiva 6 6x6",
+    "Ir a la diapositiva 7 6x6",
+    "Ir a la diapositiva 8 6x6",
+    "Ingeniería 68x18",
+    "Estudios Sistémicos 138x18",
+    "Pruebas y Ensayos 131x18",
+    "Fibra Óptica y Comunicaciones 215x18",
+    "Integración de Tableros Eléctricos 234x18",
+    "Linkedin 22x22",
+    "Administrar 326x40"
+  ],
+  "textoChico": [
+    "Desarrollado por 11px"
+  ],
+  "rotas": [
+    "https://bzeta.cl/pagina_servicios/"
+  ],
+  "sinAlt": 0,
+  "totalImg": 19,
+  "imgs": [
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "269x146",
+      "lazy": "auto"
+    },
+    {
+      "src": "Ingenieria.png",
+      "nat": "200x200",
+      "vis": "318x318",
+      "lazy": "auto"
+    },
+    {
+      "src": "2.png",
+      "nat": "200x200",
+      "vis": "318x318",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "318x318",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "318x318",
+      "lazy": "lazy"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "318x318",
+      "lazy": "lazy"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "318x318",
+      "lazy": "lazy"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "3x3",
+      "lazy": "auto"
+    },
+    {
+      "src": "",
+      "nat": "0x0",
+      "vis": "0x0",
+      "lazy": "auto"
+    }
+  ],
+  "lcp": 5932,
+  "cls": 0.002,
+  "fcp": 2112
+}

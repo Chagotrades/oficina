@@ -31,7 +31,7 @@
       "runtimeExecutable": "cmd",
       "runtimeArgs": [
         "/c",
-        "cd demo&& set NEXT_DIST_DIR=.next-etapa2&& npx next dev -H 0.0.0.0 -p 3100"
+        "cd demo&& set NEXT_DIST_DIR=.next-etapa2&& set BANCO_MODO=demo&& npx next dev -H 0.0.0.0 -p 3100"
       ],
       "port": 3100
     }

@@ -1,0 +1,118 @@
+{
+  "url": "https://bzeta.cl/",
+  "modo": "movil",
+  "freno": "sin freno",
+  "domMs": 712,
+  "cargaMs": 858,
+  "pedidos": 32,
+  "totalKB": 498,
+  "porTipoKB": {
+    "Document": 74,
+    "Image": 167,
+    "Stylesheet": 74,
+    "Script": 144,
+    "Font": 37,
+    "Other": 1
+  },
+  "pesados": [
+    "135 KB https://bzeta.cl/wp-content/uploads/2025/09/bzeta-ingenieria.jpg"
+  ],
+  "malos": [],
+  "dominios": [
+    "bzeta.cl",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 6240,
+  "desb": [],
+  "chicos": [
+    "Ir al contenido 1x1",
+    "https://bzeta.cl/ 269x18",
+    "Alternar menú principal 42x42",
+    "NUESTROS SERVICIOS 204x35",
+    "CONTÁCTANOS 156x37",
+    "SABER MÁS 340x35",
+    "CONTACTO 124x35",
+    "Ingeniería 68x18",
+    "Estudios Sistémicos 138x18",
+    "Pruebas y Ensayos 131x18",
+    "Fibra Óptica y Comunicaciones 215x18",
+    "Integración de Tableros Eléctricos 234x18",
+    "Linkedin 22x22",
+    "Administrar 326x40",
+    "Rechazar Todas 326x40",
+    "Aceptar todas 326x40",
+    "Desarrollado por 326x17"
+  ],
+  "textoChico": [
+    "Desarrollado por 11px"
+  ],
+  "rotas": [
+    "https://bzeta.cl/"
+  ],
+  "sinAlt": 0,
+  "totalImg": 9,
+  "imgs": [
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "269x146",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "lazy"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "lazy"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "lazy"
+    },
+    {
+      "src": "",
+      "nat": "0x0",
+      "vis": "0x0",
+      "lazy": "auto"
+    }
+  ],
+  "lcp": 992,
+  "cls": 0,
+  "fcp": 664
+}

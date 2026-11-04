@@ -33,3 +33,4 @@ Windows 11 con PowerShell 5.1, Node 24, Python 3.14, Edge y git 2.56. No hay ffm
 |---|---|
 | `clientes/basketline/` | Basketline |
 | `clientes/la-ritoquena/` | La Ritoqueña |
+| `clientes/b-zeta-ingenieria/` | B-Zeta Ingeniería |

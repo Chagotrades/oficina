@@ -1,0 +1,154 @@
+{
+  "url": "https://bzeta.cl/about/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 2778,
+  "cargaMs": 3659,
+  "pedidos": 34,
+  "totalKB": 595,
+  "porTipoKB": {
+    "Document": 74,
+    "Image": 219,
+    "Stylesheet": 78,
+    "Script": 184,
+    "Font": 38,
+    "Other": 1
+  },
+  "pesados": [
+    "187 KB https://bzeta.cl/wp-content/uploads/2025/09/sistemas-electricos-bzeta-380-x-250-px.png"
+  ],
+  "malos": [],
+  "dominios": [
+    "bzeta.cl",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 501,
+  "scrollW": 501,
+  "alto": 5288,
+  "desb": [
+    "DIV.swiper-slide swiper-slide-next der=705",
+    "FIGURE.swiper-slide-inner der=705",
+    "IMG.swiper-slide-image der=705",
+    "DIV.swiper-slide der=1045",
+    "FIGURE.swiper-slide-inner der=1045",
+    "IMG.swiper-slide-image der=1045",
+    "DIV.swiper-slide der=1385",
+    "FIGURE.swiper-slide-inner der=1385",
+    "IMG.swiper-slide-image der=1385",
+    "DIV.swiper-slide der=1725",
+    "FIGURE.swiper-slide-inner der=1725",
+    "IMG.swiper-slide-image der=1725",
+    "DIV.swiper-slide der=2065",
+    "FIGURE.swiper-slide-inner der=2065",
+    "IMG.swiper-slide-image der=2065"
+  ],
+  "chicos": [
+    "Ir al contenido 1x1",
+    "https://bzeta.cl/ 269x18",
+    "Alternar menú principal 42x42",
+    "Ingeniería 68x18",
+    "Estudios Sistémicos 138x18",
+    "Pruebas y Ensayos 131x18",
+    "Fibra Óptica y Comunicaciones 215x18",
+    "Integración de Tableros Eléctricos 234x18",
+    "Linkedin 22x22",
+    "Administrar 437x40",
+    "Rechazar Todas 437x40",
+    "Aceptar todas 437x40",
+    "Desarrollado por 437x17"
+  ],
+  "textoChico": [
+    "Desarrollado por 11px"
+  ],
+  "rotas": [
+    "https://bzeta.cl/about/"
+  ],
+  "sinAlt": 0,
+  "totalImg": 13,
+  "imgs": [
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "269x146",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "image-palceholder.png",
+      "nat": "3x3",
+      "vis": "340x340",
+      "lazy": "auto"
+    },
+    {
+      "src": "",
+      "nat": "0x0",
+      "vis": "0x0",
+      "lazy": "auto"
+    }
+  ],
+  "lcp": 1916,
+  "cls": 0.001,
+  "fcp": 1916
+}

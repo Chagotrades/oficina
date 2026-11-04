@@ -1,0 +1,94 @@
+{
+  "url": "https://bzeta.cl/hello-world/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 2044,
+  "cargaMs": 2631,
+  "pedidos": 26,
+  "totalKB": 320,
+  "porTipoKB": {
+    "Document": 69,
+    "Image": 40,
+    "Stylesheet": 92,
+    "Script": 82,
+    "Font": 38,
+    "Other": 1
+  },
+  "pesados": [],
+  "malos": [],
+  "dominios": [
+    "bzeta.cl",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "secure.gravatar.com",
+    ""
+  ],
+  "consola": [
+    "[log warning] Tracking Prevention blocked access to storage for https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=100&d=mm&r=g. https://bzeta.cl/hello-world/"
+  ],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 2382,
+  "desb": [],
+  "chicos": [
+    "Ir al contenido 1x1",
+    "https://bzeta.cl/ 269x18",
+    "Alternar menú principal 42x42",
+    "1 comentario 88x18",
+    "Uncategorized 101x18",
+    "admin 42x18",
+    "A WORDPRESS COMMENTER 167x14",
+    "AGOSTO 6, 2025 A LAS 11:30 PM 186x14",
+    "Gravatar 58x18",
+    "Responder 75x18",
+    " 13x13",
+    "Ingeniería 68x18",
+    "Estudios Sistémicos 138x18",
+    "Pruebas y Ensayos 131x18",
+    "Fibra Óptica y Comunicaciones 215x18",
+    "Integración de Tableros Eléctricos 234x18",
+    "Linkedin 22x22",
+    "Administrar 326x40",
+    "Rechazar Todas 326x40",
+    "Aceptar todas 326x40",
+    "Desarrollado por 326x17"
+  ],
+  "textoChico": [
+    "A WORDPRESS COMMENTER 11.856px",
+    "Desarrollado por 11px"
+  ],
+  "rotas": [
+    "https://bzeta.cl/hello-world/"
+  ],
+  "sinAlt": 1,
+  "totalImg": 4,
+  "imgs": [
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "269x146",
+      "lazy": "auto"
+    },
+    {
+      "src": "8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=100&d=mm&r=g",
+      "nat": "50x50",
+      "vis": "36x36",
+      "lazy": "auto"
+    },
+    {
+      "src": "",
+      "nat": "0x0",
+      "vis": "0x0",
+      "lazy": "auto"
+    }
+  ],
+  "lcp": 2228,
+  "cls": 0,
+  "fcp": 1944
+}

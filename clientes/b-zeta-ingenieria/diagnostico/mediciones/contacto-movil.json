@@ -1,0 +1,94 @@
+{
+  "url": "https://bzeta.cl/contacto/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 2415,
+  "cargaMs": 3247,
+  "pedidos": 32,
+  "totalKB": 473,
+  "porTipoKB": {
+    "Document": 69,
+    "Image": 154,
+    "Stylesheet": 73,
+    "Script": 138,
+    "Font": 38,
+    "Other": 1
+  },
+  "pesados": [
+    "122 KB https://bzeta.cl/wp-content/uploads/2025/09/Pruebas-y-Ensayos-BZeta-380-x-250-px.png"
+  ],
+  "malos": [],
+  "dominios": [
+    "bzeta.cl",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.google.com",
+    ""
+  ],
+  "consola": [
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.google.com/maps?q=Reserva%20Cora%20lote%201%2C%20La%20Ligua&t=m&z=17&output=embed&iwloc=near. https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/embed?origin=mfe&pb=!1m4!2m1!1sReserva+Cora+lote+1,+La+Ligua!5e0!6i17. https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.gstatic.com/maps-api-v3/embed/js/66/12d/init_embed.js. https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/. https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://maps.gstatic.com/mapfiles/openhand_8_8.cur. https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i39601!3i78038!4i256!2m3!1e0!2sm!3i802568124!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps! https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i39600!3i78038!4i256!2m3!1e0!2sm!3i802568124!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps! https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i39600!3i78037!4i256!2m3!1e0!2sm!3i802568124!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps! https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i39601!3i78037!4i256!2m3!1e0!2sm!3i802568124!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps! https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i39601!3i78039!4i256!2m3!1e0!2sm!3i802568124!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps! https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i39600!3i78039!4i256!2m3!1e0!2sm!3i802568124!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps! https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m4!1m3!1i17!2i39600!3i78037!1m4!1m3!1i17!2i39601!3i78037!1m4!1m3!1i17!2i39600!3i78038!1m4!1m3!1i17!2i39600!3i78039!1m4!1m3!1i17!2i39601!3i78038!1m4!1m3!1i17!2i39601 https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2475!3i4877!4i256!2m1!1e1!3m12!2sen-US!3sUS!5e289!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy5lOmx8cC52Om9mZg!4e0!5m1!1e3!23i47083502&key=AI https://bzeta.cl/contacto/",
+    "[log warning] Tracking Prevention blocked access to storage for https://www.google.com/maps/vt?pb=!1m5!1m4!1i13!2i2474!3i4877!4i256!2m1!1e1!3m12!2sen-US!3sUS!5e289!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy5lOmx8cC52Om9mZg!4e0!5m1!1e3!23i47083502&key=AI https://bzeta.cl/contacto/"
+  ],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1910,
+  "desb": [],
+  "chicos": [
+    "Ir al contenido 1x1",
+    "https://bzeta.cl/ 269x18",
+    "Alternar menú principal 42x42",
+    "Ingeniería 68x18",
+    "Estudios Sistémicos 138x18",
+    "Pruebas y Ensayos 131x18",
+    "Fibra Óptica y Comunicaciones 215x18",
+    "Integración de Tableros Eléctricos 234x18",
+    "Linkedin 22x22",
+    "Administrar 326x40",
+    "Rechazar Todas 326x40",
+    "Aceptar todas 326x40",
+    "Desarrollado por 326x17"
+  ],
+  "textoChico": [
+    "Desarrollado por 11px"
+  ],
+  "rotas": [
+    "https://bzeta.cl/contacto/"
+  ],
+  "sinAlt": 0,
+  "totalImg": 3,
+  "imgs": [
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "269x146",
+      "lazy": "auto"
+    },
+    {
+      "src": "",
+      "nat": "0x0",
+      "vis": "0x0",
+      "lazy": "auto"
+    }
+  ],
+  "lcp": 3092,
+  "cls": 0.002,
+  "fcp": 1904
+}

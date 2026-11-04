@@ -6,6 +6,7 @@ Estados: **por hacer** · **en curso** · **en revisión** · **esperando a Sant
 
 | Fecha | Cliente | Encargo | Lo hace | Estado | Próximo paso |
 |---|---|---|---|---|---|
+| 2026-11-03 | B-Zeta Ingeniería | Alta del cliente | Santiago | por hacer | Completar descripción y límites en clientes/b-zeta-ingenieria/CLAUDE.md |
 | 2026-11-03 | La Ritoqueña | Diagnóstico de laritoquena.com (prospecto) | Claude | esperando a Santiago | Revisar el informe, poner precios y plazos a los 3 niveles y compartirlo con el dueño |
 | 2026-11-03 | La Ritoqueña | Alta del cliente | Claude | listo | — |
 | 2026-11-03 | Basketline | Etapa 3: panel de administración | Claude | por hacer | Después de la etapa 2 |

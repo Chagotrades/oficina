@@ -1,0 +1,78 @@
+{
+  "url": "https://bzeta.cl/servicios/ingenieria/",
+  "modo": "movil",
+  "freno": "4G lenta + CPU 4x",
+  "domMs": 3877,
+  "cargaMs": 4313,
+  "pedidos": 27,
+  "totalKB": 526,
+  "porTipoKB": {
+    "Document": 67,
+    "Image": 32,
+    "Stylesheet": 137,
+    "Script": 175,
+    "Font": 114,
+    "Other": 1
+  },
+  "pesados": [],
+  "malos": [],
+  "dominios": [
+    "bzeta.cl",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    ""
+  ],
+  "consola": [],
+  "W": 390,
+  "scrollW": 390,
+  "alto": 1306,
+  "desb": [],
+  "chicos": [
+    "Ir al contenido 1x1",
+    "https://bzeta.cl/ 269x18",
+    "Alternar menú principal 42x42",
+    "admin 42x18",
+    "Servicio siguiente 356x34",
+    "Ingeniería 68x18",
+    "Estudios Sistémicos 138x18",
+    "Pruebas y Ensayos 131x18",
+    "Fibra Óptica y Comunicaciones 215x18",
+    "Integración de Tableros Eléctricos 234x18",
+    "Linkedin 22x22",
+    "Administrar 326x40",
+    "Rechazar Todas 326x40",
+    "Aceptar todas 326x40",
+    "Desarrollado por 326x17"
+  ],
+  "textoChico": [
+    "Desarrollado por 11px"
+  ],
+  "rotas": [
+    "https://bzeta.cl/servicios/ingenieria/"
+  ],
+  "sinAlt": 0,
+  "totalImg": 3,
+  "imgs": [
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "0x0",
+      "lazy": "auto"
+    },
+    {
+      "src": "cropped-B-Zeta-Ingenieria-7.png",
+      "nat": "390x212",
+      "vis": "269x146",
+      "lazy": "auto"
+    },
+    {
+      "src": "",
+      "nat": "0x0",
+      "vis": "0x0",
+      "lazy": "auto"
+    }
+  ],
+  "lcp": 4060,
+  "cls": 0.001,
+  "fcp": 2752
+}
