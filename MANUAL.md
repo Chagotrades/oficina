@@ -87,6 +87,23 @@ Su rol, cómo trabaja, qué entrega y qué lista de CALIDAD.md pasa.
 - **Solo las herramientas que necesita.** Un revisor no necesita `Write` ni `Edit`: así no puede cambiar lo que revisa.
 - **Un especialista no ve la conversación.** Todo lo que necesita saber va en sus instrucciones o en el encargo.
 
+## Trabajar desde otro computador o desde la nube
+
+La oficina está guardada en GitHub, en un repositorio privado: `https://github.com/Chagotrades/oficina`. Todos los computadores trabajan sobre esa misma copia.
+
+- **Al empezar:** baja lo último con `git pull`. **Al terminar:** haz el commit y súbelo con `git push`.
+- No trabajes el mismo cliente en dos computadores a la vez sin bajar antes lo último. Si no, los cambios chocan.
+
+**Primera vez en un computador nuevo:**
+1. Instala git, Node y la app de Claude.
+2. En `Documentos`, ejecuta `git clone https://github.com/Chagotrades/oficina.git Oficina` y abre Claude en esa carpeta.
+3. Basketline tiene su propio repositorio: `git clone https://github.com/Chagotrades/basketline.git clientes/basketline/demo` y después `npm --prefix clientes/basketline/demo install`.
+4. Las claves (`.env`) no están en GitHub, a propósito. Se copian a mano con un pendrive o un gestor de contraseñas. Nunca por WhatsApp, correo ni GitHub.
+
+**Desde el celular, sin ningún computador prendido:** en la app de Claude, sección Code, abre una sesión en la nube sobre `Chagotrades/oficina`. Trabaja sobre una copia y devuelve los cambios en una rama de GitHub, que después se junta con `main`. No tiene las claves, así que sirve para informes, documentos y código, pero no para probar Basketline con su base de datos.
+
+**Con este computador prendido:** el control remoto (Remote Control) deja seguir desde el celular un chat que corre aquí.
+
 ## Candados técnicos
 
 `.claude/settings.json` bloquea, para cualquier sesión dentro de la oficina, los comandos que publican o envían (Netlify, Vercel, Cloudflare, `git push`, `npm publish`) y la lectura de archivos `.env` con claves. Aunque una sesión se equivoque, no puede publicar sola: Santiago lo hace o lo autoriza en el momento. Si hay que agregar otro servicio de publicación, se suma a la lista `deny`.
