@@ -53,7 +53,7 @@ Buscamos empresas ya formadas de la Región de Valparaíso que tienen un problem
 El detalle de cada prospecto (36 contactados, 14 por contactar, perdidos) está en [tablero/PROSPECTOS_TABLERO.md](tablero/PROSPECTOS_TABLERO.md).
 
 ## Tareas abiertas para repartir
-Pongan nombre en `ventas/PROSPECTOS.md` o en `ENCARGOS.md` antes de tomar una.
+**El reparto vivo está en la pestaña «Tareas» del tablero** (columna Mathias, columna Santiago y «Los dos»). Lo de abajo es la lista inicial del 5-nov.
 
 1. **Viernes 6-nov:** de 20 correos aprobados solo 6 están programados en Gmail. Los otros 14 siguen en Borradores (Oral Clinic, Más Salud, Fisiosalud, StockPro, Auramed, Bellavi, Taller Torres, Adelma, Regina, Maison de la Mer, Bote Salvavidas, Domus Mare, Chanagua, New Voga). Decidir si se programan.
 2. **Seguimientos únicos** a B-Zeta, La Ritoqueña (vie 6) y Biosfera (sáb 7).
