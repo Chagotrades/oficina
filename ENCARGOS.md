@@ -10,7 +10,7 @@ Estados: **por hacer** · **en curso** · **en revisión** · **esperando al soc
 | 2026-11-03 | B-Zeta Ingeniería | Alta del cliente | Santiago | Santiago | por hacer | Completar descripción y límites en clientes/b-zeta-ingenieria/CLAUDE.md |
 | 2026-11-03 | La Ritoqueña | Diagnóstico de laritoquena.com (prospecto) | Santiago | Claude | esperando al socio | Revisar el informe, poner precios y plazos a los 3 niveles y compartirlo con el dueño |
 | 2026-11-03 | La Ritoqueña | Alta del cliente | Santiago | Claude | listo | — |
-| 2026-11-03 | Basketline | Etapa 3: panel de administración | Santiago | Claude | por hacer | Ya se puede empezar: la etapa 2 está en GitHub |
+| 2026-11-03 | Basketline | Etapa 3: panel de administración | Santiago | Claude | en curso | Tomado 2026-11-05. Plan por bloques en la rama `etapa3-panel`: 1) login y roles, 2) pedidos y etiqueta, 3) productos y fotos, 4) inventario, 5) pagos, 6) dashboard, 7) clientes, correos, contenido, configuración y campañas, 8) README, guion de demo, CALIDAD.md y `revisor-seguridad`. Sin publicar en Vercel. Para probar en este PC hace falta copiar `demo/.env` |
 | 2026-11-03 | Basketline | Etapa 2: checkout y pago por transferencia | Santiago | Claude | esperando al socio | Construida, en GitHub (`main`) y sin publicar. Santiago la prueba (`admin:clave` para su clave del panel); antes del banco real, preguntas 1 a 5 a Alexis |
 | 2026-11-03 | Basketline | Revisión de seguridad de la etapa 1 | Santiago | `revisor-seguridad` | por hacer | Primera prueba del especialista |
 | 2026-11-03 | Basketline | Preguntas para Alexis (boleta, banco, envíos, reserva) | Santiago | Santiago | por hacer | Ver PREGUNTAS_CLIENTE.md |
