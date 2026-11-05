@@ -6,7 +6,7 @@ Estados: **por hacer** · **en curso** · **en revisión** · **esperando al soc
 
 | Fecha | Cliente | Encargo | Responsable | Lo hace | Estado | Próximo paso |
 |---|---|---|---|---|---|---|
-| 2026-11-05 | Ascensus | Web corporativa editorial y demos por rubro | Mathias | Codex | en curso | Tomado por Mathias. Carpeta `ascensus-web/`. Referencia visual aprobada; nueva dirección blanco marfil y negro. Código y continuidad en GitHub; sin publicar en dominio. |
+| 2026-11-05 | Ascensus | Web corporativa editorial y demos por rubro | Mathias | Codex | en revisión | Implementada y comprobada en `ascensus-web/`: blanco marfil/negro, 6 demos filtrables y contacto. Código, capturas y continuidad en GitHub; sin publicar en dominio. Mathias revisa el diseño. |
 | 2026-11-05 | Ascensus (ventas) | Subir a la oficina todo lo comercial: tarifario, panel, método, contactados, logos y PDF | Mathias | Claude | esperando al socio | Hecho en `ventas/` (guía en `ventas/LEEME_ASCENSUS.md`). Falta subirlo a GitHub con `sincronizar.ps1` después de dejar el repositorio privado |
 | 2026-11-05 | Basketline | Etapa 1: selector de 3 mochilas y modelos 3D | Santiago | Claude | esperando al cliente | Selector listo en la rama `etapa1-mochilas-3d` (sin probar en navegador). Modelos 3D y diseño con Gustavo cuando lleguen las fotos de Alexis (~2026-11-19) |
 | 2026-11-03 | B-Zeta Ingeniería | Alta del cliente | Santiago | Santiago | por hacer | Completar descripción y límites en clientes/b-zeta-ingenieria/CLAUDE.md |

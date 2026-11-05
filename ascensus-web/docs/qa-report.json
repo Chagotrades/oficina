@@ -1,0 +1,135 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    },
+    {
+      "width": 640,
+      "scrollWidth": 640,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": [],
+      "badLinks": [],
+      "clippedPreviews": []
+    }
+  ],
+  "behavior": [
+    "Filter Turismo: 1 visible",
+    "Filter Servicios: 3 visible",
+    "Filter Gastronomía: 1 visible",
+    "Filter Salud: 1 visible",
+    "Filter Todos: 6 visible",
+    "Six demos, mobile mode, internal anchor and Escape passed",
+    "Demo to contact preserves intent; whitespace validation; message encoding; safe text; editing passed. No message sent.",
+    "Mobile menu opens and closes after navigation",
+    "Reduced motion respected"
+  ],
+  "resources": [
+    {
+      "name": "styles.css",
+      "bytes": 25629,
+      "duration": 15
+    },
+    {
+      "name": "app.js",
+      "bytes": 14764,
+      "duration": 15
+    },
+    {
+      "name": "ascensus-logo.png",
+      "bytes": 25797,
+      "duration": 15
+    },
+    {
+      "name": "norte-small.jpg",
+      "bytes": 46815,
+      "duration": 5
+    },
+    {
+      "name": "cuidado-small.jpg",
+      "bytes": 40502,
+      "duration": 7
+    },
+    {
+      "name": "mesa-small.jpg",
+      "bytes": 55395,
+      "duration": 6
+    },
+    {
+      "name": "amedida-small.jpg",
+      "bytes": 57844,
+      "duration": 7
+    },
+    {
+      "name": "nexo-small.jpg",
+      "bytes": 57074,
+      "duration": 8
+    },
+    {
+      "name": "refugio-small.jpg",
+      "bytes": 126393,
+      "duration": 8
+    },
+    {
+      "name": "dm-sans.woff2",
+      "bytes": 37232,
+      "duration": 123
+    },
+    {
+      "name": "manrope.woff2",
+      "bytes": 24832,
+      "duration": 124
+    },
+    {
+      "name": "favicon.svg",
+      "bytes": 547,
+      "duration": 4
+    }
+  ],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "slow4G": {
+    "profile": "1.6 Mbps down, 150 ms latency, CPU 4x, cold cache, localhost Edge",
+    "transferBytes": 523176,
+    "domContentLoadedMs": 744,
+    "loadMs": 3122,
+    "firstContentfulPaintMs": 772
+  }
+}
