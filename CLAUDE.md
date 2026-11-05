@@ -26,7 +26,7 @@ Windows 11 con PowerShell 5.1, Node 24, Python 3.14, Edge y git 2.56. No hay ffm
 ## Qué hay aquí
 | | |
 |---|---|
-| `ventas/` | Prospección: tablero de prospectos (`PROSPECTOS.md`) y plantillas de correos. |
+| `ventas/` | Prospección: tablero de prospectos (`PROSPECTOS.md`), plantillas, tarifario, método, logos y registro de contactados. Empieza por `ventas/LEEME_ASCENSUS.md`. |
 | `sincronizar.ps1` | Baja lo último de GitHub y sube lo tuyo. Correrlo al empezar, al tomar algo y al terminar. |
 | `MANUAL.md` | Cómo se mueve un encargo, quién hace qué, el brief para cada trabajador y cómo crear especialistas. |
 | `ENCARGOS.md` | Tablero con lo que está en curso. |

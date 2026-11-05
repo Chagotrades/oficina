@@ -1,0 +1,324 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Tarifario Ascensus 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+:root{--tinta:#15181D;--papel:#F6F3EC;--papel2:#ECE6DA;--azul:#2347C5;--azul2:#DCE3F8;--suave:#5D5F66;--linea:#DDD6C8;--verde:#2F7D4F;--oro:#E7A923}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html,body{margin:0;background:#fff}
+body{font-family:'Source Sans 3',Arial,sans-serif;color:var(--tinta);font-size:12pt;line-height:1.45}
+.pag{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--papel)}
+.pag:last-child{page-break-after:auto}
+.int{padding:17mm 17mm 18mm}
+h1,h2,h3{font-family:'Outfit',Arial,sans-serif;margin:0;line-height:1.08}
+h2{font-size:27pt;font-weight:700;letter-spacing:-.3pt}
+h3{font-size:14.5pt;font-weight:600}
+p{margin:0}
+.num{font-family:'Outfit';font-weight:700;letter-spacing:-.4pt;white-space:nowrap}
+.sec{display:flex;align-items:baseline;gap:4mm;margin-bottom:3mm}
+.sec .n{font-family:'Outfit';font-weight:700;font-size:11pt;color:var(--azul);border:.5mm solid var(--azul);border-radius:999px;padding:.6mm 3mm}
+.sec .t{font-family:'Outfit';font-weight:600;font-size:10.5pt;letter-spacing:1.4pt;text-transform:uppercase;color:var(--suave)}
+.lead{font-size:13.5pt;color:var(--suave);max-width:150mm;margin:3mm 0 8mm}
+.pie{position:absolute;left:17mm;right:17mm;bottom:9mm;display:flex;justify-content:space-between;align-items:center;font-size:9pt;color:var(--suave);border-top:.3mm solid var(--linea);padding-top:3mm}
+.pie img{height:3.6mm}
+
+/* portada */
+.portada{background:var(--tinta);color:#fff}
+.portada .logo{position:absolute;left:17mm;top:17mm;height:9mm;filter:invert(1)}
+.portada .ano{position:absolute;right:17mm;top:17mm;font-family:'Outfit';font-weight:600;font-size:11pt;letter-spacing:1.5pt;color:#A9B0BF}
+.portada .esc{position:absolute;right:-6mm;top:52mm;width:120mm;opacity:.95}
+.portada .txt{position:absolute;left:17mm;right:17mm;top:118mm}
+.portada .kick{font-family:'Outfit';font-weight:600;font-size:11pt;letter-spacing:2pt;text-transform:uppercase;color:var(--oro);margin-bottom:5mm}
+.portada h1{font-size:50pt;font-weight:800;letter-spacing:-1.2pt;line-height:1}
+.portada h1 span{color:#8EA6F5}
+.portada .bajada{font-size:15pt;color:#C9CDD6;max-width:140mm;margin-top:7mm;line-height:1.4}
+.problemas{position:absolute;left:17mm;right:17mm;bottom:40mm;display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.problemas div{border-top:.5mm solid #3A3F4A;padding-top:3.5mm;font-size:11pt;color:#C9CDD6;line-height:1.35}
+.problemas b{display:block;font-family:'Outfit';font-weight:600;color:#fff;font-size:12pt;margin-bottom:1mm}
+.portada .meta{position:absolute;left:17mm;right:17mm;bottom:14mm;display:flex;justify-content:space-between;font-size:10.5pt;color:#A9B0BF}
+.portada .meta b{color:#fff;font-family:'Outfit';font-weight:600}
+
+/* diagnóstico */
+.gratis{background:var(--azul);color:#fff;border-radius:6mm;padding:7mm 9mm 7mm;display:grid;grid-template-columns:1fr 52mm;gap:8mm;align-items:center}
+.gratis h3{font-size:21pt;font-weight:700;margin-bottom:3mm}
+.gratis p{font-size:12pt;color:#DCE3F8}
+.gratis ul{list-style:none;padding:0;margin:4mm 0 0;display:grid;grid-template-columns:1fr 1fr;gap:1.8mm 5mm;font-size:11pt}
+.gratis li{padding-left:5.5mm;position:relative}
+.gratis li:before{content:"✓";position:absolute;left:0;color:var(--oro);font-weight:700}
+.gratis .p{text-align:center;background:rgba(255,255,255,.1);border-radius:4mm;padding:6mm 3mm}
+.gratis .p .num{font-size:36pt;line-height:1;display:block}
+.gratis .p small{font-size:10pt;color:#DCE3F8}
+.guia{margin-top:7mm}
+.guia h3{font-size:16pt;margin-bottom:4mm}
+.fila{display:grid;grid-template-columns:1fr 7mm 64mm;align-items:center;background:#fff;border-radius:3.5mm;padding:2.6mm 5mm;margin-bottom:2mm;font-size:11.5pt;line-height:1.3}
+.fila .fl{color:var(--azul);font-weight:700;text-align:center}
+.fila b{font-family:'Outfit';font-weight:600;font-size:12pt}
+.fila .ir{color:var(--suave);font-size:10pt;display:block}
+
+/* tarjetas */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:4.5mm;align-items:stretch}
+.card{background:#fff;border-radius:5mm;padding:6.5mm 5.5mm 6mm;display:flex;flex-direction:column;position:relative;border:.4mm solid var(--linea)}
+.card.dest{background:var(--tinta);color:#fff;border-color:var(--tinta)}
+.card .badge{position:absolute;top:-3.2mm;left:5.5mm;background:var(--oro);color:var(--tinta);font-family:'Outfit';font-weight:700;font-size:8.5pt;letter-spacing:.8pt;text-transform:uppercase;border-radius:999px;padding:1mm 3mm}
+.card h3{font-size:14pt;margin-bottom:2mm;min-height:11mm}
+.card .desc{font-size:10.5pt;color:var(--suave);min-height:15mm}
+.card.dest .desc{color:#B9BFCC}
+.card .precio{margin:4mm 0 4mm;padding-bottom:4mm;border-bottom:.3mm solid var(--linea)}
+.card.dest .precio{border-color:#3A3F4A}
+.card .precio .num{font-size:24pt;line-height:1;display:block}
+.card .precio small{font-size:9.5pt;color:var(--suave)}
+.card.dest .precio small{color:#B9BFCC}
+.card ul{list-style:none;padding:0;margin:0;font-size:10.5pt;line-height:1.35}
+.card li{position:relative;padding-left:5mm;margin-bottom:2mm}
+.card li:before{content:"✓";position:absolute;left:0;color:var(--azul);font-weight:700}
+.card.dest li:before{color:var(--oro)}
+
+.linea{display:grid;grid-template-columns:1fr auto;gap:6mm;align-items:center;background:#fff;border-radius:4mm;padding:5mm 6mm;margin-top:4.5mm;border:.4mm solid var(--linea)}
+.linea h3{font-size:13.5pt;margin-bottom:1mm}
+.linea p{font-size:10.5pt;color:var(--suave)}
+.linea .num{font-size:19pt;text-align:right;display:block;line-height:1.05}
+.linea small{display:block;text-align:right;font-size:9.5pt;color:var(--suave)}
+
+/* crecer */
+.grande{display:grid;grid-template-columns:1fr 58mm;gap:7mm;background:#fff;border-radius:5mm;padding:7mm;border:.4mm solid var(--linea)}
+.grande h3{font-size:18pt;font-weight:700;margin-bottom:2.5mm}
+.grande p{font-size:11.5pt;color:var(--suave);margin-bottom:3mm}
+.grande .caja{background:var(--azul2);border-radius:4mm;padding:5mm;text-align:center;align-self:start}
+.grande .caja .num{font-size:27pt;color:var(--azul);display:block;line-height:1}
+.grande .caja small{font-size:9.5pt;color:var(--suave);display:block;margin-top:1mm}
+.grande .caja .o{border-top:.3mm solid #B8C4EC;margin-top:3.5mm;padding-top:3mm}
+.grande .caja .o .num{font-size:19pt}
+.nota{font-size:9.5pt;color:var(--suave);font-style:italic}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:4.5mm;margin-top:4.5mm}
+.dos .card{padding:5mm 5.5mm 4mm}
+.dos .card h3{min-height:0;margin-bottom:2.5mm}
+.dos .card li{margin-bottom:1.1mm}
+.grande{padding:6mm 7mm}
+.grande .card li{margin-bottom:1.2mm}
+
+/* cierre */
+.garant{display:grid;grid-template-columns:1fr 1fr;gap:3.5mm}
+.garant div{background:#fff;border-radius:4mm;padding:4mm 5mm 4mm 15mm;position:relative;font-size:10.8pt;color:var(--suave);line-height:1.4;border:.4mm solid var(--linea)}
+.garant b{font-family:'Outfit';font-weight:600;display:block;font-size:12.5pt;color:var(--tinta);margin-bottom:1mm}
+.garant .ic{position:absolute;left:5mm;top:4mm;display:grid;place-items:center;width:7mm;height:7mm;border-radius:50%;background:var(--azul2);color:var(--azul);font-weight:700;font-size:10pt}
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.paso{border-top:.8mm solid var(--azul);padding-top:3.5mm;font-size:11pt}
+.paso .n{font-family:'Outfit';font-weight:700;font-size:22pt;color:var(--azul);line-height:1;margin-bottom:1.5mm}
+.paso b{font-family:'Outfit';font-weight:600;display:block;font-size:12.5pt;margin-bottom:.8mm}
+.paso span{color:var(--suave)}
+.contacto{background:var(--tinta);color:#fff;border-radius:6mm;padding:7mm 9mm;display:flex;justify-content:space-between;align-items:center;margin-top:7mm}
+.contacto h3{font-size:20pt;font-weight:700;margin-bottom:1.5mm}
+.contacto p{color:#B9BFCC;font-size:11pt}
+.contacto .wa{text-align:right}
+.contacto .wa small{display:block;color:#B9BFCC;font-size:10pt}
+.contacto .wa .num{font-size:19pt;color:#fff}
+.legal{font-size:9pt;color:var(--suave);margin-top:5mm;line-height:1.4}
+</style></head><body>
+
+<!-- 1 · Portada -->
+<section class="pag portada">
+<img class="logo" src="../marca/ascensus-logo.png" alt="Ascensus">
+<div class="ano">TARIFARIO 2026</div>
+<svg class="esc" viewBox="0 0 400 260" aria-hidden="true">
+  <rect x="0" y="200" width="88" height="60" rx="6" fill="#262B35"/>
+  <rect x="96" y="150" width="88" height="110" rx="6" fill="#2E3644"/>
+  <rect x="192" y="100" width="88" height="160" rx="6" fill="#3550B8"/>
+  <rect x="288" y="40" width="88" height="220" rx="6" fill="#2347C5"/>
+  <path d="M30 190 L140 140 L236 90 L332 28" stroke="#E7A923" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M316 22 L334 27 L328 45" stroke="#E7A923" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<div class="txt">
+  <div class="kick">Servicios y precios</div>
+  <h1>Más clientes<br><span>desde internet.</span></h1>
+  <p class="bajada">Ayudamos a pymes y negocios locales de Chile a que los encuentren, les escriban y les compren. Precios claros, todo a su nombre y sin letra chica.</p>
+</div>
+<div class="problemas">
+  <div><b>"Me buscan y encuentran a la competencia."</b>Aparecer en Google y Maps.</div>
+  <div><b>"Tengo visitas, pero no me contactan."</b>Una web hecha para recibir consultas.</div>
+  <div><b>"Quiero vender online, pero me da miedo."</b>Una tienda simple y segura.</div>
+</div>
+<div class="meta"><span></span><span><b>WhatsApp +56 9 4931 1482</b></span></div>
+</section>
+
+<!-- 2 · Diagnóstico + guía -->
+<section class="pag"><div class="int">
+<div class="sec"><span class="n">01</span><span class="t">Para empezar</span></div>
+<h2>Primero miramos, después proponemos</h2>
+<p class="lead">No le vendemos algo que no necesita. Antes de cualquier presupuesto revisamos cómo lo encuentran hoy sus clientes.</p>
+
+<div class="gratis">
+  <div>
+    <h3>Diagnóstico de clientes perdidos</h3>
+    <p>Revisamos su web, su perfil de Google Maps y sus redes, y los comparamos con 3 competidores de su zona. Le entregamos un informe de 1 página con lo que está dejando pasar.</p>
+    <ul><li>Su web</li><li>Google Maps</li><li>Redes sociales</li><li>3 competidores</li></ul>
+  </div>
+  <div class="p"><span class="num">Gratis</span><small>Informe en 48 horas</small></div>
+</div>
+
+<div class="guia">
+<h3>¿Qué plan le conviene?</h3>
+<div class="fila"><span>No tiene web, o solo tiene redes sociales</span><span class="fl">→</span><span><b>Web lista para recibir clientes</b><span class="ir">Página 3</span></span></div>
+<div class="fila"><span>Tiene una web vieja, lenta o sin botón de contacto</span><span class="fl">→</span><span><b>Renovación de web</b><span class="ir">Página 3</span></span></div>
+<div class="fila"><span>No tiene perfil de Google, está incompleto o tiene pocas reseñas</span><span class="fl">→</span><span><b>Aparece en tu comuna</b><span class="ir">Página 5</span></span></div>
+<div class="fila"><span>Vende por Instagram o WhatsApp y anota los pedidos a mano</span><span class="fl">→</span><span><b>Tienda online</b><span class="ir">Página 4</span></span></div>
+<div class="fila"><span>Le hacen siempre las mismas preguntas y no alcanza a contestar</span><span class="fl">→</span><span><b>Asistente 24/7</b><span class="ir">Páginas 3 y 4</span></span></div>
+<div class="fila"><span>Ya tiene buena web y buen perfil, pero llegan pocos contactos</span><span class="fl">→</span><span><b>Piloto de anuncios</b><span class="ir">Página 5</span></span></div>
+</div>
+</div><div class="pie"><span>Tarifario 2026</span><img src="../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 3 · Webs -->
+<section class="pag"><div class="int">
+<div class="sec"><span class="n">02</span><span class="t">Webs</span></div>
+<h2>Una web que trabaja por usted</h2>
+<p class="lead">No es una vitrina: está pensada para que la persona que llega le escriba, cotice o lo llame. Lista en 7 a 10 días hábiles.</p>
+
+<div class="cards">
+  <div class="card">
+    <h3>Web lista para recibir clientes</h3>
+    <p class="desc">Para quien no tiene web o solo tiene redes sociales.</p>
+    <div class="precio"><span class="num">$249.990</span><small>pago único</small></div>
+    <ul><li>Diseño pensado para celular</li><li>Cotizador para sus clientes</li><li>Botón de WhatsApp</li><li>Alta en Google Search Console y Bing</li><li>Lista en 7 a 10 días hábiles</li></ul>
+  </div>
+  <div class="card dest">
+    <span class="badge">Recomendada</span>
+    <h3>Web + asistente 24/7</h3>
+    <p class="desc">Responde las preguntas de siempre, también de noche.</p>
+    <div class="precio"><span class="num">$299.990</span><small>pago único</small></div>
+    <ul><li>Todo lo de la web lista</li><li>Asistente con respuestas que usted aprueba</li><li>Lo que no sabe, se lo deriva por WhatsApp</li><li>Sin costos mensuales</li></ul>
+  </div>
+  <div class="card">
+    <h3>Web + asistente con IA</h3>
+    <p class="desc">Entiende preguntas escritas de cualquier forma.</p>
+    <div class="precio"><span class="num">$349.990</span><small>+ $9.990 al mes</small></div>
+    <ul><li>Todo lo de la web lista</li><li>Asistente con inteligencia artificial y la información de su negocio</li><li>El uso de la IA se paga aparte, con un tope que usted fija</li></ul>
+  </div>
+</div>
+
+<div class="linea">
+  <div><h3>Renovación de web existente</h3><p>Para quien ya tiene web, pero está vieja, lenta o no recibe contactos. Hacemos un plan de migración con respaldos y redirecciones para reducir el riesgo de perder visitas.</p></div>
+  <div><span class="num">$249.990</span><small>pago único</small></div>
+</div>
+<div class="linea">
+  <div><h3>Mantención mensual de web</h3><p>Cambios de textos, fotos y precios cuando los necesite, y revisión de que todo siga funcionando. Sin permanencia.</p></div>
+  <div><span class="num">$19.990</span><small>al mes</small></div>
+</div>
+</div><div class="pie"><span>Tarifario 2026 · Webs</span><img src="../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 4 · Tiendas -->
+<section class="pag"><div class="int">
+<div class="sec"><span class="n">03</span><span class="t">Tiendas online</span></div>
+<h2>Venda también mientras duerme</h2>
+<p class="lead">Deje de anotar pedidos a mano. Sus clientes eligen, pagan y usted recibe el pedido ordenado.</p>
+
+<div class="cards">
+  <div class="card">
+    <h3>Tienda online</h3>
+    <p class="desc">Para empezar a vender con un catálogo acotado.</p>
+    <div class="precio"><span class="num">$449.990</span><small>pago único</small></div>
+    <ul><li>Hasta 30 productos</li><li>Carrito de compras</li><li>1 medio de pago</li><li>Botón de WhatsApp</li></ul>
+  </div>
+  <div class="card dest">
+    <span class="badge">Recomendada</span>
+    <h3>Tienda con asistente</h3>
+    <p class="desc">Resuelve dudas de productos y envíos al instante.</p>
+    <div class="precio"><span class="num">$499.990</span><small>pago único</small></div>
+    <ul><li>Todo lo de la tienda online</li><li>Asistente 24/7 con respuestas que usted aprueba</li><li>Lo que no sabe, se lo deriva por WhatsApp</li></ul>
+  </div>
+  <div class="card">
+    <h3>Tienda completa</h3>
+    <p class="desc">Para catálogos más grandes y más formas de pago.</p>
+    <div class="precio"><span class="num">$599.990</span><small>pago único</small></div>
+    <ul><li>Más de 30 productos</li><li>Webpay y Mercado Pago</li><li>Carrito de compras</li><li>Botón de WhatsApp</li></ul>
+  </div>
+</div>
+
+<div class="linea">
+  <div><h3>Segundo medio de pago</h3><p>Para la tienda online o la tienda con asistente, si quiere ofrecer otra forma de pago además de la primera.</p></div>
+  <div><span class="num">+$29.990</span><small>pago único</small></div>
+</div>
+<div class="linea">
+  <div><h3>Mantención mensual de tienda</h3><p>Cambios de productos, precios y fotos, y revisión de que la tienda y los pagos sigan funcionando. Sin permanencia.</p></div>
+  <div><span class="num">$29.990</span><small>al mes</small></div>
+</div>
+<p class="nota" style="margin-top:5mm">Las cuentas de pago (Webpay, Mercado Pago) quedan a nombre de su negocio. Las comisiones por venta las cobra cada plataforma directamente.</p>
+</div><div class="pie"><span>Tarifario 2026 · Tiendas</span><img src="../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 5 · Crecer -->
+<section class="pag"><div class="int">
+<div class="sec"><span class="n">04</span><span class="t">Más clientes</span></div>
+<h2>Que lo encuentren a usted</h2>
+<p class="lead">Cuando alguien busca lo que usted vende en su comuna, su negocio tiene que estar ahí, con buena información y buenas reseñas.</p>
+
+<div class="grande">
+  <div>
+    <h3>Aparece en tu comuna</h3>
+    <p>Ordenamos y completamos su perfil de Google y Maps, y lo acompañamos durante 3 meses para que lo encuentren quienes buscan su servicio cerca.</p>
+    <div class="card" style="border:0;padding:0;background:none"><ul>
+      <li>Perfil de Google completo y ordenado</li>
+      <li>Programa de 3 meses, en un solo pago</li>
+      <li>Informe con resultados reales al final</li>
+    </ul></div>
+    <p class="nota" style="margin-top:2mm">No prometemos el primer lugar en Google: nadie puede hacerlo con honestidad. Prometemos el trabajo hecho y un informe con resultados.</p>
+  </div>
+  <div class="caja">
+    <span class="num">$119.990</span><small>pago único · 3 meses</small>
+    <div class="o"><span class="num">$99.990</span><small>si lo contrata junto con otro servicio</small></div>
+  </div>
+</div>
+
+<div class="linea" style="margin-top:5mm">
+  <div><h3>Piloto de anuncios "Clientes esta temporada"</h3><p>Una campaña de 30 días para llegar a quienes buscan lo que usted vende. Antes revisamos que pueda atender a los nuevos clientes. El presupuesto de los anuncios lo define usted y se paga aparte.</p></div>
+  <div><span class="num">$69.990</span><small>30 días</small></div>
+</div>
+
+<div class="sec" style="margin-top:8mm"><span class="n">05</span><span class="t">Resumen de precios</span></div>
+<div class="dos">
+  <div class="card"><h3>Pago único</h3><ul>
+    <li>Diagnóstico · <b>Gratis</b></li>
+    <li>Web lista · <b>$249.990</b></li>
+    <li>Renovación de web · <b>$249.990</b></li>
+    <li>Web + asistente 24/7 · <b>$299.990</b></li>
+    <li>Web + asistente con IA · <b>$349.990</b></li>
+    <li>Tienda online · <b>$449.990</b></li>
+    <li>Tienda con asistente · <b>$499.990</b></li>
+    <li>Tienda completa · <b>$599.990</b></li>
+  </ul></div>
+  <div class="card"><h3>Complementos y mensuales</h3><ul>
+    <li>Aparece en tu comuna · <b>$119.990</b> <span style="color:var(--suave)">($99.990 con otro servicio)</span></li>
+    <li>Piloto de anuncios · <b>$69.990</b></li>
+    <li>Segundo medio de pago · <b>+$29.990</b></li>
+    <li>Asistente con IA · <b>$9.990/mes</b></li>
+    <li>Mantención web · <b>$19.990/mes</b></li>
+    <li>Mantención tienda · <b>$29.990/mes</b></li>
+  </ul></div>
+</div>
+</div><div class="pie"><span>Tarifario 2026 · Más clientes</span><img src="../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 6 · Garantías y contacto -->
+<section class="pag"><div class="int">
+<div class="sec"><span class="n">06</span><span class="t">Cómo trabajamos</span></div>
+<h2>Sin riesgos para usted</h2>
+<p class="lead">Todo lo que hacemos queda a su nombre. Si algún día deja de trabajar con nosotros, su web, su tienda y su perfil siguen funcionando.</p>
+
+<div class="garant">
+  <div><span class="ic">1</span><b>Todo a su nombre desde el día 1</b>Dominio, hosting, cuentas de pago y perfil de Google son suyos.</div>
+  <div><span class="ic">2</span><b>Si nos separamos, todo sigue funcionando</b>Porque es suyo. Nada depende de nosotros para seguir en línea.</div>
+  <div><span class="ic">3</span><b>Paga la mitad al final</b>50% al inicio y 50% solo cuando usted aprueba la entrega.</div>
+  <div><span class="ic">4</span><b>15 días de cambios gratis</b>Después de la entrega, ajustamos lo que necesite sin costo.</div>
+  <div><span class="ic">5</span><b>Sin permanencia</b>En ningún plan mensual. Lo deja cuando quiera.</div>
+  <div><span class="ic">6</span><b>Documento de continuidad</b>Sus accesos por escrito y qué pasa si uno de nosotros no está.</div>
+</div>
+
+<h3 style="font-size:17pt;margin:8mm 0 4mm">Cómo empezamos</h3>
+<div class="pasos">
+  <div class="paso"><div class="n">1</div><b>Diagnóstico gratis</b><span>Revisamos cómo lo encuentran hoy y le enviamos el informe en 48 horas.</span></div>
+  <div class="paso"><div class="n">2</div><b>Conversamos 15 minutos</b><span>Elegimos juntos el plan y dejamos por escrito qué incluye.</span></div>
+  <div class="paso"><div class="n">3</div><b>Construimos y usted aprueba</b><span>Con el 50% partimos. Paga el resto cuando aprueba el resultado.</span></div>
+</div>
+
+<div class="contacto">
+  <div><h3>¿Conversamos?</h3><p>Mathias Lezana · Ascensus</p></div>
+  <div class="wa"><small>Escríbanos por WhatsApp</small><span class="num">+56 9 4931 1482</span></div>
+</div>
+<p class="legal">Valores en pesos chilenos, vigentes durante 2026, que corresponden al monto total de la boleta de honorarios. El presupuesto de anuncios, el consumo de IA y las comisiones de las plataformas de pago se pagan aparte, directamente a cada proveedor.</p>
+</div><div class="pie"><span>Tarifario 2026 · Cómo trabajamos</span><img src="../marca/ascensus-logo.png" alt=""></div></section>
+</body></html>

@@ -1,0 +1,84 @@
+Restaurant La Susy¦4,3¦730
+Restaurant Continental¦3,9¦421
+La Pica De Anita¦4,1¦801
+Mar De Poetas¦3,9¦149
+Restaurant El Kaleuche¦4,3¦494
+Posada Restaurante El Estribo¦4,8¦74
+Restaurant Choly¦4,0¦430
+Pura Sangre Restaurant¦4,5¦443
+Restaurant Parrilladas Lo Abarca¦4,0¦966
+El sauce restaurant¦4,5¦5140
+Restobar Bahia Los Corsarios¦4,5¦2554
+Restaurant Los Cordoveses¦4,5¦4635
+Costa Sunset El Quisco¦4,7¦78
+Restaurant El gusto de Gusta¦4,8¦263
+El Rincón de las Gordas¦4,6¦565
+Amor & Sazon Restaurant¦4,7¦636
+Restaurante Cormoran¦4,4¦1553
+Restaurant Calgary¦4,4¦1275
+Don Cangrejo¦4,5¦2770
+Dónde la sole¦4,8¦123
+Cabañas Mirador El Tabo¦4,6¦213
+Adelma Restaurant¦4,8¦264
+Valhalla Restaurant¦4,9¦232
+Querida Lima¦4,5¦1348
+Rincon Marino¦4,4¦2958
+CHEER¦4,6¦2505
+Estación Kombi¦4,9¦223
+La Terraza¦4,4¦476
+LUNA COFFEE & BRUNCH¦4,7¦128
+Cabañas Cartagena¦4,1¦162
+Cabañas La Martina¦4,6¦77
+Cabañas VyB¦4,4¦153
+Cabañas Ignacio¦4,8¦60
+Cartagena Cabaña¦3,9¦53
+Cabañas Trinidad¦4,6¦41
+ROOFTOP ALGARROBO¦4,6¦1483
+Restaurante Casa Costa¦4,8¦180
+Macerado Algarrobo¦4,6¦2045
+Refugio Mar y Fuego¦4,5¦196
+Jonás Ballena Restaurante¦4,9¦205
+CASA DOMINGA ALGARROBO¦4,3¦1403
+El Toque Belga¦4,8¦292
+LA OLA RESTAURANT¦4,8¦109
+La Primitiva¦4,7¦944
+Los Patitos¦4,4¦2045
+Terraza Castilla Bar y Te¦4,8¦703
+Kaleuche Restaurant¦4,2¦1799
+Vero Bon Appetit¦4,7¦264
+Puerto Castilla Restaurant¦4,6¦7718
+Restaurant Rengo¦4,1¦553
+Restaurant Terraquincho¦4,4¦581
+Restaurant Marisquería la Paila¦4,2¦721
+Restaurant San Pedro¦4,3¦1447
+Restaurante Nahuen Car¦4,8¦148
+LO MÁXIMO DEL LITORAL¦5,0¦505
+Restaurante Terra Nazca¦4,7¦662
+FARO de los Compadres¦4,4¦1016
+Emporio Lagomarsino¦4,6¦790
+Alto Mar by La Gatita¦4,3¦6677
+Ají panca concon¦4,8¦77
+Mar Afuera Bistró¦4,8¦60
+Restaurante Punta Del Este¦4,4¦1443
+Club de Pedro y Fabiola¦4,6¦1561
+Aki León Restaurante¦4,6¦689
+Picá Los Canalla¦4,5¦737
+restaurante CHIRINGUITO LA MAJA¦4,9¦659
+STONEY bar&snack¦4,8¦686
+La Cocina de Teuh¦4,1¦1542
+Casa Andina Restaurante - Bar¦4,8¦205
+Don Alejo Restaurant¦4,3¦718
+La Pez-k¦4,8¦229
+Coyote Restobar¦4,7¦161
+La Cocina Del Chef¦4,4¦358
+Restaurant CRIA CUERVOS¦4,2¦1450
+Entre bahias¦4,6¦135
+Restaurante Doña Elena¦4,5¦1259
+Combi'n Art¦4,8¦641
+Trattoria Per Tutti¦4,5¦48
+Casa Gea¦4,7¦235
+La Ponderosa¦4,8¦122
+Pizzería Otra Cozza¦4,7¦1201
+Restaurante El Rústico¦4,3¦1554
+El Copihue de Olmué¦4,6¦1844
+Regina Restaurante¦4,7¦173

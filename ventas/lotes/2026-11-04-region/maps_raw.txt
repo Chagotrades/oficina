@@ -1,0 +1,223 @@
+#corredora de propiedades|Viña del Mar
+Lorca Corredores¦4,8¦43¦lorcacorredores.cl/
+AVA7 Propiedades¦5,0¦56¦ava7propiedades.cl/
+Corredora Curauma¦4,9¦80¦corredoracurauma.cl/
+Propiedades Franco¦4,9¦42¦propiedadesfranco.cl/
+Grupo Cueto Corredores de Propiedades¦5,0¦18¦grupocueto.cl/
+#veterinaria|Viña del Mar
+Hospital Veterinario Integral¦4,2¦679¦hospitalveterinariointegral.com/
+Clínica veterinaria felino Mevetlab¦3,8¦1122¦mevetlab.cl/
+Centro Quirurgico Veterinario Viña del Mar¦4,6¦318¦cequivet.cl/
+#kinesiología|Viña del Mar
+Centro Más Salud Kinesiología¦5,0¦246¦centromassalud.cl/
+Centro Médico Neokin¦4,9¦182¦neokin.cl/
+Centro de Rodilla Viña del Mar¦5,0¦49¦centrorodilla.cl/
+Instituto Neuro Sports¦4,9¦50¦ineurosports.cl/
+#clínica estética|Viña del Mar
+Clínica EM Estétika Médica¦4,7¦242¦estetikamedica.cl/
+Evolución Estética Spa¦4,5¦120¦evolucionestetica.cl/
+Clínica Estética Vitaplace¦4,9¦221¦vitaplace.cl/
+Amarna Centro Médico y Estético¦4,7¦234¦amarna.cl/
+Clínica Estética Bali¦5,0¦49¦clinicabali.cl/
+#escuela de conductores|Viña del Mar
+Escuelas de Conductores Conquistador¦4,5¦292¦conquistador.cl/
+Escuela de Conductores Olivares¦4,7¦498¦conductoresolivares.cl/
+Conducir Motos¦5,0¦171¦conducirmotos.cl/
+Escuela de Conductores Valparaíso¦3,1¦130¦escuelaconductoresvalparaiso.cl/
+#taller mecánico|Viña del Mar
+Taller Automotriz Torres¦4,6¦108¦tallerautomotriztorres.cl/
+Centro Frenos¦5,0¦90¦centrofrenos.cl/
+#veterinaria|Los Andes
+Veterinaria Los Andes Eric Savard¦4,4¦180¦vetlosandes.cl/
+AndesVet¦4,6¦89¦andesvet.cl/
+Veterinaria Lincura¦4,7¦358¦veterinarialincura.cl/
+Veterinaria Bichitos Los Andes¦5,0¦40¦bichitos.cl/
+Clínica veterinaria Casmur¦4,8¦38¦clinicaveterinariacasmur.cl/
+Alfavet¦4,9¦31¦alfavetchile.cl/
+Centro Veterinario PuntoVet¦4,4¦239¦puntovet.cl/
+#clínica dental|San Felipe
+Centro Médico SeDent¦4,9¦213¦sedent.cl/
+#veterinaria|Valparaíso
+My Mundo Pets¦4,3¦49¦mymundopets.cl/
+#clínica dental|Quilpué
+Clinica Dental Belloto¦4,8¦137¦dentalbelloto.cl/
+#veterinaria|Quilpué
+Mastervet¦4,1¦929¦mastervet.cl/
+#clínica dental|Valparaíso
+Blancodent Valparaíso¦4,9¦733¦blancodent.cl/
+Clínica Dentalife¦4,9¦238¦clinicadentalife.cl/
+Dental Schneider¦4,8¦88¦dentalschneider.cl/
+#clínica dental|San Antonio
+Clinica Dental T&T¦5,0¦30¦clinicadentaltyt.cl/
+Clinica Integranova¦4,5¦114¦integranova.cl/
+Clinica Dental Centenario¦5,0¦18¦cdentalcentenario.cl/
+Clínica Dental Pacifico¦4,6¦62¦clinicadentalpacifico.cl/
+Clínica Dental Castillo y Garín¦4,5¦55¦clinicacyg.cl/
+#clínica dental|La Calera
+Clínica Dental Artificio¦4,9¦70¦clinicadentalartificio.cl/
+Bellora Clinic¦5,0¦37¦belloraclinic.cl/
+#veterinaria|San Felipe
+Vetcare San Felipe¦4,3¦229¦vetcare.cl/
+#centro médico|Quillota
+Oxigeno Centro Médico¦4,2¦108¦oxigenochile.cl/
+#centro de eventos|Quillota
+Centro De Eventos Patria Vieja¦4,5¦72¦patriavieja.cl/
+Restobar y Centro de Eventos Los Troncos de La Cruz¦4,5¦258¦lostroncosdelacruz.cl/
+Casona Boco¦4,8¦57¦casonaboco.cl/
+Rancho Ayelen¦4,5¦73¦ranchoayelen.cl/
+#ventanas|Quillota
+Exhialum¦4,0¦44¦exhialum.cl/
+Vidriería Vitorio¦4,0¦31¦vitorio.cl/
+#cabañas|Papudo
+AmbienteMar Cabañas Papudo¦4,7¦295¦ambientemar.cl/
+Cabañas de Peppino¦4,4¦381¦depeppino.cl/
+Cabañas Aquario Hostel Papudo¦4,2¦327¦cabanasaquario.cl/
+#clínica dental|Villa Alemana
+Dentalcity¦4,7¦220¦contactodentalcity.com/
+Clínica Dental CLIDENT¦4,8¦74¦clident.cl/
+Clinica Dental Irisdent¦4,8¦93¦irisdent.cl/
+#veterinaria|Villa Alemana
+Animaland¦3,9¦509¦animaland.cl/
+EVERPET Clínica y Hospital Veterinario¦4,5¦179¦veterinariaeverpet.cl/
+Clínica Veterinaria Villa Animalia¦4,9¦55¦villaanimalia.cl/
+Clinica Veterinaria Garrasvet¦4,7¦49¦garrasvet.cl/
+Alturas del Sol Veterinaria 24 Horas¦2,6¦38¦alturasdelsol.cl/
+#clínica dental|Limache
+Clínica Dental Quintamar¦4,9¦185¦clinicadentalquintamar.cl/
+Clínica Contempora¦5,0¦90¦clinicacontempora.cl/
+Clínica Dental Dr. Pablo Galleguillos¦5,0¦45¦clinicadrgalleguillos.cl/
+Conceptodent Clínica Dental¦5,0¦64¦conceptodent.cl/
+#taller mecánico|Quilpué
+Servicio Automotriz HV¦4,6¦110¦automotrizhv.com/
+Atienzo Automotriz¦4,4¦117¦atienzo.cl/
+Integral Car Service¦4,2¦78¦integralcarservice.cl/
+Taller Automotriz Pablo Atienzo¦4,6¦94¦pabloatienzo.com/
+#clínica dental|Concón
+Oral Clinic Concón¦4,7¦49¦oralclinic.cl/
+Clinica Dental Ecodent¦4,9¦135¦clinicaecodent.com/
+Clínica Dental Lotus¦5,0¦25¦clinicalotus.cl/
+Clínica Dental Sahari¦5,0¦148¦clinicasahari.cl/
+Clínica Dental Reim¦5,0¦58¦clinicadentalreim.cl/
+#clínica dental|Quintero
+Clínica Dental Quinteros¦4,5¦309¦clinicaquinteros.cl/
+Nuevo Centro Medico Quintero¦3,0¦64¦centromedicoquintero.cl/
+#clínica dental|La Ligua
+Clinica Dental Prodent¦4,2¦21¦clinicadentalprodent.cl/
+Clínica Odontológica Pulmahue¦5,0¦24¦clinicapulmahue.cl/
+#veterinaria|Concón
+Clínica Veterinaria Pet House¦4,3¦282¦pethousechile.cl/
+Petzonas¦4,3¦188¦petzonas.cl/
+Petslife Concón¦4,6¦142¦petslife.cl/
+Clinical Pet¦4,2¦93¦clinicalpet.cl/
+Mundo Chic¦3,8¦48¦mundochic.cl/
+#veterinaria|La Calera
+Zooclínica¦4,4¦271¦zooclinica.cl/
+#taller mecánico|Valparaíso
+Roca’s Garage¦5,0¦86¦rocasgarage.cl/
+#kinesiología|Quilpué
+KINESISMÁS¦5,0¦94¦kinesismas.cl/
+Fisiosalud Integral¦5,0¦29¦fisiosaludintegral.cl/
+Abilita Kinesiología¦5,0¦48¦abilitakinesiologia.cl/
+#centro médico|Villa Alemana
+Centro Médico CEMIN¦4,2¦775¦cemin.cl/
+Kardios¦4,9¦64¦kardios.cl/
+MÜHLE Salud¦4,5¦152¦muhle.cl/
+#corredora de propiedades|Concón
+Ehrenfeld Propiedades¦4,8¦49¦ehpropiedades.cl/
+Montemar brokers¦4,7¦100¦montemarbrokers.cl/
+Bailey Propiedades¦4,8¦36¦baileypropiedades.cl/
+OM Propiedades¦4,9¦30¦ompropiedades.cl/
+#corredora de propiedades|Algarrobo
+StockPro Propiedades¦5,0¦21¦stockpro.cl/
+Anziani Propiedades¦5,0¦16¦anzianipropiedades.cl/
+#escuela de conductores|San Antonio
+Escuela de conductores Litoral club¦4,9¦125¦escuelalitoralclub.cl/
+#imprenta|Valparaíso
+Imprenta 1177 Express¦4,9¦155¦imprenta1177.cl/
+Impresiones Los Portales¦5,0¦55¦impresioneslosportales.cl/
+Cratos Impresión Digital¦3,9¦46¦cratos.cl/
+Imprenta Victoria¦4,5¦17¦imprentavictoria.cl/
+#jardín infantil|Viña del Mar
+Jardin Infantil y Sala Cuna Little Friends¦4,4¦53¦littlefriends.cl/
+Jardín Pequeño Genio¦4,4¦30¦jardinpequenogenio.cl/
+Jardín Infantil Hopipola¦4,6¦32¦hopipola.cl/
+#residencia adulto mayor|Quilpué
+Casa de Reposo La Nueva Jerusalén¦4,3¦21¦casadereposoquilpue.cl/
+Casa de Reposo Atardecer¦4,3¦18¦hogardereposo.cl/
+Hogar Don Bosco¦3,0¦26¦hogardonbosco.cl/
+#laboratorio clínico|Viña del Mar
+Laboratorio Clínico Endoclin¦3,2¦57¦endoclin.cl/
+ACLIN Laboratorio Clínico¦3,8¦141¦aclin.cl/
+Laboratorio Clínico Diagnostika Alemana¦3,8¦22¦diagnostika.cl/
+Diagnomed Lab¦4,0¦57¦diagnomedlab.cl/
+Laboratorio Clinico Etcheverry¦3,6¦50¦laboratorioetcheverry.cl/
+#centro de psicología|Viña del Mar
+Centro de Terapia del Comportamiento¦4,6¦458¦terapia.cl/
+Subjetivamente Centro de Psicología¦4,9¦65¦subjetivamente.cl/
+#centro médico|Quilpué
+Reintegra Centro Médico¦4,2¦20¦reintegrachile.cl/
+#centro médico|San Antonio
+Centro Medico Almendrales Llolleo¦4,5¦16¦almendrales.cl/
+Centro Médico Auramed¦5,0¦99¦auramed.cl/
+Centro Médico Medivas¦3,7¦27¦medivas.cl/
+#centro médico|San Felipe
+ALMA Centro Médico y Rehabilitación¦5,0¦75¦almacentromedico.cl/
+#clínica dental|Casablanca
+Clínica dental Casablanca¦4,7¦30¦clinicadentalcasablanca.cl/
+#veterinaria|El Quisco
+Mascotavet¦4,8¦403¦mascotavet.cl/
+#taller automotriz|Viña del Mar
+Arsen Automotriz¦4,9¦189¦arsen-spa.cl/
+Julio Automotriz¦3,8¦50¦julioautomotriz.cl/
+Desabolladura y Pintura Aspillaga Hornauer¦4,1¦169¦aspillagahornauer.cl/
+HM Automotriz¦4,0¦65¦automotrizrodriguez.cl/
+#constructora|Limache
+Constructora Comasca¦4,3¦21¦comasca.cl/
+Modernizo¦4,5¦54¦modernizo.cl/
+Casas Limache¦4,0¦15¦casaslimache.cl/
+#casas prefabricadas|Quilpué
+Casas pre Fabricadas OTAL¦4,6¦25¦casaprefabricadachile.cl/quilpue/
+#piscinas|Quilpué
+Codifer Piscinas y Cortinas¦3,9¦72¦codifer.cl/
+Aquanatura Spa¦4,5¦565¦aquanaturaspa.cl/
+#paisajismo|Quillota
+Fabricaciones Los Egipcios¦4,6¦20¦losegipcios.cl/
+#fletes y mudanzas|Viña del Mar
+Fletes y Mudanzas Oliverio¦4,9¦191¦fletesymudanzasv.cl/
+#gasfitería|Viña del Mar
+Gasfiter autorizado SEC v región¦5,0¦29¦gasfitersecvregion.cl/
+FA Gásfiter¦4,9¦49¦fagasfiter.cl/
+#control de plagas|Viña del Mar
+Efikacia Control de Plagas¦4,7¦15¦efikacia.cl/
+Megaplaga¦4,8¦149¦megaplaga.cl/
+#energía solar|Viña del Mar
+Solar y Sustentable SpA¦5,0¦17¦solarysustentablechile.cl/
+Proyecta Energía¦4,3¦23¦proyectaenergia.cl/
+#clínica dental|Los Andes
+Clínica Juncal¦5,0¦403¦clinicajuncal.cl/
+Odontología clínica Borchert y Toledo¦4,8¦72¦odontologiabt.cl/
+#kinesiología|Santo Domingo
+CentralKine Santo Domingo¦5,0¦27¦centralkine.cl/
+OsteoPro¦5,0¦17¦osteopro.cl/
+#kinesiología|Concón
+Kinelite Centro de Salud¦5,0¦254¦kinelite.cl/
+Kinesiología Khelios¦5,0¦45¦khelios.cl/
+KXS Sports Medicine Recovery¦4,8¦19¦kxs.cl/
+#kinesiología|Valparaíso
+Centro Traumatológico Kinem¦4,6¦68¦kinem.cl/
+FISIMED Kinesiología y Rehabilitación¦5,0¦155¦fisimed.cl/
+#podología|Viña del Mar
+Podologia Viña DANBERD¦5,0¦105¦podologiadanberd.cl/
+#centro estético|Concón
+Clinica Soho¦4,9¦65¦clinicasoho.cl/
+Centro Médico Estético Aphrodite¦5,0¦34¦aphroditemedicinaestetica.cl/
+Centro De Estética Bellavi¦5,0¦44¦centrobellavi.com/
+Estética Elizabeth Fuentes¦4,9¦56¦elizabethfuentes.cl/
+Bellapiel Spa¦4,5¦113¦bellapiel.cl/
+MedCenter Bosques¦4,8¦46¦medcenterbosques.cl/
+Método Hebe Concón¦5,0¦26¦metodohebe.cl/
+#nutrición|Viña del Mar
+Balance Group Nutricionistas¦4,9¦29¦balancegroup.cl/
+Nutricionista Andrea Moya¦5,0¦61¦nutraok.cl/
+#centro terapéutico|Viña del Mar
+Centro Estimula¦4,8¦85¦centroestimula.cl/

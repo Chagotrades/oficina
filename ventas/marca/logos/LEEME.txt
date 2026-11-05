@@ -1,0 +1,6 @@
+Ascensus — Propuestas de logo separadas
+01-editorial-elegido.png: identidad elegida por Mathias.
+02-ritmo.png y 03-umbral.png: alternativas anteriores.
+Los PNG tienen fondo transparente y letras negras. Para verlos sobre blanco, abrir ver-logos.html.
+Son exportaciones raster generadas con image_gen, no archivos vectoriales finales.
+Prompt de exportación: usando la comparativa como referencia, aislar el logo de la columna correspondiente, preservar diseño y escritura, entregar un solo PNG transparente sin otros elementos.

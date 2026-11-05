@@ -25,3 +25,8 @@ Se crea su carpeta de cliente con `nuevo-cliente.ps1`, se marca "cliente" en `PR
 |---|---|
 | `PROSPECTOS.md` | Tablero de prospectos: quién es, quién lo lleva, en qué va. |
 | `plantillas/` | Correos y mensajes que funcionaron, para reutilizar. Un archivo por plantilla. |
+| `LEEME_ASCENSUS.md` | **Empieza aquí:** todo lo trabajado en prospección hasta el 5-nov, dónde está cada cosa y tareas para repartir. |
+| `empresa/` · `tarifario/` · `metodo/` | Quiénes somos y a quién buscamos, precios, y cómo se hacen el diagnóstico, los correos y los PDF. |
+| `tablero/` | Copia del panel comercial (prospectos, correos, tarifas, ideas) al 5-nov. |
+| `registro/` | Todas las empresas revisadas y contactadas (CSV). Antes de escribirle a alguien, búscalo aquí también. |
+| `lotes/` · `marca/` · `herramientas/` · `historial/` | Material por lote (diagnósticos y PDF), logos, scripts de búsqueda e historia día a día. |

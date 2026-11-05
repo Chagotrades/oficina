@@ -1,0 +1,145 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Propuesta La Ritoqueña</title><link rel="stylesheet" href="doc.css"><style>
+.portada .foto{height:178mm;background:url(../fotos/web/IMG_1258.jpg) center 45%/cover;position:relative}
+.portada .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,25,30,.45),rgba(20,25,30,0) 40%)}
+.portada .logo{position:absolute;z-index:2;left:18mm;top:15mm;height:24mm}
+.portada .txt{padding:13mm 18mm}
+.portada h1{font-size:31pt;margin-bottom:5mm}
+.portada .bajada{font-size:14pt;color:var(--suave);max-width:155mm}
+.portada .meta{position:absolute;left:18mm;right:18mm;bottom:13mm;display:flex;justify-content:space-between;align-items:flex-end;font-size:10.5pt;color:var(--suave)}
+.portada .meta img{height:6.5mm;display:block;margin-top:1.5mm}
+.plan{display:grid;grid-template-columns:1fr 68mm;gap:8mm;align-items:start}
+.precio{background:var(--mar);color:#fff;border-radius:5mm;padding:7mm 6mm}
+.precio small{font-size:11pt;opacity:.85;display:block}
+.precio .monto{font-family:'Outfit';font-size:33pt;font-weight:700;line-height:1;margin:2mm 0 4mm}
+.precio ul{list-style:none;padding:0;margin:0;font-size:11pt}
+.precio li{padding:2.2mm 0;border-top:1px solid rgba(255,255,255,.25)}
+.precio li b{font-family:'Outfit';display:block;font-size:12pt}
+.incl{display:flex;flex-direction:column;gap:2.6mm}
+.it{background:#fff;border-radius:3.5mm;padding:3mm 4mm 3mm 11mm;position:relative;font-size:11.5pt;line-height:1.35}
+.it:before{content:"✓";position:absolute;left:4mm;top:3mm;color:var(--verde);font-weight:700}
+.it b{font-family:'Outfit';font-weight:600;font-size:12pt;display:block}
+.it em{font-style:normal;color:var(--suave);font-size:10pt}
+.tres{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm;margin-top:6mm}
+.tres img{width:100%;display:block;border-radius:3mm}
+.tres p{font-size:12pt;margin-top:2.5mm;line-height:1.35}
+.tres p b{font-family:'Outfit';display:block;font-size:14pt}
+.ancha{width:100%;border-radius:3mm;display:block}
+.garant{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:4mm}
+.garant div{background:#fff;border-radius:3.5mm;padding:5mm 5mm;font-size:12.5pt;line-height:1.4}
+.garant b{font-family:'Outfit';font-weight:600;display:block;font-size:14pt;color:var(--mar);margin-bottom:1mm}
+.g4 div{padding:3.5mm 4.5mm;font-size:12pt}
+.chats{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.chats img{width:100%;display:block;border-radius:3mm}
+.asis{display:grid;grid-template-columns:100mm 1fr;gap:6mm;align-items:start;margin-top:5mm}
+.op{background:#fff;border-radius:4mm;padding:4.5mm 5mm;margin-bottom:3.5mm;border:.5mm solid #e3d3bb}
+.op.dest{border:.7mm solid var(--mar)}
+.op h3{font-size:12.5pt;margin-bottom:1mm}
+.op .m{font-family:'Outfit';font-weight:700;font-size:20pt;color:var(--mar);line-height:1.1}
+.op .m span{white-space:nowrap;font-size:11pt;font-weight:500;color:var(--suave)}
+.op p{font-size:10.5pt;margin:1.5mm 0 0;color:var(--suave);line-height:1.35}
+.extra{display:grid;grid-template-columns:1fr auto;gap:5mm;align-items:center;background:#fff;border-radius:4mm;padding:4.5mm 5mm;margin-bottom:3mm}
+.extra h3{font-size:13pt;margin-bottom:1mm}
+.extra p{font-size:11pt;margin:0;color:var(--suave);line-height:1.35}
+.extra .m{font-family:'Outfit';font-weight:700;font-size:17pt;color:var(--mar);text-align:right;line-height:1.1;white-space:nowrap}
+.extra .m span{display:block;font-size:9.5pt;font-weight:500;color:var(--suave)}
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin-top:3mm}
+.paso{background:var(--arena2);border-radius:4mm;padding:4mm}
+.paso .n{width:8mm;height:8mm;border-radius:50%;background:var(--mar);color:#fff;display:grid;place-items:center;font-family:'Outfit';font-weight:700;margin-bottom:2mm}
+.paso p{font-size:11pt;margin:0;line-height:1.35}
+.contacto{background:var(--mar);color:#fff;border-radius:5mm;padding:6mm 7mm;margin-top:6mm;display:flex;justify-content:space-between;align-items:center}
+.contacto h3{color:#fff;font-size:15pt;margin-bottom:1mm}
+.contacto p{margin:0;font-size:11.5pt}
+.contacto b{font-family:'Outfit';font-size:16pt}
+</style></head><body>
+
+<!-- 1 portada -->
+<section class="pag portada">
+<div class="foto"><img class="logo" src="../fotos/la-ritoquena-hotela-playa-03.png" alt=""></div>
+<div class="txt">
+<h1>Una web que lleve al huésped del mar a la reserva</h1>
+<p class="bajada">Propuesta para La Ritoqueña: cómo quedaría su web, qué incluye y cuánto cuesta. Pensada para que más huéspedes reserven directo con ustedes.</p>
+</div>
+<div class="meta"><div>3 de noviembre de 2026<br>Preparada para Diego Arenas D.</div><div style="text-align:right">Preparada por<img src="../../../marca/ascensus-logo.png" alt="Ascensus"></div></div>
+</section>
+
+<!-- 2 plan principal -->
+<section class="pag"><div class="int">
+<div class="etq m">Lo que le recomendamos</div>
+<h2>Renovación de su web</h2>
+<div class="plan"><div class="incl">
+<div class="it"><b>Botón de reserva que funciona</b>En español, sin fechas viejas y con selector de fechas conectado a su sistema de reservas. <em>Resuelve el problema 1</em></div>
+<div class="it"><b>Portada nueva con precio a la vista</b>"Desde $72.000 la noche, con desayuno" y el botón de reservar en la primera pantalla. <em>Problema 3</em></div>
+<div class="it"><b>Una ficha por habitación</b>Fotos, capacidad, vista y qué incluye cada una. <em>Problema 3</em></div>
+<div class="it"><b>Opiniones, mapa y cómo llegar</b>Reseñas reales de sus huéspedes y botón para abrir Google Maps. <em>Problema 3</em></div>
+<div class="it"><b>Contacto en un toque</b>Llamar, WhatsApp en español con mensaje listo y correo. <em>Problema 3</em></div>
+<div class="it"><b>Rápida en el celular</b>Sus fotos preparadas para la web: la portada pasa de 5,3 MB a cerca de 1 MB. <em>Problema 2</em></div>
+<div class="it"><b>Ordenada para Google</b>Páginas viejas redirigidas, títulos y descripciones, foto para compartir y alta en Google y Bing. <em>Problema 4</em></div>
+<div class="it"><b>Confianza</b>Páginas vacías fuera, Instagram correcto y aviso de privacidad en el formulario. <em>Problema 5</em></div>
+</div>
+<div class="precio"><small>Pago único</small><div class="monto">$249.990</div>
+<ul><li><b>50% para empezar</b>$124.995 al inicio</li><li><b>50% al aprobar</b>$124.995 cuando usted da el visto bueno</li><li><b>Lista en 7 a 10 días hábiles</b>desde el primer pago</li><li><b>15 días de cambios gratis</b>después de la entrega</li></ul></div>
+</div>
+</div><div class="pie"><span>La Ritoqueña · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 3 celular -->
+<section class="pag"><div class="int">
+<h2>Así se vería en el celular</h2>
+<p style="font-size:13pt">Con sus fotos, sus colores y su logo. Lo importante a la vista: qué es, cuánto cuesta y cómo reservar.</p>
+<div class="tres" style="grid-template-columns:1fr 1fr;gap:8mm;padding:0 6mm">
+<div><img src="../maquetas/m1-portada-rec.jpg" alt=""><p><b>La portada</b>Precio y fechas en la primera pantalla.</p></div>
+<div><img src="../maquetas/m2-habitaciones-rec.jpg" alt=""><p><b>Habitaciones</b>Cada una con fotos y lo que incluye.</p></div>
+</div>
+<p style="font-size:10pt;color:var(--suave);margin-top:5mm">Imágenes de referencia hechas para esta propuesta. No es una web publicada; el diseño final se ajusta con usted.</p>
+</div><div class="pie"><span>La Ritoqueña · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 4 computador + garantías -->
+<section class="pag"><div class="int">
+<h2>Y así en el computador</h2>
+<img class="ancha" src="../maquetas/m4-escritorio.jpg" alt="">
+<div style="display:grid;grid-template-columns:50mm 1fr;gap:8mm;margin-top:7mm;align-items:start">
+<div class="tres" style="display:block;margin:0"><img src="../maquetas/m3-llegar-rec.jpg" alt=""><p><b>Cómo llegar</b>Mapa, opiniones y contacto directo.</p></div>
+<div><h2 style="font-size:19pt;margin-bottom:2mm">Nuestras garantías, por escrito</h2>
+<div class="garant g4" style="grid-template-columns:1fr;gap:2.5mm">
+<div><b>Todo a su nombre</b>Dominio, hosting y cuentas quedan a su nombre desde el día 1.</div>
+<div><b>Si dejamos de trabajar juntos, todo sigue funcionando</b>Porque es suyo, con un documento de accesos.</div>
+<div><b>Paga la mitad al final</b>El segundo 50% solo cuando usted aprueba la web.</div>
+<div><b>Sin permanencia</b>En ningún plan mensual. Lo deja cuando quiera.</div>
+</div></div></div>
+</div><div class="pie"><span>La Ritoqueña · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 5 asistente -->
+<section class="pag"><div class="int">
+<div class="etq a">Opcional · Para ahorrar tiempo</div>
+<h2>Un asistente que responde a cualquier hora</h2>
+<p style="font-size:13pt">Muchas consultas son siempre las mismas: precio, desayuno, wifi, cómo llegar. El asistente las responde al instante desde su web, también de noche, y lo que no sabe se lo pasa a usted por WhatsApp con el mensaje ya escrito.</p>
+<div class="asis">
+<div class="chats"><img src="../maquetas/c1-chat-rec.jpg" alt=""><img src="../maquetas/c2-derivacion-rec.jpg" alt=""></div>
+<div>
+<div class="op"><h3>Web + asistente con respuestas preparadas</h3><div class="m">$299.990 <span>total</span></div><p>Todo lo de la renovación, más un asistente con las respuestas que usted aprueba. Son $50.000 más que la web sola.</p></div>
+<div class="op dest"><h3>Web + asistente con inteligencia artificial</h3><div class="m">$349.990 <span>+ $9.990 al mes</span></div><p>Entiende preguntas escritas de cualquier forma y responde con la información de su hotel. El uso de la IA se paga aparte, con un tope mensual que usted fija.</p></div>
+<p style="font-size:10pt;color:var(--suave)">Ninguna opción inventa disponibilidad: para fechas exactas, el asistente lleva al huésped a su sistema de reservas.</p>
+</div></div>
+<div class="op" style="margin-top:1mm;padding:3.5mm 5mm;background:var(--arena2);border:0"><h3>Lo que responde por usted</h3>
+<div class="garant" style="margin-top:2mm;grid-template-columns:1fr 1fr">
+<div style="padding:3mm 4mm;font-size:11.5pt"><b style="font-size:12.5pt">Precios y temporadas</b>Cuánto cuesta una noche y qué incluye.</div>
+<div style="padding:3mm 4mm;font-size:11.5pt"><b style="font-size:12.5pt">Cómo llegar</b>Dirección, tiempo desde Santiago y mapa.</div>
+<div style="padding:3mm 4mm;font-size:11.5pt"><b style="font-size:12.5pt">Servicios</b>Desayuno, menú diario, wifi y actividades.</div>
+<div style="padding:3mm 4mm;font-size:11.5pt"><b style="font-size:12.5pt">Lo que no sabe, a usted</b>Por WhatsApp, con la consulta ya escrita.</div>
+</div></div>
+</div><div class="pie"><span>La Ritoqueña · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 6 otros servicios + cómo empezamos -->
+<section class="pag"><div class="int">
+<h2>Si quiere ir más allá</h2>
+<div class="extra"><div><h3>Aparezca en Google Maps</h3><p>Ordenamos y completamos su perfil de Google y lo acompañamos 3 meses para que lo encuentren quienes buscan alojamiento en Ritoque y Quintero. No prometemos el primer lugar: prometemos el trabajo hecho y un informe con resultados.</p></div><div class="m">$99.990<span>junto con la web<br>($119.990 por separado)</span></div></div>
+<div class="extra"><div><h3>Mantención mensual</h3><p>Cambios de textos, fotos y precios cuando los necesite, y revisión de que todo siga funcionando. Sin permanencia.</p></div><div class="m">$19.990<span>al mes</span></div></div>
+<div class="extra"><div><h3>Anuncios para la temporada</h3><p>Una campaña de 30 días para llegar a quienes buscan escapadas de verano. El presupuesto de los anuncios lo define usted y se paga aparte.</p></div><div class="m">$69.990<span>30 días</span></div></div>
+<h2 style="margin-top:7mm;font-size:19pt">Cómo empezamos</h2>
+<div class="pasos">
+<div class="paso"><div class="n">1</div><p>Conversamos 15 minutos y confirmamos qué incluye su web.</p></div>
+<div class="paso"><div class="n">2</div><p>Con el 50% inicial empezamos. En 7 a 10 días hábiles le mostramos la web.</p></div>
+<div class="paso"><div class="n">3</div><p>Usted la revisa y la aprueba. Paga el 50% restante y queda publicada.</p></div>
+</div>
+<div class="contacto"><div><h3>¿Conversamos?</h3><p>Mathias Lezana · Ascensus</p></div><b>WhatsApp +56 9 4931 1482</b></div>
+</div><div class="pie"><span>La Ritoqueña · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+</body></html>

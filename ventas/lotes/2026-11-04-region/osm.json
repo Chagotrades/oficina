@@ -1,0 +1,6646 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-03T04:00:30Z",
+    "timestamp_areas_base": "2026-11-02T22:46:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 253104569,
+  "lat": -33.0355582,
+  "lon": -71.5232686,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "2901",
+    "addr:street": "1 Norte",
+    "brand": "Jumbo",
+    "brand:wikidata": "Q6310864",
+    "name": "Jumbo",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su,PH 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "website": "https://www.jumbo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 306321807,
+  "lat": -33.0241057,
+  "lon": -71.5540222,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "134",
+    "addr:street": "Quinta",
+    "amenity": "cafe",
+    "email": "contacto@anayak.cl",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Anayak",
+    "outdoor_seating": "yes",
+    "phone": "+56 3 2268 0093",
+    "website": "http://www.anayak.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 309312515,
+  "lat": -33.0100387,
+  "lon": -71.5418880,
+  "tags": {
+    "email": "contacto@padrobikes.cl",
+    "name": "Padro Bikes",
+    "panoramax": "d64fe617-e5ed-4062-a3d8-b79adbc80aea",
+    "phone": "+56 32 297 3432",
+    "service:bicycle:repair": "yes",
+    "shop": "bicycle",
+    "website": "https://padrobikes.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 336978840,
+  "lat": -33.0419270,
+  "lon": -71.6271763,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "352",
+    "addr:street": "Templeman",
+    "amenity": "restaurant",
+    "email": "pastaevino@hotmail.com",
+    "name": "Pasta e Vino",
+    "phone": "+56 322496187",
+    "website": "http://pastaevinoristorante.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 336982048,
+  "lat": -33.0406733,
+  "lon": -71.6306422,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "133",
+    "addr:street": "Higuera",
+    "email": "info@casahigueras.cl",
+    "name": "Hotel Casa Higueras",
+    "phone": "+56323201379",
+    "tourism": "hotel",
+    "website": "https://www.hotelcasahigueras.cl/",
+    "wikidata": "Q111415339"
+  }
+},
+{
+  "type": "node",
+  "id": 544354286,
+  "lat": -33.0468456,
+  "lon": -71.4415131,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "822",
+    "addr:street": "Diego Portales",
+    "brand:wikidata": "Q5135229",
+    "brand:wikipedia": "es:Falabella",
+    "name": "Falabella",
+    "opening_hours": "Mo-Su 10:30-21:00",
+    "phone": "+56 2 2692 7000",
+    "shop": "department_store",
+    "toilets": "no",
+    "website": "https://www.falabella.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 653095343,
+  "lat": -33.0351404,
+  "lon": -71.5241878,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "2901",
+    "addr:street": "1 Norte",
+    "amenity": "restaurant",
+    "name": "Rincón Jumbo",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su,PH 09:00-21:00",
+    "website": "https://www.jumbo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 653095348,
+  "lat": -33.0358240,
+  "lon": -71.5233402,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "2901",
+    "addr:street": "1 Norte",
+    "brand": "Easy",
+    "brand:wikidata": "Q5331091",
+    "name": "Easy",
+    "opening_hours": "Mo-Sa 08:00-20:00; Su,PH 09:00-20:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "doityourself",
+    "website": "https://www.easy.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 685989236,
+  "lat": -32.9871605,
+  "lon": -71.2777274,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:country": "CL",
+    "addr:housenumber": "53",
+    "addr:street": "Caupolicán",
+    "amenity": "cafe",
+    "fast_food": "cafeteria",
+    "name": "Pasteleria Mürken",
+    "opening_hours": "Mo-Fr 07:30-18:30, Sa 09:00-18:30, Su 10:30-17:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56332255935",
+    "shop": "bakery",
+    "website": "https://www.pasteleriamurken.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 691830107,
+  "lat": -33.0425784,
+  "lon": -71.6279851,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "561",
+    "addr:street": "Templeman",
+    "amenity": "restaurant",
+    "name": "SaborColor",
+    "phone": "+56322598472",
+    "website": "http://www.saborcolor.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 894573998,
+  "lat": -33.0220249,
+  "lon": -71.5535040,
+  "tags": {
+    "addr:country": "CL",
+    "addr:door": "Departamento 408",
+    "addr:housenumber": "525",
+    "addr:street": "1 Norte",
+    "description": "AyerViernes - Digital Factory",
+    "name": "AyerViernes",
+    "office": "company",
+    "opening_hours": "08:30-18:30",
+    "phone": "+56322156588",
+    "website": "https://www.ayerviernes.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 958181401,
+  "lat": -32.6459556,
+  "lon": -71.4250658,
+  "tags": {
+    "addr:city": "Maitencillo",
+    "addr:milestone": "45",
+    "addr:street": "Carretera F30-E",
+    "name": "Ferreteria Higuerillas",
+    "nohousenumber": "yes",
+    "phone": "+56 3 2275 2900",
+    "shop": "doityourself",
+    "website": "http://www.fh.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 1056897006,
+  "lat": -33.3274895,
+  "lon": -71.6449139,
+  "tags": {
+    "name": "Casa del Rayo",
+    "shop": "convenience",
+    "website": "https://www.casadelrayo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1095825419,
+  "lat": -32.9712253,
+  "lon": -71.5438515,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "14529",
+    "addr:street": "Avenida Borgoño",
+    "addr:suburb": "Reñaca",
+    "name": "Mahia Beach Hotel",
+    "phone": "+56947408837",
+    "tourism": "hotel",
+    "website": "https://mahiahotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1108020793,
+  "lat": -33.5827065,
+  "lon": -71.6125682,
+  "tags": {
+    "addr:city": "San Antonio",
+    "addr:housenumber": "280",
+    "addr:street": "21 de Mayo",
+    "email": "hotelmellatti@gmail.com",
+    "internet_access": "wlan",
+    "name": "Hotel Mellatti",
+    "name:en": "Mellatti Hotel",
+    "opening_hours": "24/7",
+    "operator": "Marcelo Mellado",
+    "phone": "(035)2239325",
+    "tourism": "hotel",
+    "website": "http://www.hotelmellatti.com"
+  }
+},
+{
+  "type": "node",
+  "id": 1361091431,
+  "lat": -33.0423147,
+  "lon": -71.6267587,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "576",
+    "addr:street": "Abtao",
+    "amenity": "restaurant",
+    "name": "Baoval",
+    "phone": "+56322223442",
+    "website": "https://www.restauranteabtao.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1520494638,
+  "lat": -33.0290765,
+  "lon": -71.5764651,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1312",
+    "addr:street": "Avenida Diego Portales",
+    "amenity": "kindergarten",
+    "name": "Jardín Infantil Minilandia",
+    "website": "http://www.minilandia.cl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1583262007,
+  "lat": -27.1601396,
+  "lon": -109.4408749,
+  "tags": {
+    "email": "ioranaof@entelChile.net",
+    "fax": "+56-32-2100312",
+    "name": "Iorana",
+    "operator": "Entel",
+    "phone": "+56-32-2100608",
+    "tourism": "hotel",
+    "website": "http://www.ioranahotel.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1621401080,
+  "lat": -27.1585364,
+  "lon": -109.4272668,
+  "tags": {
+    "addr:street": "Hotu Matu'a",
+    "contact:email": "reservas@pukuvaihotel.com",
+    "contact:phone": "+56 32 255 1838",
+    "name": "Puku Vai",
+    "tourism": "hotel",
+    "website": "https://www.pukuvaihotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1679926768,
+  "lat": -33.0182056,
+  "lon": -71.5513448,
+  "tags": {
+    "addr:housenumber": "655",
+    "addr:street": "5 Norte",
+    "name": "Queen Royal",
+    "phone": "+56 32 268 5000",
+    "tourism": "hotel",
+    "website": "www.queenroyal.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 1736879272,
+  "lat": -33.0435158,
+  "lon": -71.6273422,
+  "tags": {
+    "name": "ViaViaCafe",
+    "phone": "+65 32 3192134",
+    "tourism": "hotel",
+    "website": "https://www.viaviacafe.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1753847061,
+  "lat": -33.0268673,
+  "lon": -71.5651245,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "3",
+    "addr:street": "Pasaje El Hogar",
+    "contact:phone": "+56978984546",
+    "name": "La Casa del Almirante",
+    "operator": "Hoteleria La Casa del Almirante EIRL",
+    "payment:cards": "yes",
+    "smoking": "outside",
+    "source": "gps",
+    "tourism": "hotel",
+    "website": "http://www.lacasadelalmirante.com"
+  }
+},
+{
+  "type": "node",
+  "id": 1877725582,
+  "lat": -33.0175445,
+  "lon": -71.5459447,
+  "tags": {
+    "name": "Automotora Colon",
+    "shop": "car",
+    "website": "https://www.automotoracolon.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2100773807,
+  "lat": -33.5944534,
+  "lon": -71.5965794,
+  "tags": {
+    "addr:city": "San Antonio",
+    "addr:housenumber": "1225",
+    "addr:street": "Cardenal Raúl Silva Henríquez",
+    "amenity": "veterinary",
+    "name": "Mobyd",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "website": "https://www.mobyd.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2112289711,
+  "lat": -33.0243192,
+  "lon": -71.5562327,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "459",
+    "addr:street": "Avenida Valparaíso",
+    "name": "PC Factory",
+    "opening_hours": "Mo-Fr 09:30-19:00; Sa 10:00-14:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56322711333",
+    "shop": "computer",
+    "website": "https://www.pcfactory.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2424122795,
+  "lat": -33.4603213,
+  "lon": -71.4001943,
+  "tags": {
+    "email": "reservas@indomo.cl",
+    "name": "Indomo Casablanca",
+    "phone": "+56 2 22411950",
+    "tourism": "hotel",
+    "website": "http://www.indomo.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 2430626480,
+  "lat": -33.5008802,
+  "lon": -71.6239814,
+  "tags": {
+    "addr:housenumber": "852",
+    "addr:street": "Avenida La Playa",
+    "amenity": "restaurant",
+    "check_date": "2024-09-17",
+    "name": "Hotel - Restaurant Puesta de Sol",
+    "source": "https://www.facebook.com/pages/Restaurant-Puesta-de-Sol-Las-Cruces/219754241388646",
+    "website": "https://www.facebook.com/pages/Restaurant-Puesta-de-Sol-Las-Cruces/219754241388646"
+  }
+},
+{
+  "type": "node",
+  "id": 2505464570,
+  "lat": -33.0306853,
+  "lon": -71.5479627,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housename": "Sede de la junta vecinos Quinta Vergara",
+    "addr:housenumber": "960",
+    "addr:street": "P. Mackenna",
+    "email": "elittebienestarysalud@gmail.com",
+    "leisure": "sports_centre",
+    "name": "Club deportívo Taekwondo Elite",
+    "phone": "+56-9-58923675",
+    "website": "https://www.facebook.com/tkdelitte.elitte"
+  }
+},
+{
+  "type": "node",
+  "id": 2506654500,
+  "lat": -32.9885158,
+  "lon": -71.1888225,
+  "tags": {
+    "email": "contacto@recarganatural.cl",
+    "name": "Recarga Natural",
+    "tourism": "camp_site",
+    "website": "https://recarganatural.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2618712943,
+  "lat": -33.0111431,
+  "lon": -71.5481123,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:door": "Oficina 306",
+    "addr:housenumber": "785",
+    "addr:street": "12 Norte",
+    "name": "Arquit",
+    "office": "company",
+    "phone": "+56322179136",
+    "website": "https://www.arquit.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2776181212,
+  "lat": -33.0500082,
+  "lon": -71.6241385,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "527",
+    "addr:postcode": "2380484",
+    "addr:street": "General Mackenna",
+    "email": "hostalmaisondelamer@hotmail.com",
+    "internet_access": "wlan",
+    "name": "Hostal Maison de la Mer",
+    "name:fr": "Hostal Maison de la Mer",
+    "opening_hours": "Mo-Su 08:30-21:00",
+    "operator": "http://www.booking.com/Share-TB6fJ5",
+    "phone": "+56981939482",
+    "smoking": "outside",
+    "tourism": "guest_house",
+    "website": "https://www.maisondelamer.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2795645555,
+  "lat": -32.9714156,
+  "lon": -71.5378235,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "90",
+    "addr:street": "Torreblanca",
+    "amenity": "restaurant",
+    "capacity": "50",
+    "cuisine": "sushi",
+    "delivery": "yes",
+    "name": "TuSushi",
+    "phone": "+56 32 320 5547",
+    "smoking": "outside",
+    "website": "https://tusushi.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2795645556,
+  "lat": -32.9714233,
+  "lon": -71.5377776,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "90",
+    "addr:street": "Torreblanca",
+    "amenity": "restaurant",
+    "capacity": "50",
+    "cuisine": "burger",
+    "delivery": "yes",
+    "name": "TuBurger",
+    "phone": "+56 32 317 9852",
+    "smoking": "outside",
+    "website": "http://tuburger.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2795645557,
+  "lat": -32.9714473,
+  "lon": -71.5378166,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "90",
+    "addr:street": "Torreblanca",
+    "amenity": "restaurant",
+    "capacity": "50",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "TuPizza",
+    "phone": "+56 32 318 0175",
+    "smoking": "outside",
+    "website": "http://tupizza.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2823811069,
+  "lat": -33.0219778,
+  "lon": -71.5516529,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:door": "Local 27",
+    "addr:housenumber": "63",
+    "addr:postcode": "2520314",
+    "addr:street": "Avenida Libertad",
+    "name": "Bazinga Comics",
+    "opening_hours": "11:00-20:30",
+    "shop": "books",
+    "website": "https://www.bazingacomics.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2880780685,
+  "lat": -33.5240699,
+  "lon": -71.5447040,
+  "tags": {
+    "addr:city": "Cartagena",
+    "addr:housenumber": "None",
+    "addr:street": "Camino Lo Abarca",
+    "name": "Viña Casa Marín",
+    "phone": "+56 2 23342986",
+    "shop": "wine",
+    "tourism": "attraction",
+    "website": "https://www.casamarin.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2881141607,
+  "lat": -33.0488346,
+  "lon": -71.6224000,
+  "tags": {
+    "addr:housenumber": "392",
+    "addr:street": "Héctor Calvo",
+    "email": "info@hosteriaespiritusanto.cl",
+    "name": "Hostería Espíritu Santo",
+    "tourism": "hotel",
+    "website": "https://www.hosteriaespiritusanto.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2881141608,
+  "lat": -33.0488959,
+  "lon": -71.6223974,
+  "tags": {
+    "addr:housenumber": "392",
+    "addr:street": "Héctor Calvo",
+    "amenity": "restaurant",
+    "email": "info@hosteriaespiritusanto.cl",
+    "name": "Espiritu Santo",
+    "phone": "+56 32 3277443",
+    "website": "https://www.hosteriaespiritusanto.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2882941301,
+  "lat": -33.0437483,
+  "lon": -71.6309976,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "546",
+    "addr:street": "Montealegre",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "internet_access": "yes",
+    "name": "In Bocca Al Lupo",
+    "phone": "+56 322212257",
+    "website": "https://www.facebook.com/inboccatrattoria/"
+  }
+},
+{
+  "type": "node",
+  "id": 2882952820,
+  "lat": -33.0431513,
+  "lon": -71.6279470,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "402",
+    "addr:street": "Almirante Montt",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Alma Mila",
+    "phone": "+56 32 3201599",
+    "website": "http://www.almacennacional.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 2913305198,
+  "lat": -33.0168796,
+  "lon": -71.5556025,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "499",
+    "addr:street": "4 Poniente",
+    "amenity": "language_school",
+    "name": "Ecela",
+    "website": "https://ecelaspanish.com/spanish-school-vina-del-mar-chile/"
+  }
+},
+{
+  "type": "node",
+  "id": 2991908296,
+  "lat": -33.4926187,
+  "lon": -71.6219558,
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:housenumber": "204-c",
+    "addr:street": "Avenida Las Salinas",
+    "name": "Masas & Cosas Ricas Margarita",
+    "shop": "bakery",
+    "source": "https://www.facebook.com/Masas-Cosas-ricas-Margarita-299787743558664/",
+    "website": "https://www.facebook.com/Masas-Cosas-ricas-Margarita-299787743558664/"
+  }
+},
+{
+  "type": "node",
+  "id": 3015681637,
+  "lat": -33.0425210,
+  "lon": -71.6306109,
+  "tags": {
+    "addr:housenumber": "314",
+    "addr:street": "San Enrique",
+    "name": "La Dulcería",
+    "phone": "+56 323187935",
+    "shop": "confectionery",
+    "website": "https://www.facebook.com/ladulceriavalparaiso/info"
+  }
+},
+{
+  "type": "node",
+  "id": 3194787807,
+  "lat": -33.0433648,
+  "lon": -71.6250286,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Jardín Infantil Esmeralda",
+    "website": "https://jardinesmeralda.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3228566662,
+  "lat": -32.8150722,
+  "lon": -70.5626626,
+  "tags": {
+    "addr:city": "San Esteban",
+    "addr:housenumber": "2074",
+    "addr:street": "La Florida",
+    "email": "sanesteban@vse.cl",
+    "man_made": "winery",
+    "name": "Viña San Esteban",
+    "phone": "+56342482842;+56342481050",
+    "shop": "wine",
+    "tourism": "attraction",
+    "website": "https://www.vse.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3298471407,
+  "lat": -33.0439513,
+  "lon": -71.6261347,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "122 al 126",
+    "addr:street": "Elias",
+    "amenity": "restaurant",
+    "name": "Cervecera Altamira",
+    "opening_hours": "Mo-Fr 18:00-23:59; Sa 13:00-01:00",
+    "website": "https://cerveceraaltamira.cl/restaurant/"
+  }
+},
+{
+  "type": "node",
+  "id": 3402231074,
+  "lat": -27.1337765,
+  "lon": -109.4194130,
+  "tags": {
+    "addr:country": "CL",
+    "addr:place": "Hanga Roa",
+    "addr:postcode": "2770000",
+    "addr:street": "Tahai",
+    "email": "info@hareswiss.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "HareSwiss Bungalows",
+    "operator": "Peter Naef & Tiare Tuki",
+    "payment:cash": "yes",
+    "phone": "+56 032 255-2221",
+    "smoking": "no",
+    "tourism": "guest_house",
+    "website": "http://www.hareswiss.com",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3535117444,
+  "lat": -33.0478107,
+  "lon": -71.6160486,
+  "tags": {
+    "name": "Datactil",
+    "office": "company",
+    "website": "https://datactil.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3661889264,
+  "lat": -33.2673027,
+  "lon": -71.2872918,
+  "tags": {
+    "email": "info@elcuadro.cl",
+    "name": "Estancia El Cuadro",
+    "phone": "+56 322156817;+56 967240963;+56 225197503",
+    "shop": "wine",
+    "tourism": "attraction",
+    "website": "https://elcuadro.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3661911477,
+  "lat": -33.3172178,
+  "lon": -71.4607228,
+  "tags": {
+    "addr:city": "Casablanca",
+    "addr:street": "Hijuela El Maitén",
+    "email": "guests@kingstonvineyards.com",
+    "email_1": "info@kingstonvineyards.com",
+    "man_made": "winery",
+    "name": "Viña Kingston",
+    "phone": "+56 992302917",
+    "shop": "wine",
+    "tourism": "attraction",
+    "website": "https://www.kingstonvineyards.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3669544609,
+  "lat": -33.0084368,
+  "lon": -71.5499116,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1350",
+    "addr:street": "1 Poniente",
+    "name": "Formasub",
+    "shop": "scuba_diving",
+    "website": "https://formasub.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3671320045,
+  "lat": -33.0422382,
+  "lon": -71.6277573,
+  "tags": {
+    "name": "Galería Pierre Loti",
+    "note": "Artisans, Fashion, Deli",
+    "shop": "yes",
+    "website": "https://www.facebook.com/galeriapierrelotivalparaiso"
+  }
+},
+{
+  "type": "node",
+  "id": 3679013434,
+  "lat": -33.0166865,
+  "lon": -71.5575920,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "469",
+    "addr:street": "Avenida San Martín",
+    "name": "Gelatería Mó",
+    "shop": "ice_cream",
+    "website": "https://www.heladosmo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3744812974,
+  "lat": -33.0384922,
+  "lon": -71.6281088,
+  "tags": {
+    "addr:housenumber": "33",
+    "addr:street": "Plaza Sotomayor",
+    "amenity": "cafe",
+    "name": "Melbourne Café",
+    "opening_hours": "Mo-Fr 08:00-19:00;Sa-Su 08:30-18:00",
+    "phone": "+56 322225013",
+    "website": "https://www.melbournecafe.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 3933861752,
+  "lat": -32.5553704,
+  "lon": -71.4570149,
+  "tags": {
+    "addr:city": "Zapallar",
+    "addr:housenumber": "49",
+    "addr:street": "Germán Riesco",
+    "cuisine": "french",
+    "name": "Eric Kayser",
+    "shop": "bakery",
+    "website": "https://www.erickayser.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4049605623,
+  "lat": -33.0238775,
+  "lon": -71.5560742,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housename": "Galería Cristal",
+    "addr:housenumber": "469",
+    "addr:postcode": "2571498",
+    "addr:street": "Avenida Valparaíso",
+    "description": "Equipamiento de Airsoft y militar, tecnología en emergencia y supervivencia.",
+    "level": "2",
+    "name": "Equipados",
+    "opening_hours": "10:00-14:00,16:00-20:30",
+    "shop": "convenience",
+    "website": "https://www.equipados.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4084090953,
+  "lat": -33.5011134,
+  "lon": -71.6238249,
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:housenumber": "852-b",
+    "addr:street": "Avenida La Playa",
+    "amenity": "restaurant",
+    "check_date": "2024-09-17",
+    "name": "Puerto Cruz Restaurante",
+    "website": "https://www.puertocruz.cl/es"
+  }
+},
+{
+  "type": "node",
+  "id": 4084107122,
+  "lat": -33.5010430,
+  "lon": -71.6239039,
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:housenumber": "854",
+    "addr:street": "Avenida La Playa",
+    "amenity": "restaurant",
+    "check_date": "2024-09-17",
+    "name": "Restaurant - Residencial Bellavista",
+    "source": "https://www.facebook.com/pages/Restaurant-Bellavista-Las-Cruces/185769651483559",
+    "website": "https://www.facebook.com/pages/Restaurant-Bellavista-Las-Cruces/185769651483559"
+  }
+},
+{
+  "type": "node",
+  "id": 4127254391,
+  "lat": -32.8211466,
+  "lon": -71.2260776,
+  "tags": {
+    "addr:street": "21 de Mayo",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "internet_access": "wlan",
+    "name": "SUFU Sushi Fusión Peruana La Cruz",
+    "opening_hours": "Th-Sa 11:00-23:30; Tu-We 11:00-23:00",
+    "website": "sufu.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4133767352,
+  "lat": -33.0457101,
+  "lon": -71.4454254,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:housenumber": "624",
+    "addr:street": "Aníbal Pinto",
+    "addr:unit": "2º Piso",
+    "amenity": "restaurant",
+    "name": "Estación Limeña",
+    "operator": "Sociedad De Inversiones Cid Y Sanchez Limitada",
+    "phone": "+56322911792",
+    "website": "https://laestacionlimena.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4139914189,
+  "lat": -32.7898788,
+  "lon": -71.1836904,
+  "tags": {
+    "addr:country": "CL",
+    "addr:housenumber": "100",
+    "addr:street": "Avenida Almirante Latorre",
+    "amenity": "clinic",
+    "name": "Achs",
+    "website": "https://www.achs.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4156962496,
+  "lat": -33.0404506,
+  "lon": -71.5214315,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:door": "14",
+    "addr:housenumber": "3253",
+    "addr:street": "Limache",
+    "addr:unit": "Bodega A",
+    "name": "Laptop Center",
+    "phone": "+56322672612",
+    "shop": "computer",
+    "website": "https://www.laptopcenter.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4173348389,
+  "lat": -33.0487601,
+  "lon": -71.6221618,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "389",
+    "addr:street": "Héctor Calvo",
+    "name": "RC Decoart",
+    "phone": "(+56 32) 327 39 05",
+    "tourism": "hotel",
+    "website": "http://www.rcdecoart.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4173348589,
+  "lat": -33.0487138,
+  "lon": -71.6225049,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "380",
+    "addr:street": "Héctor Calvo",
+    "name": "Hotel Boutique Cabernet",
+    "phone": "+56 32 335 8514",
+    "tourism": "hotel",
+    "website": "http://www.hotelboutiquecabernet.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4214649283,
+  "lat": -32.9951901,
+  "lon": -71.1866351,
+  "tags": {
+    "addr:housenumber": "2203",
+    "addr:postcode": "2330505",
+    "addr:street": "Diego Portales",
+    "amenity": "restaurant",
+    "email": "hosteria@copihue.cl",
+    "internet_access": "wlan",
+    "name": "Hosteria El Copihue",
+    "opening_hours": "24/7",
+    "phone": "+56332441544",
+    "tourism": "hotel",
+    "website": "https://www.copihue.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4230167592,
+  "lat": -33.0482719,
+  "lon": -71.6192483,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "1782",
+    "addr:postcode": "2340000",
+    "addr:street": "Avenida Colón",
+    "email": "hostalkairos@Gmail.com",
+    "internet_access": "wlan",
+    "name": "Hostal Kairos",
+    "opening_hours": "24/7",
+    "phone": "+56985774548",
+    "tourism": "hotel",
+    "website": "www.hostalkairos.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4266761194,
+  "lat": -33.0228185,
+  "lon": -71.5586276,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:door": "Oficina 701",
+    "addr:housenumber": "263",
+    "addr:street": "Arlegui",
+    "amenity": "doctors",
+    "email": "contacto@salud911.cl",
+    "internet_access": "wlan",
+    "name": "Salud 911 - Médicos a Domicilio",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+56982510521",
+    "website": "https://www.salud911.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4301870357,
+  "lat": -33.4937386,
+  "lon": -71.6255098,
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:housenumber": "376",
+    "addr:street": "Avenida Las Salinas",
+    "name": "Frutería Yupanqui",
+    "shop": "greengrocer",
+    "source": "https://www.facebook.com/Fruteria-Yupanqui-1682086262023085/",
+    "website": "https://www.facebook.com/Fruteria-Yupanqui-1682086262023085/"
+  }
+},
+{
+  "type": "node",
+  "id": 4351039101,
+  "lat": -33.0340193,
+  "lon": -71.4325830,
+  "tags": {
+    "addr:housenumber": "2204",
+    "addr:street": "Juan José Latorre",
+    "email": "autocheck.autotronica@gmail.com",
+    "name": "Autocheck Electrónica Automotriz",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "operator": "Carlos",
+    "phone": "96392056",
+    "shop": "electronics",
+    "website": "https://www.autocheck.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4360252082,
+  "lat": -33.0486028,
+  "lon": -71.4432309,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:door": "Local 7",
+    "addr:housenumber": "700",
+    "addr:postcode": "2430590",
+    "addr:street": "Avenida Los Carrera",
+    "email": "contacto@padrobikes.cl",
+    "name": "Padro Bikes Quilpué",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "operator": "José Enrique Padro Cotroneo",
+    "phone": "+56 32 297 3432",
+    "service:bicycle:parts": "yes",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "service:bicycle:tools": "yes",
+    "shop": "bicycle",
+    "website": "https://padrobikes.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4360829191,
+  "lat": -32.8795909,
+  "lon": -71.2423023,
+  "tags": {
+    "addr:country": "CL",
+    "addr:housenumber": "200",
+    "addr:street": "Condell",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name:es": "Casa de Acogida",
+    "opening_hours": "24/7",
+    "phone": "332268736",
+    "website": "http://facebook.com/casadeacogidabeatitabenavide"
+  }
+},
+{
+  "type": "node",
+  "id": 4363649794,
+  "lat": -32.4467395,
+  "lon": -71.2333606,
+  "tags": {
+    "addr:city": "La Ligua",
+    "addr:housenumber": "519",
+    "addr:street": "Vicuña Mackenna",
+    "email": "proactionmotos@gmail.com",
+    "internet_access": "wlan",
+    "name": "Pro-action motos",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "phone": "+56997382809",
+    "shop": "sports",
+    "website": "http://www.facebook.com/proactionmotoslaligua"
+  }
+},
+{
+  "type": "node",
+  "id": 4370238704,
+  "lat": -33.0246597,
+  "lon": -71.5614385,
+  "tags": {
+    "addr:housenumber": "285",
+    "addr:street": "Von Schroeders",
+    "amenity": "restaurant",
+    "cuisine": "peruvian",
+    "name": "Cholos",
+    "website": "http://cholosrestaurant.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4381094091,
+  "lat": -33.0234897,
+  "lon": -71.5565386,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "414",
+    "addr:street": "Arlegui",
+    "addr:unit": "Local 32",
+    "name": "Timbres y grabados Record",
+    "phone": "+56322970017",
+    "shop": "books",
+    "website": "https://www.grabadosrecord.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4449936791,
+  "lat": -33.0438681,
+  "lon": -71.6271110,
+  "tags": {
+    "addr:housenumber": "167",
+    "addr:street": "Dimalow",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "email": "contacto@elinternado.cl",
+    "internet_access": "wlan",
+    "name": "El Internado",
+    "phone": "323354153",
+    "website": "https://www.elinternado.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4501589718,
+  "lat": -33.3697107,
+  "lon": -71.6815983,
+  "tags": {
+    "addr:city": "Algarrobo",
+    "addr:housenumber": "3535",
+    "addr:street": "Avenida Los Claveles",
+    "name": "Cabañas El Canelo",
+    "smoking": "outside",
+    "tourism": "chalet",
+    "website": "https://www.cabanaselcanelo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4556022189,
+  "lat": -32.7779626,
+  "lon": -71.5256619,
+  "tags": {
+    "addr:housenumber": "1057",
+    "addr:street": "21 de Mayo",
+    "email": "contacto@pesqueraquintero.com",
+    "name": "Pesquera Quintero S.A.",
+    "name:es": "Pesquera Quintero S.A.",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+56322324709",
+    "shop": "seafood",
+    "website": "https://www.pesqueraquintero.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4558759586,
+  "lat": -33.0442370,
+  "lon": -71.3698071,
+  "tags": {
+    "email": "contacto@padrobikes.cl",
+    "name": "Padro Bikes Villa Alemana",
+    "phone": "+56 32 297 3432",
+    "service:bicycle:retail": "yes",
+    "shop": "bicycle",
+    "website": "https://padrobikes.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4560878906,
+  "lat": -33.0440620,
+  "lon": -71.6294249,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "local;seafood;sandwich;coffee_shop;pasta",
+    "name": "Café Restaurant Mito",
+    "name:en": "Cafe Restaurant Mito",
+    "website": "http://www.hostalmito.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4599782439,
+  "lat": -33.0186132,
+  "lon": -71.5573560,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housename": "Edificio Viña del Mar",
+    "addr:housenumber": "176",
+    "addr:postcode": "2520214",
+    "addr:street": "4 Norte",
+    "designation": "Drink House Liquor Store & Delivery",
+    "name": "Drink House",
+    "shop": "alcohol",
+    "website": "facebook.com/drinkhouse.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4624421189,
+  "lat": -32.9554753,
+  "lon": -71.5469942,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish;empanada;seafood",
+    "name": "Restaurant D'lamari",
+    "name:en": "D'lamari Restaurant",
+    "name:es": "Restaurant D'lamari",
+    "name:ko": "D'lamari Restaurant",
+    "phone": "+56951987857",
+    "website": "https://www.dlamari.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4652854689,
+  "lat": -27.1345203,
+  "lon": -109.4238675,
+  "tags": {
+    "addr:street": "Kahu Mahau",
+    "email": "tokerauconsultores@gmail.com",
+    "internet_access": "wlan",
+    "name": "Cabañas Tokerau",
+    "phone": "322100023",
+    "tourism": "chalet",
+    "website": "https://cabanastokerau.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4689077091,
+  "lat": -27.1396041,
+  "lon": -109.4249496,
+  "tags": {
+    "name": "Ana Otai Camping",
+    "name:en": "Ana Otai Camping",
+    "name:es": "Ana Otai Camping",
+    "name:fr": "Ana Otai Camping",
+    "tourism": "camp_site",
+    "website": "http://www.campinganaotai.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4728102926,
+  "lat": -33.0432307,
+  "lon": -71.3777446,
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housenumber": "1001",
+    "addr:street": "Buenos Aires",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "mobile": "+569 8588 1598",
+    "name": "Clident",
+    "opening_hours": "Mo-Fr 09:30-12:30, 15:00-18:00",
+    "phone": "32 295 69 90",
+    "website": "https://www.clident.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4863031416,
+  "lat": -27.1594880,
+  "lon": -109.4105884,
+  "tags": {
+    "addr:city": "Hanga Roa",
+    "addr:postcode": "2770000",
+    "addr:street": "Hotu Matu'a",
+    "leisure": "sports_centre",
+    "name": "Gimnasio Marinao Training",
+    "phone": "+56 9 8426 4711",
+    "website": "https://marinao.training/"
+  }
+},
+{
+  "type": "node",
+  "id": 4884844222,
+  "lat": -33.1139794,
+  "lon": -71.5584384,
+  "tags": {
+    "addr:housenumber": "85",
+    "addr:street": "Martínez Cruz",
+    "email": "contacto@clonsaingenieria.cl",
+    "name": "CLONSA Ingenieria Ltda.",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "phone": "+56322221022",
+    "shop": "computer",
+    "website": "https://www.clonsaingenieria.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4919803403,
+  "lat": -33.0200148,
+  "lon": -71.5554638,
+  "tags": {
+    "addr:housenumber": "350",
+    "addr:street": "3 Norte",
+    "amenity": "cafe",
+    "internet_access:ssid": "FAUSTA",
+    "name": "Fausta Café",
+    "phone": "+56942148162",
+    "website": "https://faustacafe.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4929203722,
+  "lat": -33.2910202,
+  "lon": -71.2882658,
+  "tags": {
+    "addr:street": "Camino Tapihue km 12,5",
+    "email": "contacto@casatapihue.cl",
+    "internet_access": "wlan",
+    "name": "Casa Tapihue",
+    "phone": "+56956670223",
+    "tourism": "guest_house",
+    "website": "http://www.casatapihue.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 4987422930,
+  "lat": -33.0160323,
+  "lon": -71.5568541,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "545",
+    "addr:street": "Avenida San Martín",
+    "amenity": "restaurant",
+    "cuisine": "peruvian",
+    "internet_access": "wlan",
+    "name": "El Imperio Peruano",
+    "phone": "+56323278517",
+    "website": "https://www.elimperioperuano.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4988545024,
+  "lat": -33.0379750,
+  "lon": -71.6273446,
+  "tags": {
+    "government": "military",
+    "name": "Capitanía de Puerto",
+    "office": "government",
+    "opening_hours": "24/7",
+    "website": "https://www.directemar.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4988659821,
+  "lat": -33.5817089,
+  "lon": -71.6143241,
+  "tags": {
+    "government": "military",
+    "name": "Gobernación Marítima - Capitanía de Puerto",
+    "name:es": "Gobernación Marítima - Capitanía de Puerto",
+    "office": "government",
+    "opening_hours": "24/7",
+    "website": "https://www.directemar.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4997888418,
+  "lat": -32.8673443,
+  "lon": -71.2411797,
+  "tags": {
+    "addr:city": "Quillota",
+    "addr:housenumber": "799",
+    "addr:street": "Merced",
+    "leisure": "fitness_centre",
+    "name": "Aqua del Valle",
+    "website": "http://www.aquadelvalle.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5007382330,
+  "lat": -32.8616858,
+  "lon": -71.2277979,
+  "tags": {
+    "amenity": "veterinary",
+    "name": "Hospital Clinico Veterinario Quillota",
+    "website": "https://www.hcvquillota.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5063175753,
+  "lat": -32.9726666,
+  "lon": -71.5436661,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "157",
+    "addr:street": "Avenida José Manuel Balmaceda",
+    "amenity": "restaurant",
+    "contact:phone": "+56322116929",
+    "name": "Chinatown",
+    "website": "https://www.chinatownchile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5178777822,
+  "lat": -33.3661258,
+  "lon": -71.6728304,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Pescadores Poniente",
+    "email": "informacionescosta@gmail.com",
+    "name": "Propiedades Costa",
+    "office": "estate_agent",
+    "phone": "57045854",
+    "website": "http://www.propiedadescosta.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 5207169554,
+  "lat": -32.9493503,
+  "lon": -71.2665538,
+  "tags": {
+    "addr:city": "Cajón de San Pedro",
+    "addr:street": "Parcela 43 A-3",
+    "amenity": "school",
+    "description": "Ex  Escuela Rural El Cajón de San Pedro",
+    "name": "Escuela Rural Carola Reyes Pizarro",
+    "operator": "Corporación Juntos E.V.",
+    "website": "https://juntos-online.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 5248509109,
+  "lat": -33.0325227,
+  "lon": -71.5918775,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+56 9 9096 1316",
+    "cuisine": "seafood",
+    "name": "Las Totoras",
+    "outdoor_seating": "yes",
+    "website": "https://www.facebook.com/LASTOTORAS"
+  }
+},
+{
+  "type": "node",
+  "id": 5248509114,
+  "lat": -33.0324642,
+  "lon": -71.5917126,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+56 32 225 1886",
+    "cuisine": "seafood",
+    "name": "Doña Tatito",
+    "website": "https://www.facebook.com/pages/Do%C3%B1a-Tatito/249247385591257"
+  }
+},
+{
+  "type": "node",
+  "id": 5257889093,
+  "lat": -32.6344023,
+  "lon": -71.4236614,
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:country": "CL",
+    "addr:housenumber": "475",
+    "addr:street": "Isidro Gaete",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;trauma;paediatrics",
+    "name": "Clínica Alemana",
+    "operator": "Clínica Alemana",
+    "website": "https://portal.alemana.cl/wps/wcm/connect/Internet/Home/landing/Maitencillo-centro-atencion-medica"
+  }
+},
+{
+  "type": "node",
+  "id": 5316795663,
+  "lat": -33.0448725,
+  "lon": -71.6036631,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "200",
+    "addr:street": "Eusebio Lillo",
+    "alcohol": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "cuisine": "burger",
+    "instagram": "lajoyasanguches",
+    "name": "La Joya Sandwich Bar",
+    "source": "Kaart Ground Survey 2017",
+    "website": "https://www.lajoyasanguches.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5318516922,
+  "lat": -33.4030783,
+  "lon": -71.6902846,
+  "tags": {
+    "addr:housenumber": "723",
+    "addr:street": "Crepúsculo",
+    "email": "aventura.suroeste@gmail.com",
+    "name": "Agencia Suroeste",
+    "phone": "+56966438885",
+    "shop": "travel_agency",
+    "website": "http://www.aventura.suroeste.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5355709532,
+  "lat": -33.0434088,
+  "lon": -71.6241998,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "1208",
+    "addr:street": "Libertador General Bernardo O'Higgins",
+    "amenity": "cafe",
+    "cuisine": "sandwich;tea;cake;coffee_shop",
+    "name": "Terranova",
+    "website": "http://www.floreriaterranova.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 5463167627,
+  "lat": -33.0237352,
+  "lon": -71.5565498,
+  "tags": {
+    "email": "comiqueria.vina@hotmail.com",
+    "name": "Crazy All Comics",
+    "phone": "+56322545220",
+    "shop": "books",
+    "website": "https://www.crazyallcomics.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5621201201,
+  "lat": -27.1515136,
+  "lon": -109.4225637,
+  "tags": {
+    "name": "La casa del Kori",
+    "tourism": "hotel",
+    "website": "https://www.lacasadelkori.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5661730721,
+  "lat": -32.9329622,
+  "lon": -71.5406888,
+  "tags": {
+    "addr:housenumber": "1285",
+    "addr:street": "Las Pimpinelas",
+    "amenity": "restaurant",
+    "cuisine": "seafood;fish",
+    "email": "odette.reinoso@gmail.com",
+    "name": "Donde Odette La Gatita",
+    "phone": "+56998011590",
+    "website": "http://www.dondeodette.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 5854164785,
+  "lat": -32.7112231,
+  "lon": -71.4291883,
+  "tags": {
+    "addr:housenumber": "700",
+    "addr:postcode": "0908",
+    "addr:street": "Camino el medano",
+    "email": "igor@sch.cl",
+    "name": "Ecoturismo vivo",
+    "opening_hours": "24/7",
+    "phone": "+56976081365",
+    "shop": "travel_agency",
+    "website": "https://www.ecoturismovivo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5900148891,
+  "lat": -33.0478307,
+  "lon": -71.4449497,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:door": "Local 6",
+    "addr:housenumber": "549",
+    "addr:street": "Los Carrera",
+    "currency:CLP": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Emporio Clafira",
+    "opening_hours": "Mo-Fr 11:00-18:30, Sa 11:00-17:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "(32) 362 4529",
+    "shop": "health_food",
+    "website": "https://linktr.ee/emporioclafira",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6063465251,
+  "lat": -33.0193625,
+  "lon": -71.5464857,
+  "tags": {
+    "brand": "Specialized",
+    "name": "Bike Chile",
+    "operator": "Bike Chile",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "shop": "bicycle",
+    "website": "https://www.bikechile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 6195238686,
+  "lat": -33.0438588,
+  "lon": -71.6301136,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "893",
+    "addr:postcode": "2370951",
+    "addr:street": "Templeman",
+    "email": "contacto@casagalos.cl",
+    "internet_access": "wlan",
+    "name": "Casa Galos Hotel & Lofts",
+    "phone": "+56 9 6270 5458",
+    "rooms": "15",
+    "start_date": "2012",
+    "tourism": "hotel",
+    "website": "https://www.casagalos.cl/",
+    "wikidata": "Q111415334"
+  }
+},
+{
+  "type": "node",
+  "id": 6325362802,
+  "lat": -33.0536938,
+  "lon": -71.4312325,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "1638",
+    "addr:street": "Porvenir",
+    "name": "Outlet Chile",
+    "shop": "clothes",
+    "website": "https://theoutletchile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 6330094117,
+  "lat": -33.4929017,
+  "lon": -71.6229533,
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:housenumber": "280, Local 6",
+    "addr:street": "Avenida Las Salinas",
+    "description": "Lácteos, quesos, cecinas, masas, artículos de aseo.",
+    "name": "Comercial De Gallardo Las Cruces",
+    "opening_hours": "10:00-24:00,17:00-21:00",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "(35) 223 8214",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/santaelena.limitada.9",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6481692586,
+  "lat": -32.9709642,
+  "lon": -71.5448823,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+56322833490",
+    "delivery": "yes",
+    "name": "El Patio",
+    "name:he": "אל פאטיו",
+    "payment:american_express": "yes",
+    "payment:coins": "yes",
+    "payment:cryptocurrencies": "no",
+    "payment:diners_club": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "website": "https://www.elpatiocl.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6786856306,
+  "lat": -33.0456540,
+  "lon": -71.4415732,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "237",
+    "addr:street": "Balmaceda",
+    "amenity": "restaurant",
+    "name": "Aroa´s Restaurante Cafetería",
+    "website": "https://www.instagram.com/cafeteria_aroas/"
+  }
+},
+{
+  "type": "node",
+  "id": 7094707348,
+  "lat": -33.0444135,
+  "lon": -71.3689622,
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:street": "Williamson",
+    "amenity": "restaurant",
+    "name": "Sazón del Inka",
+    "website": "https://www.sazondelinka.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7235773685,
+  "lat": -32.7764705,
+  "lon": -71.5265870,
+  "tags": {
+    "name": "Capitanía de Puerto de Quintero",
+    "office": "government",
+    "website": "https://www.directemar.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7246052638,
+  "lat": -32.9339977,
+  "lon": -71.5363886,
+  "tags": {
+    "addr:housenumber": "118",
+    "addr:street": "Avenida Concón Reñaca",
+    "description": "Panadería artesanal dedicada a la elaboración de pan 100% con masa madre. Respetando los tiempo y temperaturas para una adecuada fermentación.",
+    "name": "La Farine - Pan a la antigua",
+    "opening_hours": "Mo-Su 09:30-20:30",
+    "phone": "0982985407",
+    "shop": "bakery",
+    "website": "https://www.facebook.com/LaFarine.PanalaAntigua/"
+  }
+},
+{
+  "type": "node",
+  "id": 7294161428,
+  "lat": -32.8319536,
+  "lon": -70.5984601,
+  "tags": {
+    "addr:city": "Los Andes",
+    "addr:housenumber": "422",
+    "addr:postcode": "2100000",
+    "addr:street": "Manuel Rodríguez",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "brand": "5 CORDILLERA ESPACIO GASTRONÓMICO",
+    "cuisine": "regional;international;seafood;mediterranean;molecular;casual;eventos;bar;premiun",
+    "description": "Republica gastronomica independiente del “Valle del Aconcagua” Amamos la cocina cocina tradicional, el buen comer, el producto y estamos implicados con la vanguardia culinaria.",
+    "email": "contacto@5tacordillera.com",
+    "name": "\"5ta Cordillera\" Espacio Gastronomico",
+    "opening_hours": "Tu-Sa 13:00-16:00 \"cena\", 19:30-00:00",
+    "phone": "+56953359036",
+    "reservation": "recommended",
+    "smoking": "isolated",
+    "website": "https://www.5tacordillera.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7320514186,
+  "lat": -32.9884546,
+  "lon": -71.5292813,
+  "tags": {
+    "name": "Paula",
+    "shop": "bakery",
+    "website": "https://www.panpaula.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7894352930,
+  "lat": -33.0175495,
+  "lon": -71.5535795,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "449",
+    "addr:postcode": "2520112",
+    "addr:street": "5 Norte",
+    "addr:unit": "3",
+    "brand": "Esencia Hotel Boutique & Gourmet",
+    "email": "contacto@esenciahotelboutique.com",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Esencia Hotel Boutique",
+    "phone": "+56 22 3237218",
+    "rooms": "6",
+    "tourism": "hotel",
+    "website": "https://www.esenciahotelboutique.com/",
+    "wikidata": "Q112023649"
+  }
+},
+{
+  "type": "node",
+  "id": 7960186749,
+  "lat": -33.0726437,
+  "lon": -71.4042294,
+  "tags": {
+    "contact:facebook": "https://www.facebook.com/Vinet-Paisajismo-Ornamentaci%C3%B3n-114877119945686",
+    "contact:whatsapp": "+56 9 66172096",
+    "name": "Vinet - Paisajismo & Ornamentación",
+    "shop": "garden_centre",
+    "website": "https://vinet-ornamentacion.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 8162786612,
+  "lat": -33.4061008,
+  "lon": -71.6976501,
+  "tags": {
+    "addr:city": "El Quisco",
+    "addr:housenumber": "257",
+    "addr:street": "Calle del Delfín",
+    "email": "cabanasalohaki@gmail.com",
+    "name": "Aloha-ki",
+    "phone": "+56933272075",
+    "tourism": "chalet",
+    "website": "https://www.instagram.com/alohakii/"
+  }
+},
+{
+  "type": "node",
+  "id": 8260889739,
+  "lat": -32.8442419,
+  "lon": -71.2306269,
+  "tags": {
+    "addr:city": "La Cruz",
+    "addr:housenumber": "2261",
+    "addr:street": "21 de Mayo",
+    "amenity": "restaurant",
+    "name": "Humberstone",
+    "phone": "+5633320393",
+    "website": "https://www.humberstone.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8260889740,
+  "lat": -32.8439647,
+  "lon": -71.2305625,
+  "tags": {
+    "addr:city": "La Cruz",
+    "addr:housenumber": "2499",
+    "addr:street": "21 de Mayo",
+    "amenity": "restaurant",
+    "brand:wikidata": "Q2882078",
+    "brand:wikipedia": "en:Banco Patagonia",
+    "name": "Patagonia",
+    "website": "https://patagonialacruz.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8260889754,
+  "lat": -32.8252109,
+  "lon": -71.2265746,
+  "tags": {
+    "addr:city": "La Cruz",
+    "addr:housenumber": "10",
+    "addr:street": "Almirante Simpson",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Kin",
+    "website": "https://sushikin.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8308918339,
+  "lat": -32.9572763,
+  "lon": -71.5430351,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1980",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "addr:unit": "Local c4",
+    "name": "Pasta y Postre",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+56934100931",
+    "shop": "comida",
+    "website": "https://www.pastaypostre.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8378231774,
+  "lat": -33.0247881,
+  "lon": -71.5554571,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "229",
+    "addr:postcode": "2571501",
+    "addr:street": "Etchevers",
+    "beauty": "nails",
+    "name": "Vanity Room",
+    "opening_hours": "Mo-Sa 09:00-18:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56967886728",
+    "shop": "beauty",
+    "website": "https://instagram.com/vanityroom.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 8439705918,
+  "lat": -33.0433806,
+  "lon": -71.4004821,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Pasaje Aviador Acevedo",
+    "email": "quilacanta@gmail.com",
+    "name": "Minera Quilacanta",
+    "name:en": "Quilacanta Minerals",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "phone": "+56984443710",
+    "website": "http://quilacanta.tk"
+  }
+},
+{
+  "type": "node",
+  "id": 8669056178,
+  "lat": -32.9476658,
+  "lon": -71.5458670,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "25",
+    "addr:street": "Reñaca Norte",
+    "amenity": "dentist",
+    "contact:facebook": "https://www.facebook.com/clinicadibyseymour/",
+    "contact:instagram": "https://www.instagram.com/clinicadibyseymour/",
+    "healthcare": "dentist",
+    "name": "Clínica Dib & Seymour",
+    "phone": "+56227924354‬;+56964495329",
+    "website": "https://www.clinicadibyseymour.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8827211917,
+  "lat": -32.9725406,
+  "lon": -71.5431045,
+  "tags": {
+    "addr:housenumber": "183",
+    "addr:postcode": "2520000",
+    "addr:street": "Avenida José Manuel Balmaceda",
+    "check_date": "2024-04-19",
+    "email": "info@bezanilla.cl",
+    "name": "Inmobiliaria Bezanilla",
+    "office": "company",
+    "phone": "322976000",
+    "website": "http://www.Bezanilla.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 8947635125,
+  "lat": -33.0487709,
+  "lon": -71.6326443,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Giardino Malandrino",
+    "website": "https://www.giardinomalandrino.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9123421342,
+  "lat": -33.0433930,
+  "lon": -71.6229085,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:street": "Bellavista",
+    "government": "environment",
+    "name": "Subsecretaría de Pesca y Acuicultura",
+    "office": "government",
+    "short_name": "Subpesca",
+    "website": "https://www.subpesca.cl/",
+    "wikidata": "Q5685358",
+    "wikipedia": "es:Subsecretaría de Pesca y Acuicultura de Chile"
+  }
+},
+{
+  "type": "node",
+  "id": 9294872597,
+  "lat": -32.9717115,
+  "lon": -71.5417846,
+  "tags": {
+    "amenity": "veterinary",
+    "contact:phone": "+56322833333",
+    "name": "Clinica Veterinaria Reñaca",
+    "opening_hours": "Mo-Fr 09:30-21:00; Sa 10:30-14:00",
+    "payment:american_express": "yes",
+    "payment:cryptocurrencies": "no",
+    "payment:diners_club": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "website": "http://www.clinicaveterinariarenaca.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9294872598,
+  "lat": -32.9689707,
+  "lon": -71.5450340,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "14912",
+    "addr:street": "Avenida Borgoño",
+    "addr:suburb": "Reñaca",
+    "contact:phone": "+56225209020",
+    "leisure": "fitness_centre",
+    "name": "Pacific Fitness",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:cryptocurrencies": "no",
+    "payment:diners_club": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "website": "https://www.gimnasiopacific.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9294873817,
+  "lat": -32.9710353,
+  "lon": -71.5433510,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housename": "Mall Plaza Reñaca",
+    "addr:housenumber": "14580",
+    "addr:street": "Avenida Borgoño",
+    "addr:suburb": "Reñaca",
+    "leisure": "fitness_centre",
+    "name": "Club de Tiro de Reñaca",
+    "opening_hours": "Mo-Sa 12:00-20:00",
+    "phone": "+56322836040",
+    "shop": "weapons",
+    "sport": "shooting",
+    "website": "https://clubdetirorenaca.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9296360815,
+  "lat": -32.9716907,
+  "lon": -71.5380154,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "75",
+    "addr:street": "Torreblanca",
+    "addr:suburb": "Reñaca",
+    "contact:phone": "+56322834802",
+    "name": "Cabañas Don Francisco de Reñaca",
+    "stars": "2",
+    "tourism": "hotel",
+    "website": "http://www.xn--cabaasdonfranciscodereaca-cocs.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9296360816,
+  "lat": -32.9714196,
+  "lon": -71.5375688,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "655",
+    "addr:street": "Angamos",
+    "addr:suburb": "Reñaca",
+    "amenity": "cafe",
+    "contact:phone": "+56998439252",
+    "name": "Swiss Café",
+    "opening_hours": "Tu-Su 10:00-20:30",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:cryptocurrencies": "no",
+    "payment:diners_club": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "website": "https://swisscafe.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9380276361,
+  "lat": -33.0473908,
+  "lon": -71.4422685,
+  "tags": {
+    "addr:housenumber": "776",
+    "addr:street": "Diego Portales",
+    "name": "Cámara de Comercio de Quilpué",
+    "office": "association",
+    "opening_hours": "10:00-14:00",
+    "phone": "322910810",
+    "website": "https://www.ccq.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9456379202,
+  "lat": -33.0489112,
+  "lon": -71.6101884,
+  "tags": {
+    "addr:unit": "10",
+    "contact:instagram": "TIENDA_MOSS_EISLEY",
+    "name": "Moss Eisley",
+    "shop": "games",
+    "website": "https://www.mosseisley.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9524709846,
+  "lat": -33.0059964,
+  "lon": -71.5452434,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "961",
+    "addr:street": "Avenida Benidorm",
+    "brand": "Decathlon",
+    "brand:wikidata": "Q509349",
+    "level": "3",
+    "name": "Decathlon",
+    "opening_hours": "Mo-Fr 09:00-20:30; Sa-Su 09:00-20:30; PH closed",
+    "service:bicycle:parts": "yes",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "shop": "sports",
+    "sport": "climbing;athletics;canoe;cycling;safety_training;fitness;soccer;gymnastics;multi;swimming;skating;roller_skating;pelota;racquet;rowing;tennis;volleyball;beachvolleyball;yoga",
+    "website": "https://www.decathlon.cl/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9524800169,
+  "lat": -32.9417565,
+  "lon": -71.5457687,
+  "tags": {
+    "addr:housenumber": "58",
+    "addr:street": "Avenida Blanca Estela",
+    "contact:phone": "+56961960362",
+    "delivery": "yes",
+    "name": "Oconcept",
+    "shop": "sports",
+    "website": "https://oconcept.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9524800173,
+  "lat": -32.9416976,
+  "lon": -71.5458602,
+  "tags": {
+    "addr:country": "CL",
+    "addr:housenumber": "60",
+    "addr:street": "Avenida Blanca Estela",
+    "brand": "Specialized",
+    "brand:wikidata": "Q124966655",
+    "brand:wikipedia": "es:Specialized",
+    "contact:facebook": "https://www.facebook.com/BikeauthorityChile/",
+    "contact:instagram": "https://instagram.com/bikeauthority_concon_?utm_medium=copy_link",
+    "email": "contacto.renaca@bikeauthority.cl",
+    "name": "Bike Authority",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:cryptocurrencies": "no",
+    "payment:diners_club": "yes",
+    "payment:electronic_purses": "no",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+56 2 2880 9603",
+    "service:bicycle:cleaning": "no",
+    "service:bicycle:diy": "yes",
+    "service:bicycle:pump": "no",
+    "service:bicycle:rental": "no",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "service:bicycle:second_hand": "no",
+    "shop": "bicycle",
+    "website": "https://www.bikeauthority.cl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9560651662,
+  "lat": -32.9734879,
+  "lon": -71.5446917,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "13995",
+    "addr:street": "Avenida Borgoño",
+    "level": "2",
+    "name": "Preuniversitario Pedro de Valdivia",
+    "office": "educational_institution",
+    "operator": "Preuniversitario Pedro de Valdivia",
+    "phone": "+56225498790",
+    "website": "https://www.preupdv.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9571935701,
+  "lat": -33.0244119,
+  "lon": -71.5573303,
+  "tags": {
+    "name": "Rewind",
+    "opening_hours": "Mo-Sa 10:00-19:00",
+    "phone": "+56 32 271 2483",
+    "shop": "music",
+    "website": "https://www.rewind.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 9579466341,
+  "lat": -32.9868478,
+  "lon": -71.2769603,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:country": "CL",
+    "addr:housenumber": "374",
+    "addr:street": "Serrano",
+    "amenity": "clinic",
+    "email": "contacto@masgerontovida.cl",
+    "healthcare": "clinic",
+    "healthcare:speciality": "psychology;dentist;geriatrics;general_practice;psychiatry;nurses;child_psychology;podiatry;applied_kinesiology;audiology;nutrition;occupational;diagnostic_radiology;endodontics;massage_therapy",
+    "mobile": "+56 9 6407 9789",
+    "name": "Gerontovida",
+    "opening_hours": "Mo-Su 08:30-13:30,14:30-20:30, Sa 09:00-13:30",
+    "phone": "+56332419283;+56332418375",
+    "website": "https://www.masgerontovida.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 9723750806,
+  "lat": -33.0105061,
+  "lon": -71.5475074,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "830",
+    "addr:street": "13 Norte",
+    "brand": "Oxford",
+    "contact:phone": "+56226319737",
+    "fixme": "Aparentemente esto ya no existe, o no lo encontré cuando estuve allí",
+    "name": "Oxford Store",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "shop": "bicycle",
+    "website": "https://www.oxfordstore.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9797257942,
+  "lat": -32.9427529,
+  "lon": -71.5338008,
+  "tags": {
+    "addr:city": "Concón",
+    "addr:country": "CL",
+    "addr:housenumber": "1236",
+    "addr:street": "Avenida Blanca Estela",
+    "name": "CHIC La Peluquería",
+    "shop": "hairdresser",
+    "website": "https://chicandspa.agendapro.com/cl"
+  }
+},
+{
+  "type": "node",
+  "id": 9797257945,
+  "lat": -32.9427870,
+  "lon": -71.5341418,
+  "tags": {
+    "addr:housenumber": "1318",
+    "addr:street": "Avenida Blanca Estela",
+    "contact:phone": "+56 32 320 5654",
+    "leisure": "fitness_centre",
+    "name": "One Fitness",
+    "website": "https://www.onefitness.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9803218937,
+  "lat": -33.0180247,
+  "lon": -71.2380354,
+  "tags": {
+    "description": "Desarmaduría de vehículos. Venta de partes o repuestos usados.",
+    "name": "Desarmaduría Los Hermanos",
+    "opening_hours": "Mo-Fr 09:00-13:00, 14:00-18:00; Sa 09:00-15:00",
+    "phone": "+56933922195",
+    "shop": "car_parts",
+    "website": "https://www.facebook.com/victor.duranalvarado"
+  }
+},
+{
+  "type": "node",
+  "id": 9804252227,
+  "lat": -33.0138068,
+  "lon": -71.2711461,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "1228",
+    "addr:postcode": "2240000",
+    "addr:street": "Avenida Palmira Romano",
+    "description": "Distribuidora de alimentos y accesorios para mascotas. Distribuidora mayorista y venta retail.",
+    "name": "BeFoods",
+    "opening_hours": "Mo-Fr 09:00-20:30; Sa 09:00-20:00; Su 09:00-14:30",
+    "operator": "BeFoods",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+56332413032",
+    "shop": "pet",
+    "website": "https://befoods.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 9817516440,
+  "lat": -32.9718128,
+  "lon": -71.5329051,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "973",
+    "addr:street": "Avenida Benjamín Vicuña Mackenna",
+    "name": "Redibuk",
+    "office": "company",
+    "phone": "+56 2 2324 5230",
+    "website": "https://www.redibuk.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9849761680,
+  "lat": -32.9028579,
+  "lon": -71.1174661,
+  "tags": {
+    "addr:city": "Hijuelas",
+    "addr:postcode": "2210000",
+    "email": "cabanasocoa@gmail.com",
+    "internet_access": "no",
+    "name": "Cabañas Ocoa",
+    "phone": "+56944106892",
+    "reservation": "yes",
+    "tourism": "chalet",
+    "website": "https://cabañasocoa.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 9883076717,
+  "lat": -33.0318066,
+  "lon": -71.2463351,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "deli;diner;french;indian;local;mediterranean;regional",
+    "email": "reservas@cocinadinamica.cl",
+    "internet_access": "wlan",
+    "name": "Galpón Dinámico - Comida para el Alma",
+    "name:en": "Galpon Dinamico - Anthroposophical restaurant",
+    "opening_hours": "Th 17:00-23:30; Fr 13:00-14:45; Sa 13:00-17:00",
+    "phone": "+56977643100",
+    "website": "https://www.cocinadinamica.cl/galpondinamico-limache"
+  }
+},
+{
+  "type": "node",
+  "id": 9894012277,
+  "lat": -33.0377159,
+  "lon": -71.3864122,
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housenumber": "1609",
+    "addr:street": "Madrid",
+    "name": "Mecánica Velian",
+    "opening_hours": "Mo-Fr 09:00-18:00; PH off",
+    "phone": "+56948834939",
+    "shop": "car_repair",
+    "website": "https://mecanica-velian.negocio.site"
+  }
+},
+{
+  "type": "node",
+  "id": 9900926718,
+  "lat": -33.1954265,
+  "lon": -71.6936962,
+  "tags": {
+    "addr:housenumber": "751",
+    "addr:street": "Los Almendros",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "El Templo",
+    "opening_hours": "Fr-Su 13:00-17:00, 18:00-22:15",
+    "phone": "+56 9 4545 1659",
+    "website": "http://Eltemplo.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 9925038417,
+  "lat": -33.0432270,
+  "lon": -71.6278071,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "399",
+    "addr:postcode": "2340000",
+    "addr:street": "Almirante Montt, Cerro Concepción",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Entre Cerros",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56 32 221 2956",
+    "website": "https://www.facebook.com/Cafeentrecerrosvalp"
+  }
+},
+{
+  "type": "node",
+  "id": 9931979790,
+  "lat": -32.9420816,
+  "lon": -71.5420248,
+  "tags": {
+    "addr:housenumber": "475",
+    "addr:street": "Avenida Blanca Estela",
+    "amenity": "kindergarten",
+    "name": "Mundo Naranja",
+    "website": "http://www.mundonaranja.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9961587090,
+  "lat": -32.9419911,
+  "lon": -71.5215421,
+  "tags": {
+    "addr:city": "Concón",
+    "addr:country": "CL",
+    "addr:housename": "Espacio Bosque Pinares",
+    "addr:housenumber": "2095",
+    "addr:postcode": "2511510",
+    "addr:street": "Avenida Blanca Estela",
+    "name": "Ananda Galea",
+    "phone": "+56976698874",
+    "shop": "jewelry",
+    "website": "https://www.anandagalea.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9994161263,
+  "lat": -32.9951232,
+  "lon": -71.2315317,
+  "tags": {
+    "addr:housenumber": "1683",
+    "addr:street": "Avenida Eastman",
+    "mobile": "+56997571981",
+    "name": "Ferretería Bijit",
+    "phone": "+56962348270",
+    "shop": "hardware",
+    "website": "https://bijit.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9994161454,
+  "lat": -32.9840197,
+  "lon": -71.2750315,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:country": "CL",
+    "addr:housenumber": "100",
+    "addr:street": "Condell",
+    "name": "Esval",
+    "office": "water_utility",
+    "opening_hours": "Mo-Fr 08:30-14:30",
+    "operator": "ESVAL",
+    "website": "https://www.esval.cl/personas/sucursales/"
+  }
+},
+{
+  "type": "node",
+  "id": 10062685702,
+  "lat": -33.0150764,
+  "lon": -71.5554967,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "636",
+    "addr:street": "Avenida San Martín",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "Just Burger",
+    "website": "https://www.justburger.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10064094287,
+  "lat": -32.9434373,
+  "lon": -71.5356653,
+  "tags": {
+    "addr:country": "CL",
+    "addr:housenumber": "1086",
+    "addr:street": "Avenida Blanca Estela",
+    "amenity": "clinic",
+    "email": "contacto@clinicapinares.cl",
+    "healthcare": "clinic",
+    "name": "Clínica Pinares",
+    "phone": "+56323181611",
+    "website": "https://clinicapinares.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10075102644,
+  "lat": -32.9416644,
+  "lon": -71.5460550,
+  "tags": {
+    "name": "Click Wine",
+    "shop": "wine",
+    "website": "https://www.clickwine.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10087246125,
+  "lat": -32.9094953,
+  "lon": -70.3027105,
+  "tags": {
+    "email": "refugio.cumbres@hotmail.com",
+    "name": "Refugio Cumbres",
+    "phone": "9 9826 1382",
+    "tourism": "hotel",
+    "website": "https://www.facebook.com/RefugioCumbres/"
+  }
+},
+{
+  "type": "node",
+  "id": 10164144996,
+  "lat": -33.0637372,
+  "lon": -71.2290889,
+  "tags": {
+    "craft": "winery",
+    "email": "info@haciendavaldeperillo.com",
+    "farmyard": "farm",
+    "name": "Hacienda Valdeperillo",
+    "phone": "+56985959313",
+    "website": "https://www.haciendavaldeperillo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10243004409,
+  "lat": -33.0326296,
+  "lon": -71.6306723,
+  "tags": {
+    "addr:housenumber": "213",
+    "addr:postcode": "2340000",
+    "addr:street": "Subida Artillería",
+    "amenity": "cafe",
+    "cuisine": "arab;cake;coffee_shop;hot_dog;local;sandwich;spanish",
+    "name": "Trigal Artillería",
+    "opening_hours": "Mo-Sa,Su 10:00-19:30",
+    "website": "https://instagram.com/trigalartilleria"
+  }
+},
+{
+  "type": "node",
+  "id": 10688389924,
+  "lat": -33.0316738,
+  "lon": -71.5574594,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "919",
+    "addr:street": "Valencia",
+    "amenity": "school",
+    "grades": "preescolar - 8ª",
+    "name": "Escuela Básica Esther Huneeus Marcela Paz",
+    "website": "https://www.cmvm.cl/content/educacion/sectores/recreo/establecimientos/marcela-paz/marcela-paz.php"
+  }
+},
+{
+  "type": "node",
+  "id": 10759213168,
+  "lat": -33.0457815,
+  "lon": -71.3961802,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "Fs7training",
+    "website": "https://www.instagram.com/fs7training_official/"
+  }
+},
+{
+  "type": "node",
+  "id": 10941728751,
+  "lat": -32.9851236,
+  "lon": -71.4989698,
+  "tags": {
+    "facebook": "https://www.facebook.com/tiendamkoutlet",
+    "instagram": "https://www.instagram.com/mktienda_outlet",
+    "name": "Mk",
+    "opening_hours": "Mo-Sa 10:00-20:30; Su 10:00-20:00",
+    "phone": "+56 2 2678 9000",
+    "shop": "doityourself",
+    "website": "https://www.mk.cl/mk-outlet"
+  }
+},
+{
+  "type": "node",
+  "id": 10960454343,
+  "lat": -32.9722064,
+  "lon": -71.5279929,
+  "tags": {
+    "addr:country": "CL",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica Atlas",
+    "website": "https://clinicaatlas.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11002479228,
+  "lat": -33.0268267,
+  "lon": -71.6387680,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:street": "Avenida Gran Bretaña",
+    "email": "comunicaciones@npf.cl",
+    "name": "Núcleo Milenio de Formación Planetaria",
+    "office": "educational_institution",
+    "phone": "+56322508311",
+    "website": "https://npf.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11028044510,
+  "lat": -32.9641235,
+  "lon": -71.5341175,
+  "tags": {
+    "addr:country": "CL",
+    "amenity": "clinic",
+    "healthcare": "psychotherapist",
+    "name": "Fundación Trekan",
+    "phone": "+56998903638",
+    "website": "https://www.fundaciontrekan.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11028044513,
+  "lat": -32.9546128,
+  "lon": -71.5326181,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "Legacy Strong",
+    "phone": "+56954020804",
+    "website": "https://legacystrong.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11028044530,
+  "lat": -32.9595843,
+  "lon": -71.5367433,
+  "tags": {
+    "addr:housenumber": "58",
+    "addr:street": "Calafquén",
+    "name": "La Casita Talleres",
+    "office": "educational_institution",
+    "phone": "+56976599935",
+    "website": "https://www.tallereslacasita.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11193612021,
+  "lat": -32.9684748,
+  "lon": -71.5414845,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "650",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "name": "Ecohome",
+    "phone": "+56 9 8464 1822",
+    "shop": "curtain",
+    "website": "https://cortinas.ecohome.cl/dealersite/contacto?sucursal=29&Re%C3%B1aca"
+  }
+},
+{
+  "type": "node",
+  "id": 11253446579,
+  "lat": -33.0416705,
+  "lon": -71.6292063,
+  "tags": {
+    "addr:country": "CL",
+    "addr:housenumber": "9",
+    "addr:street": "Pasaje Bavestrello",
+    "description": "Taller de xilografía y pintura",
+    "name": "Taller Pewma",
+    "opening_hours": "Mo-Fr 10:30-19:00",
+    "shop": "art",
+    "website": "https://instagram.com/lonkovalparaiso"
+  }
+},
+{
+  "type": "node",
+  "id": 11269482661,
+  "lat": -33.0423433,
+  "lon": -71.6278236,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "9",
+    "addr:street": "Pasaje Pierre Loti",
+    "email": "valparaiso@artenostro.cl",
+    "name": "Arte Nostro",
+    "shop": "art",
+    "website": "https://www.artenostro.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11375837210,
+  "lat": -32.9722524,
+  "lon": -71.5415900,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "37",
+    "addr:street": "Almirante Lynch",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Seiko Sushi",
+    "phone": "+56996969553",
+    "website": "https://www.seikosushi.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 11388457390,
+  "lat": -32.9707523,
+  "lon": -71.5429045,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housename": "Mall Plaza Reñaca",
+    "addr:housenumber": "14580",
+    "addr:street": "Avenida Borgoño",
+    "addr:suburb": "Reñaca",
+    "craft": "glaziery",
+    "name": "Hunterglass",
+    "phone": "+56 9 7860 3544",
+    "website": "https://www.hunterglass.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11388469007,
+  "lat": -32.9731036,
+  "lon": -71.5392524,
+  "tags": {
+    "clothes": "women",
+    "name": "Paula Vallejo Boutique",
+    "phone": "+56 9 9232 5555",
+    "shop": "clothes",
+    "website": "http://www.paulavallejo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11388469008,
+  "lat": -32.9728696,
+  "lon": -71.5370980,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Jardín Infantil y Sala Cuna Charlie Brown",
+    "phone": "+56 32 3204667",
+    "website": "https://www.charlie-brown.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11394187421,
+  "lat": -32.9691681,
+  "lon": -71.5410996,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "595",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "amenity": "cafe",
+    "cuisine": "sandwich;pizza;seafood;steak_house;international;dessert;cake;ice_cream;american",
+    "name": "Millefleur Café Bistró",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "+56 9 5164 1325",
+    "website": "https://www.tiendamillefleur.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11394211377,
+  "lat": -32.9691539,
+  "lon": -71.5410639,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "595",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Carmine",
+    "website": "https://carminecucinaitaliana.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11443432969,
+  "lat": -33.6434315,
+  "lon": -71.6232375,
+  "tags": {
+    "addr:housenumber": "24",
+    "addr:street": "Central",
+    "email": "bbrocasantodomingo@gmail.com",
+    "name": "B&B Rocas Santo Domingo",
+    "opening_hours": "24/7",
+    "phone": "+56998424920",
+    "tourism": "hotel",
+    "website": "https://www.bybrocasantodomingo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11443751783,
+  "lat": -32.7539881,
+  "lon": -70.7286915,
+  "tags": {
+    "addr:city": "San Felipe",
+    "addr:housenumber": "255",
+    "addr:postcode": "2171796",
+    "addr:street": "Avenida Libertador Bernardo O'Higgins",
+    "name": "TeCuidoChile.cl",
+    "office": "security",
+    "opening_hours": "Mo-Fr 09:30-19:00",
+    "phone": "+56 342 235 727",
+    "source": "local knowledge;gps",
+    "website": "https://tecuidochile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11471901158,
+  "lat": -32.9216125,
+  "lon": -71.5187051,
+  "tags": {
+    "addr:city": "Concón",
+    "addr:housenumber": "630",
+    "addr:street": "Maroto",
+    "amenity": "school",
+    "name": "Colegio Altazor",
+    "website": "https://www.colegioaltazorconcon.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11493084304,
+  "lat": -33.0095613,
+  "lon": -71.5469869,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1296",
+    "addr:street": "1 1/2 Oriente",
+    "email": "hola@pichintuntienda.cl",
+    "name": "Pichintun",
+    "opening_hours": "Mo-Sa 10:30-19:30",
+    "phone": "+56 9 3424 6437",
+    "shop": "variety_store",
+    "website": "https://www.pichintun.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11493084306,
+  "lat": -33.0089922,
+  "lon": -71.5460603,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1360",
+    "addr:street": "2 Oriente",
+    "email": "ventas@growprochile.cl",
+    "name": "GrowPro",
+    "opening_hours": "Mo-Fr 10:30-19:30; Sa 11:00-19:30",
+    "phone": "+56 9 6818 0536",
+    "shop": "cannabis",
+    "website": "https://www.growpro.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11519128058,
+  "lat": -33.4576282,
+  "lon": -71.6621359,
+  "tags": {
+    "addr:city": "El Tabo",
+    "addr:housenumber": "305",
+    "addr:postcode": "2690058",
+    "addr:street": "José Francisco",
+    "email": "rutanomadespa@gmail.com",
+    "name": "Cabañas El Caleuche El Tabo",
+    "operator": "Turismo Ruta Nomade Spa",
+    "tourism": "chalet",
+    "website": "www.cabañaselcaleucheeltabo.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 11519137165,
+  "lat": -33.4562022,
+  "lon": -71.6686762,
+  "tags": {
+    "addr:city": "El Tabo",
+    "addr:housenumber": "1250",
+    "addr:postcode": "2690058",
+    "addr:street": "O'Higgins",
+    "check_date": "2026-04-27",
+    "email": "rutanomadespa@gmail.com",
+    "name": "Apartamentos El Caleuche El Tabo",
+    "operator": "Turismo Ruta Nomade Spa",
+    "tourism": "chalet",
+    "website": "www.cabañaselcaleucheeltabo.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 11542407448,
+  "lat": -33.3688198,
+  "lon": -71.6731886,
+  "tags": {
+    "addr:city": "Algarrobo",
+    "addr:housenumber": "1030",
+    "addr:postcode": "2711703",
+    "addr:street": "Avenida Ignacio Carrera Pinto",
+    "name": "Litoral",
+    "office": "energy_supplier",
+    "opening_hours": "Mo-Fr 09:00-20:00",
+    "phone": "+56931973778",
+    "website": "https://www.litoral.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 11558762910,
+  "lat": -33.4005389,
+  "lon": -71.6945511,
+  "tags": {
+    "addr:city": "El Quisco",
+    "addr:housenumber": "421",
+    "addr:street": "Avenida Isidoro Dubournais",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "mobile": "+56966495567",
+    "name": "Centro de Salud Cetemel",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "website": "https://cetemel.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11699276598,
+  "lat": -32.8824160,
+  "lon": -71.2469787,
+  "tags": {
+    "addr:city": "Quillota",
+    "addr:housenumber": "470",
+    "addr:street": "Bernardo O'Higgins",
+    "email": "contacto@hedt.cl",
+    "name": "HEDT Computación",
+    "opening_hours": "Mo-Fr 10:00-19:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56 9 9797 3286",
+    "shop": "computer",
+    "website": "www.hedt.cl",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11745974172,
+  "lat": -32.9584804,
+  "lon": -71.5395347,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "527",
+    "addr:street": "Avenida Gastón Hamel Nieto",
+    "amenity": "cafe",
+    "name": "C'est Si Bon",
+    "website": "https://www.cestsibon.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11760953228,
+  "lat": -32.9952375,
+  "lon": -71.2316509,
+  "tags": {
+    "addr:housenumber": "1683",
+    "addr:street": "Avenida Eastman",
+    "addr:unit": "3",
+    "name": "BiosferaSolar",
+    "shop": "energy",
+    "website": "https://www.biosferasolar.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11764123370,
+  "lat": -32.9881860,
+  "lon": -71.2654027,
+  "tags": {
+    "addr:housenumber": "808",
+    "addr:street": "Condell",
+    "craft": "electronics_repair",
+    "email": "contacto@moretech.cl",
+    "name": "More Tech",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-14:00",
+    "phone": "+56952421439",
+    "website": "https://moretech.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11764870015,
+  "lat": -32.9484300,
+  "lon": -71.5462589,
+  "tags": {
+    "name": "Ameritex",
+    "shop": "furniture",
+    "website": "https://www.ameritex.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11778239687,
+  "lat": -32.9855875,
+  "lon": -71.4993399,
+  "tags": {
+    "clothes": "children",
+    "email": "info@pillin.cl",
+    "facebook": "https://www.facebook.com/PillinChile",
+    "instagram": "https://www.instagram.com/pillinchile",
+    "name": "Pillin",
+    "opening_hours": "Mo-Sa 10:00-20:30; Su 10:00-20:00",
+    "phone": "+56 2 2674 2350",
+    "shop": "clothes",
+    "website": "https://www.pillin.com",
+    "youtube": "https://www.youtube.com/@Pillintvchile"
+  }
+},
+{
+  "type": "node",
+  "id": 11778239707,
+  "lat": -33.0060453,
+  "lon": -71.5446640,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "961",
+    "addr:street": "Avenida Benidorm",
+    "clothes": "children",
+    "email": "info@pillin.cl",
+    "facebook": "https://www.facebook.com/PillinChile",
+    "instagram": "https://www.instagram.com/pillinchile",
+    "name": "Pillin",
+    "opening_hours": "Mo-Su 10:00-20:30",
+    "phone": "+56 2 2674 2375",
+    "shop": "clothes",
+    "website": "https://www.pillin.com",
+    "youtube": "https://www.youtube.com/@Pillintvchile"
+  }
+},
+{
+  "type": "node",
+  "id": 11778239708,
+  "lat": -33.1305097,
+  "lon": -71.5652605,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "2335",
+    "addr:street": "Avenida Cardenal Samoré",
+    "clothes": "children",
+    "email": "info@pillin.cl",
+    "facebook": "https://www.facebook.com/PillinChile",
+    "instagram": "https://www.instagram.com/pillinchile",
+    "name": "Pillin",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+56 2 2674 2374",
+    "shop": "clothes",
+    "website": "https://www.pillin.com",
+    "youtube": "https://www.youtube.com/@Pillintvchile"
+  }
+},
+{
+  "type": "node",
+  "id": 11778239732,
+  "lat": -33.0267817,
+  "lon": -71.5475285,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "1070",
+    "addr:street": "Avenida Valparaíso",
+    "clothes": "children",
+    "email": "info@pillin.cl",
+    "facebook": "https://www.facebook.com/PillinChile",
+    "instagram": "https://www.instagram.com/pillinchile",
+    "name": "Pillin",
+    "opening_hours": "Mo-Su 09:00-20:00",
+    "phone": "+56 2 2674 2325",
+    "shop": "clothes",
+    "website": "https://www.pillin.com",
+    "youtube": "https://www.youtube.com/@Pillintvchile"
+  }
+},
+{
+  "type": "node",
+  "id": 11778355348,
+  "lat": -32.9620806,
+  "lon": -71.5427253,
+  "tags": {
+    "amenity": "school",
+    "name": "Colegio Los Bosques",
+    "website": "https://colegiolosbosques.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11820046768,
+  "lat": -33.0265653,
+  "lon": -71.5647523,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "227",
+    "addr:street": "José Francisco Vergara",
+    "name": "Sastrería Garcia Vellella",
+    "shop": "tailor",
+    "website": "https://garcia-vellella.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11889992479,
+  "lat": -33.0376611,
+  "lon": -71.5765782,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "7",
+    "addr:street": "Inés de Suárez",
+    "name": "The Repack Bike Shop",
+    "payment:apple_pay": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:google_pay": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+56 9 9165 5579",
+    "service:bicycle:bicycle": "yes",
+    "service:bicycle:clothing": "yes",
+    "service:bicycle:mtb": "yes",
+    "service:bicycle:parts": "yes",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "service:bicycle:tools": "yes",
+    "shop": "bicycle",
+    "website": "https://www.therepack.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11954608356,
+  "lat": -33.0240943,
+  "lon": -71.5578098,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "339",
+    "addr:street": "Avenida Valparaíso",
+    "amenity": "restaurant",
+    "name": "Rancho Linares",
+    "website": "https://www.instagram.com/rancholinares/"
+  }
+},
+{
+  "type": "node",
+  "id": 11954622297,
+  "lat": -32.9738220,
+  "lon": -71.5390663,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "Savittar Yoga",
+    "phone": "+56 9 2241 2185",
+    "sport": "yoga",
+    "website": "https://www.savittarvina.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11954689986,
+  "lat": -32.9687674,
+  "lon": -71.5303535,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1350",
+    "addr:street": "Avenida General Bernardo O'Higgins",
+    "amenity": "school",
+    "name": "Colegio Alto Pequén",
+    "website": "https://educacionalaltopequen.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11954901965,
+  "lat": -32.9434922,
+  "lon": -71.5356130,
+  "tags": {
+    "addr:city": "Concón",
+    "addr:housenumber": "1086",
+    "addr:street": "Avenida Blanca Estela",
+    "name": "Geomediciones",
+    "office": "yes",
+    "phone": "+56 32 3287350",
+    "website": "https://geomediciones.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11961243876,
+  "lat": -33.0269376,
+  "lon": -71.5634449,
+  "tags": {
+    "amenity": "school",
+    "name": "Colegio Profesor Huguet",
+    "phone": "+56 32 266 2741",
+    "website": "https://www.colegiohuguet.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11963265821,
+  "lat": -32.9959555,
+  "lon": -71.1803580,
+  "tags": {
+    "name": "Alto Poniente Propiedades",
+    "phone": "+56950949552",
+    "shop": "estate_agent",
+    "website": "https://www.altoponiente.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12018723160,
+  "lat": -32.9720750,
+  "lon": -71.5445196,
+  "tags": {
+    "email": "naturalbikes1@gmail.com",
+    "name": "Natural Bikes",
+    "phone": "+56 9 7704 3878",
+    "service:bicycle:diy": "yes",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "service:bicycle:second_hand": "yes",
+    "shop": "bicycle",
+    "website": "https://naturalbikes.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12070100351,
+  "lat": -33.0025567,
+  "lon": -71.1259488,
+  "tags": {
+    "addr:street": "Avenida Cajón Grande",
+    "name": "Biosfera Lodge",
+    "tourism": "hotel",
+    "website": "https://biosferalodge.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12101397946,
+  "lat": -33.0371933,
+  "lon": -71.5562356,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1771",
+    "addr:street": "Avenida Gregorio Marañón",
+    "amenity": "school",
+    "denomination": "waldorf",
+    "name": "Escuela Libre del Sur",
+    "religion": "christian",
+    "website": "https://www.escuelalibredelsur.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12139961150,
+  "lat": -33.0242889,
+  "lon": -71.5579454,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "328",
+    "addr:street": "Avenida Valparaíso",
+    "email": "lalibrerialtda@gmail.com",
+    "name": "La Librería",
+    "opening_hours": "Mo-Fr 10:30-19:15; Sa 10:30-15:30",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56322465635",
+    "shop": "stationery",
+    "website": "https://www.lalibreriaonline.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12179267274,
+  "lat": -33.0403452,
+  "lon": -71.6010778,
+  "tags": {
+    "addr:housenumber": "201",
+    "addr:street": "Manuel Tocornal y Blanco Viel",
+    "amenity": "veterinary",
+    "check_date": "2026-06-29",
+    "internet_access": "no",
+    "name": "TerraVets - Tienda Peludos",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56983548930",
+    "website": "https://www.tiendapeludos.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12206970186,
+  "lat": -33.0033086,
+  "lon": -71.2684465,
+  "tags": {
+    "addr:housenumber": "37",
+    "addr:street": "Independencia",
+    "addr:unit": "A",
+    "check_date": "2024-09-28",
+    "name": "Artesanos De La Miel",
+    "opening_hours": "Mo-Fr 10:00-13:30,15:00-18:30; Sa 10:00-14:30; Su off",
+    "phone": "+56 33 241 2466",
+    "shop": "honey",
+    "website": "https://www.mielfloranativa.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 12216899127,
+  "lat": -32.6309899,
+  "lon": -71.4167967,
+  "tags": {
+    "addr:city": "La Laguna",
+    "addr:housenumber": "4",
+    "addr:street": "Camino el Zanjón",
+    "amenity": "school",
+    "denomination": "waldorf",
+    "name": "Colegio Viento Sur",
+    "religion": "christian",
+    "website": "https://www.waldorfvientosur.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12217024769,
+  "lat": -32.7966655,
+  "lon": -70.6187030,
+  "tags": {
+    "addr:city": "Santa María",
+    "addr:housenumber": "3126 A",
+    "addr:street": "Tocornal",
+    "amenity": "school",
+    "denomination": "waldorf",
+    "email": "info@waldorfaconcagua.cl",
+    "mobile": "+56 9 7707 0862",
+    "name": "Colegio Waldorf Monte Aconcagua",
+    "religion": "christian",
+    "website": "https://waldorfaconcagua.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12236040662,
+  "lat": -32.9731838,
+  "lon": -71.5395623,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "426",
+    "addr:street": "Avenida Benjamín Vicuña Mackenna",
+    "name": "Education First",
+    "office": "educational_institution",
+    "website": "https://www.ef.com/cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12343853118,
+  "lat": -33.0484778,
+  "lon": -71.4423912,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "754",
+    "addr:street": "Avenida Los Carrera",
+    "email": "headpaseoquilpue@headchile.com",
+    "instagram": "https://www.instagram.com/headchile",
+    "name": "Head",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:30-19:30",
+    "phone": "+56 9 9560 4466",
+    "shop": "bag",
+    "website": "https://www.headchile.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12343853127,
+  "lat": -33.0470524,
+  "lon": -71.6037959,
+  "tags": {
+    "email": "headpaseoross@headchile.com",
+    "instagram": "https://www.instagram.com/headchile",
+    "name": "Head",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+56 9 9437 3784",
+    "shop": "bag",
+    "website": "https://www.headchile.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12343853136,
+  "lat": -33.0086546,
+  "lon": -71.5483022,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "1348",
+    "addr:street": "Avenida Libertad",
+    "brand": "Head",
+    "brand:wikidata": "Q631894",
+    "email": "headmarina2@headchile.com",
+    "instagram": "https://www.instagram.com/headchile",
+    "name": "Head",
+    "opening_hours": "Fr-Sa 10:00-21:00; Mo-Th,Su 10:00-20:30",
+    "phone": "+56 9 6120 1374",
+    "shop": "sports",
+    "website": "https://www.headchile.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12343853149,
+  "lat": -33.0469850,
+  "lon": -71.4411467,
+  "tags": {
+    "email": "headsol2@headchile.com",
+    "instagram": "https://www.instagram.com/headchile",
+    "name": "Head",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-19:00",
+    "phone": "+56 9 6120 1354",
+    "shop": "bag",
+    "website": "https://www.headchile.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12343853153,
+  "lat": -33.0449682,
+  "lon": -71.4201664,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:door": "Local 1116",
+    "addr:housenumber": "2414",
+    "addr:street": "Avenida Ramón Freire",
+    "email": "headbelloto@headchile.com",
+    "instagram": "https://www.instagram.com/headchile",
+    "name": "Head",
+    "opening_hours": "Fr-Sa 10:00-21:00; Mo-Th,Su 10:00-20:30",
+    "phone": "+56 9 6120 4097",
+    "shop": "bag",
+    "website": "https://www.headchile.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12364516456,
+  "lat": -32.9855020,
+  "lon": -71.4990985,
+  "tags": {
+    "brand": "Head",
+    "brand:wikidata": "Q631894",
+    "email": "headoutletpark@headchile.com",
+    "instagram": "https://www.instagram.com/headchile",
+    "name": "Head",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:30-19:30",
+    "phone": "+56 9 6125 9345",
+    "shop": "sports",
+    "website": "https://www.headchile.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12422561813,
+  "lat": -32.9709879,
+  "lon": -71.5429785,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housename": "Mall Plaza Reñaca",
+    "addr:housenumber": "14580",
+    "addr:street": "Avenida Borgoño",
+    "addr:suburb": "Reñaca",
+    "clothes": "men",
+    "email": "tdatre206@maisasa.cl",
+    "name": "Arrow",
+    "shop": "clothes",
+    "website": "https://arrow.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12431615846,
+  "lat": -32.6834727,
+  "lon": -71.4135818,
+  "tags": {
+    "brand": "Specialized",
+    "brand:wikidata": "Q124966655",
+    "email": "ventas@bikechile.cl",
+    "name": "Bike Chile Maitencillo",
+    "phone": "+56 9 9440 6967",
+    "service:bicycle:parts": "yes",
+    "service:bicycle:retail": "yes",
+    "service:bicycle:tools": "yes",
+    "shop": "bicycle",
+    "website": "https://www.bikechile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12518820458,
+  "lat": -32.9698603,
+  "lon": -71.5432905,
+  "tags": {
+    "name": "RS Perfumes",
+    "phone": "+56 32 317 3854",
+    "shop": "perfumery",
+    "website": "https://www.rsperfumes.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12565963294,
+  "lat": -32.9976713,
+  "lon": -71.5073755,
+  "tags": {
+    "addr:street": "Arauco 54",
+    "name": "Costabikers",
+    "phone": "+56978716334",
+    "service:bicycle:cleaning": "yes",
+    "service:bicycle:diy": "yes",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:retail": "yes",
+    "service:bicycle:sales": "yes",
+    "service:bicycle:second_hand": "yes",
+    "shop": "bicycle",
+    "website": "https://www.costabikers.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12602953441,
+  "lat": -33.0004143,
+  "lon": -71.2097366,
+  "tags": {
+    "addr:city": "Olmué",
+    "addr:housenumber": "3001",
+    "addr:postcode": "2330020",
+    "addr:street": "Avenida Eastman",
+    "name": "Librería Mike",
+    "phone": "+569 73816006",
+    "shop": "stationery",
+    "website": "https://paqueteriaaguilera.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12762400118,
+  "lat": -33.0464653,
+  "lon": -71.5126192,
+  "tags": {
+    "name": "ESTEC",
+    "shop": "electrical",
+    "website": "https://estec.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12762616456,
+  "lat": -33.0133118,
+  "lon": -71.5502645,
+  "tags": {
+    "addr:housenumber": "664",
+    "addr:street": "10 norte",
+    "name": "Full CCTV",
+    "shop": "security",
+    "website": "www.fullcctv.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 12780020815,
+  "lat": -32.9425595,
+  "lon": -71.5457001,
+  "tags": {
+    "addr:housename": "Open Montemar",
+    "addr:housenumber": "842",
+    "addr:street": "Las Pelargonias",
+    "brand": "Giant",
+    "brand:wikidata": "Q703557",
+    "name": "Pedal Pro",
+    "shop": "bicycle",
+    "website": "https://pedalpro.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12856627481,
+  "lat": -33.4612811,
+  "lon": -71.4536037,
+  "tags": {
+    "addr:city": "Lagunillas",
+    "addr:housenumber": "29",
+    "addr:street": "Fundo Masa de Oro",
+    "email": "contactocasadomo@gmail.com",
+    "name": "Casadomo Inn",
+    "phone": "+56953967855",
+    "tourism": "chalet",
+    "website": "https://hbcasadomo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13015128377,
+  "lat": -33.0471924,
+  "lon": -71.3789759,
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housenumber": "236",
+    "addr:street": "San Enrique",
+    "amenity": "dentist",
+    "email": "contactodentalcity@gmail.com",
+    "healthcare": "dentist",
+    "healthcare:speciality": "dentist;dentistry",
+    "name": "Dentalcity",
+    "opening_hours": "Mo-We 10:00-18:00; Th 10:00-14:00; Fr 10:00-18:00",
+    "phone": "(9) 33181868",
+    "website": "https://www.contactodentalcity.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13018923836,
+  "lat": -33.0489567,
+  "lon": -71.6039221,
+  "tags": {
+    "email": "vendedor.valparaiso@cic.cl",
+    "name": "CIC",
+    "opening_hours": "Mo-Su 10:30-20:00",
+    "phone": "+56 9 7870 4613",
+    "shop": "bed",
+    "website": "https://www.cic.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13018923838,
+  "lat": -32.8354261,
+  "lon": -70.6043699,
+  "tags": {
+    "email": "vendedor.losandes@cic.cl",
+    "name": "CIC",
+    "opening_hours": "Mo-Su 10:30-20:00",
+    "phone": "+56 9 8900 8344",
+    "shop": "bed",
+    "website": "https://www.cic.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13018923842,
+  "lat": -32.9851465,
+  "lon": -71.4991844,
+  "tags": {
+    "email": "vendedor.concon@cic.cl",
+    "name": "CIC",
+    "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-19:00",
+    "phone": "+56 9 4130 8205",
+    "shop": "bed",
+    "website": "https://www.cic.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13233129848,
+  "lat": -32.9860041,
+  "lon": -71.2702026,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "459",
+    "addr:street": "Condell",
+    "addr:unit": "2",
+    "email": "claujoies@gmail.com",
+    "name": "Clau Joies",
+    "opening_hours": "Mo-Tu 10:00-13:30,15:00-19:00; Th-Fr 10:00-13:30,15:00-19:00, We 15:00-19:00",
+    "operator": "Claudia Castro",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+56998435777",
+    "shop": "jewelry",
+    "website": "www.claujoies.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13233810486,
+  "lat": -32.9415943,
+  "lon": -71.5441349,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Le Mint",
+    "phone": "+56 9 5450 4942",
+    "website": "https://lemint.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13303119576,
+  "lat": -32.8971846,
+  "lon": -71.2442672,
+  "tags": {
+    "clothes": "children",
+    "email": "info@pillin.cl",
+    "facebook": "https://www.facebook.com/PillinChile",
+    "instagram": "https://www.instagram.com/pillinchile",
+    "name": "Pillin",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+56 2 2674 2380",
+    "shop": "clothes",
+    "tiktok": "https://www.tiktok.com/@pillinchile",
+    "website": "https://www.pillin.com",
+    "youtube": "https://www.youtube.com/@Pillintvchile"
+  }
+},
+{
+  "type": "node",
+  "id": 13309585792,
+  "lat": -33.0405228,
+  "lon": -71.6281867,
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "91",
+    "addr:street": "Escalera Apolo",
+    "amenity": "restaurant",
+    "email": "lacolombinareservas@gmail.com",
+    "name": "La Colombina Café Bistró Bar",
+    "phone": "+56 9 7128 5729",
+    "website": "https://restoranlacolombina.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13340471681,
+  "lat": -32.9709947,
+  "lon": -71.5431850,
+  "tags": {
+    "email": "contacto@kenz.cl",
+    "name": "Kenz Joyería",
+    "phone": "+56 9 8514 7696",
+    "shop": "jewelry",
+    "website": "https://kenz.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13340512747,
+  "lat": -32.9684213,
+  "lon": -71.5425117,
+  "tags": {
+    "leisure": "fitness_centre",
+    "name": "Gimnasio Get Up",
+    "phone": "+56 9 4135 5660",
+    "website": "https://www.getupchile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13340884201,
+  "lat": -32.9956919,
+  "lon": -71.1850410,
+  "tags": {
+    "addr:housenumber": "4924",
+    "addr:street": "Arturo Prat",
+    "amenity": "restaurant",
+    "name:en": "Combi'n Art",
+    "website": "https://www.combinart.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13342571685,
+  "lat": -32.9129336,
+  "lon": -71.4938625,
+  "tags": {
+    "name": "Carpas Tribu",
+    "phone": "+56 9 3868 0953",
+    "shop": "outdoor",
+    "website": "https://www.carpastribu.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13342571689,
+  "lat": -32.9133749,
+  "lon": -71.4911094,
+  "tags": {
+    "name": "Eilers",
+    "office": "company",
+    "phone": "+56 (32) 281 7100",
+    "website": "https://eilers.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13408546601,
+  "lat": -32.6179706,
+  "lon": -70.7122250,
+  "tags": {
+    "addr:housenumber": "842",
+    "addr:postcode": "2190000",
+    "addr:street": "Las Carretas del Llano",
+    "name": "Domos el Llano",
+    "tourism": "chalet",
+    "website": "http://domoselllano.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13418318430,
+  "lat": -33.0113824,
+  "lon": -71.2585771,
+  "tags": {
+    "addr:housenumber": "406",
+    "addr:street": "Andrés Bello",
+    "addr:unit": "8",
+    "check_date": "2025-12-29",
+    "contact:instagram": "https://www.instagram.com/silla.studio",
+    "internet_access": "no",
+    "name": "La Silla Studio & Barbería",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "hairdresser",
+    "website": "https://lasilla.setmore.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13455151461,
+  "lat": -32.8497462,
+  "lon": -71.2286697,
+  "tags": {
+    "addr:housenumber": "72",
+    "addr:street": "Calama",
+    "amenity": "chemical",
+    "contact:email": "contacto@citrexchile.cl",
+    "description": "Fortalecemos la I+D en nuestro laboratorio y ofrecemos productos y servicios especializados en nutrición animal, limpieza, desinfección y tratamiento de olores.",
+    "name": "Citrex",
+    "office": "company",
+    "phone": "+56966691727",
+    "website": "https://citrexchile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13471508877,
+  "lat": -32.8054656,
+  "lon": -70.6516573,
+  "tags": {
+    "addr:city": "San Felipe",
+    "addr:housenumber": "789",
+    "addr:street": "San Rafael",
+    "email": "aconcagua@hotelpunakora.cl",
+    "name": "Hotel Punakora Aconcagua",
+    "phone": "034-2530609",
+    "tourism": "hotel",
+    "website": "https://hotelpunakora.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13504757543,
+  "lat": -32.9863607,
+  "lon": -71.2670677,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "666",
+    "addr:street": "Avenida Palmira Romano Norte",
+    "check_date": "2026-01-27",
+    "contact:email": "bosquescomestiblespuntocl@gmail.com",
+    "currency:XBT": "yes",
+    "name": "Bosques Comestibles",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "shop": "garden_centre",
+    "website": "https://bosquescomestibles.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13516927601,
+  "lat": -33.0698176,
+  "lon": -71.3048922,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Restaurant El Campito",
+    "website": "https://www.elcampito.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13517006664,
+  "lat": -27.1502250,
+  "lon": -109.4350247,
+  "tags": {
+    "addr:city": "Haŋa Roa",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "2770000",
+    "addr:street": "Apina Nui",
+    "air_conditioning": "yes",
+    "bar": "yes",
+    "email": "reservas@hoteltahatai.cl",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Taha Tai Hotel",
+    "payment:american_express": "yes",
+    "payment:app": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+56322551192",
+    "rooms": "40",
+    "tourism": "hotel",
+    "website": "https://hoteltahatai.cl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13771045597,
+  "lat": -32.8527577,
+  "lon": -70.9021845,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Aconcagua Farms",
+    "website": "https://aconcaguafarms.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13772800293,
+  "lat": -32.7445566,
+  "lon": -70.7213849,
+  "tags": {
+    "addr:city": "San Felipe",
+    "addr:housenumber": "124",
+    "addr:street": "1 Norte",
+    "leisure": "fitness_centre",
+    "name": "KineBalance",
+    "sport": "fitness",
+    "website": "https://reserfit.com/centro/kinebalance-"
+  }
+},
+{
+  "type": "node",
+  "id": 13892641327,
+  "lat": -32.9965471,
+  "lon": -71.2779640,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "491",
+    "addr:postcode": "2224000",
+    "addr:street": "Pasaje Olga Goñi",
+    "name": "Kibytech.cl",
+    "office": "it",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "phone": "+56997699369",
+    "website": "www.kibytech.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13894356328,
+  "lat": -33.1205813,
+  "lon": -71.5698803,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "addr:housenumber": "950",
+    "addr:postcode": "2372003",
+    "addr:street": "Avenida Fundadores",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "mobile": "+56 9 5720 5190",
+    "name": "Globalmédica Especialidades Odontológicas",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa-Su off",
+    "operator": "Globalmédica Especialidades Odontológicas",
+    "phone": "+56 32 229 2118",
+    "website": "https://www.globalmedica.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13943276537,
+  "lat": -32.9860760,
+  "lon": -71.2706240,
+  "tags": {
+    "addr:housenumber": "436",
+    "addr:street": "Condell",
+    "addr:unit": "B",
+    "name": "Atenas Nutrición",
+    "phone": "+56982559352",
+    "shop": "health_food",
+    "website": "https://www.atenasnutricion.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13955245161,
+  "lat": -33.0455237,
+  "lon": -71.6205058,
+  "tags": {
+    "addr:housenumber": "374",
+    "addr:street": "Huito",
+    "check_date": "2026-06-23",
+    "internet_access": "no",
+    "name": "Salón de belleza Red Queen",
+    "opening_hours": "We-Sa 09:00-19:00",
+    "payment:cards": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "phone": "+56 9 8682 8056",
+    "shop": "hairdresser",
+    "website": "https://www.instagram.com/jessicadiazvidal/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13958283904,
+  "lat": -33.0453146,
+  "lon": -71.6186759,
+  "tags": {
+    "addr:housenumber": "1718",
+    "addr:street": "Yungay",
+    "check_date": "2026-07-22",
+    "name": "Barbería House Studio",
+    "shop": "hairdresser",
+    "website": "housestudio.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13962963066,
+  "lat": -33.0422047,
+  "lon": -71.6016994,
+  "tags": {
+    "addr:housenumber": "296",
+    "addr:street": "Blanco Viel",
+    "amenity": "veterinary",
+    "check_date": "2026-07-22",
+    "name": "BaronVet",
+    "phone": "+56992150290",
+    "website": "contacto@baronvet.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 13970939077,
+  "lat": -32.7591382,
+  "lon": -70.9915247,
+  "tags": {
+    "amenity": "events_venue",
+    "description": "Punto de salida de la carrera anual de trail running celebrada en septiembre. / Annual trail running race course held every September.",
+    "internet_access": "no",
+    "name": "Desafío El Caqui",
+    "sport": "running",
+    "website": "https://www.instagram.com/desafio_el_caqui/"
+  }
+},
+{
+  "type": "node",
+  "id": 14012859594,
+  "lat": -33.0204207,
+  "lon": -71.5432413,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "285",
+    "addr:street": "6 Oriente",
+    "name": "Pan & Fermento",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-13:00",
+    "shop": "bakery",
+    "website": "https://panyfermento.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14026721428,
+  "lat": -32.9656904,
+  "lon": -71.5295489,
+  "tags": {
+    "addr:city": "Viña Del Mar",
+    "addr:housenumber": "80",
+    "addr:street": "Dublé Almeyda",
+    "amenity": "spa",
+    "beauty": "spa",
+    "name": "SPA del Bosque",
+    "phone": "+56 32 377 0111",
+    "shop": "beauty",
+    "website": "https://www.hotelbosquederenaca.cl/spa-del-bosque/"
+  }
+},
+{
+  "type": "node",
+  "id": 14042413412,
+  "lat": -33.1137006,
+  "lon": -71.5779302,
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "leisure": "fitness_centre",
+    "name": "Fortis Training Center",
+    "phone": "+56984862374",
+    "website": "https://chilefortis.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 14101718059,
+  "lat": -33.0232900,
+  "lon": -71.6325272,
+  "tags": {
+    "name": "Valparaíso Creativo",
+    "office": "government",
+    "operator": "CORFO",
+    "website": "https://www.valparaisocreativo.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 14102204659,
+  "lat": -27.1508036,
+  "lon": -109.4299211,
+  "tags": {
+    "addr:street": "Atamu Te Kena",
+    "name": "Rapa Music",
+    "shop": "music",
+    "website": "https://rapamusic.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14127248107,
+  "lat": -32.5035130,
+  "lon": -71.4367033,
+  "tags": {
+    "addr:city": "Papudo",
+    "addr:housenumber": "211",
+    "addr:street": "El Estero",
+    "amenity": "cafe",
+    "cuisine": "ice_cream;crepe;argentinian;coffee_shop;waffle",
+    "internet_access": "yes",
+    "internet_access:fee": "customers",
+    "name": "FannyLo",
+    "outdoor_seating": "yes",
+    "website": "https://maps.app.goo.gl/XjpGTCkDPgpX8KGYA"
+  }
+},
+{
+  "type": "node",
+  "id": 14141033121,
+  "lat": -32.9547981,
+  "lon": -71.5446646,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "2255",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "addr:unit": "153",
+    "email": "abogadosdefensacivil@gmail.com",
+    "name": "Defensa Civil Abogados y Propiedades",
+    "office": "lawyer",
+    "phone": "+56 9 8156 8207",
+    "website": "http://www.defensacivilabogados.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14141038466,
+  "lat": -32.9490316,
+  "lon": -71.5454725,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "3011",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "alt_name": "Trek Bicycle Store",
+    "branch": "Concón",
+    "brand": "Trek",
+    "brand:wikidata": "Q1067617",
+    "email": "trekconcon@sparta.cl",
+    "name": "Trek Bicycle Concón",
+    "phone": "+56 9 6643 0101",
+    "service:bicycle:clothing": "yes",
+    "service:bicycle:ebike": "yes",
+    "service:bicycle:parts": "yes",
+    "service:bicycle:repair": "yes",
+    "service:bicycle:sales": "yes",
+    "shop": "bicycle",
+    "website": "https://trekbikeschile.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14141038475,
+  "lat": -32.9491609,
+  "lon": -71.5454275,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "3011",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "branch": "Concón",
+    "leisure": "fitness_centre",
+    "name": "Get Fit",
+    "website": "https://getfit.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 14141038476,
+  "lat": -32.9492030,
+  "lon": -71.5454105,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "3011",
+    "addr:street": "Avenida Edmundo Eluchans",
+    "amenity": "restaurant",
+    "branch": "Concón",
+    "cuisine": "regional;fish;noodle;salad",
+    "name": "Fork",
+    "phone": "+56 9 4625 1921",
+    "website": "https://www.forkchile.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 14260407946,
+  "lat": -32.9683628,
+  "lon": -71.5316825,
+  "tags": {
+    "amenity": "dancing_school",
+    "education": "dancing_school",
+    "name": "Casa Ritmo",
+    "phone": "+56 9 6556 8330",
+    "website": "http://www.casaritmo.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 14308934841,
+  "lat": -33.0138063,
+  "lon": -71.5480019,
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "824",
+    "addr:street": "10 Norte",
+    "amenity": "dentist",
+    "contact:phone": "+56 32 288 3519",
+    "name": "Clínica Like",
+    "opening_hours": "Mo-Fr 09:15-19:30; Sa 09:15-13:30; PH off",
+    "website": "https://clinicalike.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 25890610,
+  "center": {
+    "lat": -33.0324378,
+    "lon": -71.5710749
+  },
+  "tags": {
+    "addr:housenumber": "795",
+    "addr:street": "Alonso de Ercilla",
+    "contact:email": "contacto@estadioespanol.cl",
+    "contact:phone": "+32 2137100",
+    "leisure": "sports_centre",
+    "name": "Estadio Español",
+    "outdoor": "yes",
+    "sport": "soccer;tennis;paddle",
+    "website": "https://estadioespanol.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 27633381,
+  "center": {
+    "lat": -33.0068433,
+    "lon": -71.5452709
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "961",
+    "addr:street": "Avenida Benidorm",
+    "alt_name": "Mall Espacio Urbano Viña del Mar",
+    "building": "yes",
+    "name": "Espacio Urbano 15 Norte",
+    "shop": "mall",
+    "website": "https://www.espaciourbano.cl/centro-comercial/15-norte"
+  }
+},
+{
+  "type": "way",
+  "id": 111608921,
+  "center": {
+    "lat": -33.0175261,
+    "lon": -71.5557873
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "405",
+    "addr:street": "4 Poniente",
+    "amenity": "dentist",
+    "building": "yes",
+    "healthcare": "dentist",
+    "name": "Clínica Odontológica iDental",
+    "website": "https://www.idental.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 135678981,
+  "center": {
+    "lat": -33.0428850,
+    "lon": -71.6254283
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "165",
+    "addr:street": "Paseo Atkinson",
+    "building": "yes",
+    "name": "Hotel Manoir Atkinson",
+    "tourism": "hotel",
+    "website": "https://hotelatkinson.cl/",
+    "wikidata": "Q111885911"
+  }
+},
+{
+  "type": "way",
+  "id": 141294959,
+  "center": {
+    "lat": -33.0168855,
+    "lon": -71.5436362
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "643",
+    "addr:street": "5 Oriente",
+    "alt_name": "TNE",
+    "building": "yes",
+    "contact:phone": "600 6600 400",
+    "name": "Tarjeta Nacional Estudiantil",
+    "office": "government",
+    "website": "https://www.tne.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 144460748,
+  "center": {
+    "lat": -33.6162504,
+    "lon": -71.6112639
+  },
+  "tags": {
+    "addr:city": "San Antonio",
+    "addr:housenumber": "789",
+    "addr:street": "Presidente Pérez",
+    "amenity": "school",
+    "name": "Liceo Técnico Femenino Santa Teresita de Llolleo",
+    "website": "https://www.liceosantateresita.cl/sitio/"
+  }
+},
+{
+  "type": "way",
+  "id": 149119630,
+  "center": {
+    "lat": -32.5562843,
+    "lon": -71.4536722
+  },
+  "tags": {
+    "addr:city": "Zapallar",
+    "addr:housenumber": "120",
+    "addr:street": "Avenida Januario Ovalle",
+    "amenity": "school",
+    "name": "Liceo Bicentenario De Zapallar",
+    "religion": "none",
+    "website": "https://www.liceobicentenariozapallar.cl/wordpress/"
+  }
+},
+{
+  "type": "way",
+  "id": 155373292,
+  "center": {
+    "lat": -33.0265664,
+    "lon": -71.5471235
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "1070",
+    "addr:street": "Avenida Valparaíso",
+    "building": "commercial",
+    "email": "contacto@paseovinacentro.cl",
+    "internet_access": "wlan",
+    "name": "Paseo Viña Centro",
+    "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+    "phone": "+56 2 2573 9888",
+    "shop": "mall",
+    "website": "https://paseovinacentro.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 162584178,
+  "center": {
+    "lat": -33.0104628,
+    "lon": -71.1754727
+  },
+  "tags": {
+    "addr:city": "Olmué",
+    "addr:housenumber": "6000",
+    "addr:street": "El Bajo",
+    "brand": "Rosa Agustina",
+    "building": "no",
+    "name": "Rosa Agustina Conference Resort & Spa",
+    "tourism": "hotel",
+    "website": "https://www.rosaagustina.cl/resort/rosa-agustina-conference"
+  }
+},
+{
+  "type": "way",
+  "id": 174373179,
+  "center": {
+    "lat": -33.0445323,
+    "lon": -71.3659484
+  },
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housenumber": "133",
+    "addr:street": "Avenida Valparaíso",
+    "amenity": "school",
+    "name": "Liceo Tecnológico Villa Alemana Ex-A38",
+    "website": "https://www.litecva.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 177372364,
+  "center": {
+    "lat": -33.0470625,
+    "lon": -71.4411555
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "822",
+    "addr:street": "Diego Portales",
+    "building": "retail",
+    "name": "Mall Plaza del Sol",
+    "opening_hours": "Mo-Su 11:00-22:30",
+    "phone": "+56 32 272 2020",
+    "shop": "mall",
+    "toilets": "yes",
+    "website": "https://www.mallplazadelsol.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 196335103,
+  "center": {
+    "lat": -33.5485277,
+    "lon": -71.5993215
+  },
+  "tags": {
+    "addr:city": "Cartagena",
+    "addr:housenumber": "660",
+    "addr:street": "Mariano Casanova",
+    "amenity": "school",
+    "name": "Liceo Vicente Huidobro",
+    "website": "https://lpvh.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 199855925,
+  "center": {
+    "lat": -33.6098334,
+    "lon": -71.6152600
+  },
+  "tags": {
+    "addr:city": "San Antonio",
+    "addr:housenumber": "288",
+    "addr:street": "Zorobabel Rodríguez",
+    "amenity": "school",
+    "name": "Colegio Fernández León",
+    "website": "https://www.colegiofernandezleon.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 200088041,
+  "center": {
+    "lat": -33.6151064,
+    "lon": -71.6127685
+  },
+  "tags": {
+    "addr:city": "San Antonio",
+    "addr:housenumber": "544",
+    "addr:street": "Santa Lucía",
+    "amenity": "school",
+    "name": "Colegio Gabriela Mistral",
+    "website": "https://www.colegiogabrielamistral.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 200131347,
+  "center": {
+    "lat": -27.1548521,
+    "lon": -109.4220850
+  },
+  "tags": {
+    "building": "yes",
+    "contact:email": "antoinerapanui@hotmail.com",
+    "contact:mobile": "+56 9 87287498",
+    "contact:phone": "+56 32 2100145",
+    "name": "Atavai",
+    "tourism": "hotel",
+    "website": "http://www.hotel-atavai.com"
+  }
+},
+{
+  "type": "way",
+  "id": 201459047,
+  "center": {
+    "lat": -27.1511573,
+    "lon": -109.4317999
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Kaimana Inn",
+    "phone": "+56-32-2551740",
+    "tourism": "hotel",
+    "website": "https://www.kaimanainn.com/",
+    "wikidata": "Q111415391"
+  }
+},
+{
+  "type": "way",
+  "id": 223357223,
+  "center": {
+    "lat": -33.6433078,
+    "lon": -78.8150268
+  },
+  "tags": {
+    "building": "yes",
+    "contact:email": "reservas@crusoeislandlodge.com",
+    "name": "Crusoe Island Lodge",
+    "rooms": "15",
+    "tourism": "hotel",
+    "website": "http://www.crusoeislandlodge.com"
+  }
+},
+{
+  "type": "way",
+  "id": 242540826,
+  "center": {
+    "lat": -33.0452617,
+    "lon": -71.3802862
+  },
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:country": "CL",
+    "addr:housenumber": "51",
+    "addr:street": "Santa Ana",
+    "amenity": "school",
+    "name": "Colegio Nacional Santa Ana",
+    "phone": "(32) 2951117 - (32) 2953290",
+    "website": "https://colegionacional.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 242541550,
+  "center": {
+    "lat": -33.0432651,
+    "lon": -71.3724523
+  },
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housename": "Colegio Nacional Central",
+    "addr:housenumber": "636",
+    "addr:street": "Santiago",
+    "amenity": "school",
+    "name": "Colegio Nacional Central",
+    "phone": "(32) 2950137 - (32) 2951987",
+    "website": "https://colegionacional.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 251587633,
+  "center": {
+    "lat": -27.1526650,
+    "lon": -109.4396722
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "capacity": "9",
+    "cuisine": "regional",
+    "name": "Hotel Mahia",
+    "website": "http://hotelmahia.com"
+  }
+},
+{
+  "type": "way",
+  "id": 274480574,
+  "center": {
+    "lat": -33.0478528,
+    "lon": -71.6213882
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "254",
+    "addr:street": "Rudolph",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Mirador de Valparaíso",
+    "opening_hours": "Tu-Th 12:00-22:30; Fr-Sa 12:00-00:30; Su 12:00-17:30",
+    "phone": "+56 32 3284116",
+    "website": "http://www.confieso.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 281344690,
+  "center": {
+    "lat": -32.9883575,
+    "lon": -71.2767537
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:country": "CL",
+    "addr:housenumber": "286",
+    "addr:street": "Caupolicán",
+    "amenity": "restaurant",
+    "building": "hotel",
+    "name": "Ferienheim Limache",
+    "tourism": "hotel",
+    "website": "https://ferienheim.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 281350160,
+  "center": {
+    "lat": -32.2373762,
+    "lon": -71.5005780
+  },
+  "tags": {
+    "addr:city": "Los Molles",
+    "caravans": "yes",
+    "name": "Camping Chivato",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://www.campingchivato.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 313491847,
+  "center": {
+    "lat": -33.0466986,
+    "lon": -71.6105264
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "2447",
+    "addr:street": "Avenida Pedro Montt",
+    "amenity": "school",
+    "name": "Scuola Italiana Arturo Dell'Oro",
+    "website": "https://www.scuolaitalianavalpo.cl/",
+    "wikidata": "Q6122665",
+    "wikipedia": "es:Scuola Italiana Arturo Dell'Oro"
+  }
+},
+{
+  "type": "way",
+  "id": 313510906,
+  "center": {
+    "lat": -33.0428236,
+    "lon": -71.6252590
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "151",
+    "addr:street": "Paseo Atkinson",
+    "building": "yes",
+    "name": "Hotel Brighton",
+    "tourism": "hotel",
+    "website": "https://www.brighton.cl/",
+    "wikidata": "Q111885912"
+  }
+},
+{
+  "type": "way",
+  "id": 331901661,
+  "center": {
+    "lat": -27.1293914,
+    "lon": -109.4206008
+  },
+  "tags": {
+    "addr:country": "CL",
+    "addr:district": "MZ 47",
+    "addr:subdistrict": "MZ 47 18",
+    "contact:website": "http://www.altiplanico.cl/en/altiplanico-easter-island/",
+    "name": "Hotel Altiplánico",
+    "tourism": "hotel",
+    "website": "https://www.altiplanico.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 331990632,
+  "center": {
+    "lat": -32.9837358,
+    "lon": -71.5481338
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "12925",
+    "addr:street": "Avenida Borgoño",
+    "building": "yes",
+    "name": "Hotel Oceanic",
+    "phone": "+56322830006",
+    "tourism": "hotel",
+    "website": "https://www.hoteloceanic.cl/",
+    "wikidata": "Q111415345"
+  }
+},
+{
+  "type": "way",
+  "id": 332224094,
+  "center": {
+    "lat": -33.0469857,
+    "lon": -71.6114285
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "2327",
+    "addr:street": "Avenida Pedro Montt",
+    "amenity": "school",
+    "name": "Escuela Grecia",
+    "website": "https://escuela-grecia-valparaiso.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 332359471,
+  "center": {
+    "lat": -33.0391630,
+    "lon": -71.6287921
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "233",
+    "addr:street": "Plaza Sotomayor",
+    "building": "yes",
+    "description": "Centex",
+    "government": "ministry",
+    "name": "Ministerio de las Culturas, las Artes y el Patrimonio",
+    "office": "government",
+    "old_name": "Consejo Nacional de la Cultura y las Artes",
+    "phone": "(32) 2326400",
+    "website": "https://www.cultura.gob.cl/",
+    "wikidata": "Q50281640",
+    "wikipedia": "es:Ministerio de las Culturas, las Artes y el Patrimonio"
+  }
+},
+{
+  "type": "way",
+  "id": 332399516,
+  "center": {
+    "lat": -33.0164173,
+    "lon": -71.5584688
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "496",
+    "addr:street": "Avenida Perú",
+    "amenity": "restaurant",
+    "building": "retail",
+    "building:levels": "1",
+    "name": "Chez Gerald",
+    "outdoor_seating": "no",
+    "website": "https://chezgerald.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 332703924,
+  "center": {
+    "lat": -33.0211179,
+    "lon": -71.5680627
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "15",
+    "addr:street": "Avenida La Marina",
+    "building": "hotel",
+    "building:levels": "6",
+    "name": "Hotel Sheraton Miramar",
+    "operator": "Sheraton",
+    "tourism": "hotel",
+    "website": "http://www.sheratonmiramarhotel.com/es"
+  }
+},
+{
+  "type": "way",
+  "id": 358225787,
+  "center": {
+    "lat": -33.0367994,
+    "lon": -71.6279457
+  },
+  "tags": {
+    "addr:street": "Muelle Prat",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional;seafood",
+    "name": "Bote Salvavidas",
+    "outdoor_seating": "yes",
+    "phone": "+56971322251477",
+    "website": "https://restaurantbotesalvavidas.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 379794375,
+  "center": {
+    "lat": -27.1511160,
+    "lon": -109.4380918
+  },
+  "tags": {
+    "barrier": "fence",
+    "contact:email": "reservas@hangaroa.cl",
+    "contact:phone": "+56 32 2553 700",
+    "int_name": "Hotel Hangaroa Eco Village & Spa",
+    "name": "Hotel Haŋaroa",
+    "stars": "5",
+    "tourism": "hotel",
+    "website": "https://www.hangaroa.cl/en/"
+  }
+},
+{
+  "type": "way",
+  "id": 382599684,
+  "center": {
+    "lat": -32.9851471,
+    "lon": -71.1824164
+  },
+  "tags": {
+    "addr:city": "Olmué",
+    "addr:country": "CL",
+    "addr:housenumber": "3031",
+    "addr:street": "Lo Rojas",
+    "name": "Rancho Vida Sana",
+    "note": "-Eco-granja / Farm -Areas verdes / Green areas -Senderos y picnic / Trails and picnic -Piscina y quincho / Barbecue and pool",
+    "operator": "Bernardo Silva",
+    "phone": "+5633 2443 080",
+    "smoking": "outside",
+    "tourism": "guest_house",
+    "website": "https://ranchovidasanaolmue.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 389458052,
+  "center": {
+    "lat": -33.1325923,
+    "lon": -71.5639851
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "4131",
+    "addr:street": "Avenida Lomas de la Luz",
+    "landuse": "retail",
+    "name": "Arauco Premium Outlet Curauma",
+    "opening_hours": "Mo-Th 10:00-20:00; Fr-Su 10:00-21:00",
+    "phone": "600 500 0011",
+    "shop": "mall",
+    "website": "https://www.araucopremiumoutletcurauma.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 389774202,
+  "center": {
+    "lat": -33.0196349,
+    "lon": -71.5388119
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "404",
+    "addr:street": "Los Castaños",
+    "leisure": "sports_centre",
+    "name": "Espacio Sporting",
+    "operator": "Valparaíso Sporting Club",
+    "website": "https://www.espaciosporting.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 390920503,
+  "center": {
+    "lat": -32.9722687,
+    "lon": -71.5397832
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "455",
+    "addr:street": "Avenida José Manuel Balmaceda",
+    "building": "yes",
+    "name": "HC Reñaca",
+    "phone": "+56 32 2830956",
+    "tourism": "hotel",
+    "website": "http://www.hoteleracosta.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 414284918,
+  "center": {
+    "lat": -32.9708585,
+    "lon": -71.5423920
+  },
+  "tags": {
+    "addr:housenumber": "230",
+    "addr:street": "Rafael Sotomayor",
+    "brand": "Santa Isabel",
+    "brand:wikidata": "Q7419620",
+    "brand:wikipedia": "es:Santa Isabel (supermercado)",
+    "building": "retail",
+    "delivery": "yes",
+    "name": "Santa Isabel",
+    "opening_hours": "Mo-Su 08:30-21:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:cryptocurrencies": "no",
+    "payment:diners_club": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "shop": "supermarket",
+    "website": "https://www.santaisabel.cl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 427841498,
+  "center": {
+    "lat": -33.5018002,
+    "lon": -71.6340044
+  },
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:country": "CL",
+    "addr:housenumber": "1672",
+    "addr:street": "Osvaldo Marín",
+    "building": "university",
+    "name": "Núcleo Milenio para la Ecología y la Conservación de los Ecosistemas de Arrecifes Mesofóticos Templados (NUMTE)",
+    "office": "educational_institution",
+    "short_name": "NUTME",
+    "website": "https://nutme.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 442522779,
+  "center": {
+    "lat": -33.0437633,
+    "lon": -71.6200274
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:country": "CL",
+    "addr:housenumber": "76",
+    "addr:street": "Molina",
+    "building": "hotel",
+    "building:levels": "7",
+    "check_date": "2025-12-31",
+    "email": "centraldereservas@dahoteles.com",
+    "name": "Hotel Diego de Almagro",
+    "phone": "+56 322133600",
+    "source": "Kaart Ground Survey 2017",
+    "tourism": "hotel",
+    "website": "https://www.dahotelesvalparaiso.com/",
+    "wikidata": "Q111415336"
+  }
+},
+{
+  "type": "way",
+  "id": 444435991,
+  "center": {
+    "lat": -33.0491557,
+    "lon": -71.6060386
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "2832",
+    "addr:street": "Victoria",
+    "building": "yes",
+    "government": "environment",
+    "name": "Servicio Nacional de Pesca y Acuicultura",
+    "office": "government",
+    "short_name": "Sernapesca",
+    "source": "Kaart Ground Survey 2017",
+    "website": "https://www.sernapesca.cl/",
+    "wikidata": "Q6126053",
+    "wikipedia": "es:Servicio Nacional de Pesca y Acuicultura"
+  }
+},
+{
+  "type": "way",
+  "id": 502217740,
+  "center": {
+    "lat": -27.1546385,
+    "lon": -109.4344643
+  },
+  "tags": {
+    "addr:country": "CL",
+    "addr:district": "MZ 7",
+    "addr:subdistrict": "MZ 7 34",
+    "building": "hotel",
+    "building:levels": "1",
+    "contact:email": "info@rapanui-victoria.com",
+    "contact:fax": "+56 32 2551844",
+    "contact:mobile": "+56 9 93573060",
+    "contact:phone": "+56 32 2100272",
+    "name": "Hotel Victoria",
+    "tourism": "hotel",
+    "website": "http://rapanui-victoria.com/english/"
+  }
+},
+{
+  "type": "way",
+  "id": 502218744,
+  "center": {
+    "lat": -27.1427984,
+    "lon": -109.4182591
+  },
+  "tags": {
+    "addr:city": "Rapa Nui",
+    "addr:country": "CL",
+    "addr:district": "MZ 39-40",
+    "addr:postcode": "2770000",
+    "addr:street": "Te Hoe Manu",
+    "addr:subdistrict": "MZ 39-40 37",
+    "building": "house",
+    "building:levels": "1",
+    "name": "Aroha Tours Rapa Nui",
+    "nohousenumber": "yes",
+    "opening_hours": "24/7",
+    "phone": "+56971055729",
+    "shop": "travel_agency",
+    "website": "https://arohatoursrapanui.com"
+  }
+},
+{
+  "type": "way",
+  "id": 502219522,
+  "center": {
+    "lat": -27.1593858,
+    "lon": -109.4259356
+  },
+  "tags": {
+    "addr:country": "CL",
+    "addr:district": "MZ 32",
+    "addr:subdistrict": "MZ 32 10",
+    "building:levels": "1",
+    "contact:email": "contacto@hotelmanutara.cl",
+    "contact:mobile": "+56 9 9670 7529",
+    "contact:phone": "+56 32 210 0297",
+    "name": "Hotel Manutara",
+    "tourism": "hotel",
+    "website": "https://www.hotelmanutara.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 502222162,
+  "center": {
+    "lat": -27.1516376,
+    "lon": -109.4348076
+  },
+  "tags": {
+    "addr:city": "Haŋa Roa",
+    "addr:country": "CL",
+    "addr:district": "MZ 9",
+    "addr:postcode": "2770000",
+    "addr:street": "Taniera Teave",
+    "addr:subdistrict": "MZ 9 31",
+    "building": "hotel",
+    "building:levels": "1",
+    "contact:email": "info@tupahotel.com",
+    "contact:phone": "+56 32 2100 225",
+    "name": "Hotel Tupa",
+    "tourism": "hotel",
+    "website": "https://www.tupahotel.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 533170834,
+  "center": {
+    "lat": -33.0046016,
+    "lon": -71.1718472
+  },
+  "tags": {
+    "addr:housenumber": "5551",
+    "addr:street": "Avenida Lo Narváez",
+    "bar": "yes",
+    "check_date": "2023-02-07",
+    "name": "Rosa Agustina Club Resort",
+    "phone": "+56 33 277 5700",
+    "tourism": "hotel",
+    "website": "https://www.rosaagustina.cl/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 544818315,
+  "center": {
+    "lat": -33.0142068,
+    "lon": -71.5560091
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "65",
+    "addr:street": "8 Norte",
+    "amenity": "restaurant",
+    "building": "retail",
+    "check_date": "2024-10-30",
+    "email": "administracion@tierradefuego.cl",
+    "name": "Tierra de fuego",
+    "outdoor_seating": "yes",
+    "phone": "+56 3 2299 3976",
+    "website": "https://www.tierradefuego.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 545582789,
+  "center": {
+    "lat": -33.0247860,
+    "lon": -71.5573150
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "236",
+    "addr:street": "Villanelo",
+    "brand": "Santa Isabel",
+    "brand:wikidata": "Q7419620",
+    "building": "yes",
+    "name": "Santa Isabel",
+    "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "website": "https://www.santaisabel.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 545772959,
+  "center": {
+    "lat": -33.3715211,
+    "lon": -71.6727609
+  },
+  "tags": {
+    "addr:city": "Algarrobo",
+    "addr:housenumber": "695",
+    "addr:postcode": "2711375",
+    "addr:street": "Avenida Peñablanca",
+    "name": "ESVAL",
+    "office": "water_utility",
+    "phone": "6006006060",
+    "website": "https://www.esval.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 545989546,
+  "center": {
+    "lat": -32.6502813,
+    "lon": -71.4426663
+  },
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:housenumber": "2637",
+    "addr:street": "Avenida del Mar",
+    "email": "sbazaes@cabanasoceano.cl",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Oceano",
+    "name": "Departamentos Oceano",
+    "phone": "+56 9 9745 8063",
+    "tourism": "chalet",
+    "website": "https://www.cabanasoceano.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 546140562,
+  "center": {
+    "lat": -32.6493329,
+    "lon": -71.4400881
+  },
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:street": "Avenida del Mar",
+    "amenity": "restaurant",
+    "building": "yes",
+    "delivery": "no",
+    "name": "La Caleta",
+    "nohousenumber": "yes",
+    "outdoor_seating": "yes",
+    "phone": "+56 3 2277 1140",
+    "takeaway": "yes",
+    "website": "https://www.restaurantlacaleta.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 550944249,
+  "center": {
+    "lat": -32.9951175,
+    "lon": -71.5038316
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:street": "Avenida Mar De Chile",
+    "amenity": "school",
+    "email": "esallende@cmvm.cl",
+    "name": "Escuela Básica Presidente Salvador Allende",
+    "nohousenumber": "yes",
+    "phone": "32 2862 956",
+    "website": "http://www.cmvm.cl/content/educacion/sectores/r-alto/establecimientos/salvador-allende/salvador-allende.php"
+  }
+},
+{
+  "type": "way",
+  "id": 557165097,
+  "center": {
+    "lat": -32.9242750,
+    "lon": -71.5198067
+  },
+  "tags": {
+    "addr:city": "Concón",
+    "addr:country": "CL",
+    "addr:housenumber": "650",
+    "addr:street": "Calle Cinco",
+    "amenity": "school",
+    "check_date": "2025-02-26",
+    "name": "Colegio Altazor",
+    "website": "https://www.colegioaltazorconcon.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 562307148,
+  "center": {
+    "lat": -32.6369451,
+    "lon": -71.4232353
+  },
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:street": "Ruta E-30-F",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Cabañas Oceano",
+    "nohousenumber": "yes",
+    "tourism": "chalet",
+    "website": "https://www.cabanasoceano.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 563349673,
+  "center": {
+    "lat": -33.6408596,
+    "lon": -71.6265833
+  },
+  "tags": {
+    "addr:city": "Santo Domingo",
+    "addr:housenumber": "06",
+    "addr:street": "Avenida del Golf",
+    "brand": "Unimarc",
+    "brand:wikidata": "Q6156244",
+    "building": "yes",
+    "int_name": "Unimarc",
+    "name": "Unimarc",
+    "shop": "supermarket",
+    "website": "https://www.unimarc.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 567265533,
+  "center": {
+    "lat": -33.0007413,
+    "lon": -71.5095151
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "1",
+    "addr:street": "Avenida Carlos Ibáñez del Campo",
+    "amenity": "veterinary",
+    "building": "house",
+    "email": "puntomascota@hotmail.com",
+    "name": "Clínica Veterinaria Punto de Mascota",
+    "phone": "32 286 9579",
+    "website": "http://www.puntomascota.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 567595298,
+  "center": {
+    "lat": -33.0238592,
+    "lon": -71.5507221
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "715",
+    "addr:street": "Plaza José Francisco Vergara",
+    "building": "hotel",
+    "building:levels": "5",
+    "name": "Hotel O'Higgins",
+    "operator": "Panamericana Hoteles",
+    "tourism": "hotel",
+    "website": "https://www.panamericanahoteles.cl/ohiggins/",
+    "wheelchair": "yes",
+    "wikidata": "Q5390278"
+  }
+},
+{
+  "type": "way",
+  "id": 572172027,
+  "center": {
+    "lat": -33.0481796,
+    "lon": -71.4456864
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "918",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "doctors",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "COMIN",
+    "phone": "+56932 2555 800",
+    "website": "https://www.redcomin.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 572172044,
+  "center": {
+    "lat": -33.0491072,
+    "lon": -71.4449666
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "947",
+    "addr:street": "Mena",
+    "amenity": "school",
+    "name": "Colegio Crep Casa Central",
+    "phone": "+56 32 2332949",
+    "website": "http://www.crep.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 572172046,
+  "center": {
+    "lat": -33.0493049,
+    "lon": -71.4458610
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "990",
+    "addr:street": "Mena",
+    "amenity": "school",
+    "name": "Colegio Crep Sede Esmeralda",
+    "phone": "+56 32 2332949",
+    "website": "http://www.crep.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 573282394,
+  "center": {
+    "lat": -33.0291916,
+    "lon": -71.5675459
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "536",
+    "addr:postcode": "2580347",
+    "addr:street": "Londres",
+    "building": "service",
+    "description": "Tecnoera",
+    "name": "Servicios Internet Ltda",
+    "office": "telecommunication",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "website": "https://tecnoera.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 575156311,
+  "center": {
+    "lat": -32.6506566,
+    "lon": -71.4423839
+  },
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:housenumber": "2668",
+    "addr:street": "Avenida del Mar",
+    "internet_access": "wlan",
+    "name": "Cabañas Karla Rocha",
+    "tourism": "chalet",
+    "website": "https://www.karlarocha.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 575158923,
+  "center": {
+    "lat": -32.6586131,
+    "lon": -71.4421935
+  },
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:housenumber": "3600",
+    "addr:street": "Avenida del Mar",
+    "name": "Hotel Mae",
+    "phone": "+56 3 2277 2440",
+    "tourism": "hotel",
+    "website": "https://www.hotelmae.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 607458125,
+  "center": {
+    "lat": -33.0269181,
+    "lon": -71.6379815
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "287",
+    "addr:street": "Pasaje Harrington",
+    "building": "yes",
+    "email": "contacto@cinv.cl",
+    "name": "Instituto Milenio Centro Interdisciplinario de Neurociencia de Valparaíso (CINV)",
+    "office": "research",
+    "operator": "Universidad de Valparaíso",
+    "phone": "+56322508040",
+    "website": "https://cinv.uv.cl/",
+    "wikidata": "Q65159345",
+    "wikipedia": "es:Iniciativa Científica Milenio"
+  }
+},
+{
+  "type": "way",
+  "id": 627655821,
+  "center": {
+    "lat": -32.6507529,
+    "lon": -71.4424654
+  },
+  "tags": {
+    "addr:city": "Puchuncaví",
+    "addr:housenumber": "2672",
+    "addr:street": "Avenida del Mar",
+    "internet_access": "wlan",
+    "name": "Cabañas Karla Rocha",
+    "tourism": "chalet",
+    "website": "https://www.karlarocha.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 627913558,
+  "center": {
+    "lat": -33.0171162,
+    "lon": -71.5511003
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "655",
+    "addr:street": "6 Norte",
+    "building": "yes",
+    "name": "Parque del Mar",
+    "phone": "+56322387013",
+    "shop": "funeral_directors",
+    "website": "www.parquedelmar.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 630024411,
+  "center": {
+    "lat": -27.1505120,
+    "lon": -109.4345258
+  },
+  "tags": {
+    "addr:city": "Haŋa Roa",
+    "addr:country": "CL",
+    "addr:district": "MZ 9",
+    "addr:postcode": "2770000",
+    "addr:street": "Apina Nui",
+    "addr:subdistrict": "MZ 9 16",
+    "contact:email": "reservas@hoteltahatai.cl",
+    "contact:phone": "+56 32 255 1192",
+    "name": "Hotel Taha Tai",
+    "tourism": "hotel",
+    "website": "https://www.hoteltahatai.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 637621116,
+  "center": {
+    "lat": -32.8279577,
+    "lon": -71.5296340
+  },
+  "tags": {
+    "building": "yes",
+    "name": "La Ritoqueña",
+    "phone": "+56 9 6121 2436",
+    "tourism": "hotel",
+    "website": "https://laritoquena.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 645102470,
+  "center": {
+    "lat": -33.4963580,
+    "lon": -71.6283391
+  },
+  "tags": {
+    "addr:city": "Las Cruces",
+    "addr:housenumber": "901",
+    "addr:street": "Osvaldo Marín",
+    "amenity": "school",
+    "name": "Escuela Básica Las Cruces",
+    "phone": "+56352431637",
+    "website": "https://www.escuelabasicalascruces.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 742230234,
+  "center": {
+    "lat": -32.8931556,
+    "lon": -70.6754459
+  },
+  "tags": {
+    "addr:city": "Rinconada",
+    "addr:street": "Cruce Ruta 57 (Auco) - Rinconada - Cruce Ruta 60 CH (Tres Esquinas)",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "email": "restaurantcampanario@gmail.com",
+    "name": "Campanario de Auco",
+    "phone": "+56 34 401731",
+    "website": "https://www.restaurantcampanario.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 768284459,
+  "center": {
+    "lat": -32.2518866,
+    "lon": -70.9315178
+  },
+  "tags": {
+    "addr:city": "Petorca",
+    "addr:housenumber": "135 Local B",
+    "addr:street": "La Matriz",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "Betzabé",
+    "phone": "+56962999380",
+    "website": "https://dondeldiabloperdioelponcho.com/betzabe"
+  }
+},
+{
+  "type": "way",
+  "id": 799158699,
+  "center": {
+    "lat": -33.1265913,
+    "lon": -71.5710474
+  },
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "addr:housenumber": "1850",
+    "addr:street": "Avenida Cardenal Samoré",
+    "amenity": "school",
+    "education": "school",
+    "name": "Colegio Nueva Era Siglo XXI",
+    "phone": "+56322806924",
+    "website": "http://www.colegiosigloxxi.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 799158735,
+  "center": {
+    "lat": -33.1141506,
+    "lon": -71.5793739
+  },
+  "tags": {
+    "addr:city": "Curauma",
+    "addr:country": "CL",
+    "addr:housenumber": "790",
+    "addr:street": "Avenida Curauma Sur",
+    "amenity": "school",
+    "education": "school",
+    "name": "Colegio Umbral de Curauma",
+    "phone": "+56322189280",
+    "website": "https://colegioumbral.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 842416694,
+  "center": {
+    "lat": -33.0141141,
+    "lon": -71.2587143
+  },
+  "tags": {
+    "addr:country": "CL",
+    "addr:housenumber": "511",
+    "addr:street": "Andrés Bello",
+    "alt_name": "Centro de Salud Familiar Limache Viejo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CESFAM Limache Viejo",
+    "official_name": "Centro de Salud Familiar",
+    "phone": "+56332294900",
+    "website": "https://limache.cl/CESFAM-limache-viejo/"
+  }
+},
+{
+  "type": "way",
+  "id": 965985351,
+  "center": {
+    "lat": -33.3418021,
+    "lon": -71.6478939
+  },
+  "tags": {
+    "building": "commercial",
+    "club": "sport",
+    "contact:email": "https://gokartcenter.cl/contacto/",
+    "leisure": "sports_centre",
+    "name": "Go Kart Center - Algarrobo",
+    "opening_hours": "Mo-Fr 13:00-21:00; Sa-Su 12:00-21:30",
+    "sport": "karting",
+    "website": "https://gokartcenter.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 967407022,
+  "center": {
+    "lat": -32.9187507,
+    "lon": -71.5235038
+  },
+  "tags": {
+    "addr:city": "Concón",
+    "addr:housenumber": "23333",
+    "addr:street": "Avenida Borgoño",
+    "brand": "Radisson Blu",
+    "brand:wikidata": "Q7281341",
+    "brand:wikipedia": "en:Radisson Blu",
+    "building": "hotel",
+    "description": "Rising above Valparaíso’s Pacific coastline, the Radisson Blu Acqua Hotel & Spa Concón provides breathtaking panoramas near Reñaca Beach, Viña del Mar and the Concón Dune Field. The hotel itself has its own architectural charm with a vertical garden",
+    "name": "Radisson Blu Acqua Hotel & Spa Concón",
+    "phone": "32-254-6400",
+    "tourism": "hotel",
+    "website": "https://www.radissonblu.com/en/hotel-acqua-concon",
+    "wikidata": "Q111415348"
+  }
+},
+{
+  "type": "way",
+  "id": 985156955,
+  "center": {
+    "lat": -32.9716474,
+    "lon": -71.5289073
+  },
+  "tags": {
+    "addr:housenumber": "225",
+    "addr:street": "Salvador Vergara",
+    "amenity": "kindergarten",
+    "building": "yes",
+    "contact:phone": "+56322738064",
+    "name": "Jardín Infantil Greentown",
+    "website": "https://greentown.cl/sitio/"
+  }
+},
+{
+  "type": "way",
+  "id": 985156962,
+  "center": {
+    "lat": -32.9720025,
+    "lon": -71.5291325
+  },
+  "tags": {
+    "addr:housenumber": "200",
+    "addr:street": "Salvador Vergara",
+    "amenity": "kindergarten",
+    "building": "yes",
+    "contact:phone": "+56322738064",
+    "name": "Jardín Infantil Greentown",
+    "website": "https://greentown.cl/sitio/"
+  }
+},
+{
+  "type": "way",
+  "id": 1019560984,
+  "center": {
+    "lat": -32.9584284,
+    "lon": -71.5397213
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "527",
+    "addr:street": "Avenida Gastón Hamel Nieto",
+    "landuse": "commercial",
+    "name": "Paseo Dunas",
+    "shop": "mall",
+    "website": "https://www.paseodunas.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1040321458,
+  "center": {
+    "lat": -33.1000179,
+    "lon": -71.6592355
+  },
+  "tags": {
+    "addr:city": "Valparaíso",
+    "addr:housenumber": "650",
+    "addr:street": "Domingo Otaegui",
+    "building": "yes",
+    "name": "Cabañas Marlinda",
+    "phone": "+56997112737",
+    "tourism": "apartment",
+    "website": "http://www.xn--cabaasmarlinda-tnb.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1040959815,
+  "center": {
+    "lat": -33.1036169,
+    "lon": -71.6658259
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Minimarket Mercado de Bustall",
+    "phone": "+56322348158",
+    "shop": "convenience",
+    "website": "https://www.mercadobustall.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1043657926,
+  "center": {
+    "lat": -32.7873717,
+    "lon": -71.1895226
+  },
+  "tags": {
+    "addr:city": "La Calera",
+    "addr:housenumber": "289",
+    "addr:postcode": "2290000",
+    "addr:street": "José Joaquín Pérez",
+    "building": "yes",
+    "internet_access": "wlan",
+    "name": "La Barbería Exclusiva",
+    "phone": "+56998861123",
+    "shop": "hairdresser",
+    "website": "https://andresdebarber.setmore.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1062102136,
+  "center": {
+    "lat": -33.0744203,
+    "lon": -71.4164347
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "2822",
+    "addr:street": "Almirante Gerken",
+    "name": "Automotriz Coloma",
+    "opening_hours": "Mo-Fr 09:00-19:00",
+    "phone": "+56323373389",
+    "shop": "car_repair",
+    "website": "https://automotrizcoloma.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1063070341,
+  "center": {
+    "lat": -33.0165728,
+    "lon": -71.2637732
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "845",
+    "addr:street": "El Canelo",
+    "amenity": "school",
+    "denomination": "catholic",
+    "name": "Alianza Educacional",
+    "religion": "christian",
+    "school:type": "primary;secondary",
+    "website": "https://alianzaeducacional.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1064389637,
+  "center": {
+    "lat": -33.0441041,
+    "lon": -71.4354785
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:country": "CL",
+    "addr:housenumber": "1200",
+    "addr:street": "Avenida Ramón Freire",
+    "contact:facebook": "share/16XckFnKwD",
+    "contact:instagram": "muni_quilpue",
+    "contact:twitter": "muni_quilpue",
+    "email": "seguridadpublica@quilpue.cl",
+    "government": "administrative",
+    "name": "Dirección de Seguridad Pública Quilpué",
+    "office": "government",
+    "opening_hours": "Mo-Fr 08:30-14:00",
+    "website": "https://www.quilpue.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1065846291,
+  "center": {
+    "lat": -33.0306867,
+    "lon": -71.5643506
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "47",
+    "addr:street": "Guayacán",
+    "amenity": "school",
+    "name": "Colegio Patmos",
+    "phone": "+56322775825",
+    "website": "https://www.colegiopatmos.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1068704936,
+  "center": {
+    "lat": -33.0456162,
+    "lon": -71.4679612
+  },
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:housenumber": "1181",
+    "addr:postcode": "2430000",
+    "addr:street": "Carlos Ibáñez",
+    "amenity": "school",
+    "email": "contacto@nsmquilpue.cl",
+    "name": "Colegio Nuestra Señoras de las Mercedes",
+    "website": "https://www.nsmquilpue.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1091150117,
+  "center": {
+    "lat": -32.9906868,
+    "lon": -71.2332771
+  },
+  "tags": {
+    "addr:housenumber": "1689",
+    "addr:street": "Avenida Eastman",
+    "amenity": "events_venue",
+    "contact:email": "losmaitenes@bienestararmada.cl",
+    "internet_access": "no",
+    "name": "Centro Recreativo Los Maitenes",
+    "phone": "+56 9 39420142;+56 9 7604 9609",
+    "website": "https://www.bienvalp.cl/asistencias/asistencia-recreativa/centro-recreativo-los-maitenes/"
+  }
+},
+{
+  "type": "way",
+  "id": 1095296630,
+  "center": {
+    "lat": -33.0466259,
+    "lon": -71.3212280
+  },
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housenumber": "2695",
+    "addr:street": "Ruta F-62",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Club Bendito",
+    "phone": "+56 9 5463 1121",
+    "website": "http://www.clubbendito.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1184118925,
+  "center": {
+    "lat": -33.3184834,
+    "lon": -71.4119849
+  },
+  "tags": {
+    "addr:city": "Casablanca",
+    "addr:housenumber": "165",
+    "addr:street": "Avenida Punta Arenas",
+    "amenity": "school",
+    "name": "Liceo Bicentenario Manuel de Salas",
+    "website": "https://www.lms.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1220303207,
+  "center": {
+    "lat": -32.9962924,
+    "lon": -71.1923824
+  },
+  "tags": {
+    "addr:city": "Olmué",
+    "addr:housenumber": "55",
+    "addr:street": "Blanco Encalada",
+    "amenity": "school",
+    "denomination": "waldorf",
+    "name": "Colegio Waldorf Rukantü",
+    "religion": "christian",
+    "website": "https://rukantuwaldorf.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1221663187,
+  "center": {
+    "lat": -33.0241183,
+    "lon": -71.2740958
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "19",
+    "addr:street": "Camino El Pangal",
+    "name": "Desarmaduría Tenmez",
+    "payment:cash": "yes",
+    "phone": "+56950631616",
+    "shop": "car_parts",
+    "website": "http://www.tenmez.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1221663189,
+  "center": {
+    "lat": -33.0248252,
+    "lon": -71.2743743
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "15",
+    "addr:street": "Camino El Pangal",
+    "name": "Desarmaduría Celis",
+    "payment:cash": "yes",
+    "phone": "+56975524093",
+    "shop": "car_parts",
+    "website": "http://www.tenmez.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1221663190,
+  "center": {
+    "lat": -33.0253969,
+    "lon": -71.2743914
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "16",
+    "addr:street": "Camino El Pangal",
+    "area": "yes",
+    "description": "Solo para marcas como Volkswagen y Citröen.",
+    "name": "Desarmaduría Piriparts",
+    "payment:cash": "yes",
+    "phone": "+56930686679",
+    "shop": "car_parts",
+    "website": "https://piriparts.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1221663191,
+  "center": {
+    "lat": -33.0255596,
+    "lon": -71.2736276
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "17",
+    "addr:street": "Camino El Pangal",
+    "description": "Desarmaduría de marcas en general.",
+    "name": "Desarmaduría Limache",
+    "opening_hours": "Mo-Fr 09:00-14:00,15:00-19:00; Sa 09:00-14:00",
+    "payment:cash": "yes",
+    "phone": "569 9444 1666;569 9444 1666",
+    "shop": "car_parts",
+    "website": "https://www.desarmadurialimache.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1221663197,
+  "center": {
+    "lat": -33.0289535,
+    "lon": -71.2781964
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:street": "Camino El Pangal",
+    "contact:facebook": "xtremekartlimache",
+    "contact:instagram": "xtremekart_limache",
+    "leisure": "sports_centre",
+    "name": "Xtreme Kart",
+    "note": "PARQUE INDUSTRIAL DE LIMACHE Sector el Pangal. Parcela N 21.",
+    "opening_hours": "Tu-Fr 14:00-21:00; Sa-Su 12:00-21:30; Mo off; PH 12:00-21:30",
+    "sport": "karting",
+    "website": "https://xtremekart.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1221663199,
+  "center": {
+    "lat": -33.0288104,
+    "lon": -71.2788003
+  },
+  "tags": {
+    "addr:city": "Limache",
+    "addr:housenumber": "Lote 20",
+    "addr:street": "Camino El Pangal",
+    "contact:instagram": "padel_home_limache",
+    "fee": "yes",
+    "leisure": "sports_centre",
+    "mobile": "+56935740433",
+    "name": "Padel Home Limache",
+    "sport": "padel",
+    "website": "www.padelhomelimache.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1235819227,
+  "center": {
+    "lat": -32.7379103,
+    "lon": -70.6975010
+  },
+  "tags": {
+    "addr:city": "San Felipe",
+    "addr:country": "CL",
+    "addr:street": "La Troya",
+    "amenity": "school",
+    "name": "Colegio Greenland San Felipe",
+    "opening_hours": "Mo-Fr 08:30-17:15; Sa-Su off",
+    "phone": "+56342537496",
+    "website": "http://www.colegiogreenland.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1242581021,
+  "center": {
+    "lat": -33.0457835,
+    "lon": -71.3610038
+  },
+  "tags": {
+    "addr:city": "Villa Alemana",
+    "addr:housenumber": "0286",
+    "addr:street": "Avenida Victoria",
+    "building": "house",
+    "building:levels": "1",
+    "name": "Puertas Shojichile Diseño Interior",
+    "office": "company",
+    "phone": "+56994270323",
+    "roof:levels": "0",
+    "website": "https://www.shojichile.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1282563401,
+  "center": {
+    "lat": -32.9560304,
+    "lon": -71.5247183
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:country": "CL",
+    "addr:housenumber": "1415",
+    "addr:street": "Calafquén",
+    "addr:suburb": "Reñaca",
+    "leisure": "fitness_centre",
+    "name": "Club Tocka",
+    "phone": "+56 9 3243 3625",
+    "website": "https://clubtocka.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1284567337,
+  "center": {
+    "lat": -33.1500578,
+    "lon": -71.5598777
+  },
+  "tags": {
+    "addr:city": "Peñuelas",
+    "addr:housenumber": "4725",
+    "addr:street": "Cardenal Samoré",
+    "amenity": "school",
+    "name": "Escuela Peñuelas Teniente Julio Allende",
+    "website": "https://cdnsae.mineduc.cl/documentos/1578/ProyectoEducativo1578.pdf"
+  }
+},
+{
+  "type": "way",
+  "id": 1289355071,
+  "center": {
+    "lat": -33.4835689,
+    "lon": -71.4217412
+  },
+  "tags": {
+    "building": "yes",
+    "craft": "winery",
+    "name": "Bodega de Vinos Matetic",
+    "operator": "Vino y Turismo Limitada",
+    "website": "https://matetic.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1331397010,
+  "center": {
+    "lat": -32.9987354,
+    "lon": -71.1875243
+  },
+  "tags": {
+    "addr:city": "Olmué",
+    "addr:housenumber": "4576",
+    "addr:street": "Avenida Eastman",
+    "building": "yes",
+    "name": "Tubo Stock",
+    "opening_hours": "Mo-Sa 09:00-14:00, Mo-Fr 15:30-18:00",
+    "operator": "Comercial Sama SpA",
+    "phone": "+56999315629",
+    "shop": "hardware",
+    "website": "https://tubostock.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1346464809,
+  "center": {
+    "lat": -33.6187983,
+    "lon": -71.6031976
+  },
+  "tags": {
+    "addr:city": "San Antonio",
+    "addr:housenumber": "851",
+    "addr:street": "Avenida Baquedano",
+    "amenity": "school",
+    "name": "Instituto del Puerto",
+    "website": "https://institutodelpuerto.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1361226860,
+  "center": {
+    "lat": -33.3360929,
+    "lon": -71.6501903
+  },
+  "tags": {
+    "addr:city": "Algarrobo",
+    "addr:housenumber": "398",
+    "addr:postcode": "2711448",
+    "addr:street": "Av. Costanera",
+    "amenity": "cafe",
+    "building": "yes",
+    "changing_table": "yes",
+    "cuisine": "sandwich;grill;mexican",
+    "name": "Mangata",
+    "opening_hours": "Mo-Su 10:00-21:30",
+    "outdoor_seating": "yes",
+    "toilets": "yes",
+    "website": "https://instagram.com/cafemangata"
+  }
+},
+{
+  "type": "way",
+  "id": 1361535077,
+  "center": {
+    "lat": -33.3577664,
+    "lon": -71.6592871
+  },
+  "tags": {
+    "addr:city": "Algarrobo",
+    "addr:housenumber": "1100",
+    "addr:street": "Julio Hurtado",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Casa Dominga",
+    "website": "https://www.casadomingaalgarrobo.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1367211970,
+  "center": {
+    "lat": -33.4362119,
+    "lon": -71.4511835
+  },
+  "tags": {
+    "addr:city": "Lagunillas",
+    "addr:housenumber": "298",
+    "addr:street": "Avenida Rojas Montt",
+    "email": "info@casablanca-bcw.com",
+    "name": "Hotel Boutique BCW Casablanca",
+    "phone": "+56938628078",
+    "tourism": "hotel",
+    "website": "https://casablanca-bcw.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1392501136,
+  "center": {
+    "lat": -32.8278494,
+    "lon": -70.5956509
+  },
+  "tags": {
+    "addr:city": "Los Andes",
+    "addr:housenumber": "20",
+    "addr:street": "Avenida Hermanos Clark",
+    "building": "yes",
+    "government": "police",
+    "name": "Cuartel PDI Prefectura Provincial Los Andes",
+    "office": "government",
+    "website": "https://www.pdichile.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 1414719491,
+  "center": {
+    "lat": -32.9703760,
+    "lon": -71.5424195
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "215",
+    "addr:street": "Rafael Sotomayor",
+    "addr:suburb": "Reñaca",
+    "name": "Hotel Fuente Mayor",
+    "tourism": "hotel",
+    "website": "https://www.hotelfuentemayor.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1494123108,
+  "center": {
+    "lat": -33.0145689,
+    "lon": -71.5471075
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "907",
+    "addr:street": "9 Norte",
+    "amenity": "cafe",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "El Pasaje",
+    "phone": "+56945934955",
+    "website": "https://www.elpasaje.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1494123120,
+  "center": {
+    "lat": -33.0143855,
+    "lon": -71.5481825
+  },
+  "tags": {
+    "addr:city": "Viña del Mar",
+    "addr:housenumber": "819",
+    "addr:street": "9 Norte",
+    "amenity": "restaurant",
+    "building": "yes",
+    "building:levels": "2",
+    "cuisine": "pizza",
+    "name": "La Fermata",
+    "website": "https://www.lafermata.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 1498938338,
+  "center": {
+    "lat": -32.8664106,
+    "lon": -71.2645430
+  },
+  "tags": {
+    "addr:city": "Quillota",
+    "addr:housenumber": "35",
+    "addr:street": "Ernesto Riquelme",
+    "amenity": "school",
+    "education": "school",
+    "grades": "2",
+    "name": "Colegio Cumbres de Boco",
+    "operator": "Municipalidad de Quillota",
+    "operator:type": "public/government",
+    "religion": "none",
+    "website": "https://quillotaeducacion.cl/escuela.php?ID=11"
+  }
+},
+{
+  "type": "relation",
+  "id": 15548576,
+  "center": {
+    "lat": -32.8966751,
+    "lon": -71.2571197
+  },
+  "tags": {
+    "addr:city": "Quillota",
+    "addr:housenumber": "1147",
+    "addr:street": "Avenida Juan Bautista Alberdi",
+    "amenity": "vehicle_inspection",
+    "name": "Planta de Revisión Técnica Quillota",
+    "office": "government",
+    "operator": "RT Aconcagua",
+    "type": "multipolygon",
+    "website": "http://revtecaconcagua.cl/"
+  }
+},
+{
+  "type": "relation",
+  "id": 19397390,
+  "center": {
+    "lat": -33.3707692,
+    "lon": -71.6721268
+  },
+  "tags": {
+    "addr:city": "Algarrobo",
+    "addr:housenumber": "737",
+    "addr:street": "El Madroño",
+    "air_conditioning": "no",
+    "brand": "Cabañas Kas",
+    "email": "reservas@xn--cabaaskas-o6a.cl",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Cabañas Kas",
+    "phone": "+56 9 5345 0456",
+    "tourism": "motel",
+    "type": "multipolygon",
+    "website": "https://sites.google.com/view/cabanaskas/",
+    "wheelchair": "limited"
+  }
+}
+
+  ]
+}

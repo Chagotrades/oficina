@@ -1,0 +1,106 @@
+[
+{
+"n": "Los Cordoveses",
+"c": "El Quisco",
+"r": "restaurante",
+"w": "http://www.loscordoveses.cl",
+"ok": true,
+"final": "http://loscordoveses.cl/",
+"emails": [
+"contacto@loscordoveses.cl"
+],
+"viewport": true,
+"wa": true,
+"tel": false,
+"form": false,
+"gen": "",
+"year": 2026,
+"title": "Los Cordoveses &#8211; Cocina de Mar · El Quisco desde 1951",
+"size": 136999
+},
+{
+"n": "Cria Cuervos",
+"c": "Quintero",
+"r": "restaurante",
+"w": "http://www.criacuervosrestaurant.cl",
+"ok": true,
+"final": "http://www.criacuervosrestaurant.cl",
+"emails": [],
+"viewport": true,
+"wa": false,
+"tel": false,
+"form": true,
+"gen": "",
+"year": 2026,
+"title": "www.criacuervosrestaurant.cl - Domain For Sale",
+"size": 6606
+},
+{
+"n": "La Cocina de Teuh",
+"c": "Quintero",
+"r": "restaurante",
+"w": "http://www.lacocinadeteuh.cl",
+"ok": true,
+"final": "http://www.lacocinadeteuh.cl",
+"emails": [
+"lacocinadeteuh@hotmail.com"
+],
+"viewport": false,
+"wa": false,
+"tel": false,
+"form": true,
+"gen": "2018.0.0.379",
+"year": 0,
+"title": "CocinadeTeuh",
+"size": 47881
+},
+{
+"n": "Doña Elena",
+"c": "Olmué",
+"r": "restaurante",
+"w": "http://www.xn--doaelena-9za.cl",
+"ok": false,
+"err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+},
+{
+"n": "Pica Los Canalla",
+"c": "Concón",
+"r": "restaurante",
+"w": "http://www.picaloscanalla.cl",
+"ok": true,
+"final": "https://picaloscanalla.cl/",
+"emails": [],
+"viewport": true,
+"wa": false,
+"tel": false,
+"form": false,
+"gen": "WordPress 7.0.8",
+"year": 0,
+"title": "Pica Los Canalla / Concón &#8211; Auténtica picada de comida de mar en Concón.",
+"size": 116309
+},
+{
+"n": "Cabañas San Ignacio",
+"c": "Cartagena",
+"r": "cabañas",
+"w": "http://cabanasanignacio.cl",
+"ok": false,
+"err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+},
+{
+"n": "Cormoran",
+"c": "El Quisco",
+"r": "restaurante",
+"w": "http://restaurantcormoran.cl",
+"ok": false,
+"err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+},
+{
+"n": "El Sauce",
+"c": "Cartagena",
+"r": "restaurante",
+"w": "http://elsauceloabarca.cl",
+"ok": false,
+"err": "<urlopen error [Errno 11001] getaddrinfo failed>"
+}
+]

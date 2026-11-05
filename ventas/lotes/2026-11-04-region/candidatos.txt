@@ -1,0 +1,13 @@
+Clinica Dental Orthoestetica Quillota¦5,0¦292¦orthoestetica.cl¦Quillota¦clínica dental
+Dr Rojano Odontologia¦4,6¦46¦drrojano.cl¦Quillota¦clínica dental
+Inalto Salud¦4,0¦721¦inalto.cl¦Quillota¦centro médico
+Miramar Dental Studio¦5,0¦245¦miramardentalstudio.cl¦Quillota¦clínica dental
+Medikin Centro Medico¦3,9¦193¦medikin.cl¦Quillota¦centro médico
+Hospital Clinico Veterinario Quillota¦3,4¦636¦hcvquillota.com¦Quillota¦veterinaria
+Veterinaria Italia Quillota¦4,5¦52¦italiavet.com¦Quillota¦veterinaria
+Grepsa Habitacional¦3,7¦37¦grepsa.cl¦Quillota¦constructora
+Clínica Dental Andes¦4,5¦21¦andesmas.cl¦Los Andes¦clínica dental
+Centro Odontológico Esmeralda¦4,9¦29¦esmeraldaodontologia.com¦Los Andes¦clínica dental
+Clínica Odontológica IOA Los Andes¦5,0¦187¦ioa.cl¦Los Andes¦clínica dental
+Clínica Dental Del Valle¦4,5¦42¦clinicadentaldelvalle.cl¦Los Andes¦clínica dental
+Clínica Odontológica Almendral¦4,4¦155¦clinicaalmendral.cl¦Los Andes¦clínica dental

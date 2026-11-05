@@ -1,0 +1,148 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Propuesta Biósfera Lodge</title><link rel="stylesheet" href="doc.css"><style>
+.portada .foto{height:178mm;background:url(../fotos/web/78317611.jpg) center 45%/cover;position:relative}
+.portada .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,22,14,.6),rgba(15,22,14,0) 45%)}
+.portada .logo{position:absolute;z-index:2;left:18mm;top:13mm;height:30mm}
+.portada .txt{padding:13mm 18mm}
+.portada h1{font-size:31pt;margin-bottom:5mm;color:var(--bosque)}
+.portada .bajada{font-size:14pt;color:var(--suave);max-width:155mm}
+.portada .meta{position:absolute;left:18mm;right:18mm;bottom:13mm;display:flex;justify-content:space-between;align-items:flex-end;font-size:10.5pt;color:var(--suave)}
+.portada .meta img{height:6.5mm;display:block;margin-top:1.5mm}
+h2{color:var(--bosque)}
+.plan{display:grid;grid-template-columns:1fr 66mm;gap:7mm;align-items:start}
+.precio{background:var(--bosque);color:#fff;border-radius:5mm;padding:7mm 6mm}
+.precio small{font-size:11pt;opacity:.85;display:block}
+.precio .monto{font-family:'Fraunces';font-size:33pt;font-weight:700;line-height:1;margin:2mm 0 4mm}
+.precio ul{list-style:none;padding:0;margin:0;font-size:11pt}
+.precio li{padding:2.2mm 0;border-top:1px solid rgba(255,255,255,.25)}
+.precio li b{font-family:'Fraunces';display:block;font-size:12pt}
+.incl{display:flex;flex-direction:column;gap:2.4mm}
+.it{background:#fff;border-radius:3.5mm;padding:2.8mm 4mm 2.8mm 11mm;position:relative;font-size:11.2pt;line-height:1.35}
+.it:before{content:"✓";position:absolute;left:4mm;top:2.8mm;color:var(--verde);font-weight:700}
+.it b{font-family:'Fraunces';font-weight:600;font-size:12pt;display:block}
+.it em{font-style:normal;color:var(--suave);font-size:9.5pt}
+.motor{background:var(--arena2);border-radius:4mm;padding:4mm 5mm;margin-top:5mm;font-size:11.5pt;line-height:1.4}
+.motor b{font-family:'Fraunces';font-size:13pt}
+.tres{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm;margin-top:6mm}
+.tres img{width:100%;display:block;border-radius:3mm}
+.tres p{font-size:12pt;margin-top:2.5mm;line-height:1.35}
+.tres p b{font-family:'Fraunces';display:block;font-size:14pt}
+.ancha{width:100%;border-radius:3mm;display:block}
+.garant{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:4mm}
+.garant div{background:#fff;border-radius:3.5mm;padding:5mm 5mm;font-size:12.5pt;line-height:1.4}
+.garant b{font-family:'Fraunces';font-weight:600;display:block;font-size:14pt;color:var(--bosque);margin-bottom:1mm}
+.g4 div{padding:3.5mm 4.5mm;font-size:12pt}
+.chats{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.chats img{width:100%;display:block;border-radius:3mm}
+.asis{display:grid;grid-template-columns:100mm 1fr;gap:6mm;align-items:start;margin-top:5mm}
+.op{background:#fff;border-radius:4mm;padding:4.5mm 5mm;margin-bottom:3.5mm;border:.5mm solid #ddd8c6}
+.op.dest{border:.7mm solid var(--mar)}
+.op h3{font-size:12.5pt;margin-bottom:1mm}
+.op .m{font-family:'Fraunces';font-weight:700;font-size:20pt;color:var(--bosque);line-height:1.1}
+.op .m span{white-space:nowrap;font-size:11pt;font-weight:500;color:var(--suave)}
+.op p{font-size:10.5pt;margin:1.5mm 0 0;color:var(--suave);line-height:1.35}
+.extra{display:grid;grid-template-columns:1fr auto;gap:5mm;align-items:center;background:#fff;border-radius:4mm;padding:4.5mm 5mm;margin-bottom:3mm}
+.extra h3{font-size:13pt;margin-bottom:1mm}
+.extra p{font-size:11pt;margin:0;color:var(--suave);line-height:1.35}
+.extra .m{font-family:'Fraunces';font-weight:700;font-size:17pt;color:var(--bosque);text-align:right;line-height:1.1;white-space:nowrap}
+.extra .m span{display:block;font-size:9.5pt;font-weight:500;color:var(--suave);font-family:'Roboto'}
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;margin-top:3mm}
+.paso{background:var(--arena2);border-radius:4mm;padding:4mm}
+.paso .n{width:8mm;height:8mm;border-radius:50%;background:var(--bosque);color:#fff;display:grid;place-items:center;font-family:'Fraunces';font-weight:700;margin-bottom:2mm}
+.paso p{font-size:11pt;margin:0;line-height:1.35}
+.contacto{background:var(--bosque);color:#fff;border-radius:5mm;padding:6mm 7mm;margin-top:6mm;display:flex;justify-content:space-between;align-items:center}
+.contacto h3{color:#fff;font-size:15pt;margin-bottom:1mm}
+.contacto p{margin:0;font-size:11.5pt}
+.contacto b{font-family:'Fraunces';font-size:16pt}
+</style></head><body>
+
+<!-- 1 portada -->
+<section class="pag portada">
+<div class="foto"><img class="logo" src="../fotos/4adb151134323fb617233d7b70a6ba4c.png" alt=""></div>
+<div class="txt">
+<h1>Del bosque a la reserva, sin cambiar su motor</h1>
+<p class="bajada">Propuesta para Biósfera Lodge: cómo quedaría su nueva página de entrada, qué incluye y cuánto cuesta. Pensada para que más huéspedes reserven directo con ustedes.</p>
+</div>
+<div class="meta"><div>4 de noviembre de 2026<br>Preparada para Juan Pablo Vásquez</div><div style="text-align:right">Preparada por<img src="../../../marca/ascensus-logo.png" alt="Ascensus"></div></div>
+</section>
+
+<!-- 2 plan -->
+<section class="pag"><div class="int">
+<div class="etq m">Lo que les recomendamos</div>
+<h2>Una página de entrada nueva, conectada a su motor</h2>
+<div class="plan"><div class="incl">
+<div class="it"><b>Portada rápida en el celular</b>Aparece en 2 a 3 segundos con 4G lenta, con los domos de noche y "Ver disponibilidad" arriba. <em>Resuelve el problema 1</em></div>
+<div class="it"><b>Una ficha por domo</b>Fotos grandes, para quién es, qué incluye y "Reservar este domo", que abre su ficha en el motor. <em>Problema 2</em></div>
+<div class="it"><b>Sus fotos preparadas para la web</b>Nítidas y livianas, a partir de los originales que nos compartan. <em>Problema 2</em></div>
+<div class="it"><b>Lo que el huésped pregunta</b>A 90 minutos de Santiago, spa y experiencias, cómo llegar y preguntas frecuentes. <em>Problema 3</em></div>
+<div class="it"><b>WhatsApp y opiniones</b>Botón con mensaje listo y opiniones reales de huéspedes, con su fuente. <em>Problema 3</em></div>
+<div class="it"><b>Páginas que Google puede leer</b>Títulos, descripciones, mapa del sitio y alta en Google y Bing. <em>Problema 4</em></div>
+<div class="it"><b>Confianza</b>Precio explicado, política de privacidad visible y medición de visitas. <em>Problema 5</em></div>
+</div>
+<div class="precio"><small>Pago único</small><div class="monto">$249.990</div>
+<ul><li><b>50% para empezar</b>$124.995 al inicio</li><li><b>50% al aprobar</b>$124.995 cuando ustedes dan el visto bueno</li><li><b>Lista en 7 a 10 días hábiles</b>desde el primer pago</li><li><b>15 días de cambios gratis</b>después de la entrega</li></ul></div>
+</div>
+<div class="motor"><b>Su motor GoFeels no se toca.</b> Todos los botones de reservar llevan a él, como hoy. La dirección de la página nueva (biosferalodge.cl u otra) la definimos con ustedes según lo que permita GoFeels.</div>
+</div><div class="pie"><span>Biósfera Lodge · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 3 celular -->
+<section class="pag"><div class="int">
+<h2>Así se vería en el celular</h2>
+<p style="font-size:13pt">Con sus fotos, su verde oliva y su logo. Lo importante a la vista: dónde están, cómo es cada domo y cómo reservar.</p>
+<div class="tres" style="grid-template-columns:1fr 1fr;gap:8mm;padding:0 6mm">
+<div><img src="../maquetas/m1-portada-rec.jpg" alt=""><p><b>La portada</b>Los domos de noche, la distancia y el botón de reservar.</p></div>
+<div><img src="../maquetas/m2-domo-rec.jpg" alt=""><p><b>Cada domo</b>Fotos grandes y un botón directo a su ficha en el motor.</p></div>
+</div>
+<p style="font-size:10pt;color:var(--suave);margin-top:5mm">Imágenes de referencia hechas para esta propuesta. No es una web publicada; el diseño final y los textos se ajustan con ustedes.</p>
+</div><div class="pie"><span>Biósfera Lodge · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 4 computador + garantías -->
+<section class="pag"><div class="int">
+<h2>Y así en el computador</h2>
+<img class="ancha" src="../maquetas/m4-escritorio.jpg" alt="">
+<div style="display:grid;grid-template-columns:50mm 1fr;gap:8mm;margin-top:7mm;align-items:start">
+<div class="tres" style="display:block;margin:0"><img src="../maquetas/m3-llegar-rec.jpg" alt=""><p><b>Cómo llegar</b>Mapa, preguntas frecuentes y WhatsApp.</p></div>
+<div><h2 style="font-size:19pt;margin-bottom:2mm">Nuestras garantías, por escrito</h2>
+<div class="garant g4" style="grid-template-columns:1fr;gap:2.5mm">
+<div><b>Todo a su nombre</b>Dominio, hosting y cuentas quedan a su nombre desde el día 1.</div>
+<div><b>Si dejamos de trabajar juntos, todo sigue funcionando</b>Porque es suyo, con un documento de accesos.</div>
+<div><b>Pagan la mitad al final</b>El segundo 50% solo cuando ustedes aprueban la web.</div>
+<div><b>Sin permanencia</b>En ningún plan mensual. Lo dejan cuando quieran.</div>
+</div></div></div>
+</div><div class="pie"><span>Biósfera Lodge · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 5 asistente -->
+<section class="pag"><div class="int">
+<div class="etq a">Opcional · Para ahorrar tiempo a recepción</div>
+<h2>Un asistente que responde a cualquier hora</h2>
+<p style="font-size:13pt">Muchas consultas se repiten: mascotas, horarios, qué incluye, cómo llegar. El asistente las responde al instante desde su web, también de noche. Para fechas, lleva al motor de reservas; lo que no sabe, se lo pasa a ustedes por WhatsApp con el mensaje ya escrito.</p>
+<div class="asis">
+<div class="chats"><img src="../maquetas/c1-chat-rec.jpg" alt=""><img src="../maquetas/c2-derivacion-rec.jpg" alt=""></div>
+<div>
+<div class="op"><h3>Web + asistente con respuestas preparadas</h3><div class="m">$299.990 <span>total</span></div><p>Todo lo de la página nueva, más un asistente con las respuestas que ustedes aprueban. Son $50.000 más que la web sola.</p></div>
+<div class="op dest"><h3>Web + asistente con inteligencia artificial</h3><div class="m">$349.990 <span>+ $9.990 al mes</span></div><p>Entiende preguntas escritas de cualquier forma y responde con la información de Biósfera. El uso de la IA se paga aparte, con un tope mensual que ustedes fijan.</p></div>
+<p style="font-size:10pt;color:var(--suave)">Ninguna opción inventa disponibilidad ni precios: para fechas exactas, el asistente lleva al huésped a su motor de reservas.</p>
+</div></div>
+<div class="op" style="margin-top:4mm;padding:4mm 5mm;background:var(--arena2);border:0"><h3>Lo que responde por ustedes</h3>
+<div class="garant" style="margin-top:2mm;grid-template-columns:repeat(4,1fr);gap:2.5mm">
+<div style="padding:2.5mm 3mm;font-size:10pt;line-height:1.3"><b style="font-size:11pt">Mascotas y niños</b>Qué aceptan y desde qué edad se paga.</div>
+<div style="padding:2.5mm 3mm;font-size:10pt;line-height:1.3"><b style="font-size:11pt">Horarios</b>Check-in, check-out y qué incluye.</div>
+<div style="padding:2.5mm 3mm;font-size:10pt;line-height:1.3"><b style="font-size:11pt">Cómo llegar</b>Dirección, tiempo y mapa.</div>
+<div style="padding:2.5mm 3mm;font-size:10pt;line-height:1.3"><b style="font-size:11pt">Lo demás</b>A ustedes por WhatsApp, ya escrito.</div>
+</div></div>
+</div><div class="pie"><span>Biósfera Lodge · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+
+<!-- 6 otros + cómo empezamos -->
+<section class="pag"><div class="int">
+<h2>Si quieren ir más allá</h2>
+<div class="extra"><div><h3>Aparezcan en Google Maps</h3><p>Ordenamos y completamos su perfil de Google y los acompañamos 3 meses para que los encuentre quien busca glamping cerca de Santiago y en Olmué. No prometemos el primer lugar: prometemos el trabajo hecho y un informe con resultados.</p></div><div class="m">$99.990<span>junto con la web<br>($119.990 por separado)</span></div></div>
+<div class="extra"><div><h3>Mantención mensual</h3><p>Cambios de textos, fotos y precios en la página cuando los necesiten, y revisión de que todo siga funcionando. Sin permanencia.</p></div><div class="m">$19.990<span>al mes</span></div></div>
+<div class="extra"><div><h3>Anuncios para la temporada</h3><p>Una campaña de 30 días para llegar a quienes buscan escapadas de verano cerca de Santiago. El presupuesto de los anuncios lo definen ustedes y se paga aparte.</p></div><div class="m">$69.990<span>30 días</span></div></div>
+<h2 style="margin-top:7mm;font-size:19pt">Cómo empezamos</h2>
+<div class="pasos">
+<div class="paso"><div class="n">1</div><p>Conversamos 15 minutos: fotos originales, WhatsApp y qué permite GoFeels.</p></div>
+<div class="paso"><div class="n">2</div><p>Con el 50% inicial empezamos. En 7 a 10 días hábiles les mostramos la página.</p></div>
+<div class="paso"><div class="n">3</div><p>Ustedes la revisan y la aprueban. Pagan el 50% restante y queda publicada.</p></div>
+</div>
+<div class="contacto"><div><h3>¿Conversamos?</h3><p>Mathias Lezana · Ascensus</p></div><b>WhatsApp +56 9 4931 1482</b></div>
+</div><div class="pie"><span>Biósfera Lodge · Propuesta</span><img src="../../../marca/ascensus-logo.png" alt=""></div></section>
+</body></html>

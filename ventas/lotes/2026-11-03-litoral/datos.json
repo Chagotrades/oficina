@@ -1,0 +1,1806 @@
+{
+ "fecha": "2026-11-02",
+ "nota": "Lote litoral: 4 rubros x 5. Hallazgos revisados el 2-nov-2026 con navegador, curl y DNS. Correos solo de fuentes públicas del propio negocio o del registro de Sernatur.",
+ "empresas": [
+  {
+   "slug": "cabanas-el-faro",
+   "rubro": "cabañas",
+   "comuna": "El Quisco",
+   "nombre": "Cabañas El Faro",
+   "nombre_corto": "EL FARO",
+   "web": "sin web propia activa (Instagram @cabanas.elfaro)",
+   "correo": "farocabanas@gmail.com",
+   "fuente_correo": "cabanasverificadas.cl, ficha Cabañas El Faro – El Quisco",
+   "bien": "Tienen una cuenta de Instagram activa con más de 1.200 seguidores, reservas por WhatsApp y una ficha con fotos en Cabañas Verificadas.",
+   "arreglos": [
+    {
+     "titulo": "La web que publican las guías no existe",
+     "visto": "La guía Litoral de los Poetas publica www.cabañaselfaro.cl y el correo rosamaria@cabanaselfaro.cl. Al 2 de noviembre ese dominio no existe: la web no abre y un correo a esa dirección no puede llegar.",
+     "importa": "Un turista que llega desde la guía ve un error y puede pensar que cerraron. Si escribe a ese correo, su consulta se pierde.",
+     "hacer": "Pedir a la guía que cambie el enlace por el WhatsApp o el Instagram vigente, o recuperar el dominio y publicar una página sencilla."
+    },
+    {
+     "titulo": "No hay una página propia con fotos, precios y disponibilidad",
+     "visto": "La información está repartida entre Instagram, Facebook y directorios. No hay un lugar propio donde ver capacidad, precios por temporada y cómo reservar.",
+     "importa": "Quien compara cabañas en el celular suele quedarse con la opción que responde esas dudas en un minuto, sin tener que escribir.",
+     "hacer": "Una página simple con cada cabaña, precios de referencia y un botón de WhatsApp con el mensaje ya escrito."
+    },
+    {
+     "titulo": "Pocas opiniones en Tripadvisor",
+     "visto": "En Tripadvisor aparecen con 3,4 de 5 y 13 opiniones.",
+     "importa": "Con tan pocas opiniones, una sola mala pesa mucho en la nota que ve un turista al buscar su nombre.",
+     "hacer": "Pedir una opinión a cada huésped satisfecho al irse, con un enlace directo por WhatsApp (Google y Tripadvisor)."
+    }
+   ],
+   "plan": "la web lista para recibir consultas ($249.990, pago único), con botón de WhatsApp y consulta de disponibilidad",
+   "color": "#e0a458",
+   "fondo": "#10302f",
+   "texto": "#f4efe6",
+   "btn_texto": "#10302f",
+   "mock": {
+    "eti": "Cabañas familiares · El Quisco",
+    "titular": "A pasos de la playa, todo el año",
+    "bajada": "Cabañas equipadas y pet friendly en el Litoral de los Poetas.",
+    "cta": "Ver cabañas y precios",
+    "cta2": "Consultar por WhatsApp",
+    "confianza": [
+     "Reserva directa con los dueños",
+     "Atendemos todo el año"
+    ],
+    "t2": "Consulta de disponibilidad",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Llegada",
+      "Elegir fecha ▾"
+     ],
+     [
+      "Noches",
+      "2 ▾"
+     ],
+     [
+      "Personas",
+      "4 ▾"
+     ],
+     [
+      "Mascota",
+      "Sí ▾"
+     ]
+    ],
+    "cta2b": "Consultar disponibilidad",
+    "t3": "Reservar es simple",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Eliges fechas",
+      "Ves el precio de referencia al tiro."
+     ],
+     [
+      "2. Confirmamos por WhatsApp",
+      "Te respondemos con disponibilidad."
+     ],
+     [
+      "3. Llegas y descansas",
+      "A pasos de la playa."
+     ]
+    ],
+    "cta3": "Hablar con El Faro"
+   },
+   "asunto": "Cabañas El Faro: la web que aparece en las guías no abre",
+   "saludo": "Hola, equipo de Cabañas El Faro:",
+   "parrafo": "La guía Litoral de los Poetas todavía publica www.cabañaselfaro.cl y un correo con ese mismo dominio, pero hoy ese dominio no existe: la web no abre y los correos no llegan. Un turista que los encuentra ahí puede pensar que ya no atienden.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "las cabañas"
+  },
+  {
+   "slug": "cabanas-canemar",
+   "rubro": "cabañas",
+   "comuna": "Algarrobo",
+   "nombre": "Cabañas Canemar",
+   "nombre_corto": "CANEMAR",
+   "web": "cabañasenalgarrobo.cl",
+   "correo": "consultas@canemar.cl",
+   "fuente_correo": "cabañasenalgarrobo.cl/contacto y registro Sernatur",
+   "bien": "La web presenta sus siete cabañas para dos a diez personas, tiene formulario de contacto y enlaces a sus redes. Además, están inscritos en el registro de Sernatur.",
+   "arreglos": [
+    {
+     "titulo": "Un correo mal escrito en Contacto",
+     "visto": "La página Contacto invita a escribir a “cabanas.en.algrrobo@gmail.com” (le falta una “a”). El correo correcto, cabanas.en.algarrobo@gmail.com, aparece en otras partes de la web.",
+     "importa": "Quien copie la dirección de Contacto escribe a una casilla que no es la suya, y esa reserva se pierde sin que nadie se entere.",
+     "hacer": "Corregir la dirección y enviar una prueba desde el formulario para confirmar que llega."
+    },
+    {
+     "titulo": "La dirección sin ñ no lleva a ninguna parte",
+     "visto": "La web está en cabañasenalgarrobo.cl, con ñ. La misma dirección escrita sin ñ (cabanasenalgarrobo.cl) no existe.",
+     "importa": "Mucha gente escribe sin ñ, sobre todo desde un teclado en inglés o al dictar la dirección; esas personas llegan a un error.",
+     "hacer": "Registrar la versión sin ñ y redirigirla a la web actual (cuesta poco al año en NIC Chile)."
+    },
+    {
+     "titulo": "No hay botón de WhatsApp",
+     "visto": "Ni la portada ni Contacto tienen un enlace directo a WhatsApp; los números aparecen en Instagram.",
+     "importa": "En arriendos de temporada casi todos preguntan por WhatsApp desde el celular. Si hay que copiar el número a mano, muchos no lo hacen.",
+     "hacer": "Agregar un botón fijo de WhatsApp con un mensaje listo: “Hola, quiero consultar disponibilidad para…”."
+    }
+   ],
+   "plan": "la mantención mensual de la web ($19.990 al mes, sin permanencia), que incluye estas correcciones, respaldos y una revisión mensual",
+   "color": "#e0a458",
+   "fondo": "#10302f",
+   "texto": "#f4efe6",
+   "btn_texto": "#10302f",
+   "mock": {
+    "eti": "7 cabañas · Algarrobo",
+    "titular": "Cabañas equipadas de 2 a 10 personas",
+    "bajada": "Consulta disponibilidad y reserva directo con nosotros.",
+    "cta": "Ver cabañas",
+    "cta2": "Consultar por WhatsApp",
+    "confianza": [
+     "Reserva directa con Canemar",
+     "Registro Sernatur vigente"
+    ],
+    "t2": "Consulta de disponibilidad",
+    "h2": "Arma tu escapada",
+    "campos": [
+     [
+      "Llegada",
+      "Elegir fecha ▾"
+     ],
+     [
+      "Noches",
+      "3 ▾"
+     ],
+     [
+      "Personas",
+      "6 ▾"
+     ],
+     [
+      "Cabaña",
+      "Cualquiera ▾"
+     ]
+    ],
+    "cta2b": "Enviar por WhatsApp",
+    "t3": "Simple y directo",
+    "h3": "Así reservas",
+    "cierre": [
+     [
+      "1. Eliges fechas y cabaña",
+      "Con fotos y capacidad."
+     ],
+     [
+      "2. Te confirmamos",
+      "Por WhatsApp o correo."
+     ],
+     [
+      "3. Llegas a Algarrobo",
+      "Todo listo para descansar."
+     ]
+    ],
+    "cta3": "Hablar con Canemar"
+   },
+   "asunto": "Canemar: un correo mal escrito en su web",
+   "saludo": "Hola, equipo de Cabañas Canemar:",
+   "parrafo": "En la página Contacto de su web se pide escribir a “cabanas.en.algrrobo@gmail.com”, con una “a” de menos. Quien copie esa dirección para reservar le escribe a una casilla que no es la suya, y esa consulta se pierde sin que ustedes se enteren.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "las cabañas"
+  },
+  {
+   "slug": "cabanas-la-playa",
+   "rubro": "cabañas",
+   "comuna": "El Quisco",
+   "nombre": "Cabañas La Playa",
+   "nombre_corto": "LA PLAYA",
+   "web": "cabanaslaplaya.wixsite.com/elquisco (no disponible)",
+   "correo": "arriendoslaplaya@gmail.com",
+   "fuente_correo": "registro Sernatur (Cabañas La Playa, El Quisco)",
+   "bien": "Están inscritos en el registro de Sernatur con cabañas y departamentos turísticos en El Quisco, lo que da confianza a quien arrienda.",
+   "arreglos": [
+    {
+     "titulo": "La web del registro de Sernatur da error",
+     "visto": "Su ficha en el registro de Sernatur enlaza a cabanaslaplaya.wixsite.com/elquisco. Al 2 de noviembre esa página muestra “404 Error: Página no encontrada”.",
+     "importa": "Quien los encuentra en Sernatur y hace clic para ver fotos y precios se topa con un error y sigue buscando.",
+     "hacer": "Publicar una página nueva y actualizar el enlace en Sernatur, o cambiarlo por el WhatsApp mientras tanto."
+    },
+    {
+     "titulo": "Sin un lugar propio con fotos y precios",
+     "visto": "Sin esa web no hay un sitio propio donde ver las cabañas, la capacidad y cómo reservar.",
+     "importa": "Quien arrienda en temporada compara varias opciones en pocos minutos y elige la que muestra todo claro.",
+     "hacer": "Una página simple con fotos, capacidad, precios de referencia y botón de WhatsApp."
+    },
+    {
+     "titulo": "Una dirección gratuita de Wix",
+     "visto": "La dirección que usaban era del plan gratuito de Wix (wixsite.com), no un dominio propio.",
+     "importa": "Una dirección propia (por ejemplo, cabanaslaplaya.cl) da más confianza y no depende de una cuenta gratuita que puede desactivarse.",
+     "hacer": "Registrar un dominio .cl a nombre de ustedes y usarlo en Sernatur, Google e Instagram."
+    }
+   ],
+   "plan": "la web lista para recibir consultas ($249.990, pago único), con dominio a su nombre y botón de WhatsApp",
+   "color": "#e0a458",
+   "fondo": "#10302f",
+   "texto": "#f4efe6",
+   "btn_texto": "#10302f",
+   "mock": {
+    "eti": "Cabañas y departamentos · El Quisco",
+    "titular": "Tu escapada a pasos del mar",
+    "bajada": "Cabañas equipadas en El Quisco, con reserva directa.",
+    "cta": "Ver cabañas y precios",
+    "cta2": "Consultar por WhatsApp",
+    "confianza": [
+     "Registro Sernatur vigente",
+     "Reserva directa con los dueños"
+    ],
+    "t2": "Consulta de disponibilidad",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Llegada",
+      "Elegir fecha ▾"
+     ],
+     [
+      "Noches",
+      "2 ▾"
+     ],
+     [
+      "Personas",
+      "4 ▾"
+     ],
+     [
+      "Tipo",
+      "Cabaña ▾"
+     ]
+    ],
+    "cta2b": "Consultar disponibilidad",
+    "t3": "Reservar es simple",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Eliges fechas",
+      "Y ves precios de referencia."
+     ],
+     [
+      "2. Confirmamos por WhatsApp",
+      "Con todos los detalles."
+     ],
+     [
+      "3. Llegas a El Quisco",
+      "Todo listo."
+     ]
+    ],
+    "cta3": "Hablar con La Playa"
+   },
+   "asunto": "Cabañas La Playa: su web en Sernatur muestra un error",
+   "saludo": "Hola, equipo de Cabañas La Playa:",
+   "parrafo": "Su ficha en el registro de Sernatur enlaza a cabanaslaplaya.wixsite.com/elquisco, pero hoy esa página muestra “404 Error: Página no encontrada”. Quien los encuentra ahí y quiere ver fotos o precios se topa con un error y sigue buscando otra cabaña.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "las cabañas en el registro de Sernatur"
+  },
+  {
+   "slug": "cabanas-santa-barbara",
+   "rubro": "cabañas",
+   "comuna": "El Quisco",
+   "nombre": "Cabañas Santa Bárbara",
+   "nombre_corto": "SANTA BÁRBARA",
+   "web": "santabarbaraelquisco.cl (no responde)",
+   "correo": "arriendo.santabarbara@gmail.com",
+   "fuente_correo": "registro Sernatur (Cabañas Santa Bárbara, El Quisco)",
+   "bien": "Están inscritos en el registro de Sernatur y tienen dominio propio con el nombre de la comuna, algo que ayuda en las búsquedas.",
+   "arreglos": [
+    {
+     "titulo": "Su web no abre",
+     "visto": "La web publicada en Sernatur, www.santabarbaraelquisco.cl, no abrió en nuestras pruebas del 2 de noviembre: el dominio no responde.",
+     "importa": "Quien busca cabañas en El Quisco y hace clic llega a un error. En plena preparación de la temporada, son reservas que se van a otra parte.",
+     "hacer": "Revisar con el proveedor del dominio y del hosting si está vencido o mal configurado; si conviene, rehacer una página simple."
+    },
+    {
+     "titulo": "Sin respaldo cuando la web falla",
+     "visto": "Si la web cae, no hay otra ficha propia con fotos y precios a la que derivar.",
+     "importa": "Un perfil de Google completo con fotos, horario y WhatsApp sigue funcionando aunque la web falle.",
+     "hacer": "Completar el perfil de Google con fotos, capacidad y enlace directo a WhatsApp."
+    },
+    {
+     "titulo": "Correo de Gmail como contacto",
+     "visto": "El contacto publicado es arriendo.santabarbara@gmail.com, aunque tienen dominio propio.",
+     "importa": "Un correo con el dominio de las cabañas transmite más confianza a quien va a transferir una reserva.",
+     "hacer": "Crear reservas@santabarbaraelquisco.cl y redirigirlo al Gmail actual."
+    }
+   ],
+   "plan": "la web lista para recibir consultas ($249.990, pago único), con dominio y hosting a su nombre",
+   "color": "#e0a458",
+   "fondo": "#10302f",
+   "texto": "#f4efe6",
+   "btn_texto": "#10302f",
+   "mock": {
+    "eti": "Cabañas · El Quisco",
+    "titular": "Cabañas Santa Bárbara en El Quisco",
+    "bajada": "Cabañas equipadas para tu familia, cerca de la playa.",
+    "cta": "Ver cabañas y precios",
+    "cta2": "Consultar por WhatsApp",
+    "confianza": [
+     "Registro Sernatur vigente",
+     "Reserva directa"
+    ],
+    "t2": "Consulta de disponibilidad",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Llegada",
+      "Elegir fecha ▾"
+     ],
+     [
+      "Noches",
+      "2 ▾"
+     ],
+     [
+      "Personas",
+      "5 ▾"
+     ],
+     [
+      "Estacionamiento",
+      "Sí ▾"
+     ]
+    ],
+    "cta2b": "Consultar disponibilidad",
+    "t3": "Reservar es simple",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Eliges fechas",
+      "Precios de referencia a la vista."
+     ],
+     [
+      "2. Confirmamos por WhatsApp",
+      "Con datos de pago y llegada."
+     ],
+     [
+      "3. Llegas y descansas",
+      "En El Quisco."
+     ]
+    ],
+    "cta3": "Hablar con Santa Bárbara"
+   },
+   "asunto": "Cabañas Santa Bárbara: su web no está abriendo",
+   "saludo": "Hola, equipo de Cabañas Santa Bárbara:",
+   "parrafo": "La web que aparece en su ficha de Sernatur, www.santabarbaraelquisco.cl, no abrió en nuestras pruebas de hoy: el dominio no responde. Justo cuando la gente empieza a buscar cabañas para el verano, quien hace clic llega a un error.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "las cabañas en el registro de Sernatur"
+  },
+  {
+   "slug": "aguasmarinas",
+   "rubro": "cabañas",
+   "comuna": "Algarrobo",
+   "nombre": "Centro de Eventos y Cabañas Aguasmarinas",
+   "nombre_corto": "AGUASMARINAS",
+   "web": "aguasmarinas.cl (dominio inexistente)",
+   "correo": "aguasmarinas@serbima.cl",
+   "fuente_correo": "registro Sernatur (Centro de Eventos y Cabañas Aguasmarinas, Algarrobo)",
+   "bien": "Están inscritos en el registro de Sernatur y combinan cabañas con centro de eventos, dos fuentes de clientes distintas.",
+   "arreglos": [
+    {
+     "titulo": "La web registrada no existe",
+     "visto": "Su ficha en Sernatur publica www.aguasmarinas.cl. Al 2 de noviembre ese dominio no existe.",
+     "importa": "Quien busca un lugar para un evento o una escapada y hace clic llega a un error, y pierde la confianza antes de escribir.",
+     "hacer": "Recuperar ese dominio si está libre o registrar uno nuevo, y actualizar el enlace en Sernatur."
+    },
+    {
+     "titulo": "Eventos sin una página para cotizar",
+     "visto": "Sin web no hay un lugar donde ver capacidad del salón, fotos y cómo cotizar un evento.",
+     "importa": "Quien organiza un matrimonio o un evento de empresa compara varios lugares y pide cotización al que le muestra todo primero.",
+     "hacer": "Una página con fotos, capacidad y un formulario de cotización (fecha, personas, tipo de evento)."
+    },
+    {
+     "titulo": "Correo con dominio de otra empresa",
+     "visto": "El correo publicado es aguasmarinas@serbima.cl, con un dominio que no es el de Aguasmarinas.",
+     "importa": "Al cliente le puede costar reconocer que el correo es del lugar que busca, y es más fácil que lo ignore.",
+     "hacer": "Usar un correo con el dominio propio, por ejemplo contacto@aguasmarinas.cl, y redirigirlo al actual."
+    }
+   ],
+   "plan": "la web lista para recibir consultas ($249.990, pago único), con cotizador de eventos y botón de WhatsApp",
+   "color": "#e0a458",
+   "fondo": "#10302f",
+   "texto": "#f4efe6",
+   "btn_texto": "#10302f",
+   "mock": {
+    "eti": "Eventos y cabañas · Algarrobo",
+    "titular": "Tu evento y tu descanso en un mismo lugar",
+    "bajada": "Salón para eventos y cabañas para los invitados, en Algarrobo.",
+    "cta": "Cotizar un evento",
+    "cta2": "Ver cabañas",
+    "confianza": [
+     "Registro Sernatur vigente",
+     "Atención directa"
+    ],
+    "t2": "Cotiza tu evento",
+    "h2": "Cuéntanos qué celebras",
+    "campos": [
+     [
+      "Tipo de evento",
+      "Matrimonio ▾"
+     ],
+     [
+      "Fecha",
+      "Elegir fecha ▾"
+     ],
+     [
+      "Invitados",
+      "80 ▾"
+     ],
+     [
+      "Alojamiento",
+      "Sí, cabañas ▾"
+     ]
+    ],
+    "cta2b": "Pedir cotización",
+    "t3": "Sin complicaciones",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Envías tus datos",
+      "Fecha, invitados y tipo de evento."
+     ],
+     [
+      "2. Te cotizamos",
+      "Por correo o WhatsApp."
+     ],
+     [
+      "3. Visitas el lugar",
+      "Y reservas tu fecha."
+     ]
+    ],
+    "cta3": "Hablar con Aguasmarinas"
+   },
+   "asunto": "Aguasmarinas: la web de su ficha en Sernatur no existe",
+   "saludo": "Hola, equipo de Aguasmarinas:",
+   "parrafo": "Su ficha en el registro de Sernatur publica www.aguasmarinas.cl, pero hoy ese dominio no existe. Quien busca un lugar para un evento o una escapada en Algarrobo y hace clic llega a un error antes de alcanzar a escribirles.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "Aguasmarinas en el registro de Sernatur"
+  },
+  {
+   "slug": "costamar-odontologia",
+   "rubro": "clínica dental",
+   "comuna": "Concón",
+   "nombre": "Centro Clínico Odontológico Costa Mar",
+   "nombre_corto": "COSTA MAR",
+   "web": "costamarodontologia.cl",
+   "correo": "costamarodontologia@gmail.com",
+   "fuente_correo": "costamarodontologia.cl/contacto",
+   "bien": "La web explica sus especialidades (implantología, urgencias, higiene y blanqueamiento) y tiene secciones de promociones, medios de pago y ubicación.",
+   "arreglos": [
+    {
+     "titulo": "El pie de la web dice 2017",
+     "visto": "Al final de cada página aparece “Copyright © 2017”.",
+     "importa": "Un paciente que compara clínicas puede pensar que precios, horarios y promociones no están al día.",
+     "hacer": "Actualizar el pie y revisar que promociones y horarios estén vigentes."
+    },
+    {
+     "titulo": "Sin botón de WhatsApp",
+     "visto": "La portada no tiene un botón para escribir o pedir hora por WhatsApp.",
+     "importa": "Hoy casi todos piden hora desde el celular. Si hay que copiar un número o llenar un formulario, una parte se va a la siguiente clínica de Google.",
+     "hacer": "Agregar un botón fijo de WhatsApp con un mensaje listo para pedir hora."
+    },
+    {
+     "titulo": "Correo de Gmail como contacto principal",
+     "visto": "El contacto publicado es costamarodontologia@gmail.com, aunque la clínica tiene dominio propio.",
+     "importa": "Un correo con el dominio de la clínica da más confianza y llega con menos frecuencia a la carpeta de spam.",
+     "hacer": "Crear contacto@costamarodontologia.cl y redirigirlo al Gmail actual."
+    }
+   ],
+   "plan": "la renovación simple de la web ($249.990, pago único), con botón de WhatsApp y agenda visible",
+   "color": "#0f8b8d",
+   "fondo": "#f7fbfb",
+   "texto": "#16323a",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Clínica dental · Concón",
+    "titular": "Tu dentista en Bosques de Montemar",
+    "bajada": "Implantes, urgencias, higiene y blanqueamiento con especialistas.",
+    "cta": "Pedir hora",
+    "cta2": "Escribir por WhatsApp",
+    "confianza": [
+     "Urgencias dentales",
+     "Promociones vigentes y medios de pago"
+    ],
+    "t2": "Pide tu hora",
+    "h2": "¿Qué necesitas?",
+    "campos": [
+     [
+      "Motivo",
+      "Urgencia ▾"
+     ],
+     [
+      "Día",
+      "Mañana ▾"
+     ],
+     [
+      "Horario",
+      "Tarde ▾"
+     ],
+     [
+      "Previsión",
+      "Particular ▾"
+     ]
+    ],
+    "cta2b": "Enviar por WhatsApp",
+    "t3": "Atención simple",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Nos escribes",
+      "Por WhatsApp o formulario."
+     ],
+     [
+      "2. Te damos hora",
+      "Con el especialista indicado."
+     ],
+     [
+      "3. Te atendemos",
+      "En Bosques de Montemar."
+     ]
+    ],
+    "cta3": "Hablar con Costa Mar"
+   },
+   "asunto": "Costa Mar: su web todavía dice 2017",
+   "saludo": "Estimado equipo de Costa Mar:",
+   "parrafo": "Al revisar costamarodontologia.cl, el pie de cada página todavía dice “Copyright © 2017” y no hay un botón para pedir hora por WhatsApp. Un paciente que compara clínicas en Concón desde el celular puede pensar que la información no está al día y seguir buscando.",
+   "a_nombre_de": "la clínica",
+   "contacto_de": "la clínica"
+  },
+  {
+   "slug": "odentix",
+   "rubro": "clínica dental",
+   "comuna": "Quilpué",
+   "nombre": "Odentix Clínica Dental",
+   "nombre_corto": "ODENTIX",
+   "web": "odentix.cl",
+   "correo": "contacto@odentix.cl",
+   "fuente_correo": "odentix.cl/contacto",
+   "bien": "Tienen web propia con dominio .cl y una página de contacto con correo.",
+   "arreglos": [
+    {
+     "titulo": "La portada se llama “Inicio -”",
+     "visto": "El título de la portada, que se ve en la pestaña del navegador y que Google suele mostrar en los resultados, es solo “Inicio -”. El titular principal de la página está vacío.",
+     "importa": "Google y los pacientes no ven de inmediato que es una clínica dental en Quilpué. Así cuesta aparecer cuando alguien busca “dentista Quilpué”.",
+     "hacer": "Usar un título como “Clínica Dental en Quilpué | Odentix” y un titular visible con la misma idea."
+    },
+    {
+     "titulo": "La descripción dice “Odentis”",
+     "visto": "La descripción que la web entrega a Google escribe el nombre como “Odentis” y es una lista de palabras con un enlace a Facebook.",
+     "importa": "Quien busca el nombre correcto puede dudar de que sea la misma clínica, y una lista de palabras no invita a hacer clic.",
+     "hacer": "Reescribirla en una frase: qué hacen, dónde están y cómo pedir hora."
+    },
+    {
+     "titulo": "Sin botón de WhatsApp ni de reserva en la portada",
+     "visto": "La portada no tiene un botón para pedir hora por WhatsApp ni un enlace de reserva.",
+     "importa": "Quien llega desde el celular con un dolor quiere pedir hora en un toque.",
+     "hacer": "Agregar un botón fijo de WhatsApp y un enlace de reserva visible arriba."
+    }
+   ],
+   "plan": "el programa Aparece en tu comuna ($119.990, pago único), que incluye estos ajustes en la web y en su perfil de Google",
+   "color": "#0f8b8d",
+   "fondo": "#f7fbfb",
+   "texto": "#16323a",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Clínica dental · Quilpué",
+    "titular": "Tu clínica dental en Quilpué",
+    "bajada": "Urgencias, implantes y tratamientos con atención cercana.",
+    "cta": "Pedir hora",
+    "cta2": "Escribir por WhatsApp",
+    "confianza": [
+     "Urgencias dentales",
+     "Presupuesto claro antes de empezar"
+    ],
+    "t2": "Pide tu hora",
+    "h2": "¿Qué necesitas?",
+    "campos": [
+     [
+      "Motivo",
+      "Urgencia ▾"
+     ],
+     [
+      "Día",
+      "Hoy ▾"
+     ],
+     [
+      "Horario",
+      "Mañana ▾"
+     ],
+     [
+      "Previsión",
+      "Fonasa ▾"
+     ]
+    ],
+    "cta2b": "Enviar por WhatsApp",
+    "t3": "Atención simple",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Nos escribes",
+      "Por WhatsApp o formulario."
+     ],
+     [
+      "2. Te damos hora",
+      "Te confirmamos por WhatsApp."
+     ],
+     [
+      "3. Te atendemos",
+      "En Quilpué."
+     ]
+    ],
+    "cta3": "Hablar con Odentix"
+   },
+   "asunto": "Odentix: su portada se llama “Inicio -”",
+   "saludo": "Estimado equipo de Odentix:",
+   "parrafo": "Al revisar odentix.cl, el título de la portada es solo “Inicio -” y la descripción que la web le entrega a Google escribe el nombre como “Odentis”. Cuando alguien en Quilpué busca un dentista, eso le hace más difícil a Google mostrarlos y al paciente reconocer la clínica.",
+   "a_nombre_de": "la clínica",
+   "contacto_de": "la clínica"
+  },
+  {
+   "slug": "delta-dent",
+   "rubro": "clínica dental",
+   "comuna": "Viña del Mar",
+   "nombre": "Clínica Delta Dent",
+   "nombre_corto": "DELTA DENT",
+   "web": "clinicadeltadent.cl",
+   "correo": "contacto@clinicadeltadent.cl",
+   "fuente_correo": "clinicadeltadent.cl (portada)",
+   "bien": "La web es liviana y carga rápido, menciona urgencias dentales y tiene opción de reserva.",
+   "arreglos": [
+    {
+     "titulo": "Un error de ortografía en lo que lee Google",
+     "visto": "La descripción que la web entrega a Google dice “ugencias dentales en viña del mar” (falta la “r”), todo en minúsculas.",
+     "importa": "Es el texto que muchos pacientes leen antes de entrar. Un error ahí resta confianza justo en una búsqueda de urgencia.",
+     "hacer": "Reescribirla: “Urgencias dentales en Viña del Mar. Pide hora por WhatsApp.”"
+    },
+    {
+     "titulo": "Sin botón de WhatsApp",
+     "visto": "La portada no tiene un botón para escribir por WhatsApp.",
+     "importa": "Quien tiene dolor quiere resolver ya, y WhatsApp suele ser el camino más rápido para pedir hora.",
+     "hacer": "Agregar un botón fijo con mensaje listo."
+    },
+    {
+     "titulo": "Un título que no destaca las urgencias",
+     "visto": "El título de la portada es “Clinica Dental - Delta Dent - Viña del Mar”: sin tilde y sin mencionar urgencias, que es lo que más destacan.",
+     "importa": "El título es lo primero que ve un paciente en Google y lo que más pesa para que la web aparezca en una búsqueda.",
+     "hacer": "Título: “Urgencias dentales en Viña del Mar | Clínica Delta Dent”."
+    }
+   ],
+   "plan": "la mantención mensual de la web ($19.990 al mes, sin permanencia), que incluye estos ajustes y una revisión mensual",
+   "color": "#0f8b8d",
+   "fondo": "#f7fbfb",
+   "texto": "#16323a",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Urgencias dentales · Viña del Mar",
+    "titular": "¿Dolor de muelas? Pide hora hoy",
+    "bajada": "Urgencias, extracciones y tratamientos en Viña del Mar.",
+    "cta": "Pedir hora de urgencia",
+    "cta2": "Escribir por WhatsApp",
+    "confianza": [
+     "Atención de urgencia",
+     "Reserva en línea"
+    ],
+    "t2": "Pide tu hora",
+    "h2": "Cuéntanos qué te pasa",
+    "campos": [
+     [
+      "Motivo",
+      "Dolor ▾"
+     ],
+     [
+      "Día",
+      "Hoy ▾"
+     ],
+     [
+      "Horario",
+      "Lo antes posible ▾"
+     ],
+     [
+      "Teléfono",
+      "+56 9 ..."
+     ]
+    ],
+    "cta2b": "Enviar por WhatsApp",
+    "t3": "Rápido y claro",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Nos escribes",
+      "Por WhatsApp."
+     ],
+     [
+      "2. Te damos la primera hora",
+      "Disponible."
+     ],
+     [
+      "3. Te atendemos",
+      "En Viña del Mar."
+     ]
+    ],
+    "cta3": "Hablar con Delta Dent"
+   },
+   "asunto": "Delta Dent: un error en lo que muestra Google",
+   "saludo": "Estimado equipo de Delta Dent:",
+   "parrafo": "La descripción que su web le entrega a Google dice “ugencias dentales en viña del mar”, con una letra de menos, y la portada no tiene botón de WhatsApp. Para alguien con dolor que busca atención rápida, esos detalles pueden inclinar la balanza hacia otra clínica.",
+   "a_nombre_de": "la clínica",
+   "contacto_de": "la clínica"
+  },
+  {
+   "slug": "clinica-dental-oceanica",
+   "rubro": "clínica dental",
+   "comuna": "San Antonio",
+   "nombre": "Clínica Dental Oceánica",
+   "nombre_corto": "OCEÁNICA",
+   "web": "clinicadentaloceanica.cl",
+   "correo": "oceanica@clinicadentaloceanica.cl",
+   "fuente_correo": "clinicadentaloceanica.cl",
+   "bien": "Tienen 4,7 estrellas con 198 reseñas en Google Maps y botones de WhatsApp para agendar, incluso fuera de horario.",
+   "arreglos": [
+    {
+     "titulo": "Google recibe su correo como descripción",
+     "visto": "La descripción que la web entrega a Google es solo “oceanica@clinicadentaloceanica.cl”.",
+     "importa": "En vez de leer qué tratamientos hacen y dónde están, el paciente ve un correo. Google puede elegir otro texto, pero se pierde la oportunidad de convencer.",
+     "hacer": "Escribir una frase como “Clínica dental en San Antonio. Agenda tu hora por WhatsApp.”"
+    },
+    {
+     "titulo": "Un número de Ecuador en “fuera de horario”",
+     "visto": "El botón “Agendamiento fuera de horario” lleva a un WhatsApp con código de Ecuador (+593).",
+     "importa": "Si es un servicio externo, está bien, pero conviene confirmarlo: un paciente puede desconfiar al ver un número extranjero.",
+     "hacer": "Confirmar que ese número sigue siendo el correcto y, si es externo, explicarlo junto al botón."
+    },
+    {
+     "titulo": "Un título sin la comuna",
+     "visto": "El título de la portada es “Clinica Dental Oceanica”, sin tildes y sin decir San Antonio.",
+     "importa": "Google usa el título para entender a quién mostrar la web. Incluir la comuna ayuda en búsquedas como “dentista San Antonio”.",
+     "hacer": "Título: “Clínica Dental Oceánica | Dentista en San Antonio”."
+    }
+   ],
+   "plan": "el programa Aparece en tu comuna ($119.990, pago único), que incluye estos ajustes en la web y en su perfil de Google",
+   "color": "#0f8b8d",
+   "fondo": "#f7fbfb",
+   "texto": "#16323a",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Clínica dental · San Antonio",
+    "titular": "Tu dentista en San Antonio",
+    "bajada": "4,7 estrellas con casi 200 reseñas de pacientes en Google.",
+    "cta": "Agendar hora",
+    "cta2": "Escribir por WhatsApp",
+    "confianza": [
+     "Agendamiento también fuera de horario",
+     "Pacientes que nos recomiendan"
+    ],
+    "t2": "Agenda tu hora",
+    "h2": "¿Qué necesitas?",
+    "campos": [
+     [
+      "Motivo",
+      "Control ▾"
+     ],
+     [
+      "Día",
+      "Esta semana ▾"
+     ],
+     [
+      "Horario",
+      "Tarde ▾"
+     ],
+     [
+      "Previsión",
+      "Particular ▾"
+     ]
+    ],
+    "cta2b": "Enviar por WhatsApp",
+    "t3": "Atención simple",
+    "h3": "Así funciona",
+    "cierre": [
+     [
+      "1. Nos escribes",
+      "A cualquier hora."
+     ],
+     [
+      "2. Te confirmamos la hora",
+      "Por WhatsApp."
+     ],
+     [
+      "3. Te atendemos",
+      "En San Antonio."
+     ]
+    ],
+    "cta3": "Hablar con Oceánica"
+   },
+   "asunto": "Clínica Oceánica: lo que Google lee de su web",
+   "saludo": "Estimado equipo de Clínica Dental Oceánica:",
+   "parrafo": "La descripción que su web le entrega a Google es solo su correo, “oceanica@clinicadentaloceanica.cl”, en vez de una frase que diga qué hacen y dónde están. Con 198 reseñas y 4,7 estrellas en Maps tienen mucho que mostrar, y hoy la web no lo aprovecha.",
+   "a_nombre_de": "la clínica",
+   "contacto_de": "la clínica"
+  },
+  {
+   "slug": "dental-rialto",
+   "rubro": "clínica dental",
+   "comuna": "San Antonio",
+   "nombre": "Dental Rialto",
+   "nombre_corto": "RIALTO",
+   "web": "dentalrialto.cl",
+   "correo": "dentalrialto@gmail.com",
+   "fuente_correo": "dentalrialto.cl",
+   "bien": "Tienen 4,9 estrellas con 37 reseñas en Google Maps. La web carga rápido, su título menciona urgencias en San Antonio y tiene botón de WhatsApp.",
+   "arreglos": [
+    {
+     "titulo": "Una descripción técnica en lugar de un mensaje",
+     "visto": "La descripción que la web entrega a Google dice “text/html; charset=utf-8”, un texto técnico que quedó ahí por error.",
+     "importa": "Es el texto que puede aparecer bajo su nombre en Google. Un paciente con dolor elige en segundos, y ese texto no le dice nada.",
+     "hacer": "Reemplazarlo por “Urgencias dentales en San Antonio. Agenda por WhatsApp.”"
+    },
+    {
+     "titulo": "Correo de Gmail como contacto",
+     "visto": "El correo publicado es dentalrialto@gmail.com, aunque la clínica tiene dominio propio.",
+     "importa": "Un correo con el dominio de la clínica da más confianza y llega con menos frecuencia a la carpeta de spam.",
+     "hacer": "Crear contacto@dentalrialto.cl y redirigirlo al Gmail actual."
+    },
+    {
+     "titulo": "Aprovechar mejor sus reseñas",
+     "visto": "Tienen 4,9 estrellas en Maps, pero la web no muestra opiniones de pacientes.",
+     "importa": "Las opiniones de otros pacientes son lo que más tranquiliza a alguien que tiene miedo al dentista.",
+     "hacer": "Mostrar 3 o 4 reseñas reales de Google en la portada, con enlace a todas."
+    }
+   ],
+   "plan": "la mantención mensual de la web ($19.990 al mes, sin permanencia), que incluye estos ajustes y una revisión mensual",
+   "color": "#0f8b8d",
+   "fondo": "#f7fbfb",
+   "texto": "#16323a",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Urgencias dentales · San Antonio",
+    "titular": "Urgencias dentales en San Antonio",
+    "bajada": "4,9 estrellas en Google. Te atendemos con calma y sin rodeos.",
+    "cta": "Pedir hora",
+    "cta2": "Escribir por WhatsApp",
+    "confianza": [
+     "4,9 ★ en Google Maps",
+     "Atención de urgencias"
+    ],
+    "t2": "Pide tu hora",
+    "h2": "Cuéntanos qué te pasa",
+    "campos": [
+     [
+      "Motivo",
+      "Urgencia ▾"
+     ],
+     [
+      "Día",
+      "Hoy ▾"
+     ],
+     [
+      "Horario",
+      "Lo antes posible ▾"
+     ],
+     [
+      "Previsión",
+      "Particular ▾"
+     ]
+    ],
+    "cta2b": "Enviar por WhatsApp",
+    "t3": "Lo que dicen nuestros pacientes",
+    "h3": "Opiniones reales",
+    "cierre": [
+     [
+      "★★★★★",
+      "Aquí va una reseña real de Google."
+     ],
+     [
+      "★★★★★",
+      "Aquí va otra reseña real de Google."
+     ],
+     [
+      "Ver todas",
+      "En Google Maps."
+     ]
+    ],
+    "cta3": "Hablar con Rialto"
+   },
+   "asunto": "Dental Rialto: lo que Google lee de su web",
+   "saludo": "Estimado equipo de Dental Rialto:",
+   "parrafo": "La descripción que su web le entrega a Google dice “text/html; charset=utf-8”, un texto técnico que quedó ahí por error, en lugar de una frase sobre urgencias dentales en San Antonio. Con 4,9 estrellas en Maps, es una lástima que el primer texto que puede leer un paciente no los represente.",
+   "a_nombre_de": "la clínica",
+   "contacto_de": "la clínica"
+  },
+  {
+   "slug": "am-construcciones-modulares",
+   "rubro": "constructora",
+   "comuna": "Concón",
+   "nombre": "AM Construcciones Modulares",
+   "nombre_corto": "AM MODULAR",
+   "web": "ammodular.cl",
+   "correo": "ventas@ammodular.cl",
+   "fuente_correo": "ammodular.cl",
+   "bien": "Tienen 4,5 estrellas con 19 reseñas en Google Maps, taller propio y servicios claros: arquitectura, construcción modular, ampliaciones y remodelaciones.",
+   "arreglos": [
+    {
+     "titulo": "Una web de una sola pantalla, sin obras",
+     "visto": "ammodular.cl muestra una sola pantalla con texto y dos imágenes, sin fotos de obras terminadas.",
+     "importa": "Quien va a invertir en una ampliación quiere ver trabajos reales antes de pedir presupuesto. Sin eso, compara con quien sí los muestra.",
+     "hacer": "Agregar una galería de 6 a 10 proyectos con fotos de antes y después y la comuna de cada obra."
+    },
+    {
+     "titulo": "En Google aparece como “ammodular.cl”",
+     "visto": "El título de la web es solo “ammodular.cl” y no tiene descripción para Google.",
+     "importa": "Google no tiene un texto que diga qué hacen ni dónde, y eso dificulta aparecer en búsquedas como “ampliaciones Concón”.",
+     "hacer": "Título y descripción con servicio y comuna, por ejemplo “Ampliaciones y construcción modular en Concón”."
+    },
+    {
+     "titulo": "Sin formulario de cotización",
+     "visto": "La web no tiene formulario para pedir presupuesto: solo teléfonos y correos.",
+     "importa": "Un formulario con medidas, comuna y tipo de obra les entrega consultas más completas y con menos idas y vueltas.",
+     "hacer": "Agregar un cotizador simple que llegue a su correo y WhatsApp."
+    }
+   ],
+   "plan": "la web lista para recibir clientes ($249.990, pago único), con galería de proyectos, cotizador y WhatsApp",
+   "color": "#f2a541",
+   "fondo": "#1f2328",
+   "texto": "#f2f2f2",
+   "btn_texto": "#1f2328",
+   "mock": {
+    "eti": "Construcción modular · Concón",
+    "titular": "Ampliaciones y remodelaciones con taller propio",
+    "bajada": "Proyectos, regularizaciones y obras modulares en la región.",
+    "cta": "Cotizar mi proyecto",
+    "cta2": "Ver obras terminadas",
+    "confianza": [
+     "4,5 ★ en Google Maps",
+     "Taller propio en Concón"
+    ],
+    "t2": "Cotiza tu proyecto",
+    "h2": "¿Qué quieres construir?",
+    "campos": [
+     [
+      "Tipo de obra",
+      "Ampliación ▾"
+     ],
+     [
+      "Metros aprox.",
+      "20 m² ▾"
+     ],
+     [
+      "Comuna",
+      "Concón ▾"
+     ],
+     [
+      "Plazo",
+      "Este verano ▾"
+     ]
+    ],
+    "cta2b": "Pedir presupuesto",
+    "t3": "Obras terminadas",
+    "h3": "Nuestros proyectos",
+    "cierre": [
+     [
+      "Ampliación en Concón",
+      "Antes y después."
+     ],
+     [
+      "Remodelación en Viña",
+      "Antes y después."
+     ],
+     [
+      "Obra modular",
+      "Fotos del proceso."
+     ]
+    ],
+    "cta3": "Hablar con AM Modular"
+   },
+   "asunto": "AM Modular: su web no muestra sus obras",
+   "saludo": "Estimado equipo de AM Construcciones Modulares:",
+   "parrafo": "Al revisar ammodular.cl, la web es una sola pantalla con texto y dos imágenes, sin fotos de obras terminadas, y en Google aparece con el título “ammodular.cl”. Con 4,5 estrellas en Maps, el buen trabajo existe; el problema es que quien busca ampliaciones en Concón no alcanza a verlo.",
+   "a_nombre_de": "la empresa",
+   "contacto_de": "la empresa"
+  },
+  {
+   "slug": "navarrete-artigas",
+   "rubro": "constructora",
+   "comuna": "San Antonio",
+   "nombre": "Navarrete Artigas Constructora",
+   "nombre_corto": "NAVARRETE ARTIGAS",
+   "web": "navarreteartigasconstructora.cl",
+   "correo": "kbnavarrete@gmail.com",
+   "fuente_correo": "navarreteartigasconstructora.cl",
+   "bien": "La web muestra muchas fotos de obras y un mapa con la dirección de su oficina en San Antonio.",
+   "arreglos": [
+    {
+     "titulo": "La web no se adapta al celular",
+     "visto": "La página tiene un ancho fijo de computador (unos 1.200 píxeles) y no le indica al celular cómo ajustarse. En un teléfono se ve en miniatura y hay que hacer zoom.",
+     "importa": "La mayoría busca servicios desde el celular, y Google da prioridad a las webs que se ven bien en él.",
+     "hacer": "Rehacer la web con un diseño que se adapte al teléfono."
+    },
+    {
+     "titulo": "Hecha con un programa descontinuado",
+     "visto": "La web está hecha con Adobe Muse, un programa que Adobe dejó de actualizar en 2020.",
+     "importa": "Cada cambio es difícil y la web ya no recibe mejoras de seguridad ni de compatibilidad.",
+     "hacer": "Pasar el contenido a una plataforma actual, conservando fotos y dirección."
+    },
+    {
+     "titulo": "Sin botón de WhatsApp",
+     "visto": "La web no tiene un botón para escribir por WhatsApp.",
+     "importa": "Quien quiere cotizar una obra prefiere mandar fotos y medidas por WhatsApp antes que llamar.",
+     "hacer": "Agregar un botón fijo de WhatsApp con mensaje listo para cotizar."
+    }
+   ],
+   "plan": "la renovación de la web ($249.990, pago único), adaptada al celular y con botón de WhatsApp",
+   "color": "#f2a541",
+   "fondo": "#1f2328",
+   "texto": "#f2f2f2",
+   "btn_texto": "#1f2328",
+   "mock": {
+    "eti": "Constructora · San Antonio",
+    "titular": "Construimos y remodelamos en el litoral",
+    "bajada": "Obras con oficina en San Antonio y trabajos a la vista.",
+    "cta": "Cotizar mi obra",
+    "cta2": "Escribir por WhatsApp",
+    "confianza": [
+     "Oficina en San Antonio",
+     "Galería de obras terminadas"
+    ],
+    "t2": "Cotiza tu obra",
+    "h2": "Cuéntanos tu proyecto",
+    "campos": [
+     [
+      "Tipo de obra",
+      "Casa nueva ▾"
+     ],
+     [
+      "Comuna",
+      "San Antonio ▾"
+     ],
+     [
+      "Metros aprox.",
+      "80 m² ▾"
+     ],
+     [
+      "Fotos",
+      "Adjuntar ▾"
+     ]
+    ],
+    "cta2b": "Pedir presupuesto",
+    "t3": "Trabajo a la vista",
+    "h3": "Así trabajamos",
+    "cierre": [
+     [
+      "1. Visitamos el terreno",
+      "Para cotizar con medidas reales."
+     ],
+     [
+      "2. Presupuesto por escrito",
+      "Con plazos claros."
+     ],
+     [
+      "3. Obra con seguimiento",
+      "Fotos de avance."
+     ]
+    ],
+    "cta3": "Hablar con Navarrete Artigas"
+   },
+   "asunto": "Navarrete Artigas: cómo se ve su web en el celular",
+   "saludo": "Estimado equipo de Navarrete Artigas Constructora:",
+   "parrafo": "Al abrir navarreteartigasconstructora.cl desde el celular, la página se ve en miniatura: tiene un ancho fijo de computador y está hecha con Adobe Muse, un programa que Adobe dejó de actualizar en 2020. Quien busca una constructora en San Antonio desde el teléfono probablemente no pase de la portada.",
+   "a_nombre_de": "la empresa",
+   "contacto_de": "la constructora"
+  },
+  {
+   "slug": "msp-construcciones",
+   "rubro": "constructora",
+   "comuna": "Viña del Mar",
+   "nombre": "MSP Construcciones",
+   "nombre_corto": "MSP",
+   "web": "mspconstrucciones.cl",
+   "correo": "contacto@mspconstrucciones.cl",
+   "fuente_correo": "mspconstrucciones.cl",
+   "bien": "Tienen 4,4 estrellas con 21 reseñas, oficina en Arlegui 263, teléfonos por área, atención 24/7 publicada y secciones de techumbres y remodelaciones.",
+   "arreglos": [
+    {
+     "titulo": "El nombre de su ficha de Google tiene palabras agregadas",
+     "visto": "En Google Maps la ficha se llama “Arreglo de Techos Viña del mar MSP Construcciones”, no solo “MSP Construcciones”.",
+     "importa": "Las normas de Google piden usar el nombre real del negocio. Las fichas con palabras agregadas pueden ser suspendidas, justo cuando más llamadas traen.",
+     "hacer": "Dejar el nombre real y mostrar los servicios (techos, ampliaciones) en categorías, descripción y fotos."
+    },
+    {
+     "titulo": "Sin botón de WhatsApp",
+     "visto": "La web tiene teléfonos para llamar, pero no un botón para escribir por WhatsApp.",
+     "importa": "Quien tiene una gotera prefiere mandar fotos por WhatsApp para que le coticen rápido.",
+     "hacer": "Agregar un botón fijo de WhatsApp con mensaje listo (“Tengo una filtración en…”)."
+    },
+    {
+     "titulo": "La página de contacto tarda",
+     "visto": "En una prueba puntual, la página Contacto tardó unos 6 segundos en descargarse.",
+     "importa": "Quien está apurado por una urgencia cierra y llama a otro si la página no carga.",
+     "hacer": "Optimizar imágenes y complementos de esa página."
+    }
+   ],
+   "plan": "el programa Aparece en tu comuna ($119.990, pago único), que incluye ordenar su ficha de Google y estos ajustes en la web",
+   "color": "#f2a541",
+   "fondo": "#1f2328",
+   "texto": "#f2f2f2",
+   "btn_texto": "#1f2328",
+   "mock": {
+    "eti": "Techumbres y remodelaciones · Viña del Mar",
+    "titular": "¿Goteras o un techo dañado? Te ayudamos",
+    "bajada": "Reparación de techos, ampliaciones y remodelaciones con atención 24/7.",
+    "cta": "Mandar fotos por WhatsApp",
+    "cta2": "Llamar ahora",
+    "confianza": [
+     "4,4 ★ en Google Maps",
+     "Atención 24/7"
+    ],
+    "t2": "Cotiza rápido",
+    "h2": "¿Qué necesitas arreglar?",
+    "campos": [
+     [
+      "Problema",
+      "Filtración ▾"
+     ],
+     [
+      "Comuna",
+      "Viña del Mar ▾"
+     ],
+     [
+      "Urgencia",
+      "Esta semana ▾"
+     ],
+     [
+      "Fotos",
+      "Adjuntar ▾"
+     ]
+    ],
+    "cta2b": "Enviar consulta",
+    "t3": "Sin sorpresas",
+    "h3": "Así trabajamos",
+    "cierre": [
+     [
+      "1. Nos mandas fotos",
+      "Por WhatsApp."
+     ],
+     [
+      "2. Visita y presupuesto",
+      "Por escrito."
+     ],
+     [
+      "3. Reparamos",
+      "Con seguimiento del trabajo."
+     ]
+    ],
+    "cta3": "Hablar con MSP"
+   },
+   "asunto": "MSP Construcciones: el nombre de su ficha en Google",
+   "saludo": "Estimado equipo de MSP Construcciones:",
+   "parrafo": "En Google Maps su ficha se llama “Arreglo de Techos Viña del mar MSP Construcciones”. Las normas de Google piden usar solo el nombre real del negocio, y las fichas con palabras agregadas pueden ser suspendidas, justo en la temporada en que más llamadas traen.",
+   "a_nombre_de": "la empresa",
+   "contacto_de": "la empresa"
+  },
+  {
+   "slug": "aconcagua-limitada",
+   "rubro": "constructora",
+   "comuna": "Concón",
+   "nombre": "Aconcagua Limitada",
+   "nombre_corto": "ACONCAGUA",
+   "web": "aconcagualimitada.cl",
+   "correo": "aconcagualimitada@aconcagualimitada.cl",
+   "fuente_correo": "aconcagualimitada.cl",
+   "bien": "La web cuenta más de 30 años de experiencia y tiene secciones de obras civiles, montaje mecánico, sistema de gestión integral y obras realizadas.",
+   "arreglos": [
+    {
+     "titulo": "La web no se adapta al celular",
+     "visto": "La web no le indica al celular cómo ajustarse (tiene un ancho fijo cercano a 1.000 píxeles). En un teléfono se ve en miniatura y hay que hacer zoom.",
+     "importa": "Muchos jefes de compra y administradores revisan proveedores desde el celular, y Google favorece las webs adaptadas.",
+     "hacer": "Renovar la web con un diseño adaptable, conservando sus secciones y obras."
+    },
+    {
+     "titulo": "Teléfonos que no se pueden tocar",
+     "visto": "En la web no hay enlaces para llamar con un toque.",
+     "importa": "Desde el celular hay que copiar el número a mano; es un paso más que hace perder contactos.",
+     "hacer": "Convertir los teléfonos en enlaces para llamar y agregar un correo de cotizaciones visible."
+    },
+    {
+     "titulo": "El mismo texto como título y descripción",
+     "visto": "El título y la descripción que la web entrega a Google son idénticos: “Aconcagua Limitada - Ingeniería Construcción y Mantención Industrial”.",
+     "importa": "La descripción podría contar en una frase sus 30 años y su experiencia, que es lo que convence en una búsqueda de proveedores.",
+     "hacer": "Escribir una descripción propia con experiencia, servicios y zona."
+    }
+   ],
+   "plan": "la renovación de la web ($249.990, pago único), adaptada al celular y conservando su contenido",
+   "color": "#f2a541",
+   "fondo": "#1f2328",
+   "texto": "#f2f2f2",
+   "btn_texto": "#1f2328",
+   "mock": {
+    "eti": "Ingeniería y construcción industrial",
+    "titular": "Más de 30 años en obras civiles y montaje",
+    "bajada": "Ingeniería, construcción y mantención industrial desde Concón.",
+    "cta": "Solicitar cotización",
+    "cta2": "Ver obras realizadas",
+    "confianza": [
+     "Más de 30 años de experiencia",
+     "Sistema de gestión integral"
+    ],
+    "t2": "Solicitud de cotización",
+    "h2": "Cuéntenos su proyecto",
+    "campos": [
+     [
+      "Servicio",
+      "Obras civiles ▾"
+     ],
+     [
+      "Empresa",
+      "Nombre ▾"
+     ],
+     [
+      "Plazo",
+      "Este trimestre ▾"
+     ],
+     [
+      "Bases",
+      "Adjuntar ▾"
+     ]
+    ],
+    "cta2b": "Enviar solicitud",
+    "t3": "Respaldo",
+    "h3": "Por qué elegirnos",
+    "cierre": [
+     [
+      "Experiencia",
+      "Más de 30 años en la región."
+     ],
+     [
+      "Gestión integral",
+      "Calidad, seguridad y medio ambiente."
+     ],
+     [
+      "Obras realizadas",
+      "Clientes industriales."
+     ]
+    ],
+    "cta3": "Contactar a Aconcagua"
+   },
+   "asunto": "Aconcagua Limitada: cómo se ve su web en el celular",
+   "saludo": "Estimado equipo de Aconcagua Limitada:",
+   "parrafo": "Al abrir aconcagualimitada.cl desde un celular, la página se ve en miniatura: no está adaptada al teléfono y los números no se pueden tocar para llamar. Para una empresa con más de 30 años de obras, es una primera impresión que no le hace justicia ante quien revisa proveedores desde el móvil.",
+   "a_nombre_de": "la empresa",
+   "contacto_de": "la empresa"
+  },
+  {
+   "slug": "vimac",
+   "rubro": "constructora",
+   "comuna": "Concón",
+   "nombre": "Constructora Vimac",
+   "nombre_corto": "VIMAC",
+   "web": "vimac.cl",
+   "correo": "contacto@vimac.cl",
+   "fuente_correo": "vimac.cl/contacto",
+   "bien": "La web tiene proyectos en venta, postventa y portal de pagos, y publican manuales del propietario y correos por edificio, algo poco común y muy útil para los compradores.",
+   "arreglos": [
+    {
+     "titulo": "3,1 estrellas en Google Maps",
+     "visto": "En Google Maps aparecen con 3,1 de 5 y 10 reseñas.",
+     "importa": "Para quien evalúa comprar, la nota en Maps es de lo primero que mira, y con pocas reseñas cada opinión negativa pesa mucho.",
+     "hacer": "Responder cada reseña y pedir una opinión a los propietarios conformes al momento de la entrega."
+    },
+    {
+     "titulo": "La portada se llama “Inicio -Vimac”",
+     "visto": "El título de la portada es “Inicio -Vimac” y la web no tiene descripción para Google.",
+     "importa": "Google no recibe un texto que diga qué proyectos tienen ni dónde, lo que dificulta aparecer en búsquedas como “departamentos en Concón”.",
+     "hacer": "Título y descripción con proyectos y comuna."
+    },
+    {
+     "titulo": "Sin WhatsApp para consultas de venta",
+     "visto": "La portada no tiene un botón de WhatsApp.",
+     "importa": "Muchos interesados prefieren hacer una pregunta rápida por WhatsApp antes de agendar una visita.",
+     "hacer": "Agregar un botón de WhatsApp de ventas, separado del de postventa."
+    }
+   ],
+   "plan": "el programa Aparece en tu comuna ($119.990, pago único), que incluye trabajo de reseñas, ficha de Google y estos ajustes en la web",
+   "color": "#f2a541",
+   "fondo": "#1f2328",
+   "texto": "#f2f2f2",
+   "btn_texto": "#1f2328",
+   "mock": {
+    "eti": "Proyectos inmobiliarios · Concón",
+    "titular": "Departamentos en Concón con postventa real",
+    "bajada": "Manual del propietario, postventa y portal de pagos en un solo lugar.",
+    "cta": "Ver proyectos en venta",
+    "cta2": "Consultar por WhatsApp",
+    "confianza": [
+     "Postventa con correo por edificio",
+     "Manual del propietario publicado"
+    ],
+    "t2": "Cotiza tu departamento",
+    "h2": "¿Qué buscas?",
+    "campos": [
+     [
+      "Proyecto",
+      "Elegir ▾"
+     ],
+     [
+      "Dormitorios",
+      "2 ▾"
+     ],
+     [
+      "Pie disponible",
+      "A conversar ▾"
+     ],
+     [
+      "Visita",
+      "Sábado ▾"
+     ]
+    ],
+    "cta2b": "Agendar visita",
+    "t3": "Compra con respaldo",
+    "h3": "Así acompañamos",
+    "cierre": [
+     [
+      "1. Visitas el proyecto",
+      "Con agenda previa."
+     ],
+     [
+      "2. Compras con claridad",
+      "Documentos por escrito."
+     ],
+     [
+      "3. Postventa",
+      "Correo directo por edificio."
+     ]
+    ],
+    "cta3": "Hablar con Vimac"
+   },
+   "asunto": "Vimac: lo que ven sus compradores en Google",
+   "saludo": "Estimado equipo de Vimac:",
+   "parrafo": "Al buscar Vimac en Google Maps aparecen con 3,1 estrellas y 10 reseñas, y la portada de su web se titula “Inicio -Vimac”, sin una descripción de sus proyectos en Concón. Para alguien que está evaluando comprar, esa primera impresión pesa, y es bastante fácil de mejorar.",
+   "a_nombre_de": "la empresa",
+   "contacto_de": "la empresa"
+  },
+  {
+   "slug": "la-jovita",
+   "rubro": "restaurante",
+   "comuna": "San Antonio",
+   "nombre": "La Jovita Restaurant",
+   "nombre_corto": "LA JOVITA",
+   "web": "lajovita.cl",
+   "correo": "contacto@lajovita.cl",
+   "fuente_correo": "lajovita.cl (además, cubilla@lajovita.cl en el registro Sernatur)",
+   "bien": "Tienen más de 4.000 reseñas en Google Maps, están entre los mejores evaluados de San Antonio en Tripadvisor y la web muestra carta, teléfono y WhatsApp.",
+   "arreglos": [
+    {
+     "titulo": "El botón “Reserva” no lleva a ninguna parte",
+     "visto": "En el menú de lajovita.cl, “Reserva” no abre ningún formulario ni página: el enlace está vacío.",
+     "importa": "Quien quiere reservar para un grupo o un fin de semana lo intenta una vez y, si no pasa nada, llama a otro lugar o desiste.",
+     "hacer": "Conectar “Reserva” a WhatsApp con mensaje listo o a un formulario simple (fecha, hora, personas)."
+    },
+    {
+     "titulo": "La carta es un PDF de 3 MB",
+     "visto": "“Nuestra Carta” abre un PDF de casi 3 MB.",
+     "importa": "En el celular, con datos móviles, tarda y se lee mal, y mucha gente revisa platos y precios antes de decidir.",
+     "hacer": "Publicar la carta como página web liviana, con fotos de los platos principales."
+    },
+    {
+     "titulo": "La descripción para Google es muy corta",
+     "visto": "La descripción que la web entrega a Google es solo “Sabor frente al Mar”.",
+     "importa": "No dice qué cocinan, dónde están ni que reciben grupos, que es lo que buscan los turistas.",
+     "hacer": "Una frase como “Restaurante frente al mar en San Antonio: chupe, paila marina y menús para grupos. Reserva por WhatsApp.”"
+    }
+   ],
+   "plan": "la mantención mensual de la web ($19.990 al mes, sin permanencia), que incluye conectar la reserva, pasar la carta a la web y una revisión mensual",
+   "color": "#c4532d",
+   "fondo": "#fff8f0",
+   "texto": "#2b1d14",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Restaurante frente al mar · San Antonio",
+    "titular": "El chupe como solo La Jovita lo sabe preparar",
+    "bajada": "Cocina de mar y tierra con vista al Pacífico.",
+    "cta": "Reservar mesa",
+    "cta2": "Ver la carta",
+    "confianza": [
+     "Más de 4.000 reseñas en Google",
+     "Menús para grupos y colegios"
+    ],
+    "t2": "Reserva tu mesa",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Fecha",
+      "Sábado ▾"
+     ],
+     [
+      "Hora",
+      "13:30 ▾"
+     ],
+     [
+      "Personas",
+      "6 ▾"
+     ],
+     [
+      "Terraza",
+      "Sí ▾"
+     ]
+    ],
+    "cta2b": "Confirmar por WhatsApp",
+    "t3": "Nuestra carta",
+    "h3": "Los favoritos",
+    "cierre": [
+     [
+      "Chupe",
+      "El plato de la casa."
+     ],
+     [
+      "Paila marina La Jovita",
+      "Para compartir."
+     ],
+     [
+      "Ceviche La Jovita",
+      "Fresco."
+     ]
+    ],
+    "cta3": "Ver carta completa"
+   },
+   "asunto": "La Jovita: el botón Reserva de su web",
+   "saludo": "Estimado equipo de La Jovita:",
+   "parrafo": "En lajovita.cl, el botón “Reserva” del menú no abre nada: el enlace está vacío. Con más de 4.000 reseñas en Google Maps, mucha gente ya quiere ir, y ese botón es justo el paso donde se pierde a quien intenta reservar desde el celular.",
+   "a_nombre_de": "La Jovita",
+   "contacto_de": "La Jovita"
+  },
+  {
+   "slug": "los-cipreses-algarrobo",
+   "rubro": "restaurante",
+   "comuna": "Algarrobo",
+   "nombre": "Los Cipreses de Algarrobo",
+   "nombre_corto": "LOS CIPRESES",
+   "web": "los-cipreses-restaurante-algarrobo.negocio.site (cerrada)",
+   "correo": "extrempaxeco_28@hotmail.com",
+   "fuente_correo": "registro Sernatur (Los Cipreses de Algarrobo)",
+   "bien": "Están inscritos en el registro de Sernatur y tienen ficha en Google Maps.",
+   "arreglos": [
+    {
+     "titulo": "Su web fue cerrada por Google",
+     "visto": "La web que figura en su ficha de Sernatur, los-cipreses-restaurante-algarrobo.negocio.site, hoy muestra “Error 404”. Google cerró todas las páginas “negocio.site” en 2024.",
+     "importa": "Quien los busca y hace clic en la web llega a un error y puede pensar que el restaurante cerró.",
+     "hacer": "Quitar ese enlace de Sernatur y de Google, y reemplazarlo por una página propia o, mientras tanto, por el WhatsApp."
+    },
+    {
+     "titulo": "Sin carta en línea",
+     "visto": "Sin esa página no hay un lugar donde ver la carta y los precios.",
+     "importa": "Los turistas eligen dónde almorzar mirando platos y precios en el celular antes de salir.",
+     "hacer": "Una página simple con la carta, horario, ubicación y botón de WhatsApp."
+    },
+    {
+     "titulo": "Correo personal como contacto",
+     "visto": "El correo publicado en Sernatur es una cuenta de Hotmail que no lleva el nombre del restaurante.",
+     "importa": "A un cliente o a una agencia que organiza grupos le cuesta reconocer que es el contacto oficial.",
+     "hacer": "Usar un correo con el nombre del restaurante (por ejemplo, reservas@ con dominio propio)."
+    }
+   ],
+   "plan": "la web lista para recibir clientes ($249.990, pago único), con carta, horario y botón de WhatsApp",
+   "color": "#c4532d",
+   "fondo": "#fff8f0",
+   "texto": "#2b1d14",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Restaurante · Algarrobo",
+    "titular": "Los Cipreses de Algarrobo",
+    "bajada": "Almuerzos y cenas en Algarrobo. Revisa la carta y reserva tu mesa.",
+    "cta": "Ver la carta",
+    "cta2": "Reservar por WhatsApp",
+    "confianza": [
+     "Registro Sernatur vigente",
+     "Horario y ubicación a la vista"
+    ],
+    "t2": "Reserva tu mesa",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Fecha",
+      "Domingo ▾"
+     ],
+     [
+      "Hora",
+      "14:00 ▾"
+     ],
+     [
+      "Personas",
+      "4 ▾"
+     ],
+     [
+      "Ocasión",
+      "Familiar ▾"
+     ]
+    ],
+    "cta2b": "Confirmar por WhatsApp",
+    "t3": "Nuestra carta",
+    "h3": "Para compartir",
+    "cierre": [
+     [
+      "Entradas",
+      "Precios a la vista."
+     ],
+     [
+      "Platos de fondo",
+      "Precios a la vista."
+     ],
+     [
+      "Postres",
+      "Precios a la vista."
+     ]
+    ],
+    "cta3": "Ver carta completa"
+   },
+   "asunto": "Los Cipreses: su web fue dada de baja por Google",
+   "saludo": "Hola, equipo de Los Cipreses de Algarrobo:",
+   "parrafo": "La web que figura en su ficha de Sernatur, los-cipreses-restaurante-algarrobo.negocio.site, hoy muestra “Error 404”: Google cerró todas las páginas de ese tipo en 2024. Quien los busca y hace clic puede pensar que el restaurante cerró.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "Los Cipreses en el registro de Sernatur"
+  },
+  {
+   "slug": "quincho-de-clarita",
+   "rubro": "restaurante",
+   "comuna": "Algarrobo",
+   "nombre": "El Quincho - Los Secretos de Clarita",
+   "nombre_corto": "EL QUINCHO",
+   "web": "quinchodeclarita.cl (dominio inexistente)",
+   "correo": "clara.quincho@gmail.com",
+   "fuente_correo": "registro Sernatur (El Quincho - Los Secretos de Clarita)",
+   "bien": "Están inscritos en el registro de Sernatur y tienen ficha en Google Maps con el nombre del restaurante.",
+   "arreglos": [
+    {
+     "titulo": "La web registrada no existe",
+     "visto": "Su ficha en Sernatur publica www.quinchodeclarita.cl. Al 2 de noviembre ese dominio no existe.",
+     "importa": "Quien los encuentra ahí y hace clic llega a un error, y es fácil que piense que ya no atienden.",
+     "hacer": "Registrar el dominio (si está libre) a nombre de ustedes y publicar una página sencilla, o cambiar el enlace por WhatsApp."
+    },
+    {
+     "titulo": "Sin carta en línea",
+     "visto": "No hay una página propia donde ver la carta, los precios y el horario.",
+     "importa": "En temporada, los turistas deciden dónde comer mirando el celular; gana el que muestra la carta primero.",
+     "hacer": "Una página con carta, fotos de los platos, horario y botón de WhatsApp."
+    },
+    {
+     "titulo": "Sin forma rápida de reservar",
+     "visto": "No hay un enlace directo para reservar o consultar por WhatsApp.",
+     "importa": "Los grupos y las familias quieren asegurar mesa antes de salir de la playa.",
+     "hacer": "Un botón de WhatsApp con mensaje listo: “Hola, quiero reservar para…”."
+    }
+   ],
+   "plan": "la web lista para recibir clientes ($249.990, pago único), con dominio a su nombre, carta y WhatsApp",
+   "color": "#c4532d",
+   "fondo": "#fff8f0",
+   "texto": "#2b1d14",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Restaurante · Algarrobo",
+    "titular": "Los secretos de Clarita, en tu mesa",
+    "bajada": "Cocina casera en Algarrobo. Revisa la carta y reserva.",
+    "cta": "Ver la carta",
+    "cta2": "Reservar por WhatsApp",
+    "confianza": [
+     "Registro Sernatur vigente",
+     "Horario y ubicación a la vista"
+    ],
+    "t2": "Reserva tu mesa",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Fecha",
+      "Sábado ▾"
+     ],
+     [
+      "Hora",
+      "14:00 ▾"
+     ],
+     [
+      "Personas",
+      "5 ▾"
+     ],
+     [
+      "Ocasión",
+      "Familiar ▾"
+     ]
+    ],
+    "cta2b": "Confirmar por WhatsApp",
+    "t3": "Nuestra carta",
+    "h3": "Los favoritos",
+    "cierre": [
+     [
+      "Plato de la casa",
+      "Con foto y precio."
+     ],
+     [
+      "Para compartir",
+      "Con foto y precio."
+     ],
+     [
+      "Postre de Clarita",
+      "Con foto y precio."
+     ]
+    ],
+    "cta3": "Ver carta completa"
+   },
+   "asunto": "El Quincho de Clarita: la web de su ficha en Sernatur no existe",
+   "saludo": "Hola, equipo de El Quincho - Los Secretos de Clarita:",
+   "parrafo": "Su ficha en el registro de Sernatur publica www.quinchodeclarita.cl, pero hoy ese dominio no existe. Quien los encuentra ahí y hace clic para ver la carta llega a un error, y es fácil que siga buscando otro lugar para almorzar en Algarrobo.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "El Quincho en el registro de Sernatur"
+  },
+  {
+   "slug": "sangucheria-nicho",
+   "rubro": "restaurante",
+   "comuna": "Algarrobo",
+   "nombre": "Sanguchería Nicho",
+   "nombre_corto": "NICHO",
+   "web": "sin web (en Sernatur el sitio figura como un correo)",
+   "correo": "sangucherianicho@gmail.com",
+   "fuente_correo": "registro Sernatur (NICHO, Algarrobo)",
+   "bien": "Están inscritos en el registro de Sernatur y tienen ficha en Google Maps como Sangucheria Nicho.",
+   "arreglos": [
+    {
+     "titulo": "En Sernatur, su “sitio web” es un correo",
+     "visto": "En el registro de Sernatur, el botón “sitio web” lleva a “www.sangucherianicho@gmail.com”, que es un correo y no una página. Al hacer clic, no abre nada útil.",
+     "importa": "Quien los encuentra ahí y quiere ver la carta se queda sin información.",
+     "hacer": "Pedir a Sernatur que cambie el enlace por su Instagram, su WhatsApp o una página propia."
+    },
+    {
+     "titulo": "Sin carta en línea",
+     "visto": "No hay una página propia con la carta, los precios y el horario.",
+     "importa": "En una sanguchería, la foto del sánguche y el precio deciden la visita.",
+     "hacer": "Una página simple con carta, fotos, horario y botón de WhatsApp para pedidos."
+    },
+    {
+     "titulo": "Sin forma directa de pedir",
+     "visto": "No hay un enlace directo para encargar por WhatsApp.",
+     "importa": "Mucha gente en la playa prefiere encargar y pasar a buscar.",
+     "hacer": "Un botón de WhatsApp con mensaje listo para pedidos para llevar."
+    }
+   ],
+   "plan": "la web lista para recibir clientes ($249.990, pago único), con carta, fotos y pedidos por WhatsApp",
+   "color": "#c4532d",
+   "fondo": "#fff8f0",
+   "texto": "#2b1d14",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Sanguchería · Algarrobo",
+    "titular": "Sánguches de verdad en Algarrobo",
+    "bajada": "Revisa la carta, encarga por WhatsApp y pasa a buscar.",
+    "cta": "Ver la carta",
+    "cta2": "Encargar por WhatsApp",
+    "confianza": [
+     "Registro Sernatur vigente",
+     "Para servir o para llevar"
+    ],
+    "t2": "Haz tu pedido",
+    "h2": "¿Qué se te antoja?",
+    "campos": [
+     [
+      "Sánguche",
+      "Elegir ▾"
+     ],
+     [
+      "Cantidad",
+      "2 ▾"
+     ],
+     [
+      "Para",
+      "Llevar ▾"
+     ],
+     [
+      "Hora",
+      "13:30 ▾"
+     ]
+    ],
+    "cta2b": "Enviar pedido por WhatsApp",
+    "t3": "Nuestra carta",
+    "h3": "Los favoritos",
+    "cierre": [
+     [
+      "Sánguche de la casa",
+      "Con foto y precio."
+     ],
+     [
+      "Vegetariano",
+      "Con foto y precio."
+     ],
+     [
+      "Para acompañar",
+      "Papas y bebidas."
+     ]
+    ],
+    "cta3": "Ver carta completa"
+   },
+   "asunto": "Nicho: el enlace a su web en Sernatur",
+   "saludo": "Hola, equipo de Sanguchería Nicho:",
+   "parrafo": "En el registro de Sernatur, el botón “sitio web” de Nicho lleva a “www.sangucherianicho@gmail.com”, que es un correo y no una página, así que al hacer clic no aparece nada. Quien los encuentra ahí buscando dónde comer en Algarrobo se queda sin ver la carta.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "Nicho en el registro de Sernatur"
+  },
+  {
+   "slug": "cafe-bar-de-paola",
+   "rubro": "restaurante",
+   "comuna": "Concón",
+   "nombre": "Café & Bar de Paola",
+   "nombre_corto": "DE PAOLA",
+   "web": "cafebardepaola.cl",
+   "correo": "contacto@cafebardepaola.cl",
+   "fuente_correo": "cafebardepaola.cl (y cafebardepaola@gmail.com en el registro Sernatur)",
+   "bien": "La web tiene un concepto claro (“restobar vintage en Concón”), secciones de carta y contacto, y están inscritos en Sernatur.",
+   "arreglos": [
+    {
+     "titulo": "El pie de la web dice 2022",
+     "visto": "Al final de la web aparece “© 2022 Derechos reservados”.",
+     "importa": "Un cliente puede dudar de que la carta, los precios y los horarios estén al día.",
+     "hacer": "Actualizar el pie y revisar la carta y los horarios."
+    },
+    {
+     "titulo": "Sin WhatsApp ni teléfono para tocar",
+     "visto": "La web no tiene botón de WhatsApp ni números que se puedan tocar para llamar.",
+     "importa": "Para reservar un viernes o un cumpleaños, la mayoría escribe por WhatsApp desde el celular.",
+     "hacer": "Agregar un botón fijo de WhatsApp con mensaje listo para reservar."
+    },
+    {
+     "titulo": "Sin descripción para Google",
+     "visto": "La web no tiene descripción para Google; el buscador arma una por su cuenta.",
+     "importa": "Pierden la oportunidad de contar en una frase qué los hace únicos cuando alguien busca “bar en Concón”.",
+     "hacer": "Escribir una descripción: “Restobar vintage en Concón: café, tragos y buena música. Reserva por WhatsApp.”"
+    }
+   ],
+   "plan": "la mantención mensual de la web ($19.990 al mes, sin permanencia), que incluye estos ajustes y una revisión mensual",
+   "color": "#c4532d",
+   "fondo": "#fff8f0",
+   "texto": "#2b1d14",
+   "btn_texto": "#ffffff",
+   "mock": {
+    "eti": "Restobar vintage · Concón",
+    "titular": "Mágico y único, como en ningún otro lugar",
+    "bajada": "Café, tragos y buena conversación en Concón.",
+    "cta": "Reservar mesa",
+    "cta2": "Ver la carta",
+    "confianza": [
+     "Ambiente vintage",
+     "Ideal para celebraciones"
+    ],
+    "t2": "Reserva tu mesa",
+    "h2": "¿Cuándo vienen?",
+    "campos": [
+     [
+      "Fecha",
+      "Viernes ▾"
+     ],
+     [
+      "Hora",
+      "21:00 ▾"
+     ],
+     [
+      "Personas",
+      "4 ▾"
+     ],
+     [
+      "Ocasión",
+      "Cumpleaños ▾"
+     ]
+    ],
+    "cta2b": "Confirmar por WhatsApp",
+    "t3": "Nuestra carta",
+    "h3": "Para empezar la noche",
+    "cierre": [
+     [
+      "Café de la casa",
+      "Con foto y precio."
+     ],
+     [
+      "Tragos de autor",
+      "Con foto y precio."
+     ],
+     [
+      "Para picar",
+      "Con foto y precio."
+     ]
+    ],
+    "cta3": "Ver carta completa"
+   },
+   "asunto": "Café & Bar de Paola: un par de detalles en su web",
+   "saludo": "Hola, equipo de Café & Bar de Paola:",
+   "parrafo": "Al revisar cafebardepaola.cl, el pie todavía dice “© 2022” y la web no tiene botón de WhatsApp ni teléfonos que se puedan tocar para llamar. Para quien quiere reservar un viernes desde el celular, eso es un paso de más, y deja la duda de si la información está al día.",
+   "a_nombre_de": "ustedes",
+   "contacto_de": "Café & Bar de Paola"
+  }
+ ]
+}

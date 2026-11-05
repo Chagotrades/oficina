@@ -1,0 +1,40 @@
+import json
+R='Renovación de web existente ($249.990)';W='Web lista para recibir clientes ($249.990)';A='Aparece en tu comuna ($119.990)'
+S1="\n\nSoy Mathias Lezana, de Faro SaMa. Ayudamos a empresas de la región a presentar mejor su negocio en internet.\n\nPuedo preparar un diagnóstico gratuito de una página, con tres mejoras y una propuesta visual en tres imágenes, sin compromiso de contratar.\n\n¿Le gustaría recibirlo por este correo?"
+S2="\n\nSoy Mathias Lezana, de Faro SaMa.\n\nPuedo preparar un diagnóstico gratuito de una página, con tres mejoras y una propuesta visual en tres imágenes. No necesita contratar para quedarse con el material.\n\n¿Le gustaría recibirlo por este correo?"
+H="Hola, buen día.\n\n"
+C=[
+('montemar-brokers','Montemar Brokers','Concón','corredora de propiedades','contacto@montemarbrokers.cl','Propiedades en Concón y Reñaca',R,'Desborde en celular (446 px), sin WhatsApp, formulario ni teléfono para tocar (100 reseñas)',
+ H+"Vi que Montemar Brokers vende, arrienda y asesora en inversión en Viña del Mar, Reñaca y Concón, y también en Santiago Oriente y Florida. Es una oferta amplia, y pensé en una forma de que quien busca propiedad desde el celular encuentre rápido la suya y les escriba."+S1),
+('garrasvet','Clínica Veterinaria Garrasvet','Villa Alemana','veterinaria','clinicaveterinaria@garrasvet.cl','Atención a domicilio en Villa Alemana',R,'Web no adaptada a celular (981 px de ancho), sin WhatsApp ni formulario; la hora solo se pide por teléfono fijo',
+ H+"Vi que Garrasvet atiende en Villa Alemana con consultas, cirugías, ecografía y radiografía, y que además va a domicilio en Peñablanca, Belloto y Quilpué. Pensé en una forma de que los dueños de mascotas puedan pedir esa visita fácil desde el celular."+S2),
+('atienzo','Atienzo Automotriz','Quilpué','taller mecánico','contacto@atienzoautomotriz.cl','Especialistas Hyundai en Quilpué',R,'Web en WordPress 4.8 con © 2018, sin WhatsApp ni teléfono para tocar (117 reseñas)',
+ H+"Vi que Atienzo Automotriz se especializa en Hyundai, hace diagnóstico CRDI, vende repuestos y tiene asistencia en ruta 24/7. Es una oferta muy completa, y pensé en una forma de que quien tiene una falla en el camino los encuentre y los contacte en ese momento."+S1),
+('oral-clinic','Oral Clinic','Concón','clínica dental','info@oralclinic.cl','Una propuesta para Oral Clinic',W,'Sin botón de WhatsApp para urgencias y muy poco contenido visible en celular',
+ H+"Vi que Oral Clinic lleva más de 15 años atendiendo en Concón y Quilpué, con urgencias, ortodoncia, implantes y odontopediatría. Me pareció una buena base para que quien tiene una urgencia dental pueda pedir hora en un par de toques desde el celular."+S1),
+('prodent','Clínica Dental ProDent','La Ligua','clínica dental','contacto@clinicadentalprodent.cl','Una propuesta para ProDent',R+' + '+A,'Web en WordPress 5.1, sin WhatsApp ni teléfono para tocar; 21 reseñas en Google',
+ H+"Vi que ProDent ofrece en La Ligua ortodoncia, endodoncia, implantes, odontopediatría y reserva online. En una comuna donde hay pocas clínicas con todas esas especialidades, pensé en una forma de que más pacientes de la provincia los encuentren."+S1),
+('fisiosalud','Fisiosalud Integral','Quilpué','kinesiología','fisiosaludintegra@gmail.com','Una propuesta para Fisiosalud',W,'Sin botón de WhatsApp ni teléfono para tocar en celular',
+ H+"Vi que Fisiosalud Integral reúne en Quilpué kinesiología, osteopatía, nutrición, psicología y entrenamiento, con muy buenas opiniones de sus pacientes. Pensé en una forma de que quien busca rehabilitación pueda escribirles y agendar en un toque desde el celular."+S1),
+('stockpro','StockPro Propiedades','Algarrobo','corredora de propiedades','hola@stockpro.cl','Vender en Algarrobo y El Quisco',W,'Sin botón de WhatsApp; 30 textos menores a 12 px en celular',
+ H+"Vi que StockPro vendió más de 30 propiedades en el último año en Algarrobo, El Quisco y El Tabo, y que valoriza con datos reales. Es un respaldo muy concreto, y pensé en una forma de que más dueños de la zona les pidan esa valorización desde el celular."+S1),
+('imprenta-1177','Imprenta 1177 Express','Valparaíso','imprenta','imprenta1177@gmail.com','Una propuesta para Imprenta 1177',R,'La web todavía muestra texto de plantilla ("A nice ad goes here!") y no se adapta al celular (155 reseñas)',
+ H+"Vi que Imprenta 1177 lleva más de 19 años en Valparaíso haciendo formularios, pendones, gigantografías, timbres y diseño gráfico, con muy buenas opiniones. Pensé en una forma de que quien necesita un trabajo urgente pueda cotizarlo directo desde el celular."+S1),
+('imprenta-victoria','Imprenta Victoria','Valparaíso','imprenta','contacto@imprentavictoria.cl','Desde 1910 en Valparaíso',W+' + '+A,'Sin WhatsApp ni teléfono para tocar; solo 17 reseñas en Google pese a funcionar desde 1910',
+ H+"Vi que Imprenta Victoria funciona en Valparaíso desde 1910. Es una historia que muy pocas imprentas del país pueden contar, y pensé en una forma de que quienes buscan imprenta en el puerto la conozcan y le pidan cotización."+S2),
+('don-bosco','Hogar Don Bosco','Quilpué','residencia de adultos mayores','contacto@hogardonbosco.cl','Una propuesta para Hogar Don Bosco',R,'Desborde en celular (451 px)',
+ H+"Vi que Hogar Don Bosco tiene 15 años de experiencia en Quilpué, con atención multidisciplinaria, actividades recreativas y habitaciones individuales y compartidas. Las familias que buscan residencia suelen comparar con calma desde el celular, y pensé en una forma de facilitarles la visita."+S1),
+('auramed','Centro Médico Auramed','San Antonio','centro médico','contacto@auramed.cl','Una propuesta para Auramed',W,'Sin WhatsApp ni teléfono para tocar en celular (99 reseñas)',
+ H+"Vi que Auramed reúne en San Antonio medicina general, ecografía, nutrición, fonoaudiología y estética facial. Es una oferta amplia para la zona, y pensé en una forma de que cada paciente encuentre su especialidad y pida hora en un toque."+S1),
+('comasca','Constructora Comasca','Limache','constructora','comasca@comasca.cl','Una propuesta para Comasca',R,'Web no adaptada a celular (472 px), sin WhatsApp, formulario ni teléfono para tocar',
+ H+"Vi que Comasca lleva más de 25 años ejecutando edificaciones, movimientos de tierra, obras viales y civiles, con proyectos como Pircas de Lliu Lliu. Pensé en una forma de mostrar esas obras para que mandantes y compradores les escriban directo."+S1),
+('juncal','Clínica Juncal','Los Andes','clínica dental','contacto@clinicajuncal.cl','Coronas en un día en Los Andes',R,'Web en WordPress 4.8 con desborde en celular (403 reseñas)',
+ H+"Vi que Clínica Juncal ofrece coronas y carillas en un día con CEREC, Invisalign y sedación con óxido nitroso. Son tratamientos que pocos ofrecen en el Valle de Aconcagua, y pensé en una forma de destacarlos para quienes buscan dentista en la zona."+S2),
+('bellavi','Centro de Estética Bellavi','Concón','centro de estética','info@centrobellavi.com','Una propuesta para Bellavi',R,'Web no adaptada a celular (1.050 px de ancho), sin WhatsApp ni teléfono para tocar',
+ H+"Vi que Centro Bellavi, en Concón, tiene muy buenas opiniones de sus clientas y destaca la calidad de sus tratamientos. Me pareció una buena base para que quien busca un centro de estética cerca vea los servicios y reserve desde el celular."+S1),
+('animaland','Clínica Veterinaria Animaland','Villa Alemana','veterinaria','clinicavet.animaland@gmail.com','Atención 24/7 en Villa Alemana',W,'Sin WhatsApp ni formulario y muy poco contenido en celular (509 reseñas)',
+ H+"Vi que Animaland atiende las 24 horas en Villa Alemana, con hospitalización, cirugías, radiografía y ecografía. Cuando una mascota tiene una urgencia de noche, el dueño busca rápido en el celular, y pensé en una forma de que los encuentre y les escriba en ese momento."+S2),
+]
+out=[dict(id=a,negocio=b,comuna=c,rubro=d,correo=e,asunto=f,servicio=g,hallazgo=h,cuerpo=i) for a,b,c,d,e,f,g,h,i in C]
+json.dump(out,open('correos_reemplazo_1.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+print(len(out),[len(o['cuerpo'].split()) for o in out])
