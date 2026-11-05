@@ -61,10 +61,10 @@ Pongan nombre en `ventas/PROSPECTOS.md` o en `ENCARGOS.md` antes de tomar una.
 4. **Aprobar o no la simplificación del tarifario** (3 servicios principales; ver TARIFARIO.md).
 5. **Testimonio de Campo Verde.**
 6. **Pendientes del negocio:** definir cliente ideal (rubro y comuna), revisar dominio en NIC Chile y marca en INAPI, correo con dominio propio (hoy sale del Gmail personal de Mathias).
-7. **Poner al día `registro/prospectos.csv`:** 94 filas aún dicen "programado" aunque ya salieron. La fuente más actualizada es el tablero.
+7. **Mantener al día `registro/prospectos.csv`** después de cada envío o respuesta (al 5-nov: 74 enviados o con propuesta, 6 rebotados, 2 no contactar, 6 programados para el 6-nov, 21 borradores, 42 descartados).
 
 ## Qué NO está aquí (y por qué)
-- **El tablero en vivo** es una página de claude.ai de Mathias (privada). Esta carpeta tiene una **copia al 5-nov**. Si Santiago necesita verlo en vivo, Mathias tiene que compartírselo desde el menú Compartir de la página.
+- **El tablero en vivo** es una página de claude.ai de Mathias: https://claude.ai/artifact/H8ocFj8fHuVTHwbxDByB4Y (se abre solo si Mathias la compartió con tu cuenta). Esta carpeta tiene una **copia al 5-nov**.
 - **Fotos originales y maquetas** de cada propuesta (≈45 MB): quedan en el computador de Mathias. Los PDF ya las incluyen.
 - **Los correos de Gmail** (enviados, borradores, respuestas) viven en la cuenta de Mathias.
 - **Datos personales:** solo guardamos datos de contacto que las empresas publican. Si alguien pide que lo borremos, se borra de todos los archivos (Ley 21.719).
