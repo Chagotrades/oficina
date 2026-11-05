@@ -63,7 +63,7 @@ Crea `clientes/campo-verde-san-pedro/` desde `plantilla-cliente/`, pone el nombr
 | Definir un proceso o una skill nueva | `entrevistador-procesos` |
 | Cerrar una tanda de trabajo | `registrar-aprendizajes` |
 
-Las skills están instaladas para el usuario (`C:\Users\cristobal\.claude\skills\`), así que funcionan en cualquier carpeta.
+Las skills se instalan en cada computador, en la carpeta del usuario (`C:\Users\<usuario>\.claude\skills\`), así que funcionan en cualquier carpeta pero **no viajan con la oficina**: cada socio las instala en su equipo (antes, escanearlas con SkillSpector).
 
 ## Especialistas
 
