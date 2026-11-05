@@ -17,8 +17,7 @@ Actualizado: 2026-11-05.
 - La etapa 1 no ha pasado por la revisión de seguridad ni por `CALIDAD.md`.
 
 ## Próximo paso
-0. La etapa 2 sigue solo en el PC de la oficina (commit sin push). Mathias la sube con el Claude de la oficina + `git push` a mano. Hasta entonces no se puede seguir la etapa 2 ni la 3 desde otro computador.
-1. Mientras llega la mercadería (~2 semanas): avanzar etapa 2 (pendientes) y etapa 3 (panel). Probar la rama `etapa1-mochilas-3d` y unirla a `main`.
+1. Mientras llega la mercadería (~2 semanas): probar la rama `etapa1-mochilas-3d` y unirla a `main`; cerrar pendientes de la etapa 2; empezar la etapa 3 (panel).
 2. Cuando lleguen las fotos de Alexis: generar los 3 modelos 3D, revisar el logo y el peso del archivo, y terminar el diseño con Gustavo.
 2. Con la etapa 1 completa, revisarla con `revisor-seguridad` (es también la primera prueba del especialista).
 3. Etapa 2: Santiago la prueba en local (`npm --prefix demo run dev`, primero `admin:clave`), y si le sirve, la publica con `BANCO_MODO=demo` en Vercel. Resolver con Alexis las preguntas 1 a 5 antes de conectar el banco real.
@@ -27,6 +26,7 @@ Actualizado: 2026-11-05.
 ## Historial
 Lo más nuevo arriba. Por cada bloque: fecha, qué cambió, cómo se comprobó y si está publicado o no.
 
+- 2026-11-05 (11:34): la etapa 2 ya está en GitHub (`main`: 99f861b, a88765d, ef746fb), subida por Mathias desde el PC de la oficina. Revisado: sin `.env` ni claves en el código. **Sigue sin publicar** (basketline.vercel.app/checkout da 404, comprobado 11:50): Vercel no publica solo al subir a GitHub. La rama `etapa1-mochilas-3d` quedó rebasada encima (68db415).
 - 2026-11-05: desde otro computador (sesión en la nube). Portada con selector de 3 modelos y "¡Queda 1!" en la rama `etapa1-mochilas-3d` (commit 3bf9df1). Comprobado: solo sintaxis. Sin publicar. Diseño y modelos 3D en pausa ~2 semanas por la mercadería de Alexis.
 
 - 2026-11-03: **etapa 2 construida** (commit en `demo/`, sin push ni publicar). Base Supabase: solo se agregaron columnas, tablas e índices nuevos (revisado antes de aplicar; la tienda publicada no se ve afectada). Comprobado: compra completa a 390 px (ficha → carrito → checkout con RUT inválido rechazado → pantalla de transferencia con monto único y código → "ya transferí" → correo del banco → Pagado solo, stock descontado y correos generados); 3 compras simultáneas del mismo par único → gana 1; webhook sin secreto o con secreto equivocado → 401, apagado sin la variable → 503; correo duplicado, segundo abono para un pedido pagado, aviso sin firma, aviso con la plata en otra cuenta, aviso de otro banco y comentario que imita la cuenta → nunca pagado; cartola subida dos veces → no paga nada dos veces; vencimiento libera el stock; recordatorio una sola vez; topes contra reservas abusivas; vista a 320, 390 y 1440 px; `next build` sin errores. `revisor-seguridad`: 2 CRÍTICOS y 1 ALTO arreglados y revisados de nuevo (queda MEDIO el abuso de reservas, ver pendientes). Datos de prueba borrados y stock devuelto (0 pedidos, 0 abonos, 0 correos). La clave de `alexis@` del panel se cambió por una aleatoria. **No comprobado:** el panel en el navegador (no pude usar la clave nueva: quedó fuera de esta conversación por seguridad), el botón "Simular", la subida de cartola y de comprobantes desde la pantalla, aprobar/rechazar a mano; lo probé llamando a la misma lógica directamente. Ojo: la base (Supabase en EE.UU.) estuvo lenta y se cortó varias veces durante las pruebas; un checkout tardó hasta 10 s.
