@@ -24,4 +24,4 @@ Se pasa antes de decir "listo" y otra vez, por alguien que no hizo el trabajo, a
 ## Textos para el cliente (propuesta, mensaje, post)
 - [ ] Suena a persona, no a IA (`humanizador`).
 - [ ] Las afirmaciones son ciertas (`verificador-datos`).
-- [ ] Precios, condiciones y plazos coinciden con lo que decidió Santiago.
+- [ ] Precios, condiciones y plazos coinciden con lo que decidieron los socios.

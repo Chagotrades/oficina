@@ -1,28 +1,28 @@
 # Manual de la oficina
 
-Cómo funciona la empresa cuando Santiago (CEO) le da un encargo a Claude.
+Cómo funciona Ascensus cuando un socio (Santiago o Mathias) le da un encargo a Claude.
 
 ## Los roles
 
 | Rol | Quién | Qué hace |
 |---|---|---|
-| CEO | Santiago | Da el encargo, decide qué quiere el cliente, aprueba antes de que el cliente vea algo. Prospecta, llama y lleva la relación con los clientes. Es el único que autoriza publicar, enviar mensajes, conectar canales y cobrar. |
+| Socios | Santiago y Mathias, con los mismos permisos | Dan encargos, deciden qué quiere el cliente, aprueban antes de que el cliente vea algo, prospectan y llevan clientes. Cualquiera de los dos autoriza publicar, enviar mensajes, conectar canales y cobrar. |
 | Jefe de operaciones | La sesión de Claude abierta en la carpeta de la oficina | Recibe el encargo, lo reparte, revisa lo que vuelve y le informa al CEO. Casi nunca hace el trabajo largo él mismo. |
 | Trabajadores | Sesiones de Claude abiertas en `clientes/<cliente>/` | Hacen el trabajo y lo comprueban. |
 | Especialistas | Subagentes en `.claude/agents/` | Los llama el trabajador para una tarea puntual. Ver la tabla "Especialistas" más abajo. |
 
 ## Cómo se mueve un encargo
 
-1. **Recibir.** Santiago da el encargo con sus palabras. Si falta algo que solo él sabe, preguntar lo mínimo (máximo 3 preguntas). Si lo que quiere todavía no está definido, usar la skill `entrevistador-procesos`.
-2. **Anotar** en `ENCARGOS.md`: fecha, cliente, encargo, quién lo hace, estado.
+1. **Recibir.** Un socio da el encargo con sus palabras. Si falta algo que solo él sabe, preguntar lo mínimo (máximo 3 preguntas). Si lo que quiere todavía no está definido, usar la skill `entrevistador-procesos`.
+2. **Anotar y tomar** en `ENCARGOS.md`: fecha, cliente, encargo, socio responsable, quién lo hace, estado. Correr `sincronizar.ps1` para que el otro socio lo vea antes de empezar.
 3. **Repartir.**
    - Corto (una pregunta, un dato, un cambio pequeño): se resuelve aquí mismo.
-   - Trabajo de verdad: se abre una sesión en `clientes/<cliente>/` con el **brief** de abajo. Solo cuando Santiago dio el encargo, nunca por iniciativa propia.
+   - Trabajo de verdad: se abre una sesión en `clientes/<cliente>/` con el **brief** de abajo. Solo cuando un socio dio el encargo, nunca por iniciativa propia.
    - Cliente nuevo: con `nuevo-cliente.ps1` (ver más abajo).
    - **Un solo trabajador edita una carpeta a la vez.** Dos encargos del mismo cliente van uno después del otro; encargos de clientes distintos pueden ir en paralelo.
 4. **Revisar lo que vuelve.** El informe del trabajador no es una prueba: mirar el resultado (archivos, capturas, pruebas) antes de darlo por hecho.
 5. **Revisión independiente** antes de que algo llegue al cliente: la hace un subagente o una sesión que **no** construyó el trabajo, con `CALIDAD.md`. Si hay dinero, datos personales o un asistente de IA de por medio, también con la skill `auditoria-web`. El revisor informa hallazgos; no corrige. Los arregla el trabajador.
-6. **Informar al CEO** en palabras simples: qué quedó hecho, qué se comprobó, qué no se pudo comprobar y qué tiene que decidir él.
+6. **Informar al socio** en palabras simples: qué quedó hecho, qué se comprobó, qué no se pudo comprobar y qué tiene que decidir él.
 7. **Cerrar.** Actualizar `ENCARGOS.md` y verificar que el trabajador actualizó el ESTADO.md del cliente. Si salió algo que sirve para otros clientes, anotarlo en `APRENDIZAJES.md`.
 
 ## Brief para un trabajador
@@ -36,7 +36,7 @@ Para qué: qué tiene que lograr con el cliente.
 Lo que NO se hace: lo que queda fuera o no se toca.
 Terminado es: cómo se ve el resultado cuando está listo.
 Comprobar: qué pruebas o mediciones demuestran que funciona.
-Necesita aprobación de Santiago: publicar, enviar, precios nuevos, etc.
+Necesita aprobación de un socio: publicar, enviar, precios nuevos, etc.
 Al terminar: pasar CALIDAD.md, actualizar ESTADO.md e informar qué se hizo, qué se comprobó y qué falta.
 ```
 
@@ -87,11 +87,23 @@ Su rol, cómo trabaja, qué entrega y qué lista de CALIDAD.md pasa.
 - **Solo las herramientas que necesita.** Un revisor no necesita `Write` ni `Edit`: así no puede cambiar lo que revisa.
 - **Un especialista no ve la conversación.** Todo lo que necesita saber va en sus instrucciones o en el encargo.
 
+## Dos socios, una oficina
+
+Santiago y Mathias trabajan sobre la misma oficina, cada uno desde su computador. Para no hacer lo mismo dos veces:
+
+1. **Todo lo que se hace pasa por un tablero.** Encargos de clientes en `ENCARGOS.md`; prospectos en `ventas/PROSPECTOS.md`.
+2. **Antes de empezar, se toma:** nombre del socio + "en curso" en el tablero, y `sincronizar.ps1` para que el otro lo vea. Lo que está "en curso" a nombre del otro no se toca sin hablarlo.
+3. **Antes de escribirle a una empresa, se busca en `ventas/PROSPECTOS.md`.** Si ya está, la lleva quien figura como responsable. Si no está, se agrega primero y después se contacta.
+4. **Un cliente o prospecto tiene un solo socio responsable a la vez.** Se puede traspasar, pero se anota en el tablero.
+5. **Las decisiones que afectan a los dos** (precios, servicios nuevos, gastos) se anotan en `APRENDIZAJES.md` o en el ESTADO del cliente para que el otro las vea.
+
+Cada computador debe tener su nombre en git (`git config --global user.name "Mathias"`): así Claude sabe con quién trabaja y quién hizo cada cambio.
+
 ## Trabajar desde otro computador o desde la nube
 
 La oficina está guardada en GitHub, en un repositorio privado: `https://github.com/Chagotrades/oficina`. Todos los computadores trabajan sobre esa misma copia.
 
-- **Al empezar:** baja lo último con `git pull`. **Al terminar:** haz el commit y súbelo con `git push`.
+- **Al empezar, al tomar algo y al terminar:** corre `powershell -ExecutionPolicy Bypass -File .\sincronizar.ps1`. Baja lo último y sube lo tuyo en un paso.
 - No trabajes el mismo cliente en dos computadores a la vez sin bajar antes lo último. Si no, los cambios chocan.
 
 **Primera vez en un computador nuevo:**
@@ -106,11 +118,11 @@ La oficina está guardada en GitHub, en un repositorio privado: `https://github.
 
 ## Candados técnicos
 
-`.claude/settings.json` bloquea, para cualquier sesión dentro de la oficina, los comandos que publican o envían (Netlify, Vercel, Cloudflare, `git push`, `npm publish`) y la lectura de archivos `.env` con claves. Aunque una sesión se equivoque, no puede publicar sola: Santiago lo hace o lo autoriza en el momento. Si hay que agregar otro servicio de publicación, se suma a la lista `deny`.
+`.claude/settings.json` bloquea, para cualquier sesión dentro de la oficina, los comandos que publican o envían (Netlify, Vercel, Cloudflare, `git push`, `npm publish`) y la lectura de archivos `.env` con claves. Aunque una sesión se equivoque, no puede publicar sola: un socio lo hace o lo autoriza en el momento. Si hay que agregar otro servicio de publicación, se suma a la lista `deny`.
 
 ## Reglas que no cambian
 
-- Nada se publica, se envía, se conecta ni se cobra sin la autorización de Santiago para ese caso. Una aprobación vale para ese caso, no para los siguientes.
+- Nada se publica, se envía, se conecta ni se cobra sin la autorización de un socio para ese caso. Una aprobación vale para ese caso, no para los siguientes.
 - No se usan servicios ni APIs de pago sin autorización.
 - Los datos de un cliente no pasan a la carpeta de otro.
 - No se inventan precios, plazos ni respuestas del cliente: lo no confirmado dice "de ejemplo" o "por confirmar".

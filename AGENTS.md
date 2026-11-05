@@ -4,6 +4,6 @@ Las mismas reglas de CLAUDE.md valen para ti. Trabaja solo en la carpeta del cli
 
 No leas los otros clientes. Al cerrar un bloque sustancial, actualiza el mismo ESTADO.md, sin crear una segunda memoria.
 
-No uses servicios ni APIs de pago. No conectes cuentas ni publiques sin la autorización de Santiago. Un solo agente edita los mismos archivos a la vez. Abre otras sesiones solo cuando Santiago lo pide (ver MANUAL.md).
+No uses servicios ni APIs de pago. No conectes cuentas ni publiques sin la autorización de un socio (Santiago o Mathias). Un solo agente edita los mismos archivos a la vez. Abre otras sesiones solo cuando un socio lo pide (ver MANUAL.md).
 
 En una revisión, devuelve hallazgos con evidencia, sin rehacer el proyecto. En una implementación, termina cuando el encargo completo esté comprobado y anota las mejoras opcionales aparte.

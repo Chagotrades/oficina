@@ -41,7 +41,9 @@ $encargos = Join-Path $raiz 'ENCARGOS.md'
 $lineas = [Collections.Generic.List[string]]([IO.File]::ReadAllText($encargos, $utf8).TrimEnd() -split "`r?`n")
 $separador = $lineas.FindIndex([Predicate[string]] { param($l) $l -match '^\|(-+\|)+$' })
 if ($separador -lt 0) { throw "No encontré la tabla en ENCARGOS.md. La carpeta del cliente sí quedó creada." }
-$lineas.Insert($separador + 1, "| $fecha | $nombreTabla | Alta del cliente | Santiago | por hacer | Completar descripción y límites en clientes/$carpeta/CLAUDE.md |")
+$socio = (git config user.name)
+if (-not $socio) { $socio = "por asignar" }
+$lineas.Insert($separador + 1, "| $fecha | $nombreTabla | Alta del cliente | $socio | $socio | por hacer | Completar descripción y límites en clientes/$carpeta/CLAUDE.md |")
 [IO.File]::WriteAllText($encargos, ($lineas -join "`n") + "`n", $utf8)
 
 Write-Output "Listo: clientes\$carpeta"
