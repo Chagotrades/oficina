@@ -1,10 +1,12 @@
 # Estado — Basketline
 
-Actualizado: 2026-11-03 (etapa 2).
+Actualizado: 2026-11-05.
 
 ## Dónde estamos
 - **Etapa 1 (tienda y stock por talla): en curso, no terminada.** Ya hecho: inicio con mochila 3D (versión de respaldo), catálogo por categoría, ficha de producto con tallas, página de lanzamientos con cuenta regresiva, "Avísame cuando llegue", carrito en panel lateral, botones flotantes y animaciones. Seed con fotos reales desde `demo/fotos/`.
-  - **Falta (según Santiago, 2026-11-03):** modelar las mochilas en 3D (hoy falta `/modelos/mochila-elite.glb` y se usa el respaldo) y mejorar el diseño junto con Gustavo, el diseñador de Basketline.
+  - **Falta (según Santiago, 2026-11-03):** modelar las mochilas en 3D y mejorar el diseño junto con Gustavo, el diseñador de Basketline.
+  - **En pausa hasta ~2026-11-19 (2026-11-05):** a Alexis le llega la mercadería en 2 semanas; con ella saca las fotos de los 3 modelos (Elite, Varsity, Utility Elite: 5 fotos por mochila, fondo liso, enviadas como documento). Con esas fotos se generan los modelos 3D con IA (TRELLIS o Hunyuan3D en Hugging Face, gratis; si no convence, Tripo o Meshy pagando un mes). Se descartó 3dsvg.design: solo da grosor a siluetas planas y exporta imagen/video, no .glb. El diseño con Gustavo también se posterga.
+  - **Hecho 2026-11-05 (rama `etapa1-mochilas-3d` en GitHub, sin unir a `main` ni publicar):** la portada tiene selector de 3 modelos; cada uno carga `public/modelos/mochila-elite.glb`, `mochila-varsity.glb` o `mochila-utility.glb` si existe y si no usa la mochila modelada con 2 colores. "¡Queda 1!" en singular. **No comprobado en navegador** (se hizo desde un entorno sin dependencias; solo revisión de sintaxis).
 - **Publicada** en https://basketline.vercel.app (Santiago la subió el 2026-11-03) como versión de avance.
 - **Etapa 2 (checkout y pago por transferencia): construida y probada en local, NO publicada.** Checkout en una página (RUT validado, región/comuna, Starken por pagar o retiro en Osorno/Temuco), página del pedido `/pedido/BL-xxxx` con link privado, monto único, "Listo, ya transferí" con comprobante, lector de correos del banco con "Simular correo del banco", conciliación automática, carga de cartola CSV, vencimiento con liberación de stock, recordatorio, historial auditable y bandeja de correos de demo. Panel mínimo `/admin/pagos`, `/admin/correos` y detalle de pedido (solo ADMIN). La etapa 3 lo completa.
   - **Para mostrarla publicada** (lo hace Santiago): en Vercel agregar `BANCO_MODO=demo` (si no, el simulador queda apagado) y correr `npm --prefix demo run admin:clave -- alexis@basketline.cl` para tener una clave del panel que Santiago conozca (la clave de la etapa 1 ya no sirve; la nueva que generé quedó solo en la carpeta temporal de esa sesión).
@@ -15,13 +17,17 @@ Actualizado: 2026-11-03 (etapa 2).
 - La etapa 1 no ha pasado por la revisión de seguridad ni por `CALIDAD.md`.
 
 ## Próximo paso
-1. Terminar la etapa 1: modelos 3D de las mochilas y mejoras de diseño con Gustavo.
+0. La etapa 2 sigue solo en el PC de la oficina (commit sin push). Mathias la sube con el Claude de la oficina + `git push` a mano. Hasta entonces no se puede seguir la etapa 2 ni la 3 desde otro computador.
+1. Mientras llega la mercadería (~2 semanas): avanzar etapa 2 (pendientes) y etapa 3 (panel). Probar la rama `etapa1-mochilas-3d` y unirla a `main`.
+2. Cuando lleguen las fotos de Alexis: generar los 3 modelos 3D, revisar el logo y el peso del archivo, y terminar el diseño con Gustavo.
 2. Con la etapa 1 completa, revisarla con `revisor-seguridad` (es también la primera prueba del especialista).
 3. Etapa 2: Santiago la prueba en local (`npm --prefix demo run dev`, primero `admin:clave`), y si le sirve, la publica con `BANCO_MODO=demo` en Vercel. Resolver con Alexis las preguntas 1 a 5 antes de conectar el banco real.
 4. Etapa 3 (panel completo).
 
 ## Historial
 Lo más nuevo arriba. Por cada bloque: fecha, qué cambió, cómo se comprobó y si está publicado o no.
+
+- 2026-11-05: desde otro computador (sesión en la nube). Portada con selector de 3 modelos y "¡Queda 1!" en la rama `etapa1-mochilas-3d` (commit 3bf9df1). Comprobado: solo sintaxis. Sin publicar. Diseño y modelos 3D en pausa ~2 semanas por la mercadería de Alexis.
 
 - 2026-11-03: **etapa 2 construida** (commit en `demo/`, sin push ni publicar). Base Supabase: solo se agregaron columnas, tablas e índices nuevos (revisado antes de aplicar; la tienda publicada no se ve afectada). Comprobado: compra completa a 390 px (ficha → carrito → checkout con RUT inválido rechazado → pantalla de transferencia con monto único y código → "ya transferí" → correo del banco → Pagado solo, stock descontado y correos generados); 3 compras simultáneas del mismo par único → gana 1; webhook sin secreto o con secreto equivocado → 401, apagado sin la variable → 503; correo duplicado, segundo abono para un pedido pagado, aviso sin firma, aviso con la plata en otra cuenta, aviso de otro banco y comentario que imita la cuenta → nunca pagado; cartola subida dos veces → no paga nada dos veces; vencimiento libera el stock; recordatorio una sola vez; topes contra reservas abusivas; vista a 320, 390 y 1440 px; `next build` sin errores. `revisor-seguridad`: 2 CRÍTICOS y 1 ALTO arreglados y revisados de nuevo (queda MEDIO el abuso de reservas, ver pendientes). Datos de prueba borrados y stock devuelto (0 pedidos, 0 abonos, 0 correos). La clave de `alexis@` del panel se cambió por una aleatoria. **No comprobado:** el panel en el navegador (no pude usar la clave nueva: quedó fuera de esta conversación por seguridad), el botón "Simular", la subida de cartola y de comprobantes desde la pantalla, aprobar/rechazar a mano; lo probé llamando a la misma lógica directamente. Ojo: la base (Supabase en EE.UU.) estuvo lenta y se cortó varias veces durante las pruebas; un checkout tardó hasta 10 s.
 
