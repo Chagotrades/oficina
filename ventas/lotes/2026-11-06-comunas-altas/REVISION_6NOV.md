@@ -4,7 +4,7 @@ Se hizo con las reglas nuevas (`ventas/metodo/REGLAS_REVISION_Y_TONO.md`) antes 
 
 **Resultado: de 35 mensajes quedan 5 (2 correos y 3 WhatsApp).** Los 20 correos de Santiago no se habían enviado. Los 34 correos de Mathias salieron el 6-nov en la mañana, antes de las reglas nuevas, y no se revisaron aquí.
 
-## Correos: quedan 2 de 20 (salen el lunes 9-nov entre 8:00 y 12:00)
+## Correos: quedan 2 de 20 (los envía **Mathias a su nombre** el lunes 9-nov entre 8:00 y 12:00; textos en `lotes/2026-11-09-mathias/correos.md`)
 
 | Empresa | Decisión | Por qué |
 |---|---|---|
@@ -15,7 +15,7 @@ Se hizo con las reglas nuevas (`ventas/metodo/REGLAS_REVISION_Y_TONO.md`) antes 
 | Cabañas La Mar | Descartado | En el celular la web se ve bien. La medición de 1.670 px estaba mal. |
 | Los otros 15 | Descartados (Regla 0) | Eran detalles rebuscados: anchos en píxeles, "sin WhatsApp", "sin formulario", © 2015, Wix gratis. |
 
-En Gmail, los 18 descartados quedaron con el asunto **"NO ENVIAR · descartado 6-nov · …"**. Gmail no permite que Claude los mande a la papelera; Santiago los borra a mano.
+En el Gmail de Santiago, los 2 que se mantienen quedaron con el asunto "NO ENVIAR · los envía Mathias", y los 18 descartados quedaron con el asunto **"NO ENVIAR · descartado 6-nov · …"**. Gmail no permite que Claude los mande a la papelera; Santiago los borra a mano.
 
 ## WhatsApp: quedan 3 de 15 (página "WhatsApp del día" actualizada)
 
