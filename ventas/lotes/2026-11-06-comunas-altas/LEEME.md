@@ -5,7 +5,7 @@ Lo preparó el Claude de Santiago el 5-nov, según `metodo/RUTINA_DIARIA_SOCIOS.
 | Qué | Cuántos | Dónde | Estado |
 |---|---|---|---|
 | Correos de Santiago | 20 | [correos_santiago.md](correos_santiago.md) | Borradores en el Gmail de Santiago, **sin programar ni enviar**. Santiago aprueba y programa. |
-| Correos de Mathias | 20 | [correos_mathias.md](correos_mathias.md) | Listos para que el Claude de Mathias los cargue como borradores en su Gmail. |
+| Correos de Mathias | 20 | [correos_mathias.md](correos_mathias.md) | **Programados** el 5-nov en el Gmail de Mathias para el 6-nov (8:00 a 11:24, intercalados con los 14 borradores antiguos). Horas verificadas una por una en Programados (40 en total ese día). |
 | WhatsApp de Santiago | 15 | Artefacto "WhatsApp del día" (https://claude.ai/artifact/B8fqv7gh7hcnG56ZsQy49C), copia en [whatsapp-6nov.html](whatsapp-6nov.html) y datos en [whatsapp.json](whatsapp.json) | Santiago los envía uno por uno desde su celular. |
 
 Los 55 quedaron en `registro/prospectos.csv` (estados `borrador`, `preparado` y `preparado_whatsapp`). Al enviar, cambiar el estado a `enviado` con la fecha.
