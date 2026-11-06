@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhatsApp de Mathias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Lista de una columna pensada para el pulgar: tarjeta por empresa, botón verde abajo de cada una */
+  --bg:#f3f5f2; --card:#ffffff; --ink:#18231d; --muted:#5d6b63; --line:#dde3dd;
+  --go:#127a4b; --go-ink:#ffffff; --done:#e7efe9; --star:#a86b00;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1512; --card:#18201b; --ink:#e7eee9; --muted:#9aa9a0; --line:#2a352f;
+    --go:#2fae72; --go-ink:#06140d; --done:#1b2a22; --star:#e0a53a; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1512; --card:#18201b; --ink:#e7eee9; --muted:#9aa9a0; --line:#2a352f;
+  --go:#2fae72; --go-ink:#06140d; --done:#1b2a22; --star:#e0a53a; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.45 var(--body);-webkit-text-size-adjust:100%}
+.wrap{max-width:620px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:14px}
+header{display:grid;gap:6px}
+h1{font:700 1.7rem/1.1 var(--display);margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0;font-size:.95rem}
+.bar{display:flex;align-items:center;gap:10px;margin-top:6px}
+.track{flex:1;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;width:0;background:var(--go);transition:width .25s}
+.count{font-weight:600;font-variant-numeric:tabular-nums;font-size:.95rem;white-space:nowrap}
+.rules{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:.9rem;color:var(--muted)}
+.rules b{color:var(--ink)}
+ol{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px}
+li.sent{background:var(--done)}
+.top{display:flex;gap:10px;align-items:flex-start}
+.n{font:700 .85rem/1 var(--display);color:var(--muted);min-width:1.6em;padding-top:4px;font-variant-numeric:tabular-nums}
+.who{flex:1;min-width:0}
+h2{font:600 1.08rem/1.25 var(--display);margin:0}
+.meta{color:var(--muted);font-size:.88rem;margin-top:2px}
+.pill{display:inline-flex;gap:4px;align-items:center;font-size:.82rem;font-weight:600;border:1px solid var(--line);border-radius:99px;padding:2px 8px;white-space:nowrap}
+.pill .s{color:var(--star)}
+.msg{font-size:.92rem;background:var(--bg);border-radius:10px;padding:10px 12px;margin:0;white-space:pre-wrap}
+.acts{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}
+a.wa{display:flex;justify-content:center;align-items:center;gap:8px;min-height:48px;border-radius:12px;background:var(--go);color:var(--go-ink);font-weight:600;text-decoration:none;font-size:1rem}
+a.wa:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--go);outline-offset:2px}
+button.copy{min-height:48px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 .92rem var(--body);cursor:pointer}
+label.chk{display:flex;align-items:center;gap:10px;font-size:.95rem;font-weight:500;cursor:pointer;min-height:40px}
+label.chk input{width:22px;height:22px;accent-color:var(--go)}
+.tel{color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums}
+footer{color:var(--muted);font-size:.85rem}
+@media (prefers-reduced-motion: reduce){.fill{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>WhatsApp de Mathias: zona alta de la costa</h1>
+    <p class="sub">17 negocios de Zapallar, Cachagua, Reñaca, Concón, Maitencillo y Santo Domingo, antes de la temporada de verano. Envía desde el +56 9 4931 1482.</p>
+    <div class="bar"><div class="track"><div class="fill" id="fill"></div></div><span class="count" id="count">0 de 17 enviados</span></div>
+  </header>
+  <div class="rules"><b>Antes de tocar enviar:</b> abre su Instagram o Google Maps 1 minuto y confirma que no tienen web (el mensaje dice que no la encontramos). Uno por negocio, sin insistir. Si responden que no, agradece y avísale a Claude para marcarlo "no contactar".</div>
+  <ol id="list"></ol>
+  <footer>Datos del registro público de Sernatur y guías de viaje, revisados el 6-nov (sin Google Maps). Los checks de "ya lo mandé" quedan solo en este teléfono; el registro oficial es <b>ventas/registro/prospectos.csv</b>.</footer>
+</div>
+<script>
+const DATA=[{"empresa":"La Choca","rubro":"Fuente de soda","comuna":"La Laguna, Zapallar","tel":"56997486767","pill":"4,3 · 371 reseñas","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi que La Choca tiene 4,3 con más de 370 reseñas en Google, eso en La Laguna es mucho. No encontré una web con su carta, que es lo primero que busca quien llega a veranear. Le puedo preparar gratis un informe corto con ideas para recibir más pedidos esta temporada. ¿Se lo mando por aquí? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"La Picá de Octavio","rubro":"Restaurante","comuna":"La Laguna, Zapallar","tel":"56993477119","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi La Picá de Octavio en el registro de Sernatur y en las recomendaciones de los hoteles de La Laguna. No encontré una web con su carta y horario, y en verano mucha gente decide dónde almorzar desde el celular. Le puedo preparar gratis un informe corto con ideas para que lo encuentren más. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Tío Tomate","rubro":"Restaurante","comuna":"Cachagua, Zapallar","tel":"56994326633","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Tío Tomate registrado en Sernatur, en plena avenida Cachagua. Busqué el local en internet y casi no aparece, así que quien veranea en Cachagua y busca dónde comer puede no encontrarlo. Le puedo preparar gratis un informe corto con ideas para aparecer en Google antes de la temporada. ¿Se lo mando? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Antagonista","rubro":"Restaurante","comuna":"Reñaca","tel":"56957435235","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi que Antagonista está registrado en Sernatur en Bellavista, Reñaca. Lo busqué en internet y cuesta encontrarlo, y en verano muchos eligen dónde ir desde el celular. Le puedo preparar gratis un informe corto con ideas para que lo encuentren en Google y lleguen más reservas. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Bonafide","rubro":"Restaurante","comuna":"Reñaca","tel":"56985017030","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Bonafide en el registro de Sernatur, en Edmundo Eluchans. Lo busqué en internet y casi no aparece, y Reñaca en verano se llena de gente que elige dónde comer desde el celular. Le puedo preparar gratis un informe corto con ideas para que lo encuentren más fácil. ¿Se lo mando por aquí? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Obelisco y Palm Beach","rubro":"Restaurantes","comuna":"Reñaca","tel":"56996996644","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi que Obelisco y Palm Beach están registrados en Sernatur con este número, los dos en Borgoño. No encontré una web donde ver las cartas y reservar, y con dos locales frente al mar una sola página puede traer clientes a ambos. Le preparo gratis un informe corto con ideas. ¿Se lo mando? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Carnivorus Steak House","rubro":"Restaurante de carnes","comuna":"Concón","tel":"56994407865","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Carnivorus Steak House en el registro de Sernatur, en Concón. Busqué el local en internet y casi no aparece, y cuando alguien busca \"carnes en Concón\" en Google hoy encuentra a otros. Le puedo preparar gratis un informe corto con ideas para aparecer en esas búsquedas. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Novellino","rubro":"Restaurante de mariscos","comuna":"Concón","tel":"56972154693","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Novellino en Sernatur y en guías de viaje que destacan su cocina familiar de mariscos en Borgoño. No encontré una web con su carta ni para reservar, y en verano eso suma mesas. Le puedo preparar gratis un informe corto con ideas para recibir más reservas directas. ¿Se lo mando por aquí? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Laura del Mar Hotel Boutique","rubro":"Hotel boutique","comuna":"Concón","tel":"56965942783","pill":"9,3 en Booking","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi que Laura del Mar tiene 9,3 en Booking con cientos de opiniones, una nota excelente. No encontré una web propia para reservar directo, y cada reserva por Booking deja una comisión. Le puedo preparar gratis un informe corto con ideas para recibir más reservas directas. ¿Se lo mando por aquí? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Winecaina","rubro":"Restaurante","comuna":"Concón","tel":"56994373959","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Winecaina en Sernatur y reseñas que lo ponen entre lo mejor para comer en Concón. No encontré una web con su carta ni para reservar, y quien lee esas reseñas quiere reservar de inmediato. Le puedo preparar gratis un informe corto con ideas para convertir eso en más mesas. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Café Glacé","rubro":"Cafetería","comuna":"Concón","tel":"56957288713","pill":"4,5 · ~295 reseñas","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi que Café Glacé tiene 4,5 con casi 300 reseñas y que destacan mucho sus desayunos y el pan amasado. No encontré una web con su carta, y en verano mucha gente busca dónde tomar desayuno en Concón desde el celular. Le puedo preparar gratis un informe corto con ideas para recibir más clientes. ¿Se lo mando por aquí? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Calesta Restaurante","rubro":"Restaurante","comuna":"Concón","tel":"56962496749","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Calesta en el registro de Sernatur, en avenida Reñaca. No encontré una web con su carta y casi no aparece en internet, así que mucha gente que pasa por Concón no lo conoce. Le puedo preparar gratis un informe corto con ideas para que lo encuentren en Google. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"La Pescá","rubro":"Restaurante de mariscos","comuna":"Maitencillo","tel":"56988074261","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi La Pescá en notas de The Clinic y Diario Uno que la recomiendan frente a la playa en Maitencillo. No encontré una web con la carta ni para reservar, y quien lee esas notas quiere asegurar su mesa. Le puedo preparar gratis un informe corto con ideas para recibir más reservas. ¿Se lo mando? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Borde Mar","rubro":"Restaurante de mariscos","comuna":"Maitencillo","tel":"56932026608","pill":"Reseñas","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi reseñas de Borde Mar que destacan sus porciones generosas, la paila marina y la casona de madera. No encontré una web con su carta ni para reservar, y en Maitencillo la temporada se decide en pocas semanas. Le puedo preparar gratis un informe corto con ideas para recibir más reservas este verano. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Punta del Sol","rubro":"Restaurante","comuna":"Maitencillo","tel":"56992325342","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Punta del Sol registrado en Sernatur, en avenida del Mar. Busqué el local en internet y casi no aparece, y en verano Maitencillo se llena de gente que elige dónde comer desde el celular. Le puedo preparar gratis un informe corto con ideas para que lo encuentren primero. ¿Se lo mando? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Restaurant Punta Natural","rubro":"Restaurante","comuna":"Maitencillo","tel":"56994411144","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi Punta Natural en el registro de Sernatur, en Maitencillo. No encontré una web ni una ficha completa en internet, y quien veranea ahí busca dónde comer en Google Maps. Le puedo preparar gratis un informe corto con ideas para aparecer en esas búsquedas antes de la temporada. ¿Le interesa? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."},{"empresa":"Club House Santo Domingo","rubro":"Restaurante","comuna":"Santo Domingo","tel":"56961249493","pill":"Sernatur","mensaje":"Hola, ¿cómo está? Soy Mathias Lezana, de Ascensus; hacemos webs para negocios de la región. Vi el Club House registrado en Sernatur, en avenida El Golf de Santo Domingo. No encontré una web con su carta ni para reservar, y en verano Santo Domingo recibe mucha gente que lo decide desde el celular. Le puedo preparar gratis un informe corto con ideas para recibir más reservas. ¿Se lo mando? Si prefiere que no le escriba, me avisa y no lo vuelvo a hacer."}];
+const KEY="ascensus-wa-mathias-2026-11-06";
+let sent={};
+try{sent=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){sent={}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(sent))}catch(e){}}
+function fmtTel(t){return "+"+t.slice(0,2)+" "+t.slice(2,3)+" "+t.slice(3,7)+" "+t.slice(7)}
+function render(){
+  const ol=document.getElementById("list");ol.innerHTML="";
+  DATA.forEach((d,i)=>{
+    const li=document.createElement("li");if(sent[d.tel])li.className="sent";
+    li.innerHTML=`<div class="top"><span class="n">${String(i+1).padStart(2,"0")}</span><div class="who"><h2></h2><div class="meta"></div></div><span class="pill"><span class="r"></span></span></div>
+<p class="msg"></p>
+<div class="acts"><a class="wa" target="_blank" rel="noopener">Abrir en WhatsApp</a><button class="copy" type="button">Copiar</button></div>
+<div class="acts"><label class="chk"><input type="checkbox" id="c${i}"> Ya lo mandé</label><span class="tel"></span></div>`;
+    li.querySelector("h2").textContent=d.empresa;
+    li.querySelector(".meta").textContent=d.rubro+" · "+d.comuna;
+    li.querySelector(".r").textContent=d.pill;
+    li.querySelector(".msg").textContent=d.mensaje;
+    li.querySelector("a.wa").href="https://wa.me/"+d.tel+"?text="+encodeURIComponent(d.mensaje);
+    li.querySelector(".tel").textContent=fmtTel(d.tel);
+    const cb=li.querySelector("input");cb.checked=!!sent[d.tel];
+    cb.addEventListener("change",()=>{if(cb.checked)sent[d.tel]=1;else delete sent[d.tel];save();li.classList.toggle("sent",cb.checked);tally()});
+    const b=li.querySelector("button.copy");
+    b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(d.mensaje);b.textContent="Copiado"}catch(e){b.textContent="No se pudo"}setTimeout(()=>b.textContent="Copiar",1600)});
+    ol.appendChild(li);
+  });
+  tally();
+}
+function tally(){const n=DATA.filter(d=>sent[d.tel]).length;document.getElementById("count").textContent=n+" de "+DATA.length+" enviados";document.getElementById("fill").style.width=(DATA.length?100*n/DATA.length:0)+"%"}
+render();
+</script>
+</body>
+</html>

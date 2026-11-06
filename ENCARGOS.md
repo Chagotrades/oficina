@@ -6,6 +6,7 @@ Estados: **por hacer** · **en curso** · **en revisión** · **esperando al soc
 
 | Fecha | Cliente | Encargo | Responsable | Lo hace | Estado | Próximo paso |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | Ascensus (ventas) | 17 WhatsApp de Mathias, zona alta de la costa (Zapallar, Reñaca, Concón, Maitencillo, Santo Domingo) | Mathias | Claude | esperando al socio | Mathias revisa y envía desde la página del lote (`ventas/lotes/2026-11-06-mathias-whatsapp/`); al enviar, marcar `enviado` en `registro/prospectos.csv` |
 | 2026-11-05 | Ascensus | Web corporativa editorial y demos por rubro | Mathias | Codex | en revisión | Implementada en `ascensus-web/`. 5-nov noche (Santiago + Claude): logo nuevo, animaciones, fotos a color, sección "Qué hacemos" y cascada curva (detalle en su ESTADO.md). Subido a GitHub (`main`), sin publicar en dominio; Mathias revisa el diseño. |
 | 2026-11-05 | Ascensus (ventas) | Lote del 6-nov: 40 correos (20 Santiago, 20 Mathias) + 15 WhatsApp, comunas de más ingresos | Santiago | Claude | esperando al socio | Santiago revisa y programa sus 20 borradores de Gmail y manda los 15 WhatsApp desde el artefacto; el Claude de Mathias carga `ventas/lotes/2026-11-06-comunas-altas/correos_mathias.md`. Guía en el LEEME del lote |
 | 2026-11-05 | Ascensus (ventas) | Subir a la oficina todo lo comercial: tarifario, panel, método, contactados, logos y PDF | Mathias | Claude | esperando al socio | Hecho en `ventas/` (guía en `ventas/LEEME_ASCENSUS.md`). Falta subirlo a GitHub con `sincronizar.ps1` después de dejar el repositorio privado |
