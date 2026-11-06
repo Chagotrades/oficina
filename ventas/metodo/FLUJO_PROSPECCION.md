@@ -26,7 +26,7 @@ Claude hace los pasos 1 a 5 y se detiene. El paso 6 solo ocurre con aprobación 
 - Usar la tabla "Cómo elegir el plan" de [TARIFARIO.md](TARIFARIO.md). Recomendar uno solo; complementos solo si el diagnóstico lo justifica.
 
 ## 5. Redactar el correo — skills `email-writing-frameworks`, `email-1-variations-7`, `personalization-hooks`, `josh-braun-copywriting`, `humanizador`
-- Plantilla: [plantillas/correo.md](plantillas/correo.md). Máximo ~90 palabras en el cuerpo.
+- Plantilla: [plantillas/correo.md](plantillas/correo.md) (formato aprobado el 6-nov, con 2 modelos). Unas 110–130 palabras con firma y baja. WhatsApp: [plantillas/whatsapp.md](plantillas/whatsapp.md).
 - Gancho "ligero" basado en el diagnóstico real (ej.: "busqué 'pasto en rollo Quillota' y su negocio no aparece en el mapa").
 - Adjuntos: informe PDF de 1 página + 3 imágenes (o enlace si el conector no permite adjuntar).
 - Guardar todo el lote en `lotes/AAAA-MM-DD-rubro-comuna/` (informes, imágenes y textos).

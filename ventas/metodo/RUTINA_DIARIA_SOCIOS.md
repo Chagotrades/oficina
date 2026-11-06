@@ -22,7 +22,7 @@ Cada correo y cada WhatsApp se escribe para esa empresa: nombra algo concreto y 
 **Prohibido seleccionar una empresa sin revisión completa** ([REGLAS_REVISION_Y_TONO.md](REGLAS_REVISION_Y_TONO.md)): Maps, búsqueda en Google, dominios probables, redes y su web. **Antes de entregar cualquier lote, Claude lo verifica en Google Maps** desde el computador de un socio, siguiendo [VERIFICAR_EN_MAPS.md](VERIFICAR_EN_MAPS.md). Nada de "no tiene web" o "no tiene carta" sin haberlo visto en su ficha de Maps.
 
 ## Correos
-- Mismas reglas de siempre: uno por empresa, sin adjuntos, sin seguimientos automáticos, ~90 palabras, trato de usted, sin dominios en el cuerpo, enganche positivo (no partir por un error), un solo servicio del tarifario, línea legal de baja.
+- Mismas reglas de siempre: uno por empresa, sin adjuntos, sin seguimientos automáticos, formato de [plantillas/correo.md](plantillas/correo.md) (≈110–130 palabras, aprobado el 6-nov), trato de usted, sin dominios en el cuerpo, enganche positivo (no partir por un error), un solo servicio del tarifario, línea legal de baja.
 - **Firmas**
   - Santiago: `Santiago Barrios · Ascensus · WhatsApp +56 9 3244 7140`
   - Mathias: `Mathias Lezana · Ascensus · WhatsApp +56 9 4931 1482`
@@ -33,7 +33,7 @@ Cada correo y cada WhatsApp se escribe para esa empresa: nombra algo concreto y 
 ## WhatsApp
 - Solo empresas que publican WhatsApp o celular y **no** publican correo (antes se descartaban). Nunca la misma empresa por los dos canales.
 - **Tampoco se cruzan entre socios:** una empresa que Mathias ya contactó por correo o WhatsApp no se le escribe por WhatsApp a Santiago, y al revés. El cruce es el mismo que para los correos.
-- Mensaje más corto que el correo (≈50 palabras), mismo enganche personalizado, presentarse con nombre y empresa, ofrecer el diagnóstico gratis y cerrar con una pregunta. Si responden "no", no se vuelve a escribir.
+- Formato de [plantillas/whatsapp.md](plantillas/whatsapp.md): más corto que el correo (60–80 palabras), mismo enganche personalizado, presentarse con nombre y empresa, ofrecer el diagnóstico gratis y cerrar con una pregunta. Si responden "no", no se vuelve a escribir.
 - Claude prepara un artefacto con los 15 del día: empresa, por qué se le escribe y un botón `wa.me` con el mensaje ya escrito. Santiago lo abre, revisa y envía uno por uno desde su teléfono.
 - Registrar en `prospectos.csv` con canal WhatsApp.
 

@@ -118,3 +118,12 @@ Revisar respuestas; a quien diga que sí, responder en el mismo hilo con el PDF 
 - **Viernes 6: de 20 aprobados, solo 6 están programados en Gmail** (Vitaplace, Valhalla, Punta del Este, La Cocina de Teuh, Atkinson, Espacio Mediterráneo). Los otros 14 están en Borradores con fecha del 6-nov: Oral Clinic, Más Salud, Fisiosalud, StockPro, Auramed, Bellavi, Taller Torres, Adelma, Regina, Maison de la Mer, Bote Salvavidas, Domus Mare, Chanagua, New Voga. No se sabe quién los canceló.
 - Tablero actualizado: estado real de cada correo del 4, 5 y 6-nov en la pestaña Correos; Canemar y Reñaca Roller en "Perdido" por rebote.
 - Ojo: prospectos.csv quedó desactualizado (94 aún dicen "programado"); la fuente al día es el tablero.
+
+## 6-nov (tarde): reglas nuevas y revisión del lote de Santiago
+- Caso **Cabañas Piedra Blanca**: el informe decía que no tenía web (sí tenía) y presentaba como problemas sus decisiones (no publicar precios ni responder opiniones). El dueño se molestó. Desde ahora mandan las reglas de `metodo/REGLAS_REVISION_Y_TONO.md`: solo problemas evidentes, revisión completa (Maps, Google, dominios a mano, Instagram y web) y tono de sugerencia.
+- **Don Pepe Cabañas (Olmué)**: informe y propuesta listos en `lotes/2026-11-06-don-pepe/` (los envía Mathias). Su Instagram enlaza a donpepecabañas.cl, que no abre y figura libre en NIC Chile.
+- **Lote de Santiago revisado**: de 35 mensajes quedan 5 (detalle en `lotes/2026-11-06-comunas-altas/REVISION_6NOV.md`).
+  - Correos: Hotel Florencia y Calipso, para el lunes 9-nov entre 8:00 y 12:00.
+  - WhatsApp: LubriAutos, Podología Edith Pereira y Roberto Araya.
+  - 5 de los 15 WhatsApp marcados como "sin web" sí tenían web.
+- Nuevo formato de correo y WhatsApp aprobado por Santiago: `metodo/plantillas/correo.md` y `metodo/plantillas/whatsapp.md`.

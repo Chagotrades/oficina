@@ -1,39 +1,79 @@
-# Plantilla — correo único
+# Plantilla: primer correo (formato aprobado por Santiago el 6-nov-2026)
 
-Estructura: observación real → lo que le cuesta → qué le dejamos gratis → pregunta suave → garantías en una línea → firma y baja.
-Máximo ~90 palabras antes de la firma. Tutear o "usted" según cómo se presenta el negocio (en duda, "usted").
+Reemplaza la plantilla anterior. Antes de escribir, la empresa tiene que tener su **revisión completa** y un **problema evidente**, según [../REGLAS_REVISION_Y_TONO.md](../REGLAS_REVISION_Y_TONO.md). Si no, no se escribe.
 
----
+## Estructura (≈110–130 palabras con firma y baja)
 
-**Asunto:** [Nombre del negocio]: [hallazgo concreto en 4–7 palabras]
-Ejemplos: "Campo Verde: no aparece en Google Maps" · "Panadería Rosita: su web no abre en celular"
+1. **Saludo:** "Hola, equipo de [Negocio]:" (trato de usted).
+2. **Lo que hace bien, con datos comprobados:** nota y opiniones, seguidores, años, lo que destacan sus clientes. Siempre va primero.
+3. **El problema evidente, como un detalle:** "Un detalle que quizás ya conocen / no han visto: …". Se describe lo que se ve, sin culpas ni pérdidas inventadas, y sin la dirección web en el texto.
+4. **Quiénes somos, en una línea:** "Soy [Nombre], de Ascensus. Hacemos webs para [rubro] de la región, con el dominio y el hosting a nombre del dueño."
+5. **La oferta:** "Si les sirve, les preparo sin costo un informe breve con lo que vi y cómo se podría resolver. Sin compromiso."
+6. **Una pregunta neutra y fácil de responder**, sobre su situación, no sobre si compran.
+7. **Firma y línea de baja** (obligatoria por ley, no se quita).
 
-Hola, [nombre o "equipo de Negocio"]:
+**Asunto:** corto, con el nombre del negocio y sin alarma. Ejemplos: "La web del Hotel Florencia", "El enlace de Calipso en Sernatur".
 
-[Observación verificable del diagnóstico. Ej.: Busqué "pasto en rollo en Quillota" en Google y aparecen 3 competidores en el mapa, pero no ustedes.]
+## Modelo 1: web suspendida (Hotel Florencia, aprobado el 6-nov)
 
-[Consecuencia en clientes, sin exagerar. Ej.: Esa búsqueda la hace gente lista para comprar, y hoy termina llamando a otro.]
+**Asunto:** La web del Hotel Florencia
 
-Les preparé un diagnóstico gratis de una página con 3 arreglos concretos y una propuesta de cómo podría verse su web. Va adjunto; es suyo aunque no trabajemos juntos.
+```
+Hola, equipo del Hotel Florencia:
 
-¿Le gustaría que lo revisemos 15 minutos por WhatsApp?
+Vi que el hotel tiene 8,1 en Booking con más de mil opiniones y un Instagram con más de 22 mil seguidores. Se nota que los huéspedes los encuentran y quedan contentos.
 
-Si trabajamos juntos, todo queda a su nombre desde el primer día y paga 50% al inicio y 50% al aprobar.
+Un detalle que quizás ya conocen: la web que aparece a nombre del hotel en el registro de Sernatur hoy muestra un aviso de "cuenta suspendida" del hosting, y su ficha de Google Maps todavía no tiene una web enlazada.
 
-Saludos,
+Soy Santiago Barrios, de Ascensus. Hacemos webs para alojamientos de la región, con el dominio y el hosting a nombre del dueño.
+
+Si les sirve, les preparo sin costo un informe breve con lo que vi y cómo se podría resolver. Sin compromiso.
+
+¿Esa web la siguen usando o ya la dejaron de lado?
+
+Santiago Barrios
+Ascensus
+WhatsApp +56 9 3244 7140
+
+Le escribo porque su correo está publicado como contacto de Hotel Florencia. Si prefiere no recibir más mensajes, responda "no" y no volveré a escribirle.
+```
+
+## Modelo 2: enlace que lleva a otro sitio (Restaurant Calipso, aprobado el 6-nov)
+
+**Asunto:** El enlace de Calipso en Sernatur
+
+```
+Hola, equipo de Restaurant Calipso:
+
+Calipso tiene más de mil opiniones en Google, y varias destacan lo mismo: la vista al mar frente a Higuerillas y la buena atención.
+
+Un detalle que quizás no han visto: la web que aparece a su nombre en el registro de Sernatur y en guías de Concón hoy lleva a un sitio de apuestas en línea. Lo más probable es que el dominio haya vencido y que otra persona lo haya tomado.
+
+Soy Santiago Barrios, de Ascensus. Hacemos webs para restaurantes de la región, siempre con el dominio a nombre del dueño.
+
+Si les sirve, les preparo sin costo un informe breve con lo que vi y cómo se podría resolver. Sin compromiso.
+
+¿Prefieren recuperar esa dirección o partir con una nueva?
+
+Santiago Barrios
+Ascensus
+WhatsApp +56 9 3244 7140
+
+Le escribo porque su correo está publicado como contacto de Restaurant Calipso. Si prefiere no recibir más mensajes, responda "no" y no volveré a escribirle.
+```
+
+## Firma de Mathias
+```
 Mathias Lezana
-Ascensus — webs para que los clientes lo encuentren
-WhatsApp +56 9 4931 1482 · [web de Ascensus cuando exista]
-
-Le escribo porque su correo está publicado como contacto del negocio. Si no quiere recibir más correos míos, responda "no" y no le volveré a escribir.
-
----
+Ascensus
+WhatsApp +56 9 4931 1482
+```
 
 ## Revisión antes de aprobar
-- [ ] La empresa tiene revisión completa anotada (Maps + Google + dominios probables + redes + web), según `REGLAS_REVISION_Y_TONO.md`.
-- [ ] La observación es un hecho comprobado y se puede verificar.
-- [ ] No presenta una decisión del dueño como falla y no afirma ausencias ("no tiene web") sin la revisión completa.
-- [ ] No promete primer lugar en Google ni ventas.
-- [ ] Recomienda un solo servicio (o ninguno si el diagnóstico no lo justifica).
-- [ ] Remitente, asunto honesto y línea de baja presentes.
-- [ ] Pasó por `humanizador`: no suena a plantilla.
+- [ ] La empresa tiene revisión completa anotada (Maps + Google + dominios probables + Instagram + web), según `REGLAS_REVISION_Y_TONO.md`.
+- [ ] El problema es **evidente** (Regla 0): sin web, web caída o con error, enlace a otro sitio. Nada rebuscado.
+- [ ] Parte por lo que hace bien, con datos que se vieron.
+- [ ] El problema va como "un detalle que quizás…", sin culpas, sin pérdidas inventadas y sin criticar decisiones del dueño.
+- [ ] No pone la dirección web en el texto.
+- [ ] Termina con una pregunta neutra, la firma y la línea de baja.
+- [ ] Pasó la "prueba del dueño" (Regla 4) y el `humanizador`.
