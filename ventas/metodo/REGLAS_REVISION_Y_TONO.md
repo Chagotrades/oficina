@@ -4,6 +4,14 @@ Acordadas por Santiago y Mathias el 6-nov-2026 después del caso **Cabañas Pied
 
 Estas reglas mandan sobre cualquier otro archivo de `ventas/`. Valen para correos, WhatsApp, informes PDF, propuestas y cualquier texto que vaya a leer una empresa, lo prepare el Claude de Santiago o el de Mathias.
 
+## Regla 0 · Solo empresas con problemas EVIDENTES, sin rebuscar
+
+**Solo se le escribe a una empresa con un problema evidente**: algo que cualquiera nota en segundos al buscarla, sin ser técnico. Por ejemplo: no tiene web, su web no abre, muestra un error, tiene "cuenta suspendida" o un aviso de mantención, el enlace lleva a otro sitio, o en el celular no se puede usar.
+
+**No se rebusca.** Medir anchos en píxeles, contar botones que faltan, revisar el año del pie de página, "poco texto" o "sin formulario" no son motivos para escribirle a nadie. Si para encontrar el problema hubo que buscarlo con lupa, la empresa no entra al lote. Más vale un lote chico con problemas claros que uno grande con detalles discutibles.
+
+Si al revisar un lote ya preparado (incluso con correos o WhatsApp programados) una empresa no tiene un problema evidente, **se descarta sin consultar**: se cancela su envío, se borra su borrador y queda `descartado_sin_problema_evidente` en `registro/prospectos.csv`.
+
 ## Regla 1 · Prohibido contactar sin revisión completa
 
 **ESTÁ PROHIBIDO seleccionar una empresa para un mensaje real (correo, WhatsApp, informe o propuesta) sin una revisión completa de su presencia en internet, hecha el mismo día o el anterior.** Sin revisión completa, la empresa no entra al lote. No hay excepciones por apuro ni por cuota diaria.
@@ -17,7 +25,8 @@ La revisión completa tiene **todas** estas partes:
    - el nombre con "sitio web" o "web".
    Revisar la primera página completa de resultados: web propia, Instagram, Facebook, Booking, Airbnb, directorios y notas de prensa.
 3. **Probar dominios probables escribiéndolos a mano**: `nombre.cl`, `nombre.com`, con y sin ñ (`cabañas` → `cabanas`), con y sin guiones, con y sin el rubro. Las direcciones con ñ casi nunca aparecen bien en los buscadores.
-4. **Redes sociales**: la biografía de Instagram y Facebook (web, Linktree, WhatsApp, precios, carta).
+   Para dominios con ñ, sacar la forma real con `python -c "print('nombreconñ.cl'.encode('idna'))"`, no inventarla (con Don Pepe se probó mal y por eso no apareció).
+4. **Redes sociales**: la biografía de Instagram y Facebook (web, Linktree, WhatsApp, precios, carta). **Abrir el enlace de la biografía**: es la forma más segura de saber si tienen web (Don Pepe, 6-nov: el enlace de Instagram era su web).
 5. **Si tiene web**: abrirla en celular y en computador, recorrer las secciones principales y leer lo que dice antes de opinar sobre ella.
 6. **Fuentes oficiales** si corresponde (Sernatur para turismo).
 

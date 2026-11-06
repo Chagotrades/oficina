@@ -10,7 +10,7 @@ Aquí se busca y se contacta a posibles clientes de Ascensus. Lo puede trabajar 
 3. Después de cada contacto, actualiza la fila: estado, último contacto y próximo paso.
 
 ## Primero: revisión completa y tono (obligatorio)
-Lee [metodo/REGLAS_REVISION_Y_TONO.md](metodo/REGLAS_REVISION_Y_TONO.md) antes de buscar, diagnosticar o redactar. **Está prohibido seleccionar una empresa para un mensaje real sin revisión completa** (Google Maps + búsqueda en Google + dominios probables + redes + su web). Los textos sugieren, no critican. Si una parte de la revisión no se pudo hacer, la empresa queda pendiente.
+Lee [metodo/REGLAS_REVISION_Y_TONO.md](metodo/REGLAS_REVISION_Y_TONO.md) antes de buscar, diagnosticar o redactar. **Está prohibido seleccionar una empresa para un mensaje real sin revisión completa** (Google Maps + búsqueda en Google + dominios probables + redes + su web). Los textos sugieren, no critican. Si una parte de la revisión no se pudo hacer, la empresa queda pendiente. **Solo empresas con problemas EVIDENTES, sin rebuscar** (Regla 0).
 
 ## Correos y mensajes
 - Claude los redacta; **un socio los aprueba antes de enviarlos**. La aprobación vale para ese envío.
