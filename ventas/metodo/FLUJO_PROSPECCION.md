@@ -3,9 +3,11 @@
 Pedido tipo: "Busca 10 [rubro] en [comuna] y prepara el lote".
 Claude hace los pasos 1 a 5 y se detiene. El paso 6 solo ocurre con aprobación en el chat.
 
+> **Antes de todo:** [REGLAS_REVISION_Y_TONO.md](REGLAS_REVISION_Y_TONO.md). Prohibido seleccionar una empresa sin revisión completa (Maps + Google + dominios probables + redes + su web). Ese archivo manda sobre este.
+
 ## 1. Buscar prospectos — skill `lead-research-assistant`
 - Fuentes gratis: Google Maps y búsqueda web con el navegador del panel (búsquedas a mano, sin descargas masivas), OpenStreetMap, Instagram público.
-- Filtro "señal de necesidad" (al menos una): sin web, web rota o vieja, sin botón de WhatsApp, perfil de Google sin fotos/horario, pocas reseñas o reseñas sin responder, vende por Instagram con pedidos a mano.
+- Filtro "señal de necesidad" (al menos una), **confirmada con la revisión completa**: sin web (nunca deducido solo de Maps), web rota o vieja, sin botón de WhatsApp, perfil de Google sin fotos/horario, pocas reseñas o reseñas sin responder, vende por Instagram con pedidos a mano.
 - Requisito para el correo: el negocio publica su correo de contacto (web, perfil de Google o Instagram). Si no hay correo público, se anota como "solo WhatsApp/llamada" y no se le escribe.
 - Revisar prospectos.csv: si ya fue contactado o pidió no recibir más, se descarta.
 
@@ -14,6 +16,7 @@ Claude hace los pasos 1 a 5 y se detiene. El paso 6 solo ocurre con aprobación 
 - **Revisión en celular obligatoria para todas las empresas** (pedido de Mathias, 2-nov): navegador integrado con `resize_window` preset mobile (375×812). Registrar en `revision_movil` de la tabla: configuración móvil, ancho real (si supera 375 px hay desborde o vista de computador), texto menor a 12 px, botones menores a 24 px, WhatsApp y teléfono para tocar, y qué se ve en la primera pantalla. Esperar al menos 9 s antes de concluir que algo "queda en blanco" y anotar que es emulación, no un teléfono real.
 - Completar [plantillas/diagnostico.md](plantillas/diagnostico.md): 3 arreglos prioritarios, cada uno con lo observado (dato verificable), por qué le cuesta clientes y qué hacer.
 - Solo hechos comprobados. Nada inventado sobre ventas o visitas.
+- Las decisiones del dueño (no publicar precios, no responder reseñas, etc.) no son fallas: se mencionan solo como opción. Ver Regla 3 de [REGLAS_REVISION_Y_TONO.md](REGLAS_REVISION_Y_TONO.md).
 
 ## 3. Propuesta visual (la "demo") — skill `frontend-design`
 - 3 imágenes de propuesta (portada en celular, sección de servicios/cotizador, contacto), con el nombre y rubro del negocio y la marca de agua "Propuesta Ascensus – no es una web publicada".

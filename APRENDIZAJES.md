@@ -26,3 +26,4 @@ Lo que aprendimos con un cliente y sirve para todos. Una línea por aprendizaje,
 
 ## Prospección
 - Nunca decir en un mensaje que un negocio "no tiene web" o "no tiene carta" sin haberlo visto en su ficha de Google Maps: Sernatur y los buscadores no bastan (La Choca sí tenía menú en Maps). Si no se pudo ver Maps, no se escribe ese hecho. (Lote WhatsApp 6-nov)
+- Maps no basta: "Añadir sitio web" en la ficha no significa que no tenga web. Buscar en Google y probar dominios a mano (con y sin ñ) antes de afirmarlo. Y no presentar como problema lo que el dueño decidió (no publicar precios, no responder reseñas): el dueño de Piedra Blanca se ofendió con el informe. (Cabañas Piedra Blanca, 6-nov)

@@ -30,7 +30,9 @@ Le escribo porque su correo está publicado como contacto del negocio. Si no qui
 ---
 
 ## Revisión antes de aprobar
+- [ ] La empresa tiene revisión completa anotada (Maps + Google + dominios probables + redes + web), según `REGLAS_REVISION_Y_TONO.md`.
 - [ ] La observación es un hecho comprobado y se puede verificar.
+- [ ] No presenta una decisión del dueño como falla y no afirma ausencias ("no tiene web") sin la revisión completa.
 - [ ] No promete primer lugar en Google ni ventas.
 - [ ] Recomienda un solo servicio (o ninguno si el diagnóstico no lo justifica).
 - [ ] Remitente, asunto honesto y línea de baja presentes.

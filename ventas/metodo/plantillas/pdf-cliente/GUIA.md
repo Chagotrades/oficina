@@ -4,6 +4,8 @@ Formato aprobado por Mathias el 3-nov-2026 con La Ritoqueña (se los envió por 
 
 Se entregan **dos PDF A4 separados**: primero el informe y luego la propuesta. Sin "Valores en pesos chilenos / boleta de honorarios" (Mathias lo pidió quitar).
 
+> **Obligatorio:** [../../REGLAS_REVISION_Y_TONO.md](../../REGLAS_REVISION_Y_TONO.md). Revisión completa antes de armar el informe, y tono de sugerencia: "Oportunidad", no "Problema"; "Lo que podría sumar", no "Lo que hoy le hace perder reservas". Las decisiones del dueño no se presentan como fallas.
+
 ## 1. Estética del cliente
 - Sacar de su web, con el navegador: colores de fondo y de texto, fuentes, logo (versión clara y oscura) y fotos (`getComputedStyle`, URLs de `wp-content/uploads`, etc.).
 - Descargar las fotos en `fotos/`, hacer versiones livianas en `fotos/web/` (Pillow, 1400 px, calidad 78) y una hoja de contactos para elegir cuáles usar.
@@ -11,10 +13,10 @@ Se entregan **dos PDF A4 separados**: primero el informe y luego la propuesta. S
 
 ## 2. Informe (≈7 páginas) — `pdf/informe.html`
 1. Portada: foto grande del lugar con su logo, título que habla del huésped o cliente, fecha y "Preparado para <nombre>".
-2. "En una página": lo que ya tiene a favor y la lista de problemas con una etiqueta (Reservas / Visitas / Confianza).
-3. Una página por problema: **Qué pasa hoy → En qué le afecta → Cómo lo resolvemos**, con una captura real en un marco de celular.
+2. "En una página": lo que ya tiene a favor (primero y con datos) y la lista de oportunidades ("Lo que podría sumar"), con una etiqueta (Reservas / Visitas / Confianza).
+3. Una página por oportunidad: **Qué vimos → Por qué podría ayudarle → Cómo lo haríamos**. Si tiene web, se nombra y se reconoce, con una captura real en un marco de celular.
 4. Cierre: "Todo esto tiene arreglo", una frase de que puede hacerlo por su cuenta, contacto WhatsApp y una nota de cómo se revisó.
-- Solo datos verificados el mismo día. Lo que no se pudo comprobar, se quita. Capturas en tamaño celular con el navegador integrado (`resize_window` mobile); guardarlas en `capturas/` como `error-N-descripcion.jpg`.
+- Solo datos verificados el mismo día, con la revisión completa anotada. Lo que no se pudo comprobar, se quita. Pasar la "prueba del dueño" (Regla 4) antes de entregar. Capturas en tamaño celular con el navegador integrado (`resize_window` mobile); guardarlas en `capturas/` como `error-N-descripcion.jpg`.
 
 ## 3. Propuesta (≈6 páginas) — `pdf/propuesta.html`
 1. Portada con otra foto del cliente.

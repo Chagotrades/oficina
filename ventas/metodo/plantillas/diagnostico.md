@@ -11,8 +11,13 @@ Preparado por Ascensus · [fecha] · Revisión hecha como la vería un cliente d
 | Web que abre bien en celular | | | | |
 | Botón directo a WhatsApp o cotización | | | | |
 
-## 3 arreglos prioritarios
-1. **[Título corto]** — Lo que vimos: [hecho]. Por qué importa: [efecto en clientes]. Qué hacer: [acción concreta].
+> Antes de llenarlo: revisión completa según `ventas/metodo/REGLAS_REVISION_Y_TONO.md`. Las decisiones del dueño (precios, reseñas) van como opción, no como arreglo.
+
+## Lo que ya hace bien
+- [Dato concreto: nota, reseñas, años, lo que destacan sus clientes, su web si la tiene]
+
+## 3 oportunidades
+1. **[Título corto]** — Lo que vimos: [hecho]. Por qué podría ayudarle: [efecto, sin exagerar]. Qué haríamos: [acción concreta].
 2. **[Título corto]** — Lo que vimos: … Por qué importa: … Qué hacer: …
 3. **[Título corto]** — Lo que vimos: … Por qué importa: … Qué hacer: …
 
