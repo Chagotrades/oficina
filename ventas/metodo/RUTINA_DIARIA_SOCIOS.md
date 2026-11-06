@@ -19,6 +19,8 @@ Complementa [FLUJO_PROSPECCION.md](FLUJO_PROSPECCION.md) (cómo se busca y diagn
 ## Todo mensaje es personalizado
 Cada correo y cada WhatsApp se escribe para esa empresa: nombra algo concreto y comprobado de ella (lo que hacen bien, su rubro y comuna, lo que se vio en su web, Maps o redes) y le ofrece el servicio que resuelve **su** problema. Si no hay un hecho particular verificable, no se escribe: queda "pendiente", como pasó con El Quincho. Nada de plantillas con solo el nombre cambiado; antes de entregar el lote, cada texto pasa por `humanizador`.
 
+**Antes de entregar cualquier lote, Claude lo verifica en Google Maps** desde el computador de un socio, siguiendo [VERIFICAR_EN_MAPS.md](VERIFICAR_EN_MAPS.md). Nada de "no tiene web" o "no tiene carta" sin haberlo visto en su ficha de Maps.
+
 ## Correos
 - Mismas reglas de siempre: uno por empresa, sin adjuntos, sin seguimientos automáticos, ~90 palabras, trato de usted, sin dominios en el cuerpo, enganche positivo (no partir por un error), un solo servicio del tarifario, línea legal de baja.
 - **Firmas**

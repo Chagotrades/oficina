@@ -9,6 +9,8 @@ Lo preparó el Claude de Mathias el 6-nov a pedido de Mathias: 17 negocios (eran
 
 Envía Mathias desde el +56 9 4931 1482.
 
+**EN REVISIÓN — NO ENVIAR.** Varios mensajes dicen que el negocio no tiene web o carta y eso no se vio en Google Maps (La Choca sí tiene menú). Antes de enviar, Claude debe verificar los 17 en Maps desde el PC de Mathias siguiendo `ventas/metodo/VERIFICAR_EN_MAPS.md`.
+
 **Pendiente:** copiar las 17 filas de `filas_para_prospectos.csv` al final de `registro/prospectos.csv` (estado `preparado_whatsapp`; al enviar, cambiar a `enviado` con la fecha). Se subieron aparte porque el lote se subió a GitHub por la conexión directa y el registro completo era demasiado grande para copiarlo entero sin riesgo. Mientras tanto, el cruce de repetidos también revisa `lotes/`, así que estas empresas ya cuentan como tomadas por Mathias.
 
 ## Cómo se armó
