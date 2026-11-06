@@ -252,15 +252,15 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible 
   text-align:left;
   padding:0
 }
-/* Cascada en cuarto de curva (dibujo de Santiago): arriba cae casi vertical y abajo se abre hacia la
-   izquierda, ocupando el espacio blanco bajo los botones. Tarjetas casi de frente (2–4°), perspectiva
-   suave sin inclinación hacia atrás y la primera más grande. --sx/--sy comprimen la curva por ancho. */
-.hero-card:nth-child(1) { --cx:40px; --cy:0px; --rotation:2deg; --s:1.14 }
-.hero-card:nth-child(2) { --cx:72px; --cy:130px; --rotation:2.4deg; --s:1.08 }
-.hero-card:nth-child(3) { --cx:135px; --cy:258px; --rotation:2.8deg; --s:1.03 }
-.hero-card:nth-child(4) { --cx:235px; --cy:375px; --rotation:3.2deg; --s:1 }
-.hero-card:nth-child(5) { --cx:368px; --cy:478px; --rotation:3.6deg; --s:.98 }
-.hero-card:nth-child(6) { --cx:520px; --cy:555px; --rotation:4deg; --s:.97 }
+/* Cascada diagonal con leve curva de caída: tarjetas casi de frente (2–4°), perspectiva suave sin
+   inclinación hacia atrás y la primera más grande. --sx/--sy comprimen la cascada por ancho.
+   (Se probó un cuarto de curva hacia la izquierda el 5-nov y Santiago prefirió esta.) */
+.hero-card:nth-child(1) { --cx:80px; --cy:0px; --rotation:2deg; --s:1.14 }
+.hero-card:nth-child(2) { --cx:180px; --cy:80px; --rotation:2.4deg; --s:1.08 }
+.hero-card:nth-child(3) { --cx:272px; --cy:172px; --rotation:2.8deg; --s:1.03 }
+.hero-card:nth-child(4) { --cx:354px; --cy:280px; --rotation:3.2deg; --s:1 }
+.hero-card:nth-child(5) { --cx:424px; --cy:406px; --rotation:3.6deg; --s:.98 }
+.hero-card:nth-child(6) { --cx:482px; --cy:552px; --rotation:4deg; --s:.97 }
 /* La cara es la que se mueve; el botón queda quieto para que el mouse no la pierda al levantarse. */
 .hero-card-face {
   display:block;
@@ -1414,7 +1414,7 @@ dialog::backdrop {
     gap:20px
   }
   .hero-collage {
-    --sx:.8;
+    --sx:.86;
     --sy:.9;
     top:415px;
     right:-7px;
