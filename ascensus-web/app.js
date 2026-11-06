@@ -18,6 +18,9 @@ const contactForm = document.querySelector('#contact-form');
 let currentDemo = null;
 let preparedMessage = '';
 let returnFocus = null;
+let lastSuggestion = '';
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const finePointer = matchMedia('(hover: hover) and (pointer: fine)').matches;
 
 function preview(demo, eager = false) {
   return `<div class="site-preview ${demo.serif ? 'serif' : ''} ${demo.light ? 'light-preview' : ''} ${['norte', 'nexo'].includes(demo.id) ? 'long-copy' : ''}">
@@ -28,14 +31,14 @@ function preview(demo, eager = false) {
 }
 
 function renderGallery() {
-  grid.innerHTML = demos.map(demo => `<article class="demo-card" data-category="${demo.category}">
+  grid.innerHTML = demos.map((demo, i) => `<article class="demo-card rv" style="--i:${i % 2}" data-category="${demo.category}">
     <button class="demo-preview-button" data-demo="${demo.id}" aria-label="Abrir demo conceptual de ${demo.name}">${preview(demo)}</button>
     <div class="card-details"><div><p class="eyebrow">Demo conceptual</p><h3>${demo.short} / ${demo.category}</h3></div><button class="view-demo" data-demo="${demo.id}" aria-label="Ver demo de ${demo.name}"><span>Ver demo</span><span aria-hidden="true">↗</span></button></div>
   </article>`).join('');
   const cascadeOrder = ['norte', 'cuidado', 'mesa', 'nexo', 'amedida', 'refugio'];
-  collage.innerHTML = cascadeOrder.map(id => {
+  collage.innerHTML = cascadeOrder.map((id, i) => {
     const demo = demos.find(item => item.id === id);
-    return `<button class="hero-card" data-demo="${id}" aria-label="Explorar propuesta conceptual ${demo.name}">${preview(demo, true)}</button>`;
+    return `<button class="hero-card" style="--i:${i}" data-demo="${id}" aria-label="Explorar propuesta conceptual ${demo.name}"><span class="hero-card-face">${preview(demo, true)}</span></button>`;
   }).join('');
 }
 
@@ -55,7 +58,9 @@ function openContact(suggestion = '') {
   setMenu(false);
   contactForm.hidden = false;
   document.querySelector('#contact-result').hidden = true;
-  if (suggestion) contactForm.elements.idea.value = suggestion;
+  // A suggestion only fills the idea if the visitor has not written their own text.
+  const idea = contactForm.elements.idea;
+  if (suggestion && (!idea.value.trim() || idea.value === lastSuggestion)) { idea.value = suggestion; lastSuggestion = suggestion; }
   contactDialog.showModal();
   updateBodyLock();
 }
@@ -98,7 +103,11 @@ document.querySelectorAll('[data-filter]').forEach(button => button.addEventList
   });
   document.querySelectorAll('.demo-card').forEach(card => {
     card.hidden = filter !== 'Todos' && card.dataset.category !== filter;
-    if (!card.hidden) count++;
+    card.classList.remove('pop');
+    if (!card.hidden) {
+      if (!reduceMotion) { void card.offsetWidth; card.style.setProperty('--n', count); card.classList.add('pop'); }
+      count++;
+    }
   });
   document.querySelector('#filter-status').textContent = `${count} ${count === 1 ? 'demo conceptual' : 'demos conceptuales'}${filter === 'Todos' ? '' : ` de ${filter}`}`;
 }));
@@ -106,7 +115,8 @@ document.querySelectorAll('[data-filter]').forEach(button => button.addEventList
 document.addEventListener('click', event => {
   const trigger = event.target.closest('[data-demo]');
   if (trigger) openDemo(trigger.dataset.demo);
-  if (event.target.closest('[data-contact]')) openContact();
+  const contactTrigger = event.target.closest('[data-contact]');
+  if (contactTrigger) openContact(contactTrigger.dataset.idea || '');
   if (event.target.closest('[data-similar], #similar-project')) {
     openContact(currentDemo ? `Me gustó la propuesta ${currentDemo.name}. Quiero conversar sobre una web con esa dirección para mi negocio.` : 'Quiero conversar sobre una web para mi negocio.');
   }
@@ -164,3 +174,86 @@ document.querySelector('#copy-message').addEventListener('click', async () => {
 document.querySelector('.toolbar-brand').addEventListener('click', () => demoDialog.close());
 document.querySelector('#year').textContent = new Date().getFullYear();
 renderGallery();
+grid.addEventListener('animationend', event => event.target.classList?.remove('pop'));
+
+// ---------- Motion ----------
+// Frame-rate independent spring: each frame closes part of the remaining distance.
+function spring(apply, rate = 6) {
+  let target = [0, 0], value = [0, 0], frame = null, last = 0;
+  const step = now => {
+    const k = 1 - Math.exp(-Math.min(0.05, (now - last) / 1000) * rate);
+    last = now;
+    value = value.map((v, i) => v + (target[i] - v) * k);
+    apply(value[0], value[1]);
+    const moving = value.some((v, i) => Math.abs(target[i] - v) > 0.01);
+    frame = moving ? requestAnimationFrame(step) : null;
+    if (!moving) apply(target[0], target[1]);
+  };
+  return (x, y) => { target = [x, y]; if (!frame) { last = performance.now(); frame = requestAnimationFrame(step); } };
+}
+
+// Scroll reveal. Hidden state only exists because this script added html.js-reveal.
+(function setupReveal() {
+  const items = [...document.querySelectorAll('.rv, .footer-giant')];
+  const show = el => el.classList.add('visto');
+  if (!('IntersectionObserver' in window)) { items.forEach(show); return; }
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (entry.isIntersecting) { show(entry.target); observer.unobserve(entry.target); }
+  }), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  items.forEach(el => observer.observe(el));
+  // Safety net: anything already in or above the viewport is shown even if the observer never fired.
+  let timer = null;
+  const sweep = () => items.forEach(el => { if (!el.classList.contains('visto') && !el.hidden && el.getBoundingClientRect().top < innerHeight) show(el); });
+  setTimeout(sweep, 1200);
+  addEventListener('scroll', () => { clearTimeout(timer); timer = setTimeout(sweep, 300); }, { passive: true });
+})();
+
+// Header shadow and progress bar fallback: read on scroll, write in requestAnimationFrame.
+(function setupScroll() {
+  const header = document.querySelector('.site-header');
+  const bar = document.querySelector('.scroll-progress');
+  const cssProgress = window.CSS?.supports?.('animation-timeline: scroll()');
+  let ticking = false;
+  const update = () => {
+    ticking = false;
+    header.classList.toggle('scrolled', scrollY > 8);
+    if (!cssProgress) {
+      const max = document.documentElement.scrollHeight - innerHeight;
+      bar.style.transform = `scaleX(${max > 0 ? Math.min(1, scrollY / max) : 0})`;
+    }
+  };
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+})();
+
+// Ticker stops when it is off screen.
+(function setupTicker() {
+  const ticker = document.querySelector('.ticker');
+  if (!ticker || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(([entry]) => ticker.classList.toggle('paused', !entry.isIntersecting)).observe(ticker);
+})();
+
+// Desktop only: cascade follows the mouse with depth, buttons lean towards the cursor.
+if (finePointer && !reduceMotion) {
+  const hero = document.querySelector('.hero');
+  const cards = [...collage.children];
+  const moveCards = spring((x, y) => cards.forEach((card, i) => {
+    const depth = 6 + i * 5;
+    card.style.setProperty('--px', `${(-x * depth).toFixed(2)}px`);
+    card.style.setProperty('--py', `${(-y * depth).toFixed(2)}px`);
+  }), 5);
+  hero.addEventListener('pointermove', event => {
+    const box = hero.getBoundingClientRect();
+    moveCards((event.clientX - box.left) / box.width - 0.5, (event.clientY - box.top) / box.height - 0.5);
+  });
+  hero.addEventListener('pointerleave', () => moveCards(0, 0));
+
+  document.querySelectorAll('.magnetic').forEach(button => {
+    const move = spring((x, y) => { button.style.setProperty('--mx', `${x.toFixed(2)}px`); button.style.setProperty('--my', `${y.toFixed(2)}px`); }, 9);
+    button.addEventListener('pointermove', event => {
+      const box = button.getBoundingClientRect();
+      move((event.clientX - box.left - box.width / 2) * 0.22, (event.clientY - box.top - box.height / 2) * 0.35);
+    });
+    button.addEventListener('pointerleave', () => move(0, 0));
+  });
+}

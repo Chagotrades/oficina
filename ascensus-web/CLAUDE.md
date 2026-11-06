@@ -7,7 +7,8 @@ Encargo de **Mathias**, 5 de noviembre de 2026: construir la web de la empresa a
 - Predominan blanco marfil `#f4f2ed` y negro `#171716`. Mathias pidió explícitamente jugar más con blanco y negro, no con naranja.
 - Conservar la cascada diagonal de sitios, la tipografía grande, el espacio editorial y las demos filtrables por rubro.
 - `docs/referencia-visual.png` documenta la composición original. Su naranja fue reemplazado por la nueva indicación; no restaurarlo por seguir la imagen.
-- El logo de `assets/ascensus-logo.png` procede de `ventas/marca/ascensus-logo.png`; no cambiar identidades externas.
+- Logo oficial desde el 5-nov-2026: los archivos que Santiago dejó en `Escritorio/Ascensus` (IMG_3314–3317). En la web: `assets/ascensus-word*.png` (palabra sin el punto; el punto se dibuja en CSS para animarlo), `assets/ascensus-logo*.png` (completo), `favicon.png` y `apple-touch-icon.png`. `ventas/marca/` todavía tiene el logo anterior. No cambiar identidades externas.
+- Las fotos de las demos van a color (pedido de Santiago, 5-nov): el trabajo debe destacar más que la propia web, que sigue en blanco y negro.
 
 ## Límites
 
